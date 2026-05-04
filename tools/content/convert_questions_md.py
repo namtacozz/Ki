@@ -49,7 +49,7 @@ def parse_question(lines: list[str], index: int, slug: str, position: str) -> di
     if number != index:
         fail(f"question order mismatch in {slug}/{position}: expected {index}, got {number}")
     qid = f"{slug}_{position}_{number}"
-    if number == 5:
+    if number == 5 and slug != "onboarding":
         if not prompt.startswith("Free:"):
             fail(f"question 5 must start with Free: in {slug}/{position}")
         if len(lines) > 1:
@@ -79,7 +79,7 @@ def parse_question_block(block: list[str], slug: str, position: str) -> list[dic
         groups.append(current)
     questions = [parse_question(group, index, slug, position) for index, group in enumerate(groups, start=1)]
     numbers = [int(q["id"].rsplit("_", 1)[1]) for q in questions]
-    required_numbers = [1, 2, 3] if slug == "onboarding" else [1, 2, 3, 4, 5]
+    required_numbers = [1, 2, 3, 4, 5]
     if numbers != required_numbers:
         fail(f"{slug}/{position} must have questions {required_numbers}")
     return questions
@@ -150,8 +150,8 @@ def parse_markdown(text: str) -> dict:
 
 
 def validate(data: dict, slugs: list[str]) -> None:
-    if len(data.get("onboarding", [])) != 3:
-        fail("onboarding must have exactly 3 questions")
+    if len(data.get("onboarding", [])) != 5:
+        fail("onboarding must have exactly 5 questions")
     cards = data.get("cards", {})
     missing_cards = [slug for slug in slugs if slug not in cards]
     if missing_cards:
