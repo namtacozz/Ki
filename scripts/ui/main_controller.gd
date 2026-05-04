@@ -158,8 +158,8 @@ func _on_reflection_ready(space_id: String, data: Dictionary) -> void:
 	_show_loading_screen("Soi chiếu %s" % _position_label(space_id), summary)
 	if current_screen.has_signal("continued"):
 		current_screen.continued.connect(_advance_inner_space)
-	else:
-		_advance_inner_space()
+		return
+	_advance_inner_space()
 
 func _on_report_ready(data: Dictionary) -> void:
 	final_report_error = ""
