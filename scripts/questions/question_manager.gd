@@ -12,6 +12,7 @@ func load_questions() -> void:
 	_data = loaded if loaded is Dictionary else {}
 
 func get_onboarding_questions() -> Array[Dictionary]:
+	_ensure_loaded()
 	return _to_dictionary_array(_data.get("onboarding", []))
 
 func get_inner_space_questions() -> Array[Dictionary]:
