@@ -191,7 +191,8 @@ func _show_ai_error_screen(message: String) -> void:
 	var screen := _show_screen(AIErrorScreenScene)
 	screen.retry_requested.connect(_retry_ai_request)
 	screen.continue_requested.connect(_continue_after_ai_error.bind(message))
-	screen.setup(message)
+	var can_continue := error_mode != "missing_questions"
+	screen.setup(message, can_continue)
 
 func _retry_ai_request() -> void:
 	if error_mode == "missing_questions":

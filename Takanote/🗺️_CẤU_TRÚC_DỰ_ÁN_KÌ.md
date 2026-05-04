@@ -719,3 +719,5 @@ Nội dung cần cập nhật:
 - Thêm pipeline câu hỏi `data/questions.md` → `data/questions.generated.json` bằng `tools/content/convert_questions_md.py`.
 - Câu hỏi inner space chuyển sang theo từng lá tarot và vị trí Quá khứ / Hiện tại / Tương lai.
 - Chọn 3 lá đầu dùng hybrid 64% affinity tags và 36% random noise.
+- Cập nhật inner space hiển thị story của lá bài và AI reflection context nhận cả danh sách câu hỏi.
+- Cập nhật màn hình lỗi: thiếu dữ liệu câu hỏi chỉ cho retry, không cho đi tiếp để tránh core flow chạy sai dữ liệu.
