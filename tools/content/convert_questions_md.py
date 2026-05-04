@@ -52,6 +52,8 @@ def parse_question(lines: list[str], index: int, slug: str, position: str) -> di
     if number == 5:
         if not prompt.startswith("Free:"):
             fail(f"question 5 must start with Free: in {slug}/{position}")
+        if len(lines) > 1:
+            fail(f"question 5 must not have extra lines in {slug}/{position}")
         return {"id": qid, "prompt": prompt.removeprefix("Free:").strip(), "free_text": True}
     choices = [parse_choice(line) for line in lines[1:] if line.startswith("-")]
     if len(choices) < 2:
@@ -67,7 +69,9 @@ def parse_question_block(block: list[str], slug: str, position: str) -> list[dic
             if current:
                 groups.append(current)
             current = [line]
-        elif current and line.startswith("-"):
+        elif current:
+            if not line.startswith("-"):
+                fail(f"malformed line in question block {slug}/{position}: {line}")
             current.append(line)
     if current:
         groups.append(current)
@@ -170,7 +174,9 @@ def validate(data: dict, slugs: list[str]) -> None:
 def main() -> int:
     data = parse_markdown(SOURCE.read_text(encoding="utf-8"))
     validate(data, load_card_slugs())
-    TARGET.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temp_file = TARGET.with_stem(TARGET.stem + ".tmp")
+    temp_file.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temp_file.replace(TARGET)
     print(f"wrote {TARGET.relative_to(ROOT).as_posix()}")
     return 0
 
