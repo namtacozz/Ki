@@ -43,19 +43,31 @@ D:/KÌ/
 │
 ├── data/
 │   ├── tarot_major_arcana.json
+│   ├── questions.md
 │   ├── questions.json
+│   ├── questions.generated.json
 │   ├── prompts.json
 │   └── local_config.example.json
 │
 ├── scenes/
 │   ├── main.tscn
 │   ├── title/
+│   │   ├── title_screen.tscn
+│   │   └── intro_screen.tscn
 │   ├── tarot_room/
 │   ├── questions/
+│   │   └── onboarding_screen.tscn
 │   ├── cards/
+│   │   └── card_reveal_screen.tscn
 │   ├── inner_space/
+│   │   └── inner_space_screen.tscn
 │   ├── minigames/
-│   └── report/
+│   │   └── minigame_screen.tscn
+│   ├── report/
+│   │   └── final_report_screen.tscn
+│   └── ui/
+│       ├── loading_screen.tscn
+│       └── ai_error_screen.tscn
 │
 ├── scripts/
 │   ├── core/
@@ -73,9 +85,21 @@ D:/KÌ/
 │   │   ├── card_model.gd
 │   │   └── minigame_manager.gd
 │   └── ui/
-│       └── main_controller.gd
+│       ├── main_controller.gd
+│       └── screens/
+│           ├── title_screen.gd
+│           ├── intro_screen.gd
+│           ├── onboarding_screen.gd
+│           ├── card_reveal_screen.gd
+│           ├── inner_space_screen.gd
+│           ├── minigame_screen.gd
+│           ├── final_report_screen.gd
+│           ├── loading_screen.gd
+│           └── ai_error_screen.gd
 │
 ├── tools/
+│   ├── content/
+│   │   └── convert_questions_md.py
 │   └── ai_proxy/
 │       ├── package.json
 │       ├── package-lock.json
@@ -84,6 +108,8 @@ D:/KÌ/
 │
 ├── assets/
 │   ├── art/
+│   │   ├── Tarot-cards/
+│   │   └── Playing-cards/
 │   ├── audio/
 │   └── fonts/
 │
@@ -219,14 +245,22 @@ Vai trò:
 
 - Điều phối toàn bộ playable flow.
 - Clear/replace screen trong `ScreenRoot`.
-- Chuyển giữa title, onboarding, spread, inner spaces, mini games, final report.
+- Chuyển giữa title, KÌ intro, onboarding, spread, inner spaces, mini games, final report.
+- Swap các visual screen scene vào `ScreenRoot` thay vì dựng toàn bộ panel bằng code.
+- Truyền data cho từng screen qua `setup(...)`.
+- Nhận signal từ screen để chuyển bước flow tiếp theo.
 
 ### `scenes/title/`
 
+Scene:
+
+- `title_screen.tscn`: màn hình title, bắt đầu hành trình.
+- `intro_screen.tscn`: màn hình KÌ giới thiệu hành trình tự hiểu bản thân.
+
 Mục đích:
 
-- Dành cho title screen tách riêng nếu cần polish.
-- Hiện tại có thể được dựng runtime trong `main_controller.gd`.
+- Tách title và intro thành visual screen scene riêng.
+- Mỗi screen script nhận data qua `setup(...)` nếu cần và emit signal về `MainController`.
 
 ### `scenes/tarot_room/`
 
@@ -238,43 +272,80 @@ Mục đích:
 
 ### `scenes/questions/`
 
+Scene:
+
+- `onboarding_screen.tscn`: màn hình câu hỏi nhập môn.
+
 Mục đích:
 
-- Chứa scene/question panel reusable nếu tách khỏi main controller.
-- Dùng cho onboarding và inner space questions.
+- Hiển thị onboarding questions bằng visual screen scene.
+- Screen script nhận danh sách câu hỏi qua `setup(...)` và emit answers về `MainController`.
 
 ### `scenes/cards/`
+
+Scene:
+
+- `card_reveal_screen.tscn`: màn hình reveal 3 lá Past / Present / Future.
 
 Mục đích:
 
 - Card reveal animation/screen.
-- Hiển thị 3 lá Past / Present / Future.
+- Hiển thị 3 lá Past / Present / Future bằng tarot art nếu `art_path` tồn tại.
+- Giữ text fallback: position, name, theme, keywords.
+- Screen script nhận spread qua `setup(...)` và emit signal khi người chơi tiếp tục.
 
 ### `scenes/inner_space/`
+
+Scene:
+
+- `inner_space_screen.tscn`: màn hình không gian nội tâm theo từng card.
 
 Mục đích:
 
 - Hiển thị không gian nội tâm theo từng card.
-- Có thể dùng một scene reusable với data khác nhau.
+- Dùng một scene reusable với data khác nhau cho Past / Present / Future.
+- Screen script nhận card, questions, reflection state qua `setup(...)` và emit answers/action về `MainController`.
 
 ### `scenes/minigames/`
+
+Scene:
+
+- `minigame_screen.tscn`: màn hình mini game bài.
 
 Mục đích:
 
 - Hiển thị mini game bài.
-- Dùng chung UI card hand, opponent, Self Fragment reward.
+- Dùng chung UI card hand bằng `TextureRect` nếu `image_path` tồn tại, text fallback, opponent, Self Fragment reward.
+- Screen script nhận mode/result state qua `setup(...)` và emit action về `MainController`.
 
 ### `scenes/report/`
+
+Scene:
+
+- `final_report_screen.tscn`: màn hình bản soi chiếu cuối.
 
 Mục đích:
 
 - Hiển thị final report.
 - Sau Future space + mini game + AI reflection, `MainController` gọi `ReportBuilder.build_context()` rồi `AIClient.request_final_report()`.
-- UI hiển thị trạng thái loading trong lúc chờ final report.
+- `MainController` swap `loading_screen.tscn` trong lúc chờ final report.
 - Final report hiển thị các field: `title`, `core_self`, `past_pattern`, `present_tension`, `future_invitation`, `advice`, `keywords`.
-- Nếu AI/proxy fail, UI hiển thị local summary cùng schema và nút retry.
+- Nếu AI/proxy fail, `MainController` swap `ai_error_screen.tscn` hoặc truyền fallback summary vào final report scene.
+- Screen script nhận report data qua `setup(...)` và emit replay/retry/copy signals về `MainController`.
 - Replay reset run về title.
 - Có thể có nút copy report / share screenshot nếu scope cho phép.
+
+### `scenes/ui/`
+
+Scene:
+
+- `loading_screen.tscn`: màn hình chờ AI/proxy hoặc bước xử lý dài.
+- `ai_error_screen.tscn`: màn hình lỗi AI/proxy có retry rõ ràng.
+
+Mục đích:
+
+- Tách trạng thái loading/error thành visual screen scene riêng.
+- Screen script nhận message/context qua `setup(...)` và emit retry/cancel signal về `MainController`.
 
 ---
 
@@ -307,6 +378,8 @@ Dùng cho:
 - AI context,
 - mini game symbols.
 
+Hiện mỗi Major Arcana có `art_path` trỏ tới `res://assets/art/Tarot-cards/NN-Name.png` nếu asset tồn tại.
+
 ### `data/questions.json`
 
 Chứa:
@@ -324,6 +397,22 @@ Dùng cho:
 - inner space runtime flow,
 - score ẩn,
 - final report.
+
+### `data/questions.md`
+
+Markdown source file chứa câu hỏi theo định dạng structured.
+
+Dùng bởi:
+
+- `tools/content/convert_questions_md.py` để generate `data/questions.generated.json`.
+
+### `data/questions.generated.json`
+
+Generated JSON từ `data/questions.md` bằng converter script.
+
+Dùng cho:
+
+- runtime game nếu cần load từ generated version.
 
 ### `data/prompts.json`
 
@@ -358,7 +447,22 @@ Dùng để override proxy URL khi demo.
 
 ---
 
-## 6. 🤖 AI Proxy
+## 6. 🛠️ Content Pipeline
+
+### `tools/content/convert_questions_md.py`
+
+Script Python để convert `data/questions.md` thành `data/questions.generated.json`.
+
+Vai trò:
+
+- Parse markdown source file.
+- Validate structure và schema.
+- Generate JSON output với onboarding/past/present/future questions.
+- Hardening validation để tránh malformed data.
+
+---
+
+## 7. 🤖 AI Proxy
 
 ### `tools/ai_proxy/server.mjs`
 
@@ -416,13 +520,14 @@ File local chứa key thật. Không commit.
 
 ---
 
-## 7. 🃏 Mini Game Layer
+## 8. 🃏 Mini Game Layer
 
 ### `scripts/minigames/card_model.gd`
 
 Vai trò:
 
-- Định nghĩa suit/value cơ bản.
+- Định nghĩa 52-card deck theo `clubs`, `diamonds`, `hearts`, `spades` và value A/2-10/J/Q/K.
+- Gắn `image_path`/`art_path` tới `res://assets/art/Playing-cards/{suit}_{rank}.png`.
 - Gắn symbol theo suit để dùng cho symbol match.
 - Tạo deck.
 - Shuffle deck.
@@ -450,7 +555,7 @@ Kết quả mỗi mini game:
 
 ---
 
-## 8. 🧠 Hidden Profile Dimensions
+## 9. 🧠 Hidden Profile Dimensions
 
 Các dimension dự kiến:
 
@@ -469,7 +574,7 @@ Dùng cho:
 
 ---
 
-## 9. 🎮 Core Demo Path
+## 10. 🎮 Core Demo Path
 
 Core demo path không được phá khi thêm tính năng:
 
@@ -490,7 +595,7 @@ Nếu task mới làm hỏng flow này, phải fix trước khi nhận task hoà
 
 ---
 
-## 10. 🔐 Files không được commit
+## 11. 🔐 Files không được commit
 
 Không commit:
 
@@ -513,12 +618,18 @@ Chỉ stage file thuộc task.
 
 ---
 
-## 11. ✅ Verification Commands
+## 12. ✅ Verification Commands
 
 Parse/headless check:
 
 ```bash
 rtk godot --headless --path "D:/KÌ" --quit
+```
+
+Questions converter:
+
+```bash
+rtk python tools/content/convert_questions_md.py
 ```
 
 AI proxy:
@@ -542,7 +653,7 @@ rtk python -m http.server 8090 --directory "D:/KÌ/exports/web"
 
 ---
 
-## 12. 📌 Quy tắc cập nhật file này
+## 13. 📌 Quy tắc cập nhật file này
 
 Mỗi khi hoàn thành task có thay đổi cấu trúc, phải cập nhật file này.
 
@@ -569,17 +680,18 @@ Nội dung cần cập nhật:
 
 ---
 
-## 13. 🚧 TODO cấu trúc gần nhất
+## 14. 🚧 TODO cấu trúc gần nhất
 
-- [ ] Tách UI screens thành scene riêng thay vì dựng runtime trong `main_controller.gd` nếu cần polish.
+- [x] Tách UI screens thành scene riêng thay vì dựng runtime trong `main_controller.gd` nếu cần polish.
 - [x] Bổ sung `tools/ai_proxy/` đầy đủ nếu chưa có.
 - [x] Bổ sung `export_presets.cfg` khi setup Web export.
-- [ ] Bổ sung report scene riêng nếu tách khỏi main controller.
-- [ ] Bổ sung assets thật cho KÌ, tarot cards, background.
+- [x] Bổ sung report scene riêng nếu tách khỏi main controller.
+- [x] Bổ sung assets thật cho tarot cards và playing cards.
+- [ ] Bổ sung assets thật cho KÌ và background.
 
 ---
 
-## 14. 📝 Changelog cấu trúc
+## 15. 📝 Changelog cấu trúc
 
 ### 2026-05-04
 
@@ -598,3 +710,12 @@ Nội dung cần cập nhật:
 - Hoàn thiện final report flow: `ReportBuilder` gom context/normalize/fallback, `MainController` hiển thị final report + retry + replay, `data/prompts.json` khai báo schema JSON report.
 - Thêm `export_presets.cfg` cho Web export; tắt mobile VRAM compression để Godot 4.6 export release hợp lệ khi ETC2/ASTC chưa bật.
 - Cập nhật `main_controller.gd`: panel, margin, text input, và card row co theo viewport phone 390x844.
+- Polish demo mentor-ready: thêm intro KÌ sau title, báo lỗi rõ khi free-text trống, button cao hơn, và bọc panel bằng ScrollContainer để tránh dead-end trên phone.
+- Tách UI flow thành scene trực quan theo màn hình trong scenes/title, scenes/questions, scenes/cards, scenes/inner_space, scenes/minigames, scenes/report, scenes/ui.
+- MainController chuyển sang vai trò điều phối flow và swap scene vào ScreenRoot.
+- Mỗi screen script nhận data qua setup(...) và emit signal về controller.
+- Tích hợp assets bài: `assets/art/Tarot-cards/` cho 22 Major Arcana bằng `art_path`; `assets/art/Playing-cards/` cho 52 lá bài tây bằng `image_path`/`art_path`.
+- Cập nhật card reveal và mini game screen để hiển thị card art bằng `TextureRect` kèm text fallback, giữ core flow playable.
+- Thêm pipeline câu hỏi `data/questions.md` → `data/questions.generated.json` bằng `tools/content/convert_questions_md.py`.
+- Câu hỏi inner space chuyển sang theo từng lá tarot và vị trí Quá khứ / Hiện tại / Tương lai.
+- Chọn 3 lá đầu dùng hybrid 64% affinity tags và 36% random noise.
