@@ -90,7 +90,7 @@ func _create_poker(card: Dictionary) -> Dictionary:
 		"goal": "Đoán chất bài xuất hiện nhiều nhất trong tay 5 lá.",
 		"card": card.duplicate(true),
 		"player_hand": player_hand,
-		"actions": CardModelScript.SUITS.duplicate(),
+		"actions": ["Chuồn", "Rô", "Cơ", "Bích"],
 		"state": "playing",
 	}
 
@@ -107,8 +107,9 @@ func _resolve_poker(game: Dictionary, action: String) -> Dictionary:
 		if count > best_count:
 			best_suit = String(suit)
 			best_count = count
-	var won := action == best_suit
-	return _build_result(game, won, 2 if won else 1, "Tay bài: %s. Chất mạnh nhất: %s." % [CardModelScript.labels(hand), best_suit])
+	var best_label: String = _suit_label(best_suit)
+	var won: bool = action == best_label
+	return _build_result(game, won, 2 if won else 1, "Tay bài: %s. Chất mạnh nhất: %s." % [CardModelScript.labels(hand), best_label])
 
 func _create_symbol_match(card: Dictionary) -> Dictionary:
 	var deck := _create_deck()
@@ -136,6 +137,19 @@ func _target_symbol(card: Dictionary) -> String:
 		var index: int = abs(String(symbols[0]).hash()) % CardModelScript.SYMBOLS.size()
 		return CardModelScript.SYMBOLS[index]
 	return CardModelScript.SYMBOLS[0]
+
+func _suit_label(suit: String) -> String:
+	match suit:
+		"clubs":
+			return "Chuồn"
+		"diamonds":
+			return "Rô"
+		"hearts":
+			return "Cơ"
+		"spades":
+			return "Bích"
+		_:
+			return suit
 
 func _hand_total(hand: Array) -> int:
 	var total := 0

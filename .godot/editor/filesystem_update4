@@ -1,0 +1,12 @@
+res://scripts/ai/ai_client.gd
+res://scripts/core/game_state.gd
+res://scripts/minigames/minigame_manager.gd
+res://scripts/questions/question_manager.gd
+res://scripts/report/report_builder.gd
+res://scripts/ui/main_controller.gd
+res://scenes/main.tscn
+res://scenes/minigames/minigame_screen.tscn
+res://scripts/minigames/card_model.gd
+res://scripts/tarot/tarot_manager.gd
+res://scripts/ui/screens/card_reveal_screen.gd
+res://scripts/ui/screens/minigame_screen.gd

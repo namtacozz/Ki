@@ -108,7 +108,7 @@ D:/KÌ/
 │
 ├── assets/
 │   ├── art/
-│   │   ├── Tarot-cards/
+│   │   ├── Tarot/
 │   │   └── Playing-cards/
 │   ├── audio/
 │   └── fonts/
@@ -378,7 +378,7 @@ Dùng cho:
 - AI context,
 - mini game symbols.
 
-Hiện mỗi Major Arcana có `art_path` trỏ tới `res://assets/art/Tarot-cards/NN-Name.png` nếu asset tồn tại.
+Hiện mỗi Major Arcana có `art_path` trỏ tới `res://assets/art/Tarot/Name.jpg` nếu asset tồn tại.
 
 ### `data/questions.json`
 
@@ -714,10 +714,15 @@ Nội dung cần cập nhật:
 - Tách UI flow thành scene trực quan theo màn hình trong scenes/title, scenes/questions, scenes/cards, scenes/inner_space, scenes/minigames, scenes/report, scenes/ui.
 - MainController chuyển sang vai trò điều phối flow và swap scene vào ScreenRoot.
 - Mỗi screen script nhận data qua setup(...) và emit signal về controller.
-- Tích hợp assets bài: `assets/art/Tarot-cards/` cho 22 Major Arcana bằng `art_path`; `assets/art/Playing-cards/` cho 52 lá bài tây bằng `image_path`/`art_path`.
+- Tích hợp assets bài: `assets/art/Tarot/` cho 22 Major Arcana bằng `art_path`; `assets/art/Playing-cards/` cho 52 lá bài tây bằng `image_path`/`art_path`.
 - Cập nhật card reveal và mini game screen để hiển thị card art bằng `TextureRect` kèm text fallback, giữ core flow playable.
 - Thêm pipeline câu hỏi `data/questions.md` → `data/questions.generated.json` bằng `tools/content/convert_questions_md.py`.
 - Câu hỏi inner space chuyển sang theo từng lá tarot và vị trí Quá khứ / Hiện tại / Tương lai.
 - Chọn 3 lá đầu dùng hybrid 64% affinity tags và 36% random noise.
 - Cập nhật inner space hiển thị story của lá bài và AI reflection context nhận cả danh sách câu hỏi.
 - Cập nhật màn hình lỗi: thiếu dữ liệu câu hỏi chỉ cho retry, không cho đi tiếp để tránh core flow chạy sai dữ liệu.
+
+### 2026-05-04 (tiếp)
+
+- Thay thế tarot card assets từ `assets/art/Tarot-cards/` (PNG với prefix số) sang `assets/art/Tarot/` (JPG).
+- Cập nhật `data/tarot_major_arcana.json`: tất cả 22 lá Major Arcana trỏ `art_path` từ `res://assets/art/Tarot-cards/NN-Name.png` sang `res://assets/art/Tarot/Name.jpg`.

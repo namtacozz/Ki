@@ -58,7 +58,7 @@ Game không tập trung vào cạnh tranh, tốc độ, hành động hoặc k�
 Luồng chơi chính gồm các bước:
 
 1. Người chơi mở game.
-2. Gặp thầy bói KÌ.
+2. Gặp màn giới thiệu của thầy bói KÌ.
 3. Trả lời câu hỏi nhập môn.
 4. Game chọn 3 lá tarot dựa trên câu trả lời.
 5. Người chơi xem nghi thức lật bài.
@@ -223,9 +223,10 @@ Chức năng:
 
 AI dùng cho:
 
-1. Diễn giải câu trả lời tự do trong từng không gian.
-2. Tạo câu thoại chuyển tiếp của nhân vật lá bài.
-3. Viết bản tổng kết cuối.
+1. Diễn giải câu trả lời và context trong từng không gian.
+2. Viết bản tổng kết cuối.
+
+Bản demo hiện tại không làm chatbot xuyên suốt và không để AI quyết định thắng/thua mini game.
 
 Mục đích:
 
@@ -397,7 +398,7 @@ Lưu trạng thái một lượt chơi:
 
 - Project độc lập bằng Godot 4.
 - Chạy được trên web browser.
-- Thiết kế mobile-first/touch-friendly.
+- Thiết kế responsive/touch-friendly bằng Control nodes, panel co theo viewport, ScrollContainer và button lớn.
 - Data-driven bằng JSON cho tarot, câu hỏi, prompts.
 - Tích hợp AI qua local proxy.
 - Tách API key khỏi game client.
@@ -420,6 +421,7 @@ Cách xử lý:
 Cách xử lý:
 
 - UI dùng Control nodes, layout responsive.
+- Panel co theo viewport, nội dung có scroll khi màn hình thấp.
 - Button lớn, text lớn.
 - Test viewport phone sớm.
 

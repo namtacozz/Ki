@@ -13,7 +13,14 @@
       "Bash(python -)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Skill(browser-automation)",
-      "Skill(browser-automation:*)"
+      "Skill(browser-automation:*)",
+      "Bash(dir \"d:\\\\KÌ\\\\scripts\" \"d:\\\\KÌ\\\\scenes\")",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(rtk node *)",
+      "Bash(rtk read *)",
+      "Bash(rtk grep *)",
+      "Bash(godot --headless --path /d/KÌ --quit)"
     ]
   }
 }
