@@ -73,6 +73,8 @@ def parse_question_block(block: list[str], slug: str, position: str) -> list[dic
             if not line.startswith("-"):
                 fail(f"malformed line in question block {slug}/{position}: {line}")
             current.append(line)
+        else:
+            fail(f"malformed line before first question in {slug}/{position}: {line}")
     if current:
         groups.append(current)
     questions = [parse_question(group, index, slug, position) for index, group in enumerate(groups, start=1)]
