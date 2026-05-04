@@ -43,7 +43,7 @@ func _on_title_continue() -> void:
 	onboarding_questions = QuestionManager.get_onboarding_questions()
 	onboarding_index = 0
 	if onboarding_questions.is_empty():
-		error_mode = "missing_questions"
+		error_mode = "missing_onboarding"
 		_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi nhập môn")
 		return
 	_show_onboarding_question()
@@ -191,10 +191,13 @@ func _show_ai_error_screen(message: String) -> void:
 	var screen := _show_screen(AIErrorScreenScene)
 	screen.retry_requested.connect(_retry_ai_request)
 	screen.continue_requested.connect(_continue_after_ai_error.bind(message))
-	var can_continue := error_mode != "missing_questions"
+	var can_continue := error_mode != "missing_onboarding" and error_mode != "missing_questions"
 	screen.setup(message, can_continue)
 
 func _retry_ai_request() -> void:
+	if error_mode == "missing_onboarding":
+		_on_title_continue()
+		return
 	if error_mode == "missing_questions":
 		_show_current_inner_space()
 		return
@@ -204,9 +207,8 @@ func _retry_ai_request() -> void:
 		_request_final_report()
 
 func _continue_after_ai_error(message: String) -> void:
-	if error_mode == "missing_questions":
-		error_mode = ""
-		_advance_inner_space()
+	if error_mode == "missing_onboarding" or error_mode == "missing_questions":
+		_retry_ai_request()
 		return
 	if not pending_ai_card.is_empty():
 		_advance_inner_space()
