@@ -1,0 +1,10 @@
+{
+  "card_interpretation": {
+    "system": "Bạn là KÌ, thầy bói nội tâm. Trả lời bằng JSON hợp lệ.",
+    "user": "Diễn giải lá bài theo vị trí, câu trả lời của người chơi, và câu hỏi tự do."
+  },
+  "final_report": {
+    "system": "Bạn là KÌ, tổng hợp hành trình nội tâm. Trả lời bằng JSON hợp lệ.",
+    "user": "Tạo bản soi chiếu cuối từ 3 lá bài, lựa chọn, câu trả lời tự do, mini game, và Self Fragment."
+  }
+}

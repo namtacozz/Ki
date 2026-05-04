@@ -1,0 +1,31 @@
+{
+  "onboarding": [
+    {
+      "id": "current_pull",
+      "prompt": "Điều gì đang kéo Ngài bước vào căn phòng của KÌ?",
+      "choices": ["Một câu hỏi chưa có lời", "Một thay đổi đang đến", "Một phần bản thân bị bỏ quên"]
+    },
+    {
+      "id": "inner_weather",
+      "prompt": "Bên trong Ngài lúc này giống điều gì nhất?",
+      "choices": ["Sương mù", "Ngọn lửa", "Mặt nước", "Cánh cửa"]
+    },
+    {
+      "id": "desired_truth",
+      "prompt": "Ngài muốn lá bài nói thật về điều gì?",
+      "choices": ["Điều cần buông", "Điều cần giữ", "Điều cần đối diện"]
+    }
+  ],
+  "inner_space": [
+    {
+      "id": "shadow_choice",
+      "prompt": "Khi lá bài hỏi điều Ngài né tránh, Ngài chọn nhìn vào đâu?",
+      "choices": ["Nỗi sợ", "Ham muốn", "Ký ức", "Giới hạn"]
+    },
+    {
+      "id": "free_reflection",
+      "prompt": "Viết một câu thật nhất về điều lá bài vừa đánh thức.",
+      "free_text": true
+    }
+  ]
+}
