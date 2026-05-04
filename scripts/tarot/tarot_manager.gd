@@ -4,6 +4,7 @@ const TAROT_DATA_PATH := "res://data/tarot_major_arcana.json"
 const SPREAD_POSITIONS := ["past", "present", "future"]
 const AFFINITY_WEIGHT := 0.64
 const RANDOM_WEIGHT := 0.36
+const MAX_AFFINITY_DIVISOR := 3.0
 
 var _cards: Array[Dictionary] = []
 
@@ -97,7 +98,10 @@ func _build_spread(deck: Array[Dictionary]) -> Array[Dictionary]:
 
 func _shuffle_deck(deck: Array[Dictionary], seed_text: String) -> void:
 	var rng := RandomNumberGenerator.new()
-	rng.seed = hash(seed_text) if not seed_text.is_empty() else Time.get_unix_time_from_system()
+	var seed_value := hash(seed_text)
+	if seed_text.is_empty():
+		seed_value = int(Time.get_unix_time_from_system())
+	rng.seed = seed_value
 	for index in range(deck.size() - 1, 0, -1):
 		var swap_index := rng.randi_range(0, index)
 		var card := deck[index]
@@ -136,7 +140,7 @@ func _hybrid_score(card: Dictionary, tag_profile: Dictionary, rng: RandomNumberG
 	if tags is Array:
 		for tag in tags:
 			affinity += float(tag_profile.get(String(tag), 0))
-	var normalized_affinity: float = min(1.0, affinity / 3.0)
+	var normalized_affinity: float = min(1.0, affinity / MAX_AFFINITY_DIVISOR)
 	return normalized_affinity * AFFINITY_WEIGHT + rng.randf() * RANDOM_WEIGHT
 
 func _slugify(value: String) -> String:

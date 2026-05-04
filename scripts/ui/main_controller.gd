@@ -42,6 +42,10 @@ func _show_intro() -> void:
 func _on_title_continue() -> void:
 	onboarding_questions = QuestionManager.get_onboarding_questions()
 	onboarding_index = 0
+	if onboarding_questions.is_empty():
+		error_mode = "missing_questions"
+		_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi nhập môn")
+		return
 	_show_onboarding_question()
 
 func _show_onboarding_question() -> void:
@@ -96,7 +100,7 @@ func _show_inner_space_question(card: Dictionary) -> void:
 	var question := current_space_questions[current_space_question_index]
 	var screen := _show_screen(InnerSpaceScreenScene)
 	screen.choice_selected.connect(_on_inner_space_choice)
-	screen.setup(card, question, current_space_question_index, current_space_questions.size())
+	screen.setup(card, current_space_story, question, current_space_question_index, current_space_questions.size())
 
 func _on_inner_space_choice(card: Dictionary, question: Dictionary, choice: String) -> void:
 	if not QuestionManager.is_valid_choice(question, choice):
@@ -148,6 +152,7 @@ func _build_reflection_context(card: Dictionary) -> Dictionary:
 		"position": card_position,
 		"card": card.duplicate(true),
 		"story": current_space_story,
+		"questions": current_space_questions.duplicate(true),
 		"onboarding_answers": GameState.onboarding_answers.duplicate(true),
 		"space_answers": current_space_answers.duplicate(true),
 		"minigame_result": GameState.minigame_results.get(card_position, {}),

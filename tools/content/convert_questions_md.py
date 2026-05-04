@@ -156,6 +156,9 @@ def validate(data: dict, slugs: list[str]) -> None:
     missing_cards = [slug for slug in slugs if slug not in cards]
     if missing_cards:
         fail("missing card sections: " + ", ".join(missing_cards))
+    unknown_cards = [slug for slug in cards if slug not in slugs]
+    if unknown_cards:
+        fail("unknown card sections: " + ", ".join(unknown_cards))
     for slug in slugs:
         positions = cards[slug]
         missing_positions = sorted(POSITIONS - set(positions.keys()))

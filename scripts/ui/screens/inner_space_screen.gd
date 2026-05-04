@@ -6,6 +6,7 @@ signal choice_selected(card: Dictionary, question: Dictionary, choice: String)
 @onready var card_name_label: Label = %CardNameLabel
 @onready var theme_label: Label = %ThemeLabel
 @onready var keywords_label: Label = %KeywordsLabel
+@onready var story_label: Label = %StoryLabel
 @onready var progress_label: Label = %ProgressLabel
 @onready var prompt_label: Label = %PromptLabel
 @onready var choices_box: VBoxContainer = %ChoicesBox
@@ -19,13 +20,14 @@ var question_data: Dictionary = {}
 func _ready() -> void:
 	submit_button.pressed.connect(_submit_free_text)
 
-func setup(card: Dictionary, question: Dictionary, index: int, total: int) -> void:
+func setup(card: Dictionary, story: String, question: Dictionary, index: int, total: int) -> void:
 	card_data = card.duplicate(true)
 	question_data = question.duplicate(true)
 	position_label.text = _position_label(String(card_data.get("position", "")))
 	card_name_label.text = TarotManager.get_display_name_for_card(card_data)
 	theme_label.text = TarotManager.get_subtitle_for_card(card_data)
 	keywords_label.text = _join_strings(TarotManager.get_keywords_for_card(card_data))
+	story_label.text = story
 	progress_label.text = "Câu hỏi %d/%d" % [index + 1, total]
 	prompt_label.text = String(question_data.get("prompt", ""))
 	free_text_error_label.text = ""
