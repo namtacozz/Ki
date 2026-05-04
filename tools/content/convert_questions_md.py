@@ -140,6 +140,9 @@ def parse_markdown(text: str) -> dict:
             continue
         if current_slug and current_position and line:
             block.append(line)
+            continue
+        if line and not line.startswith("#"):
+            fail(f"malformed line outside question section: {line}")
     if in_onboarding:
         data["onboarding"] = parse_question_block(onboarding_block, "onboarding", "start")
     flush_position()
