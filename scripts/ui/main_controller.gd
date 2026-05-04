@@ -86,6 +86,7 @@ func _show_current_inner_space() -> void:
 		return
 	current_space_answers = []
 	current_space_question_index = 0
+	error_mode = ""
 	_show_inner_space_question(card)
 
 func _show_inner_space_question(card: Dictionary) -> void:
@@ -240,6 +241,7 @@ func _replay_from_title() -> void:
 	GameState.reset_run()
 	pending_ai_card = {}
 	final_report_error = ""
+	error_mode = ""
 	show_title()
 
 func _position_label(card_position: String) -> String:
