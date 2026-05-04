@@ -17,6 +17,20 @@ func get_onboarding_questions() -> Array[Dictionary]:
 func get_inner_space_questions() -> Array[Dictionary]:
 	return get_questions("inner_space")
 
+func get_questions_for_position(position: String) -> Array[Dictionary]:
+	return get_questions(get_set_id_for_position(position))
+
+func get_set_id_for_position(position: String) -> String:
+	match position.to_lower():
+		"past":
+			return "past"
+		"present":
+			return "present"
+		"future":
+			return "future"
+		_:
+			return "inner_space"
+
 func get_questions(set_id: String) -> Array[Dictionary]:
 	if _question_sets.is_empty():
 		load_questions()

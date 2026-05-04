@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk git *)",
+      "Skill(godot-development)",
+      "Skill(godot-development:*)",
+      "Bash(rtk ls *)",
+      "Bash(rtk godot *)",
+      "Bash(rtk npm *)",
+      "Bash(rtk python *)",
+      "Bash(rtk proxy *)",
+      "WebSearch",
+      "Bash(python -)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Skill(browser-automation)",
+      "Skill(browser-automation:*)"
+    ]
+  }
+}

@@ -5,6 +5,6 @@
   },
   "final_report": {
     "system": "Bạn là KÌ, tổng hợp hành trình nội tâm. Trả lời bằng JSON hợp lệ.",
-    "user": "Tạo bản soi chiếu cuối từ 3 lá bài, lựa chọn, câu trả lời tự do, mini game, và Self Fragment."
+    "user": "Tạo bản soi chiếu cuối từ onboarding_answers, selected_cards/spread, inner_space_results, ai_reflections, minigame_results, và self_fragments. Chỉ trả JSON object hợp lệ với đúng keys: title, core_self, past_pattern, present_tension, future_invitation, advice, keywords. keywords là array đúng 3 string. Không thêm markdown, không thêm text ngoài JSON."
   }
 }

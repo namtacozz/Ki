@@ -16,15 +16,54 @@
       "choices": ["Điều cần buông", "Điều cần giữ", "Điều cần đối diện"]
     }
   ],
-  "inner_space": [
+  "past": [
     {
-      "id": "shadow_choice",
-      "prompt": "Khi lá bài hỏi điều Ngài né tránh, Ngài chọn nhìn vào đâu?",
-      "choices": ["Nỗi sợ", "Ham muốn", "Ký ức", "Giới hạn"]
+      "id": "past_echo",
+      "prompt": "Khi bước vào Quá khứ, điều gì vang lại rõ nhất trong Ngài?",
+      "choices": ["Một ký ức chưa khép", "Một lời chưa nói", "Một lựa chọn đã qua", "Một mất mát cũ"]
     },
     {
-      "id": "free_reflection",
-      "prompt": "Viết một câu thật nhất về điều lá bài vừa đánh thức.",
+      "id": "past_weight",
+      "prompt": "Lá bài hỏi Ngài đang mang theo điều gì từ ngày cũ?",
+      "choices": ["Nỗi sợ lặp lại", "Lòng biết ơn", "Một bài học", "Một vết thương"]
+    },
+    {
+      "id": "past_free_reflection",
+      "prompt": "Viết một câu thật nhất về điều Quá khứ muốn Ngài nhìn lại.",
+      "free_text": true
+    }
+  ],
+  "present": [
+    {
+      "id": "present_tension",
+      "prompt": "Trong Hiện tại, điều gì đang kéo Ngài về hai phía?",
+      "choices": ["Muốn đi tiếp và muốn dừng lại", "Tin tưởng và nghi ngờ", "Kiểm soát và buông tay", "Ở một mình và được thấy"]
+    },
+    {
+      "id": "present_need",
+      "prompt": "Lá bài hỏi Ngài cần điều gì để đứng vững hôm nay?",
+      "choices": ["Ranh giới rõ hơn", "Can đảm nhỏ", "Sự nghỉ ngơi", "Một quyết định thật"]
+    },
+    {
+      "id": "present_free_reflection",
+      "prompt": "Viết một câu thật nhất về điều Hiện tại đang đòi hỏi nơi Ngài.",
+      "free_text": true
+    }
+  ],
+  "future": [
+    {
+      "id": "future_call",
+      "prompt": "Khi nhìn về Tương lai, điều gì gọi Ngài tiến lên?",
+      "choices": ["Một khả năng mới", "Một phiên bản khác của bản thân", "Một nơi chưa đến", "Một lời hứa với chính mình"]
+    },
+    {
+      "id": "future_fear",
+      "prompt": "Lá bài hỏi điều gì làm Ngài chần chừ trước cánh cửa mới?",
+      "choices": ["Sợ thất bại", "Sợ thay đổi", "Sợ mất điều quen thuộc", "Sợ không còn là mình"]
+    },
+    {
+      "id": "future_free_reflection",
+      "prompt": "Viết một câu thật nhất về Tương lai mà Ngài muốn thử tin.",
       "free_text": true
     }
   ]
