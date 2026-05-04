@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section]
+;   param=value
+
+config_version=5
+
+[application]
+
+config/name="KÌ: Ba Lá Của Bản Ngã"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*res://scripts/core/game_state.gd"
+TarotManager="*res://scripts/tarot/tarot_manager.gd"
+QuestionManager="*res://scripts/questions/question_manager.gd"
+AIClient="*res://scripts/ai/ai_client.gd"
+MiniGameManager="*res://scripts/minigames/minigame_manager.gd"
+ReportBuilder="*res://scripts/report/report_builder.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
