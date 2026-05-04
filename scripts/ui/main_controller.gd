@@ -22,6 +22,7 @@ var current_space_question_index := 0
 var current_minigame: Dictionary = {}
 var pending_ai_card: Dictionary = {}
 var final_report_error := ""
+var error_mode := ""
 
 func _ready() -> void:
 	GameState.reset_run()
@@ -80,6 +81,7 @@ func _show_current_inner_space() -> void:
 	current_space_story = QuestionManager.get_story_for_card_position(card_slug, card_position)
 	current_space_questions = QuestionManager.get_questions_for_card_position(card_slug, card_position)
 	if current_space_questions.is_empty():
+		error_mode = "missing_questions"
 		_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi cho %s / %s" % [card_slug, card_position])
 		return
 	current_space_answers = []
@@ -168,6 +170,9 @@ func _on_report_ready(data: Dictionary) -> void:
 	_show_final_report_screen(report, false)
 
 func _on_ai_failed(message: String) -> void:
+	if error_mode == "missing_questions":
+		_show_ai_error_screen(message)
+		return
 	if pending_ai_card.is_empty():
 		final_report_error = message
 		var report := ReportBuilder.build_local_summary(message)
@@ -183,12 +188,19 @@ func _show_ai_error_screen(message: String) -> void:
 	screen.setup(message)
 
 func _retry_ai_request() -> void:
+	if error_mode == "missing_questions":
+		_show_current_inner_space()
+		return
 	if not pending_ai_card.is_empty():
 		_request_reflection(pending_ai_card)
 	else:
 		_request_final_report()
 
 func _continue_after_ai_error(message: String) -> void:
+	if error_mode == "missing_questions":
+		error_mode = ""
+		_advance_inner_space()
+		return
 	if not pending_ai_card.is_empty():
 		_advance_inner_space()
 	else:
