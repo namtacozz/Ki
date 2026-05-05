@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://dp41k58wcs24k"]
+
+[ext_resource type="FontVariation" path="res://assets/fonts/cormorant.tres" id="1_cormorant"]
+[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
+
+[node name="TarotCardDisplay" type="PanelContainer" unique_id=689839663]
+custom_minimum_size = Vector2(280, 450)
+offset_right = 280.0
+offset_bottom = 450.0
+
+[node name="Margin" type="MarginContainer" parent="." unique_id=734730071]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBox" type="VBoxContainer" parent="Margin" unique_id=2147097482]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="PositionLabel" type="Label" parent="Margin/VBox" unique_id=681781843]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_fonts/font = ExtResource("1_cormorant")
+theme_override_font_sizes/font_size = 20
+uppercase = true
+text = "VỊ TRÍ"
+horizontal_alignment = 1
+
+[node name="CardArt" type="TextureRect" parent="Margin/VBox" unique_id=428857765]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="NameLabel" type="Label" parent="Margin/VBox" unique_id=1571333139]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_cormorant")
+theme_override_font_sizes/font_size = 34
+text = "Tên Lá Bài"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SubtitleLabel" type="Label" parent="Margin/VBox" unique_id=371057170]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Tiêu đề phụ"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="KeywordsLabel" type="Label" parent="Margin/VBox" unique_id=10982769]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_fonts/font = ExtResource("2_inter")
+theme_override_font_sizes/font_size = 14
+text = "từ khóa, từ khóa"
+horizontal_alignment = 1
+autowrap_mode = 3

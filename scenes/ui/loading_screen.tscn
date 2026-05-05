@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://dftpwdxq2k1nx"]
 
-[ext_resource type="Script" path="res://scripts/ui/screens/loading_screen.gd" id="1_loading"]
+[ext_resource type="Script" uid="uid://d2kdhjimxp5f" path="res://scripts/ui/screens/loading_screen.gd" id="1_loading"]
+[ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
+[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
+[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/mystic_void.png" id="4_bg"]
 
-[node name="LoadingScreen" type="Control"]
+[node name="LoadingScreen" type="Control" unique_id=1531085041]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +14,18 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_loading")
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
+[node name="BackgroundTexture" type="TextureRect" parent="." unique_id=321332698]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_bg")
+expand_mode = 2
+stretch_mode = 6
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=2038021589]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -25,33 +39,39 @@ offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1055645733]
 layout_mode = 2
 theme_override_constants/margin_left = 24
 theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 24
 theme_override_constants/margin_bottom = 24
 
-[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer" unique_id=1983595638]
 layout_mode = 2
 horizontal_scroll_mode = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/ScrollContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/ScrollContainer" unique_id=1365009321]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_constants/separation = 16
 
-[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1742310772]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("2_cinzel")
+theme_override_font_sizes/font_size = 32
 text = "KÌ đang đọc lá bài"
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="BodyLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="BodyLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1954595991]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_inter")
+theme_override_font_sizes/font_size = 18
 text = "Vui lòng chờ trong khi AI proxy trả lời."
 horizontal_alignment = 1
 autowrap_mode = 3

@@ -31,26 +31,18 @@ func request_final_report(context: Dictionary) -> void:
 	_send_request("final_report", prompt, context, "")
 
 func _load_config() -> void:
-	var config := _load_json_file(LOCAL_CONFIG_PATH)
+	var config: Dictionary = JsonLoader.load_json(LOCAL_CONFIG_PATH, {})
 	if config.is_empty():
-		config = _load_json_file(EXAMPLE_CONFIG_PATH)
+		config = JsonLoader.load_json(EXAMPLE_CONFIG_PATH, {})
 	proxy_url = String(config.get("ai_proxy_url", DEFAULT_PROXY_URL))
 	if not proxy_url.ends_with("/generate"):
 		proxy_url = proxy_url.rstrip("/") + "/generate"
 
 func _load_prompts() -> void:
-	prompts = _load_json_file(PROMPTS_PATH)
+	var loaded: Variant = JsonLoader.load_json(PROMPTS_PATH, {})
+	prompts = loaded if loaded is Dictionary else {}
 
-func _load_json_file(path: String) -> Dictionary:
-	if not FileAccess.file_exists(path):
-		return {}
-	var text := FileAccess.get_file_as_string(path)
-	if text.is_empty():
-		return {}
-	var parsed: Variant = JSON.parse_string(text)
-	if parsed is Dictionary:
-		return parsed
-	return {}
+
 
 func _build_prompt(prompt_key: String) -> String:
 	var prompt_data: Variant = prompts.get(prompt_key, {})

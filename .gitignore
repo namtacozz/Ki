@@ -1,0 +1,16 @@
+# Godot-specific ignores
+.godot/
+*.translation
+*.ttr
+
+# Tooling secrets
+tools/ai_proxy/.env
+data/local_config.json
+
+# Local artifacts
+exports/
+*.log
+
+# OS specifics
+.DS_Store
+Thumbs.db

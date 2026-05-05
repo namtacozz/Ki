@@ -32,6 +32,7 @@ D:/KÌ/
 ├── export_presets.cfg
 ├── icon.svg
 ├── icon.svg.import
+├── .gitignore
 ├── KÌ_PROJECT_OVERVIEW_MENTOR.md
 │
 ├── Takanote/
@@ -52,22 +53,23 @@ D:/KÌ/
 ├── scenes/
 │   ├── main.tscn
 │   ├── title/
-│   │   ├── title_screen.tscn
-│   │   └── intro_screen.tscn
+│   │   └── title_screen.tscn
 │   ├── tarot_room/
-│   ├── questions/
-│   │   └── onboarding_screen.tscn
 │   ├── cards/
 │   │   └── card_reveal_screen.tscn
-│   ├── inner_space/
-│   │   └── inner_space_screen.tscn
 │   ├── minigames/
 │   │   └── minigame_screen.tscn
 │   ├── report/
 │   │   └── final_report_screen.tscn
 │   └── ui/
 │       ├── loading_screen.tscn
-│       └── ai_error_screen.tscn
+│       ├── narrative_screen.tscn
+│       ├── ai_error_screen.tscn
+│       ├── choice_button.tscn
+│       ├── tarot_card_display.tscn
+│       ├── report_field.tscn
+│       ├── minigame_card_visual.tscn
+│       └── game_button.tscn
 │
 ├── scripts/
 │   ├── core/
@@ -88,10 +90,8 @@ D:/KÌ/
 │       ├── main_controller.gd
 │       └── screens/
 │           ├── title_screen.gd
-│           ├── intro_screen.gd
-│           ├── onboarding_screen.gd
+│           ├── narrative_screen.gd
 │           ├── card_reveal_screen.gd
-│           ├── inner_space_screen.gd
 │           ├── minigame_screen.gd
 │           ├── final_report_screen.gd
 │           ├── loading_screen.gd
@@ -107,6 +107,11 @@ D:/KÌ/
 │       └── .env.example
 │
 ├── assets/
+│   ├── backgrounds/
+│   │   └── opening.jpg
+│   ├── characters/
+│   │   ├── ki_mystical.jpg
+│   │   └── ki_thinking.jpg
 │   ├── art/
 │   │   ├── Tarot/
 │   │   └── Playing-cards/
@@ -245,7 +250,7 @@ Vai trò:
 
 - Điều phối toàn bộ playable flow.
 - Clear/replace screen trong `ScreenRoot`.
-- Chuyển giữa title, KÌ intro, onboarding, spread, inner spaces, mini games, final report.
+- Chuyển giữa title, KÌ intro, onboarding narrative, onboarding questions, spread, card story, inner spaces, mini games, final report.
 - Swap các visual screen scene vào `ScreenRoot` thay vì dựng toàn bộ panel bằng code.
 - Truyền data cho từng screen qua `setup(...)`.
 - Nhận signal từ screen để chuyển bước flow tiếp theo.
@@ -340,12 +345,14 @@ Mục đích:
 Scene:
 
 - `loading_screen.tscn`: màn hình chờ AI/proxy hoặc bước xử lý dài.
+- `narrative_screen.tscn`: màn hình dẫn chuyện/dialogue cho onboarding intro và card story.
 - `ai_error_screen.tscn`: màn hình lỗi AI/proxy có retry rõ ràng.
 
 Mục đích:
 
-- Tách trạng thái loading/error thành visual screen scene riêng.
-- Screen script nhận message/context qua `setup(...)` và emit retry/cancel signal về `MainController`.
+- Tách trạng thái loading/error/narrative thành visual screen scene riêng.
+- Screen script nhận message/context qua `setup(...)` và emit signal về `MainController`.
+- `narrative_screen` hiển thị speaker name, body text, continue button để dẫn vào onboarding questions hoặc inner space questions.
 
 ---
 
@@ -456,8 +463,9 @@ Script Python để convert `data/questions.md` thành `data/questions.generated
 Vai trò:
 
 - Parse markdown source file.
+- Parse onboarding `Intro:` và card-position `Story:`.
 - Validate structure và schema.
-- Generate JSON output với onboarding/past/present/future questions.
+- Generate JSON output với onboarding intro, onboarding questions, và card questions theo past/present/future.
 - Hardening validation để tránh malformed data.
 
 ---
@@ -687,7 +695,7 @@ Nội dung cần cập nhật:
 - [x] Bổ sung `export_presets.cfg` khi setup Web export.
 - [x] Bổ sung report scene riêng nếu tách khỏi main controller.
 - [x] Bổ sung assets thật cho tarot cards và playing cards.
-- [ ] Bổ sung assets thật cho KÌ và background.
+- [x] Bổ sung assets thật cho KÌ và background.
 
 ---
 
@@ -726,3 +734,37 @@ Nội dung cần cập nhật:
 
 - Thay thế tarot card assets từ `assets/art/Tarot-cards/` (PNG với prefix số) sang `assets/art/Tarot/` (JPG).
 - Cập nhật `data/tarot_major_arcana.json`: tất cả 22 lá Major Arcana trỏ `art_path` từ `res://assets/art/Tarot-cards/NN-Name.png` sang `res://assets/art/Tarot/Name.jpg`.
+
+### 2026-05-04 (narrative & story support)
+
+- Thêm `scenes/ui/narrative_screen.tscn` và `scripts/ui/screens/narrative_screen.gd` để hiển thị dẫn chuyện/dialogue.
+- Cập nhật `tools/content/convert_questions_md.py`:
+  - Parse `Intro:` từ onboarding block thành `onboarding_intro` trong JSON.
+  - Hỗ trợ multiline intro (tiếp tục đến khi gặp question line).
+  - Giữ nguyên `Story:` parsing cho card-position sections.
+- Cập nhật `scripts/questions/question_manager.gd`: thêm `get_onboarding_intro() -> String`.
+- Cập nhật `scripts/ui/main_controller.gd`:
+  - Sau title continue, hiển thị onboarding intro narrative screen trước questions.
+  - Sau load card story, hiển thị card story narrative screen trước questions.
+  - Narrative screen emit `continued` signal để chuyển sang questions.
+- Rebuild `data/questions.generated.json` với onboarding intro và card stories.
+- Verify Godot headless load thành công.
+- 
++### 2026-05-05 (Dialogue & Visual Overhaul)
++
++- Nâng cấp hệ thống dẫn chuyện: Chuyển đổi từ giao diện Panel tĩnh sang hệ thống đối thoại (Dialogue Chat) chuẩn Genshin/Stardew Valley.
++- Cập nhật `scripts/ui/screens/narrative_screen.gd`: hỗ trợ hiệu ứng chữ chạy (typewriter), hiển thị lựa chọn (choices), và avatar/background động.
++- Cập nhật `scenes/ui/narrative_screen.tscn`: Thiết kế lại bố cục với bối cảnh phủ kín, nhân vật ở góc màn hình và hộp thoại mờ ảo phía dưới.
++- Bổ sung tài nguyên nghệ thuật mới: `assets/backgrounds/opening.jpg` và `assets/characters/ki_avatar.jpg`.
++- Cập nhật `scripts/ui/main_controller.gd`: Hợp nhất luồng game, sử dụng NarrativeScreen cho toàn bộ đối thoại.
+
+### 2026-05-05 (Clean Code Refactoring)
+
+- **Refactor MainController.gd**: Tách biệt logic lấy asset (art/background), xử lý lỗi và quản lý trạng thái không gian nội tâm thành các hàm helper để giảm độ phức tạp (SRP).
+- **Centralize Blackjack Logic**: Di chuyển logic tính điểm blackjack từ `MinigameManager` và `MinigameScreen` vào `CardModel.gd` dưới dạng static method để tránh lặp code.
+- **Dọn dẹp QuestionManager**: Loại bỏ các hàm helper không còn sử dụng (dead code) và tối ưu hóa luồng load dữ liệu.
+- **Chuẩn hóa JSON Loading**: Chuyển đổi toàn bộ logic đọc file JSON sang sử dụng autoload `JsonLoader`.
+- **Bảo mật**: Thiết lập `.gitignore` chuẩn cho Godot và loại bỏ các file nhạy cảm (`.env`, `local_config.json`) khỏi version control.
+- **Cải thiện CardRevealScreen**: Tách biệt logic xử lý layout mobile và loại bỏ comment dư thừa.
+- **Đồng bộ hóa Assets**: Đảm bảo toàn bộ asset hình ảnh sử dụng định dạng `.jpg` để tối ưu dung lượng và sửa lỗi import.
++

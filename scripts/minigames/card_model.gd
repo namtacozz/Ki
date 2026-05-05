@@ -58,6 +58,22 @@ func draw(count: int = 1) -> Array[Dictionary]:
 func remaining() -> int:
 	return cards.size()
 
+static func calculate_blackjack_total(hand: Array) -> int:
+	var total := 0
+	var aces := 0
+	for card in hand:
+		if card is not Dictionary: continue
+		var value := int(card.get("value", 0))
+		if value == 1:
+			aces += 1
+			total += 11
+		else:
+			total += min(value, 10)
+	while total > 21 and aces > 0:
+		total -= 10
+		aces -= 1
+	return total
+
 static func card_points(card: Dictionary) -> int:
 	return min(int(card.get("value", 0)), 10)
 

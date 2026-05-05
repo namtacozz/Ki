@@ -63,23 +63,36 @@ func _resolve_blackjack(game: Dictionary, action: String) -> Dictionary:
 	var player_hand: Array = game.get("player_hand", [])
 	var dealer_hand: Array = game.get("dealer_hand", [])
 	var deck_cards: Array = game.get("deck", [])
+	
 	if action == "Rút thêm" and not deck_cards.is_empty():
-		player_hand.append(deck_cards.pop_front())
-		if _hand_total(player_hand) <= 21:
-			game["player_hand"] = player_hand
-			game["deck"] = deck_cards
-			game["detail"] = "Tổng hiện tại: %d. Có thể rút hoặc dừng." % _hand_total(player_hand)
-			game["state"] = "playing"
+		_apply_blackjack_hit(game, player_hand, deck_cards)
+		if CardModelScript.calculate_blackjack_total(player_hand) <= 21:
 			return game
-	while _hand_total(dealer_hand) < 17 and not deck_cards.is_empty():
-		dealer_hand.append(deck_cards.pop_front())
-	var player_total := _hand_total(player_hand)
-	var dealer_total := _hand_total(dealer_hand)
-	var won := player_total <= 21 and (dealer_total > 21 or player_total >= dealer_total)
+			
+	_play_dealer_turn(dealer_hand, deck_cards)
+	
+	var player_total := CardModelScript.calculate_blackjack_total(player_hand)
+	var dealer_total := CardModelScript.calculate_blackjack_total(dealer_hand)
+	var won := _is_blackjack_win(player_total, dealer_total)
+	
 	return _build_result(game, won, 2 if won else 1, "Ngài: %d | KÌ: %d" % [player_total, dealer_total], {
 		"player_hand": player_hand,
 		"dealer_hand": dealer_hand,
 	})
+
+func _apply_blackjack_hit(game: Dictionary, player_hand: Array, deck_cards: Array) -> void:
+	player_hand.append(deck_cards.pop_front())
+	game["player_hand"] = player_hand
+	game["deck"] = deck_cards
+	game["detail"] = "Tổng hiện tại: %d. Có thể rút hoặc dừng." % CardModelScript.calculate_blackjack_total(player_hand)
+	game["state"] = "playing"
+
+func _play_dealer_turn(dealer_hand: Array, deck_cards: Array) -> void:
+	while CardModelScript.calculate_blackjack_total(dealer_hand) < 17 and not deck_cards.is_empty():
+		dealer_hand.append(deck_cards.pop_front())
+
+func _is_blackjack_win(player_total: int, dealer_total: int) -> bool:
+	return player_total <= 21 and (dealer_total > 21 or player_total >= dealer_total)
 
 func _create_poker(card: Dictionary) -> Dictionary:
 	var deck := _create_deck()
@@ -151,20 +164,7 @@ func _suit_label(suit: String) -> String:
 		_:
 			return suit
 
-func _hand_total(hand: Array) -> int:
-	var total := 0
-	var aces := 0
-	for card in hand:
-		var value := int(card.get("value", 0))
-		if value == 1:
-			aces += 1
-			total += 11
-		else:
-			total += min(value, 10)
-	while total > 21 and aces > 0:
-		total -= 10
-		aces -= 1
-	return total
+
 
 func _build_result(game: Dictionary, won: bool, fragments: int, detail: String, extra: Dictionary = {}) -> Dictionary:
 	var result := game.duplicate(true)

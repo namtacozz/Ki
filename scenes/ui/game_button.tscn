@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/hover_button.gd" id="1_hover"]
+[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="2_open_sans"]
+
+[node name="GameButton" type="Button"]
+custom_minimum_size = Vector2(250, 60)
+offset_right = 250.0
+offset_bottom = 60.0
+script = ExtResource("1_hover")
+theme_override_fonts/font = ExtResource("2_open_sans")
+theme_override_font_sizes/font_size = 18
+text = "Hành động"

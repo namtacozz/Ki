@@ -87,13 +87,15 @@ def parse_question_block(block: list[str], slug: str, position: str) -> list[dic
 
 def parse_markdown(text: str) -> dict:
     lines = [line.rstrip() for line in text.splitlines()]
-    data = {"onboarding": [], "cards": {}}
+    data = {"onboarding": [], "onboarding_intro": "", "cards": {}}
     current_slug = ""
     current_position = ""
     story = ""
     block: list[str] = []
     onboarding_block: list[str] = []
+    onboarding_intro_lines: list[str] = []
     in_onboarding = False
+    in_onboarding_intro = False
 
     def flush_position() -> None:
         nonlocal story, block
@@ -113,13 +115,18 @@ def parse_markdown(text: str) -> dict:
             current_slug = ""
             current_position = ""
             in_onboarding = True
+            in_onboarding_intro = False
             onboarding_block = []
+            onboarding_intro_lines = []
             continue
         card_match = CARD_RE.match(line)
         if card_match:
             if in_onboarding:
+                if onboarding_intro_lines:
+                    data["onboarding_intro"] = "\n".join(onboarding_intro_lines)
                 data["onboarding"] = parse_question_block(onboarding_block, "onboarding", "start")
                 in_onboarding = False
+                in_onboarding_intro = False
             flush_position()
             current_slug = card_match.group(1)
             current_position = ""
@@ -132,6 +139,18 @@ def parse_markdown(text: str) -> dict:
                 fail(f"invalid position {current_position}")
             continue
         if in_onboarding:
+            if line.startswith("Intro:"):
+                in_onboarding_intro = True
+                intro_text = line.removeprefix("Intro:").strip()
+                if intro_text:
+                    onboarding_intro_lines.append(intro_text)
+                continue
+            if in_onboarding_intro:
+                if not QUESTION_RE.match(line):
+                    if line:
+                        onboarding_intro_lines.append(line)
+                    continue
+                in_onboarding_intro = False
             if line:
                 onboarding_block.append(line)
             continue
@@ -144,6 +163,8 @@ def parse_markdown(text: str) -> dict:
         if line and not line.startswith("#"):
             fail(f"malformed line outside question section: {line}")
     if in_onboarding:
+        if onboarding_intro_lines:
+            data["onboarding_intro"] = "\n".join(onboarding_intro_lines)
         data["onboarding"] = parse_question_block(onboarding_block, "onboarding", "start")
     flush_position()
     return data

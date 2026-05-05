@@ -20,7 +20,10 @@
       "Bash(rtk node *)",
       "Bash(rtk read *)",
       "Bash(rtk grep *)",
-      "Bash(godot --headless --path /d/KÌ --quit)"
+      "Bash(godot --headless --path /d/KÌ --quit)",
+      "Bash(rtk python3 *)",
+      "Bash(rtk wc *)",
+      "Bash(rtk head *)"
     ]
   }
 }

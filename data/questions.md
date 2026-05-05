@@ -2,6 +2,10 @@
 
 ## onboarding
 
+Intro: Chào lữ khách. Ta là KÌ. Hãy ngồi xuống đây. Trước mặt bạn là 22 lá bài Major Arcana, chứa đựng toàn bộ vòng lặp của một kiếp người. Ta không bói toán tương lai để bạn ngồi chờ sung rụng. Ta dùng bài để lật mở những góc khuất mà chính bạn đang cố tình giấu giếm.
+
+Trước khi ta xáo bài và rút ra 3 lá đại diện cho Quá khứ - Hiện tại - Tương lai của bạn, ta cần 'ngửi' xem năng lượng của bạn lúc này có mùi vị gì. Hãy trả lời 5 câu hỏi sau bằng trực giác đầu tiên của bạn, đừng suy nghĩ quá nhiều.
+
 1. KÌ hỏi: "Nếu tâm trí bạn là một căn phòng, và quá khứ là những món đồ đạc cũ, căn phòng của bạn lúc này trông như thế nào?"
 - A | Bừa bộn và chật chội. Tôi giữ lại mọi thứ, từ những kỷ niệm đẹp đến những vết thương chưa lành. | tags: attachment_to_past,moon,devil,judgement
 - B | Khá ngăn nắp. Tôi thỉnh thoảng mở tủ ra xem lại, có chút luyến tiếc nhưng rồi lại cất đi. | tags: attachment_to_past,empress,hierophant

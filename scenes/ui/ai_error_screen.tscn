@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://beq05rpihl253"]
 
-[ext_resource type="Script" path="res://scripts/ui/screens/ai_error_screen.gd" id="1_error"]
+[ext_resource type="Script" uid="uid://b47tp3ghdfg1q" path="res://scripts/ui/screens/ai_error_screen.gd" id="1_error"]
+[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
+[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="3_open_sans"]
 
-[node name="AIErrorScreen" type="Control"]
+[node name="AIErrorScreen" type="Control" unique_id=462369953]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +13,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_error")
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=943673884]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -25,43 +27,51 @@ offset_bottom = 160.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=492807866]
 layout_mode = 2
 theme_override_constants/margin_left = 24
 theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 24
 theme_override_constants/margin_bottom = 24
 
-[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer" unique_id=1369016842]
 layout_mode = 2
 horizontal_scroll_mode = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/ScrollContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/ScrollContainer" unique_id=1389952314]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_constants/separation = 16
 
-[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1168148317]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("2_inter")
+theme_override_font_sizes/font_size = 24
 text = "AI proxy gặp lỗi"
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="MessageLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="MessageLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=207734223]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("2_inter")
+theme_override_font_sizes/font_size = 18
 text = "Không nhận được phản hồi hợp lệ từ AI proxy."
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="RetryButton" type="Button" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="RetryButton" type="Button" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=248281877]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_open_sans")
 text = "Thử lại"
 
-[node name="ContinueButton" type="Button" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="ContinueButton" type="Button" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=797202755]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_open_sans")
 text = "Tiếp tục demo"

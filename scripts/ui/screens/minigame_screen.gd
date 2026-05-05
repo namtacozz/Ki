@@ -15,6 +15,9 @@ signal reward_requested
 @onready var reward_label: Label = %RewardLabel
 @onready var reward_button: Button = %RewardButton
 
+const GameButtonScene := preload("res://scenes/ui/game_button.tscn")
+const MinigameCardVisualScene := preload("res://scenes/ui/minigame_card_visual.tscn")
+
 func _ready() -> void:
 	reward_button.pressed.connect(reward_requested.emit)
 
@@ -35,19 +38,10 @@ func setup(card: Dictionary, game: Dictionary) -> void:
 		var actions: Variant = game.get("actions", [])
 		if actions is Array:
 			for action in actions:
-				var button := _create_button(String(action))
+				var button := GameButtonScene.instantiate() as Button
+				button.text = String(action)
 				button.pressed.connect(action_selected.emit.bind(String(action)))
 				action_box.add_child(button)
-
-func _create_button(text: String) -> Button:
-	var button := Button.new()
-	button.text = text
-	button.custom_minimum_size = Vector2(_content_width(300), 60)
-	button.add_theme_font_size_override("font_size", 18)
-	return button
-
-func _content_width(max_width: float) -> float:
-	return max(0.0, min(max_width, get_viewport_rect().size.x - 80))
 
 func _clear_actions() -> void:
 	for child in action_box.get_children():
@@ -63,23 +57,12 @@ func _populate_hand_visuals(game: Dictionary) -> void:
 	hand_visuals.visible = hand_visuals.get_child_count() > 0
 
 func _create_card_visual(card: Dictionary) -> Control:
-	var panel := PanelContainer.new()
-	panel.custom_minimum_size = Vector2(72, 104)
-	var margin := MarginContainer.new()
-	margin.add_theme_constant_override("margin_left", 4)
-	margin.add_theme_constant_override("margin_right", 4)
-	margin.add_theme_constant_override("margin_top", 4)
-	margin.add_theme_constant_override("margin_bottom", 4)
-	var box := VBoxContainer.new()
-	box.alignment = BoxContainer.ALIGNMENT_CENTER
-	var art_path: String = _card_art_path(card)
-	var texture := _create_card_texture(art_path)
-	if texture != null:
-		box.add_child(texture)
-	box.add_child(_create_small_label(String(card.get("label", ""))))
-	margin.add_child(box)
-	panel.add_child(margin)
-	return panel
+	var visual := MinigameCardVisualScene.instantiate()
+	var art_path := _card_art_path(card)
+	if not art_path.is_empty() and FileAccess.file_exists(art_path):
+		visual.get_node("%CardTexture").texture = load(art_path)
+	visual.get_node("%Label").text = String(card.get("label", ""))
+	return visual
 
 func _card_art_path(card: Dictionary) -> String:
 	var art_path := String(card.get("image_path", card.get("art_path", "")))
@@ -87,52 +70,18 @@ func _card_art_path(card: Dictionary) -> String:
 		return ""
 	return art_path
 
-func _create_card_texture(art_path: String) -> TextureRect:
-	if art_path.is_empty():
-		return null
-	var texture := load(art_path) as Texture2D
-	if texture == null:
-		return null
-	var texture_rect := TextureRect.new()
-	texture_rect.texture = texture
-	texture_rect.custom_minimum_size = Vector2(62, 82)
-	texture_rect.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
-	texture_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-	return texture_rect
-
-func _create_small_label(text: String) -> Label:
-	var label := Label.new()
-	label.text = text
-	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	label.add_theme_font_size_override("font_size", 11)
-	return label
-
 func _minigame_hand_text(game: Dictionary) -> String:
 	match String(game.get("mode", "")):
 		"blackjack":
 			var player_hand: Array = game.get("player_hand", [])
 			var dealer_hand: Array = game.get("dealer_hand", [])
-			return "Ngài: %s (%d)\nKÌ: %s" % [CardModelScript.labels(player_hand), _card_hand_total(player_hand), CardModelScript.labels(dealer_hand)]
+			return "Ngài: %s (%d)\nKÌ: %s" % [CardModelScript.labels(player_hand), CardModelScript.calculate_blackjack_total(player_hand), CardModelScript.labels(dealer_hand)]
 		"poker":
 			return "Tay bài: %s" % CardModelScript.labels(game.get("player_hand", []))
 		_:
 			return "Biểu tượng mục tiêu ẩn trong lá bài. Tay bài: %s" % CardModelScript.labels(game.get("player_hand", []))
 
-func _card_hand_total(hand: Array) -> int:
-	var total := 0
-	var aces := 0
-	for card in hand:
-		var value := int(card.get("value", 0))
-		if value == 1:
-			aces += 1
-			total += 11
-		else:
-			total += min(value, 10)
-	while total > 21 and aces > 0:
-		total -= 10
-		aces -= 1
-	return total
+
 
 func _position_label(card_position: String) -> String:
 	match card_position.to_lower():

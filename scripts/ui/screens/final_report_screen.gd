@@ -14,6 +14,8 @@ func _ready() -> void:
 	retry_button.pressed.connect(retry_requested.emit)
 	replay_button.pressed.connect(replay_requested.emit)
 
+const ReportFieldScene := preload("res://scenes/ui/report_field.tscn")
+
 func setup(report: Dictionary, is_local_summary: bool, final_report_error: String) -> void:
 	title_label.text = String(report.get("title", "Bản Soi Chiếu Cuối"))
 	temporary_label.visible = is_local_summary
@@ -21,27 +23,20 @@ func setup(report: Dictionary, is_local_summary: bool, final_report_error: Strin
 	error_label.text = final_report_error
 	retry_button.visible = is_local_summary
 	_clear_fields()
-	fields_box.add_child(_create_report_field("Core self", String(report.get("core_self", ""))))
-	fields_box.add_child(_create_report_field("Past pattern", String(report.get("past_pattern", ""))))
-	fields_box.add_child(_create_report_field("Present tension", String(report.get("present_tension", ""))))
-	fields_box.add_child(_create_report_field("Future invitation", String(report.get("future_invitation", ""))))
-	fields_box.add_child(_create_report_field("Advice", String(report.get("advice", ""))))
-	fields_box.add_child(_create_report_field("Keywords", ", ".join(report.get("keywords", []))))
+	
+	_add_field("Core self", String(report.get("core_self", "")))
+	_add_field("Past pattern", String(report.get("past_pattern", "")))
+	_add_field("Present tension", String(report.get("present_tension", "")))
+	_add_field("Future invitation", String(report.get("future_invitation", "")))
+	_add_field("Advice", String(report.get("advice", "")))
+	_add_field("Keywords", ", ".join(report.get("keywords", [])))
 
-func _create_report_field(title: String, body: String) -> VBoxContainer:
-	var box := VBoxContainer.new()
-	box.add_theme_constant_override("separation", 6)
-	box.add_child(_create_label(title, 18))
-	box.add_child(_create_label(body, 20))
-	return box
-
-func _create_label(text: String, font_size: int) -> Label:
-	var label := Label.new()
-	label.text = text
-	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	label.add_theme_font_size_override("font_size", font_size)
-	return label
+func _add_field(title: String, body: String) -> void:
+	if body.is_empty(): return
+	var field := ReportFieldScene.instantiate()
+	fields_box.add_child(field)
+	field.get_node("%FieldTitle").text = title
+	field.get_node("%FieldBody").text = body
 
 func _clear_fields() -> void:
 	for child in fields_box.get_children():

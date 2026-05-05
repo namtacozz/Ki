@@ -151,5 +151,5 @@ func _to_dictionary_array(value: Variant) -> Array[Dictionary]:
 	if value is Array:
 		for item in value:
 			if item is Dictionary:
-				result.append(item)
+				result.append(item.duplicate(true))
 	return result

@@ -563,3 +563,954 @@ D. Lắng nghe đa chiều, không vội vàng đưa ra kết luận.
 "Công lý đích thực là khi ngươi có thể tự hào nhìn thẳng vào mắt mình trong gương."
 Khúc mắc 5 (Câu hỏi Tự do):
 Nữ thần mỉm cười nhẹ, thanh gươm hóa thành một cành ô liu: "Hãy thiết lập một 'bản án' (một nguyên tắc sống) không thể khoan nhượng cho chính mình trong tương lai để đảm bảo bạn luôn là một người có 'liêm chính'. Nguyên tắc đó là gì?"
+
+【 Lá số 12 】The Hanged Man / Người bị treo ngược
+Nhạc nền gợi ý: Âm thanh của những giọt nước rơi chậm rãi trong một hang động rỗng, tiếng gió nhẹ thổi qua cành lá, một bản nhạc Ambient mang cảm giác lơ lửng, ru ngủ nhưng lại rất tỉnh táo.
+Hình ảnh: Một cái cây cổ thụ phát sáng mờ ảo. Một người đàn ông bị treo ngược bằng một chân trên cành cây, chân kia vắt chéo. Điều kỳ lạ là gương mặt ông ta không hề đau đớn, mà lại tỏa ra vầng hào quang của sự bình yên và thấu tỏ. Lá bài này đại diện cho sự hy sinh, sự chờ đợi, sự không chắc chắn và sự chiêm nghiệm.  🕰️ Không Gian Quá Khứ: Sự Chờ Đợi Giữa Đám Đông[Kể chuyện - Cảnh 1: Lựa chọn đứng yên]
+"Cứ tự nhiên, lữ khách. Nếu muốn nói chuyện với ta, hãy thử nghiêng đầu nhìn thế giới lộn ngược xem sao. Ta là Người bị treo ngược.
+Người đời nhìn ta như một kẻ gàn dở. Khi đám đông cười nhạo Kẻ Khờ bước về phía vách đá, họ cũng quay sang thấy ta treo ngược mình trên cây... và dường như hoàn toàn chấp nhận điều đó. Trong quá khứ, đã có những lúc ta chọn 'không làm gì cả'. Bởi vì ta biết, không làm gì có thể khó hơn nhiều so với hành động."  Khúc mắc 1 (Lựa chọn):Người đàn ông đung đưa nhẹ theo chiều gió: "Nhớ lại trong quá khứ, khi đối mặt với một cuộc khủng hoảng mà ai cũng hối thúc phải 'làm một cái gì đó đi', bạn đã bao giờ chọn cách im lặng và 'không làm gì' chưa?"A. Có, tôi chọn đứng yên để quan sát, dù bị chê trách là chậm chạp.B. Tôi từng thử, nhưng áp lực xung quanh khiến tôi bồn chồn và lại nhúng tay vào.C. Không bao giờ, tôi luôn là người phải lao vào giải quyết vấn đề ngay lập tức.D. Tôi chọn 'không làm gì' chỉ vì tôi quá sợ hãi không biết phải làm sao.[Kể chuyện - Cảnh 2: Tách khỏi bầy đàn]
+"Chúng ta đã quá quen với việc lao ngay vào một tình huống và xử lý nó một cách nhanh chóng - việc chỉ cần kiềm chế là một hành động dũng cảm và mạnh mẽ. Quá khứ của ta là sự độc lập khỏi bầy đàn, sự sẵn lòng nhìn nhận mọi thứ theo cách khác biệt, theo cách của riêng ta."  Khúc mắc 2 (Lựa chọn):Ông ta mỉm cười, một nụ cười đầy bí ẩn: "Lần gần nhất bạn quyết định lội ngược dòng, làm trái với số đông để giữ lấy góc nhìn 'khác biệt' của mình, bạn đã phải đánh đổi điều gì?"A. Sự cô lập, bị bạn bè/đồng nghiệp xa lánh hoặc hiểu lầm.B. Bị đánh giá là kẻ lập dị, cứng đầu và không biết điều.C. Sự an toàn về mặt tài chính hoặc các cơ hội thăng tiến.D. Tôi luôn thuận theo số đông để cuộc sống được yên bình.[Kể chuyện - Cảnh 3: Sự hy sinh cần thiết]
+"Vị trí lộn ngược của ta không phải là một sự trừng phạt. Ta hiểu rằng vị trí của mình là một sự hy sinh cần thiết để tiến về phía trước - dù là sự ăn năn cho những sai lầm trong quá khứ, hay một bước lùi được tính toán kỹ lưỡng."  Khúc mắc 3 (Lựa chọn):Một chiếc lá vàng rơi xuống, chạm vào mặt hồ phản chiếu: "Hãy nghĩ về một 'bước lùi' (sự hy sinh/từ bỏ) lớn nhất trong quá khứ của bạn. Bạn đã lùi lại vì mục đích gì?"A. Lùi lại để nhường cơ hội/hào quang cho một người mà tôi yêu thương.B. Chấp nhận từ bỏ một lợi ích ngắn hạn để dồn sức cho một kế hoạch dài hạn hơn.C. Chủ động lùi lại chịu phạt để trả giá cho những bồng bột và sai lầm của mình.D. Tôi bị ép phải lùi lại chứ không hề tự nguyện hy sinh điều gì.[Kể chuyện - Cảnh 4: Trì trệ và thờ ơ]
+"Tuy nhiên, nếu sự chờ đợi biến thành sự hèn nhát, lá bài của ta bị đảo ngược. Nó đại diện cho sự trì hoãn, thờ ơ, trì trệ, tránh hy sinh. Trong quá khứ, có những giai đoạn ta tự treo mình lên chỉ để lấy cớ trốn tránh việc phải đối mặt với thực tại."  Khúc mắc 4 (Lựa chọn):Sợi dây thừng bỗng kêu cọt kẹt, chực đứt: "Giai đoạn 'bế tắc' và 'thờ ơ' tồi tệ nhất trong quá khứ của bạn thường đi kèm với thái độ nào?"  A. Tôi vùi đầu vào mạng xã hội, game, phim ảnh để trốn tránh thực tại.B. Tôi mặc kệ mọi thứ đổ vỡ xung quanh, từ chối đưa ra bất kỳ quyết định nào.C. Tôi trở nên vô cảm, ai buồn hay vui tôi cũng không còn bận tâm.D. Tôi biện minh rằng 'chưa đến thời điểm thích hợp' để trì hoãn vô thời hạn.[Kể chuyện - Cảnh 5: Phóng chiếu]"Thời gian ta ở đây không bị lãng phí. Nó là phần chìm của tảng băng."Khúc mắc 5 (Câu hỏi Tự do):Người bị treo ngược nhìn thẳng vào mắt bạn: "Hãy kể về một khoảng thời gian trong quá khứ khi bạn bị mắc kẹt trong 'tình trạng lấp lửng' (chưa có kết quả, chờ đợi trong vô vọng). Trong sự tĩnh lặng đau đớn đó, bạn đã học được bài học gì về sự nhẫn nại?"  ⏳ Không Gian Hiện Tại: Góc Nhìn Lộn Ngược[Kể chuyện - Cảnh 1: Lòng can đảm để không phán xét]
+"Chào mừng đến với hiện tại. Ở đây, ngươi chưa có đủ thông tin, và phải chờ xem điều gì sẽ xảy ra tiếp theo. Sự không chắc chắn đang bủa vây ngươi. Ngươi cần lòng can đảm để không đưa ra phán đoán vội vàng."  Khúc mắc 1 (Lựa chọn):Ánh sáng từ cái cây lan tỏa một luồng khí dịu mát: "Có một vấn đề/con người nào ở hiện tại đang khiến bạn cực kỳ 'ngứa mắt' và muốn phán xét ngay lập tức, nhưng thực chất bạn đang thiếu thông tin về họ?"A. Một đồng nghiệp/đối tác có cách làm việc rất kỳ quặc, chậm chạp.B. Một người quen có những quyết định cuộc sống mà tôi cho là sai lầm.C. Những tranh cãi, tin tức giật gân trên mạng xã hội mỗi ngày.D. Tôi đang phán xét chính bản thân mình vì sự kém cỏi hiện tại.[Kể chuyện - Cảnh 2: Áp dụng góc nhìn mới]
+"Nếu ngươi đang bị đảo ngược, đây là lúc ngươi nên dừng lại và đánh giá lại tình hình hiện tại. Ta khuyến khích ngươi áp dụng một góc nhìn mới, thúc giục ngươi từ bỏ những thói quen hoặc niềm tin cũ không còn phù hợp nữa."  Khúc mắc 2 (Lựa chọn):Thế giới xung quanh bạn bắt đầu xoay 180 độ: "Nếu thử dùng 'góc nhìn lộn ngược' để nhìn vào khó khăn lớn nhất của bạn lúc này, bạn sẽ nhận ra điều gì?"A. Khó khăn này thực chất đang bảo vệ tôi khỏi một mối nguy hiểm lớn hơn.B. Nó đang ép tôi phải nâng cấp bản thân vì những kỹ năng cũ đã lỗi thời.C. Thực ra nó không hề tồi tệ, chỉ là cái tôi của tôi quá lớn nên không chịu nhượng bộ.D. Tôi chưa thể nhìn theo cách khác được, nỗi đau hiện tại làm tôi mờ mắt.[Kể chuyện - Cảnh 3: Tạm dừng thói quen]
+"Sự bế tắc đôi khi không phải do ngươi đi sai đường, mà do ngươi cứ đi mãi mà không chịu nghỉ. Hãy cân nhắc việc tạm dừng thói quen thường ngày; có thể dành thời gian thiền định hoặc viết nhật ký để hiểu rõ hơn điều gì thực sự quan trọng."  Khúc mắc 3 (Lựa chọn):Ông ta nhắm mắt lại, tĩnh tại như một bức tượng: "Nếu ngay hôm nay, bạn được phép 'đình công' với một thói quen/trách nhiệm thường ngày để dành thời gian yên tĩnh cho bản thân, bạn sẽ cắt bỏ điều gì?"A. Sự ám ảnh phải trả lời tin nhắn/công việc ngay lập tức.B. Thói quen lướt điện thoại vô thức trước khi đi ngủ và sau khi thức dậy.C. Trách nhiệm phải lo lắng và chiều chuộng cảm xúc của người khác.D. Tôi quá bận rộn, không thể tạm dừng bất kỳ mắt xích nào lúc này.[Kể chuyện - Cảnh 4: Hành trình của kẻ ngoại đạo]
+"Trạng thái lộn ngược của ta cũng có thể tượng trưng cho cảm giác của những người đang bước đi trên con đường tâm linh, bởi họ nhìn thế giới theo một cách khác. Khi có những người khác không hiểu được sự cần thiết của việc hy sinh, ngươi sẽ là kẻ cô độc."  Khúc mắc 4 (Lựa chọn):Chỉ có tiếng gió thổi qua những chiếc lá: "Có 'sự hy sinh' nào bạn đang âm thầm gánh vác ở hiện tại vì một mục đích cao cả hơn, nhưng không một ai xung quanh hiểu được và còn cười chê bạn?"A. Chấp nhận mức thu nhập thấp để làm công việc theo đuổi đam mê/lý tưởng.B. Rút lui khỏi những cuộc vui để dành tiền/thời gian cho một kế hoạch lớn.C. Chịu đựng sự ghẻ lạnh để bảo vệ một sự thật hoặc một người yếu thế.D. Mọi sự hy sinh của tôi đều được mọi người thấu hiểu và trân trọng.[Kể chuyện - Cảnh 5: Phóng chiếu]"Đôi khi, việc lùi lại một bước không phải là thất bại, mà là để lấy đà bay lên."Khúc mắc 5 (Câu hỏi Tự do):Người bị treo ngược đưa tay chạm vào trán bạn: "Trong sự im lặng của giây phút này, hãy nhìn thật sâu vào nội tâm. Có một 'niềm tin cũ' nào về tình yêu hoặc sự nghiệp đang trói buộc bạn mà bạn biết mình cần phải cắt đứt sợi dây để được tự do không?"  🔭 Không Gian Tương Lai: Sự Chuyển Hóa Trong Tĩnh Lặng[Kể chuyện - Cảnh 1: Sức mạnh của thời gian]
+"Tương lai của The Hanged Man không chứa đựng sự vội vã. Lòng can đảm để cho mọi thứ có thời gian để diễn ra sẽ là thứ vũ khí tối thượng của ngươi. Mọi hạt giống đều cần ngủ đông trước khi nảy mầm."  Khúc mắc 1 (Lựa chọn):Những nụ hoa trên cây bắt đầu hé nở chậm rãi: "Bạn đã sẵn sàng để 'kiên nhẫn chờ đợi' bao lâu cho một mục tiêu lớn lao nhất trong tương lai của mình?"  A. Tôi sẵn sàng chờ đợi cả đời, miễn là tôi biết mình đi đúng hướng.B. Tôi sẽ cho nó khoảng 3-5 năm, nếu không có tiến triển tôi sẽ đổi hướng.C. Tôi chỉ kiên nhẫn được thời gian ngắn, tôi cần thấy thành quả liên tục.D. Tôi để vạn sự tùy duyên, không đặt ra thời hạn nào cả.[Kể chuyện - Cảnh 2: Trân trọng khoảng thời gian tĩnh lặng]
+"Tương lai sẽ có những lúc ngươi cảm thấy mình không tiến lên được. Nhưng hãy trân trọng khoảng thời gian tĩnh lặng này như một cơ hội để phát triển và chuyển hóa bản thân. Nó là sự chuẩn bị cho lá bài tiếp theo: Cái Chết."  Khúc mắc 2 (Lựa chọn):Không gian tương lai mờ ảo trong sương: "Khi 'tình trạng lấp lửng' xuất hiện trong tương lai, hoạt động chiêm nghiệm nào sẽ giúp bạn không phát điên?"  A. Đi du lịch một mình, hòa mình hoàn toàn vào thiên nhiên vắng lặng.B. Tham gia các khóa tu tĩnh tâm (Vipassana), cắt đứt hoàn toàn giao tiếp.C. Dịch chuyển sự tập trung sang việc sáng tạo nghệ thuật (vẽ, đàn, viết).D. Vùi mình vào những trang sách triết học, tâm lý học để tìm câu trả lời.[Kể chuyện - Cảnh 3: Sự thay đổi từ bên trong]"Sự thay đổi của The Hanged Man diễn ra hoàn toàn từ bên trong, không ai nhìn thấy. Khi ngươi cắt đứt sợi dây và rơi xuống, ngươi sẽ nhìn thế giới này bằng một con mắt hoàn toàn khác."Khúc mắc 3 (Lựa chọn):Sợi dây thừng trói buộc chân ông ta bắt đầu lỏng ra: "Sự 'chuyển hóa' (thay đổi tư duy) lớn nhất mà bạn kỳ vọng mình sẽ đạt được trong 10 năm tới là gì?"A. Không còn bận tâm đến những phán xét và ánh nhìn của người ngoài.B. Biết cách yêu thương bản thân tuyệt đối và không phụ thuộc cảm xúc vào ai.C. Giữ được sự bình thản trước mọi biến cố lớn (sinh lão bệnh tử).D. Thoát khỏi lòng tham vật chất để tìm kiếm sự giàu có trong tâm hồn.[Kể chuyện - Cảnh 4: Rủi ro của sự đắm chìm]
+"Nhưng cẩn thận. Ngươi không thể treo ngược mãi được. Trì hoãn điều không thể tránh khỏi sẽ khiến máu dồn lên não và làm ngươi mất đi tính thực tế. Đến lúc phải hành động, ngươi phải tự cắt dây."  Khúc mắc 4 (Lựa chọn):Ảo ảnh về một kẻ bị treo khô héo trên cây: "Dấu hiệu báo động đỏ nào sẽ nhắc bạn rằng: 'Đã đến lúc phải hành động, không thể dùng lý do chiêm nghiệm để trì hoãn nữa'?"A. Khi những người xung quanh bắt đầu chịu hậu quả vì sự trì trệ của tôi.B. Khi sức khỏe thể chất của tôi báo động vì không vận động.C. Khi tôi nhận ra mình đang dùng lý thuyết suông để che đậy sự hèn nhát.D. Khi những cơ hội vàng cuối cùng sắp sửa vụt mất vĩnh viễn.[Kể chuyện - Cảnh 5: Phóng chiếu]"Hy sinh chiếc kén, ngươi mới có được đôi cánh."Khúc mắc 5 (Câu hỏi Tự do):Người bị treo ngược đưa cho bạn một con dao nhỏ bằng bạc: "Để bước vào chương mới rực rỡ nhất của tương lai, bạn sẵn sàng dùng con dao này để 'hy sinh' (cắt bỏ) niềm vui ngắn hạn/thói quen thoải mái nào của bản thân ngay bây giờ?"
+【 Lá số 13 】Death / Cái Chết
+Nhạc nền gợi ý: Tiếng chuông trầm mặc vang lên từng hồi, tiếng lá khô xào xạc rơi rụng, một bản nhạc mang âm hưởng Gothic, bi tráng, dứt khoát nhưng không hề rùng rợn, mà là sự giải thoát.
+Hình ảnh: Một kỵ sĩ giấu mặt trong bộ áo giáp đen, cưỡi trên một con ngựa trắng. Trên tay ông cầm một lá cờ đen in hình bông hồng trắng. Xung quanh ông là những chiếc lá thu đang rơi và một mặt trời đang lặn (hay đang mọc?). Ông đại diện cho sự chuyển đổi, kết thúc, thay đổi, buông bỏ và giải phóng.  🕰️ Không Gian Quá Khứ: Tro Tàn Của Cái Cũ[Kể chuyện - Cảnh 1: Đối diện với sự kết thúc]
+"Đừng run sợ, lữ khách. Rất nhiều kẻ đã bỏ chạy khi nghe tên ta. Ta là Cái Chết.
+Nhiều người tránh nhắc đến lá bài này vì nó sở hữu sức mạnh quá lớn, nhưng ý nghĩa thực sự của ta lại là một trong những điều tích cực nhất. Trong quá khứ của ngươi, ta đã từng xuất hiện để báo hiệu rằng một giai đoạn quan trọng đã kết thúc. Cánh cửa cũ đóng lại để cánh cửa mới mở ra."  Khúc mắc 1 (Lựa chọn):Kỵ sĩ ghìm cương ngựa, cúi xuống nhìn bạn: "Lần gần nhất bạn phải chứng kiến sự 'chết đi' (kết thúc hoàn toàn) của một điều rất quan trọng trong đời (một mối tình, một công việc, một tình bạn), phản ứng của bạn là gì?"A. Đau đớn tột cùng và chìm trong sự hoài niệm rất lâu.B. Cố gắng níu kéo, khóc lóc cầu xin sự quay lại nhưng vô vọng.C. Sốc trong chốc lát, nhưng nhanh chóng chấp nhận vì biết không thể cứu vãn.D. Tôi cảm thấy nhẹ nhõm như trút được một gánh nặng khổng lồ.[Kể chuyện - Cảnh 2: Lột xác đau đớn]
+"Ngươi chỉ có thể tạo ra bản thân mới khi phiên bản cũ của ngươi chịu 'chết đi'. Quá khứ là một chuỗi những sự thay đổi, chuyển đổi hoặc biến đổi lớn. Sự chuyển hóa này có thể rất đáng sợ vì ngươi không chắc chắn về điều chưa biết."  Khúc mắc 2 (Lựa chọn):Kỵ sĩ chỉ tay về phía một đống tro tàn: "Khi nhìn lại, 'phiên bản cũ' nào của bạn đã bị tiêu diệt hoàn toàn trong quá khứ để nhường chỗ cho bạn của ngày hôm nay?"A. Một kẻ ngây thơ, cả tin và luôn bị người khác lợi dụng.B. Một kẻ tự ti, luôn mặc cảm và sợ hãi trước những thử thách.C. Một kẻ ngạo mạn, hiếu thắng và luôn chà đạp lên cảm xúc người khác.D. Một kẻ phụ thuộc cảm xúc, luôn cần ai đó để bấu víu.[Kể chuyện - Cảnh 3: Sự bám víu độc hại]
+"Nhưng đôi khi, con người từ chối sự kết thúc. Khi lá bài của ta bị đảo ngược, ta nhìn thấy sự chống lại sự thay đổi, lặp lại các mô hình tiêu cực. Chống lại sự thay đổi và bám víu vào quá khứ có thể hạn chế tương lai của ngươi, khiến ngươi ở trong tình trạng lấp lửng."  Khúc mắc 3 (Lựa chọn):Tiếng vó ngựa cào trên nền đá khô khốc: "Bạn đã từng vì sợ hãi sự thay đổi mà cố chấp bám víu vào một 'sự ràng buộc không lành mạnh' nào trong quá khứ lâu nhất có thể?"  A. Một mối quan hệ độc hại, bị bạo hành tâm lý/thể xác nhưng không dám bỏ.B. Một công việc bòn rút sức lực, nhưng tôi sợ nghỉ việc thì sẽ chết đói.C. Một thói quen sinh hoạt tồi tệ (nghiện ngập, buông thả) để trốn tránh nỗi đau.D. Một ảo tưởng về vinh quang cũ, từ chối đối mặt với việc mình đã hết thời.[Kể chuyện - Cảnh 4: Trì trệ và suy thoái]
+"Cái gì không chịu chết đi để làm mới, nó sẽ bốc mùi thối rữa. Sự trì trệ, suy thoái xuất hiện khi ngươi từ chối dòng chảy của thời gian. Chống lại thời gian trôi qua sẽ chỉ khiến ngươi hối tiếc."  Khúc mắc 4 (Lựa chọn):Kỵ sĩ rút một thanh gươm rỉ sét ra khỏi vỏ: "Hậu quả lớn nhất bạn từng phải nhận vì đã 'dừng những thay đổi mà bạn cần do sợ hãi điều chưa biết' trong quá khứ là gì?"  A. Tôi đánh mất những năm tháng thanh xuân quý giá nhất vào những điều vô nghĩa.B. Tôi để tuột mất cơ hội đổi đời chỉ vì không dám bước ra khỏi vùng an toàn.C. Tâm hồn tôi trở nên cay độc, oán trách những người dám thay đổi và thành công.D. Mọi thứ trở nên tồi tệ gấp trăm lần so với việc tôi chủ động thay đổi từ sớm.[Kể chuyện - Cảnh 5: Phóng chiếu]"Phân bón tốt nhất cho bông hoa của ngày mai là tro tàn của ngày hôm qua."Khúc mắc 5 (Câu hỏi Tự do):Kỵ sĩ thả một bông hồng trắng rơi xuống chân bạn: "Hãy kể về một lần trong quá khứ, khi bạn bị 'ép buộc' phải kết thúc một thứ gì đó (mất việc, mất người yêu), nhưng chính sự mất mát tàn nhẫn đó lại là 'sự giải phóng' giúp bạn tìm thấy hạnh phúc hiện tại?"  ⏳ Không Gian Hiện Tại: Cuộc Thanh Lọc Cuối Cùng[Kể chuyện - Cảnh 1: Cánh cửa đang khép lại]
+"Hơi thở của ta đang phả sau gáy ngươi ở hiện tại. Không phải là cái chết thể xác, mà là một sự chuyển tiếp. Ngươi đang đứng ở ngưỡng cửa của việc phải buông bỏ một thứ gì đó. Quá khứ cần được đặt lại phía sau, để ngươi có thể tập trung năng lượng cho phía trước."  Khúc mắc 1 (Lựa chọn):Kỵ sĩ vung lá cờ đen che khuất một phần bầu trời: "Ngay lúc này, 'gánh nặng' nào từ quá khứ đang bòn rút năng lượng của bạn, mà bạn biết mình cần phải cắt đứt để tiến lên?"A. Những sự dằn vặt, hối hận vì những lỗi lầm cũ.B. Sự thù hận, cay cú với một người đã làm tổn thương tôi sâu sắc.C. Những món đồ vật kỷ niệm của tình cũ/chuyện cũ chất đầy trong phòng.D. Sự nuối tiếc về một thời hoàng kim/thành tích rực rỡ đã qua.[Kể chuyện - Cảnh 2: Lưỡi hái của sự giải phóng]
+"Việc buông bỏ bất kỳ sự ràng buộc không lành mạnh nào là một phần quan trọng của cuộc sống. Ngươi có thể lo lắng về việc buông bỏ quá khứ, hoặc không chắc chắn về những thay đổi cần thực hiện. Nhưng ta ở đây để giúp ngươi cắt đứt chúng."  Khúc mắc 2 (Lựa chọn):Lưỡi hái sắc bén lướt qua, không khí trở nên loãng hơn: "Nếu lưỡi hái của tôi có thể lập tức chặt đứt một 'sợi dây ràng buộc' độc hại ở hiện tại của bạn, bạn muốn chặt đứt điều gì nhất?"A. Sự phụ thuộc tài chính vào một người/một tổ chức đang chèn ép tôi.B. Nhu cầu khát khao sự công nhận, khen ngợi từ người ngoài.C. Mối liên hệ với những người bạn/đối tác luôn tỏa ra năng lượng tiêu cực.D. Nỗi ám ảnh về ngoại hình và các tiêu chuẩn sắc đẹp độc hại.[Kể chuyện - Cảnh 3: Đối diện với nỗi sợ hãi]
+"Khi lá bài đảo ngược ở hiện tại, nó phản ánh ngươi đang hoảng loạn. Ngươi sợ thay đổi. Ngươi thà chịu đựng sự đau khổ quen thuộc còn hơn đối diện với hạnh phúc xa lạ. Ngươi đang bám víu vào những cách ngươi đã tiếp cận những thay đổi trong quá khứ dù chúng thất bại."  Khúc mắc 3 (Lựa chọn):Con ngựa trắng lùi lại một bước, bất an: "Đâu là lý do lớn nhất khiến bạn đang chần chừ, không dám dứt khoát 'kết liễu' một tình trạng tồi tệ ở hiện tại?"A. "Tôi sợ nếu bỏ cái này, tôi sẽ không tìm được cái nào tốt hơn (công việc, tình yêu)."B. "Tôi sợ cảm giác cô đơn và trống rỗng sau khi mọi thứ kết thúc."C. "Tôi tiếc nuối thời gian, công sức và tiền bạc đã đầu tư vào nó."D. "Tôi sợ đối mặt với sự phán xét của gia đình và xã hội."[Kể chuyện - Cảnh 4: Chào đón sự thay đổi]
+"Mặc dù ngươi vẫn có thể sợ hãi, ngươi nên tin rằng mình đang thực hiện đúng các bước và tiến về phía trước. Ngay cả khi sợ hãi, ngươi vẫn nên chào đón sự thay đổi vì ngươi đang mở ra cánh cửa cho những sự kiện mới."  Khúc mắc 4 (Lựa chọn):Kỵ sĩ vươn tay ra, như một lời mời gọi: "Nếu bạn lấy hết can đảm để 'chào đón sự thay đổi' ngay ngày hôm nay, cảm giác đầu tiên bạn nghĩ mình sẽ trải nghiệm là gì?"A. Sự sảng khoái và tự do tột đỉnh, như chim thoát khỏi lồng.B. Sự hoang mang tột độ, chơi vơi không biết bấu víu vào đâu.C. Tràn đầy năng lượng tái sinh, sẵn sàng lao vào xây dựng kế hoạch mới.D. Cảm giác đau nhói xen lẫn nhẹ nhõm, một vết thương đang được sát trùng.[Kể chuyện - Cảnh 5: Phóng chiếu]"Sự kết thúc không phải là dấu chấm hết, nó là khoảng trắng trước một đoạn văn mới."Khúc mắc 5 (Câu hỏi Tự do):Kỵ sĩ giương cao ngọn cờ đen: "Hãy viết một 'Cáo phó' ngắn gọn (1-2 câu) để tiễn biệt chính thức một 'Tính cách tiêu cực' hoặc một 'Nỗi đau' của bạn ngày hôm nay, để nó vĩnh viễn chìm vào dĩ vãng."🔭 Không Gian Tương Lai: Đất Mới Cho Sự Tái Sinh[Kể chuyện - Cảnh 1: Bình minh sau cái chết]
+"Tương lai của ngươi sau khi đi qua lá bài của ta sẽ không còn sự hiện diện của những thứ thối rữa. Cái chết không nhất thiết phải là một lá bài của sự hối tiếc, đặc biệt nếu ngươi chú ý đến lời cảnh báo của nó. Một giai đoạn mới sẽ bắt đầu."  Khúc mắc 1 (Lựa chọn):Phía sau kỵ sĩ, mặt trời bắt đầu nhô lên, tỏa ra ánh sáng ấm áp: "Sau cuộc 'đại phẫu thuật' (sự thay đổi lớn), bạn mong chờ 'vùng đất mới' của tương lai sẽ mang lại cho bạn điều gì?"A. Một cuộc sống tĩnh tại, bình yên, không còn drama và biến cố.B. Một con đường sự nghiệp/đam mê hoàn toàn mới mẻ, đầy tính sáng tạo.C. Những mối quan hệ chất lượng, thấu hiểu và trưởng thành hơn.D. Sự tự do tuyệt đối để đi đến bất cứ đâu, làm bất cứ điều gì mình thích.[Kể chuyện - Cảnh 2: Chu kỳ của sự lột xác]"Cuộc sống là một chuỗi những sự chuyển giao. Tương lai sẽ không ngừng đòi hỏi ngươi phải tiếp tục lột xác. Mỗi lần lột da đều đau đớn, nhưng đó là cách duy nhất để lớn lên."Khúc mắc 2 (Lựa chọn):Những chiếc lá vàng rụng xuống để nhường chỗ cho chồi non: "Để sẵn sàng cho những cuộc 'chuyển đổi' liên tục trong tương lai, bạn sẽ nuôi dưỡng tư duy nào?"A. "Mọi thứ trên đời đều là tạm bợ, không có gì là sở hữu của mình mãi mãi."B. "Nỗi đau là dấu hiệu của sự phát triển, nếu không đau nghĩa là đang đứng im."C. "Mình luôn có khả năng học lại từ đầu, không bao giờ là quá muộn."D. "Thay đổi là một trò chơi, hãy tận hưởng nó như một cuộc phiêu lưu."[Kể chuyện - Cảnh 3: Ám ảnh về sự mất mát]"Nhưng hãy cẩn thận với cái bóng của ta. Nếu ngươi bị ám ảnh bởi sự buông bỏ, ngươi có thể trở nên lạnh lùng và vô cảm, không dám tạo ra bất kỳ sự ràng buộc nào mới vì sợ rồi nó cũng sẽ mất đi."Khúc mắc 3 (Lựa chọn):Kỵ sĩ nhắc nhở bằng giọng trầm buồn: "Bạn có sợ mình sẽ trở thành một người 'quá dễ dàng từ bỏ' trong tương lai khi gặp khó khăn không?"A. Có, tôi rất dễ chán và thường dùng lý do 'buông bỏ' để ngụy biện cho sự thiếu kiên trì.B. Tôi sợ mình sẽ xây tường rào bảo vệ tim quá cao, không ai vào được nữa.C. Không, tôi phân biệt rõ được cái gì đáng giữ lại và cái gì cần vứt đi.D. Tôi thà dễ dàng từ bỏ còn hơn là cố chấp chịu đựng sự đau khổ.[Kể chuyện - Cảnh 4: Món quà của sự hữu hạn]
+"Cuộc sống vẫn tiếp diễn. Sự hiện diện của Cái Chết nhắc nhở ngươi về sự hữu hạn của thời gian. Biết rằng mọi thứ rồi sẽ kết thúc chính là lý do khiến hiện tại trở nên rực rỡ và vô giá."  Khúc mắc 4 (Lựa chọn):Kỵ sĩ tháo chiếc mũ giáp, để lộ một gương mặt thanh thản: "Việc nhận thức rõ 'thời gian của mình là hữu hạn' ảnh hưởng thế nào đến những quyết định trong tương lai của bạn?"A. Nó thúc đẩy tôi sống vội vã hơn, làm mọi thứ tôi muốn trước khi quá muộn.B. Nó giúp tôi chọn lọc kỹ hơn, chỉ dành thời gian cho những người thực sự xứng đáng.C. Nó làm tôi trân trọng từng phút giây bình thường, nhỏ bé mỗi ngày.D. Đôi khi nó làm tôi hoang mang, cảm thấy mọi nỗ lực rồi cũng hóa thành tro bụi.[Kể chuyện - Cảnh 5: Phóng chiếu]"Ta dọn đường, còn ngươi là người gieo hạt."Khúc mắc 5 (Câu hỏi Tự do):Kỵ sĩ xoay lưng ngựa, chuẩn bị rời đi vào bóng tối để nhường chỗ cho bình minh: "Trên đống tro tàn của những thứ bạn vừa quyết tâm kết thúc, bạn dự định sẽ 'gieo hạt giống' gì đầu tiên cho chương mới rực rỡ sắp tới của cuộc đời mình?"
+
+【 Lá số 14 】Temperance / Tiết Chế
+Nhạc nền gợi ý: Tiếng nước chảy róc rách nhịp nhàng từ ly này sang ly khác, âm thanh của sáo trúc tĩnh tại, mang lại cảm giác bình yên, cân bằng và thanh thản tuyệt đối.
+Hình ảnh: Một thiên thần với đôi cánh rực rỡ, một chân đặt trên mặt nước, một chân đặt trên bờ đất. Thiên thần đang điềm tĩnh rót nước qua lại giữa hai chiếc ly vàng mà không làm tràn một giọt nào. Lá bài này đại diện cho sự cân bằng, hòa bình, kiên nhẫn, điều độ và sự kết hợp hài hòa.
+
+🕰️ Không Gian Quá Khứ: Bài Học Từ Sự Thái Quá
+[Kể chuyện - Cảnh 1: Ranh giới của những thái cực]
+"Hãy bước đi thật chậm, lữ khách. Cẩn thận đừng làm mặt nước xao động. Ta là Tiết Chế.
+Ngươi vừa đi qua sự hủy diệt của Cái Chết, giờ là lúc để hàn gắn. Nhưng trước khi đạt được sự tĩnh tại này, quá khứ của ta từng là một mớ hỗn độn. Ở vị trí ngược, ta đại diện cho sự mất cân bằng, quá mức, cực đoan và liều lĩnh. Tuổi trẻ thường thích lao vào những thái cực."
+
+Khúc mắc 1 (Lựa chọn):
+
+Thiên thần khẽ nghiêng chiếc ly, dòng nước chảy xiết: "Trong quá khứ, bạn đã từng đẩy cuộc sống của mình vào một 'trạng thái cực đoan' nào đến mức suýt đánh mất chính mình?"
+
+A. Làm việc điên cuồng đến mức kiệt quệ, bỏ bê hoàn toàn sức khỏe và gia đình.
+
+B. Buông thả bản thân trong những thú vui, tiệc tùng và lãng phí thời gian/tiền bạc.
+
+C. Yêu một người đến mức tôn thờ họ và hoàn toàn đánh mất cái tôi cá nhân.
+
+D. Tôi luôn nhạt nhòa ở mức trung bình, chưa từng dám sống hết mình hay cực đoan.
+
+[Kể chuyện - Cảnh 2: Hậu quả của sự vội vã]
+"Sự vội vã, thiếu kế hoạch hoặc tầm nhìn dài hạn đã từng khiến ta phải trả giá. Việc không biết tiết chế những thái cực tạo ra sự bất hòa, khiến ta cảm thấy mất cân bằng khi cứ phải chạy đôn chạy đáo tìm kiếm ý nghĩa ở khắp nơi."
+
+Khúc mắc 2 (Lựa chọn):
+
+Nước tràn ra khỏi ly, rơi xuống đất vỡ vụn: "Hậu quả lớn nhất bạn từng phải nhận do sự 'vội vàng' hoặc 'thiếu kiên nhẫn' trong các quyết định quá khứ là gì?"
+
+A. Phá hỏng một dự án/cơ hội lớn vì muốn có kết quả ngay lập tức.
+
+B. Làm tổn thương một người trân quý vì những lời nói thiếu suy nghĩ lúc nóng giận.
+
+C. Vướng vào rắc rối tài chính vì đầu tư bốc đồng, thiếu tầm nhìn dài hạn.
+
+D. Chẳng có hậu quả gì nghiêm trọng, tôi thường vội vã nhưng may mắn thoát nạn.
+
+[Kể chuyện - Cảnh 3: Tìm kiếm con đường trung dung]
+"Đau khổ từ sự mất cân bằng đã dạy ta cách tĩnh lặng. Sự tiết độ chỉ ra những điểm vừa phải hoặc trung dung trong bất cứ điều gì. Ta bắt đầu học cách pha trộn ngọn lửa của tham vọng với dòng nước của sự chấp nhận."
+
+Khúc mắc 3 (Lựa chọn):
+
+Dòng nước giữa hai chiếc ly bắt đầu ổn định trở lại: "Lần đầu tiên trong đời bạn học được cách chọn 'con đường trung dung' (sự thỏa hiệp, nhượng bộ) thay vì cố thắng thua đến cùng là trong hoàn cảnh nào?"
+
+A. Trong một cuộc cãi vã gia đình, tôi nhận ra sự bình yên quan trọng hơn việc ai đúng ai sai.
+
+B. Trong công việc, tôi chấp nhận kết quả 'đủ tốt' thay vì theo đuổi sự hoàn hảo mệt mỏi.
+
+C. Trong việc tiêu tiền, tôi bắt đầu biết cân đối giữa tiết kiệm và hưởng thụ.
+
+D. Tôi chưa bao giờ thỏa hiệp, tôi luôn bảo vệ quan điểm của mình đến cùng.
+
+[Kể chuyện - Cảnh 4: Khả năng thích nghi]
+"Nhờ sự tiết chế, ta có khả năng thích nghi và làm việc hài hòa với cộng đồng, đồng nghiệp và những người thân yêu. Sự bình tĩnh mang lại sự thoải mái và khiến họ cảm thấy dễ chịu."
+
+Khúc mắc 4 (Lựa chọn):
+
+Thiên thần mỉm cười dịu dàng: "Nhìn lại, năng lực 'thích nghi' lớn nhất mà bạn đã rèn giũa được từ những thăng trầm trong quá khứ là gì?"
+
+A. Có thể làm việc với bất kỳ ai, kể cả những người có tính cách trái ngược hoàn toàn với mình.
+
+B. Có thể giữ được cái đầu lạnh để giải quyết vấn đề giữa một tập thể đang hoảng loạn.
+
+C. Có thể dễ dàng từ bỏ những định kiến cũ để tiếp thu cái mới.
+
+D. Khả năng chịu đựng sự bất công mà không hề than vãn.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Nước và Lửa không thể triệt tiêu nhau, chúng tạo ra hơi ấm."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Thiên thần đặt hai chiếc ly cân bằng trên tay bạn: "Hãy nhớ lại một 'xung đột gay gắt' trong quá khứ (với người khác hoặc với chính mình). Nếu bạn có thể quay lại và dùng năng lượng 'điều hòa' của lá bài này, bạn sẽ thay thế một câu nói sát thương lúc đó bằng câu nói nào?"
+
+⏳ Không Gian Hiện Tại: Nghệ Thuật Của Sự Cân Bằng
+[Kể chuyện - Cảnh 1: Đối diện với sự mất cân bằng]
+"Chào mừng đến với thực tại của ta. Ngươi đang hít thở không khí của sự hòa bình. Nhưng nếu lá bài này xuất hiện ngược trong tâm trí ngươi, nó cảnh báo rằng có điều gì đó mất cân bằng và có thể gây ra căng thẳng và lo lắng lúc này."
+
+Khúc mắc 1 (Lựa chọn):
+
+Một đầu của chiếc cân vô hình đang trĩu nặng xuống: "Xác định nhanh: Đâu là hai thái cực đang tranh giành thời gian và năng lượng của bạn khốc liệt nhất ở hiện tại?"
+
+A. Thời gian cống hiến cho công việc (Work) và thời gian dành cho bản thân/gia đình (Life).
+
+B. Khát khao tiêu tiền (hưởng thụ hiện tại) và áp lực tiết kiệm (lo cho tương lai).
+
+C. Việc phải giao tiếp xã hội (Socializing) và nhu cầu ở một mình (Solitude).
+
+D. Sống thực tế (Logic) và mơ mộng bay bổng (Emotion).
+
+[Kể chuyện - Cảnh 2: Đánh giá lại các ưu tiên]
+"Temperance cũng có thể chỉ ra thời điểm để đánh giá và xem xét lại các ưu tiên ngươi đã chọn. Điều này sẽ giúp ngươi tạo ra sự cân bằng giữa bản thân bên ngoài và bên trong. Mọi thứ chỉ tốt khi có chừng mực."
+
+Khúc mắc 2 (Lựa chọn):
+
+Thiên thần bước một chân lên bờ, một chân vẫn dưới nước: "Để thiết lập lại sự 'chừng mực' ngay hôm nay, hoạt động nào bạn nghĩ mình cần phải 'cắt giảm một nửa'?"
+
+A. Thời gian sử dụng điện thoại lướt mạng xã hội vô thức.
+
+B. Khối lượng công việc/deadline mà tôi đang ôm đồm quá sức.
+
+C. Những suy nghĩ tiêu cực, tự chỉ trích (Overthinking).
+
+D. Những buổi tụ tập, tiệc tùng vô bổ không mang lại giá trị gì.
+
+[Kể chuyện - Cảnh 3: Tìm kiếm sự tĩnh tại]
+"Khi ngươi có tầm nhìn rõ ràng và biết mình muốn đạt được điều gì, ngươi sẽ không còn hoảng loạn. Ngươi đã tìm thấy sự bình yên với những gì ngươi đang làm và mọi thứ đang diễn ra như lẽ ra phải thế chưa?"
+
+Khúc mắc 3 (Lựa chọn):
+
+Một luồng sáng trong trẻo bao trùm không gian: "Cảm giác 'bình yên' nhất mà bạn có thể cảm nhận được trong cuộc sống hiện tại thường đến vào khoảnh khắc nào?"
+
+A. Khi hoàn thành trọn vẹn mọi công việc trong ngày và lên giường đi ngủ.
+
+B. Khi được ở cạnh những người yêu thương mà không cần phải nói câu gì.
+
+C. Khi được hòa mình vào thiên nhiên, đi dạo hoặc ngắm mây trời.
+
+D. Tôi chưa tìm thấy sự bình yên, nội tâm tôi lúc nào cũng ồn ào.
+
+[Kể chuyện - Cảnh 4: Tránh xa sự hỗn loạn]
+"Ta dùng lá bài này như một lời cảnh báo; nếu ngươi đi theo một con đường nhất định (con đường của sự thái quá), nó sẽ dẫn đến sự hỗn loạn."
+
+Khúc mắc 4 (Lựa chọn):
+
+Mặt nước khẽ gợn sóng báo hiệu nguy hiểm: "Bạn nhận thấy 'dấu hiệu cảnh báo' nào cho thấy mình sắp vượt quá giới hạn chịu đựng (burnout) hoặc sắp bùng nổ?"
+
+A. Tôi trở nên cáu gắt, dễ tức giận với những lỗi lầm nhỏ nhặt của người khác.
+
+B. Tôi bị mất ngủ, cơ thể nhức mỏi và luôn trong trạng thái mệt mỏi.
+
+C. Tôi trở nên vô cảm, mất đi động lực và sự hứng thú với mọi thứ.
+
+D. Tôi luôn kiểm soát tốt, hiếm khi để bản thân đi đến bờ vực đó.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Không có thứ gì là độc dược, chỉ có liều lượng biến nó thành độc dược."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Thiên thần đưa tay chạm vào trán bạn: "Nếu xem cuộc đời bạn hiện tại là một ly cocktail, bạn nghĩ mình cần 'rót thêm' một chút gia vị gì và 'rút bớt' nguyên liệu nào để có được hương vị hoàn hảo, cân bằng nhất?"
+
+🔭 Không Gian Tương Lai: Sự Chữa Lành Bền Vững
+[Kể chuyện - Cảnh 1: Sự học tập cao hơn]
+"Tương lai của lá bài Tiết Chế là dấu hiệu của việc học tập cao hơn, một thuộc tính quan trọng trong hành trình cuộc sống. Nó không chỉ là kiến thức sách vở, mà là khả năng tự làm chủ linh hồn mình."
+
+Khúc mắc 1 (Lựa chọn):
+
+Một vầng hào quang rực rỡ tỏa ra từ thiên thần: "Trong tương lai, 'bài học cao hơn' nào về tâm lý/nhận thức mà bạn khao khát được thành thạo nhất?"
+
+A. Trí tuệ cảm xúc: Làm chủ và thấu hiểu mọi cung bậc cảm xúc của mình và người khác.
+
+B. Sự chánh niệm: Luôn sống trọn vẹn và tỉnh thức trong từng khoảnh khắc hiện tại.
+
+C. Sự bao dung: Khả năng tha thứ tuyệt đối cho những tổn thương trong quá khứ.
+
+D. Khả năng duy trì sự tĩnh tâm (Stoicism) trước mọi sóng gió cuộc đời.
+
+[Kể chuyện - Cảnh 2: Hài hòa với cộng đồng]
+"Khi ngươi thấu hiểu luật cân bằng, tương lai ngươi sẽ là trung tâm của sự hòa hợp. Sự bình tĩnh của ngươi trong mọi vấn đề sẽ mang lại sự thoải mái và khiến cộng đồng cảm thấy dễ chịu."
+
+Khúc mắc 2 (Lựa chọn):
+
+Thiên thần hướng ánh mắt về phía một đám đông đang vui vẻ tụ tập: "Bạn hy vọng mình sẽ đóng vai trò gì trong 'cộng đồng' hoặc 'gia đình' của mình trong tương lai?"
+
+A. Một người hòa giải (Peacemaker), luôn giúp mọi người hàn gắn mâu thuẫn.
+
+B. Một cố vấn điềm tĩnh, người mọi người tìm đến khi cần lời khuyên sáng suốt.
+
+C. Một người truyền cảm hứng sống cân bằng, lành mạnh qua hành động.
+
+D. Tôi chỉ muốn sống một cuộc đời lặng lẽ, không ảnh hưởng đến ai.
+
+[Kể chuyện - Cảnh 3: Tìm thấy ý nghĩa lớn lao]
+"Cuối cùng, ngươi sẽ tìm thấy mục đích và ý nghĩa lớn hơn trong hành động của mình, vì thông điệp của ta là chúng ta không thể sống trọn vẹn trong cả hai cực đoan."
+
+Khúc mắc 3 (Lựa chọn):
+
+Dòng nước cuộn chảy lấp lánh như vàng: "Nếu phải định nghĩa 'mục đích lớn hơn' cho 10 năm tiếp theo của cuộc đời bạn, nó sẽ nghiêng về hướng nào?"
+
+A. Sáng tạo và để lại một di sản nghệ thuật/trí tuệ cho đời.
+
+B. Xây dựng một tổ ấm bình yên và nuôi dạy thế hệ tương lai hạnh phúc.
+
+C. Cống hiến cho xã hội, giúp đỡ những nhóm người yếu thế.
+
+D. Khám phá toàn bộ thế giới và trải nghiệm mọi khía cạnh của cuộc sống.
+
+[Kể chuyện - Cảnh 4: Đối phó với sự bất hòa]
+"Nhưng đừng quên, tương lai luôn có những thử thách mới. Sự bất hòa sẽ quay trở lại. Làm thế nào để ngươi không bị cuốn vào vòng xoáy thái quá đó một lần nữa?"
+
+Khúc mắc 4 (Lựa chọn):
+
+Gió bắt đầu thổi mạnh, nhưng thiên thần vẫn bất động: "Khi một biến cố lớn xảy ra trong tương lai nhằm phá vỡ sự 'cân bằng' của bạn, mỏ neo nào sẽ giúp bạn giữ vững lập trường?"
+
+A. Những thói quen sinh hoạt cốt lõi (ăn ngủ đúng giờ, tập thể dục).
+
+B. Hệ giá trị đạo đức và những nguyên tắc sống tôi đã tự đặt ra.
+
+C. Sự hỗ trợ từ người bạn đời hoặc gia đình.
+
+D. Sự linh hoạt, tôi sẽ để mình trôi theo dòng nước một lúc trước khi lấy lại cân bằng.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Giữa hai chiếc ly là khoảng không. Khoảng không đó là sự tự do."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Thiên thần rót giọt nước cuối cùng, hoàn thiện một chu trình: "Hãy viết một 'lời tự răn' (motto) dài không quá 15 chữ để gửi cho bạn ở tương lai, phòng khi bạn lại bị cuốn vào guồng quay 'bận rộn cực đoan' của cuộc đời."
+
+【 Lá số 15 】The Devil / Ác Quỷ
+Nhạc nền gợi ý: Tiếng xích sắt nặng nề cọ xát vào nền đá, tiếng trống dồn dập mang âm hưởng nguyên thủy, những tiếng cười mỉa mai vọng lại từ bóng tối. Cảm giác ngột ngạt và cám dỗ.
+Hình ảnh: Một hang động tăm tối, rực lửa. Ác Quỷ ngồi trên một khối đá vuông đen nhánh. Dưới chân hắn là hai con người (nam và nữ) bị xích vào khối đá đó bằng những sợi dây xích lỏng lẻo. Hắn đại diện cho sự áp bức, nghiện ngập, ám ảnh, và sự kìm hãm.
+
+🕰️ Không Gian Quá Khứ: Nhà Tù Của Sự Ràng Buộc
+[Kể chuyện - Cảnh 1: Cạm bẫy của vật chất]
+"Chào mừng xuống địa ngục của riêng ngươi. Ta là Ác Quỷ.
+Đừng vội nhăn mặt. Ta không phải là con quái vật gớm ghiếc, ta là tấm gương phản chiếu những ham muốn sâu kín nhất của ngươi. Trong quá khứ, ngươi từng là nô lệ của chủ nghĩa vật chất và sự xa hoa. Ngươi từng khao khát quyền lực, tiền bạc và những lạc thú trần gian đến mức đánh mất chính mình."
+
+Khúc mắc 1 (Lựa chọn):
+
+Ác Quỷ ném một nắm tiền vàng xuống chân bạn: "Hãy thành thật, sự 'ám ảnh' về vật chất/quyền lực tồi tệ nhất trong quá khứ đã từng xui khiến bạn làm điều gì?"
+
+A. Làm việc đến mức bán mạng chỉ để mua những món đồ đắt tiền khoe mẽ.
+
+B. Dành quá nhiều thời gian để ghen tị với sự giàu có của những người xung quanh.
+
+C. Đánh đổi sức khỏe, thời gian bên gia đình để lấy sự thăng tiến.
+
+D. Tôi chưa từng bị vật chất cám dỗ, tôi luôn coi nhẹ đồng tiền.
+
+[Kể chuyện - Cảnh 2: Sự phụ thuộc độc hại]
+"Ngươi cảm thấy bị mắc kẹt, trống rỗng và thiếu sự viên mãn. Dù cố gắng thế nào, ngươi vẫn không thể kiểm soát được hành động hoặc ham muốn của mình, dù biết nó đang dẫn ngươi đến vực thẳm."
+
+Khúc mắc 2 (Lựa chọn):
+
+Sợi xích sắt khẽ rung lên rền rĩ: "Trong quá khứ, loại 'nghiện ngập' hoặc 'sự phụ thuộc' nào đã từng giam cầm bạn lâu nhất?"
+
+A. Sự phụ thuộc vào chất kích thích (rượu bia, thuốc lá) hoặc game/mạng xã hội.
+
+B. Sự nghiện công việc (Workaholic) để trốn tránh các vấn đề cá nhân.
+
+C. Sự phụ thuộc cảm xúc vào một mối quan hệ độc hại (Toxic relationship).
+
+D. Nghiện mua sắm vô tội vạ để lấp đầy khoảng trống tâm hồn.
+
+[Kể chuyện - Cảnh 3: Những lời nói dối êm ái]
+"Ngươi nghĩ ta trói ngươi ư? Nhìn kỹ những sợi xích này xem. Vòng cổ rất rộng, ngươi có thể tự tháo nó ra bất cứ lúc nào. Nhưng ngươi không làm. Ngươi bịa ra những câu chuyện để kìm hãm bản thân."
+
+Khúc mắc 3 (Lựa chọn):
+
+Ác Quỷ cười khẩy, chống cằm nhìn bạn: "Câu nói dối 'ngọt ngào' nhất mà bạn từng dùng để hợp lý hóa cho việc bản thân không dám thoát khỏi vùng an toàn/sự độc hại trong quá khứ là gì?"
+
+A. "Mọi người đều như vậy cả, mình làm sao mà khác được."
+
+B. "Chắc do hoàn cảnh ép buộc thôi, đợi một thời gian nữa sẽ tự khắc tốt lên."
+
+C. "Mình không đủ khả năng để tự lập, rời khỏi đây mình sẽ chết mất."
+
+D. "Tôi chẳng nói dối gì cả, tôi luôn đối diện với sự thật phũ phàng."
+
+[Kể chuyện - Cảnh 4: Phá vỡ xiềng xích]
+"Khi lá bài đảo ngược, nó là khoảnh khắc một cá nhân nhận thức được bản thân và phá vỡ mọi xiềng xích. Có lẽ do ngươi đã chán ngán việc chạy vòng quanh và cần thay đổi. Nhưng việc phá vỡ những xiềng xích này... chưa bao giờ là dễ dàng."
+
+Khúc mắc 4 (Lựa chọn):
+
+Tiếng xích sắt đứt tung vang lên chát chúa: "Lần vứt bỏ một 'thói quen xấu' hoặc một 'sự kìm hãm' khó khăn nhất trong quá khứ đã để lại cho bạn dư chấn (withdrawal) gì?"
+
+A. Sự vật vã, thèm khát và suýt nữa đã tái nghiện nhiều lần.
+
+B. Cảm giác trống rỗng tột độ vì mất đi chỗ dựa quen thuộc.
+
+C. Đau đớn như lột da, nhưng sau đó là sự tự hào vô bờ bến.
+
+D. Rất dễ dàng, khi tôi đã quyết thì cắt đứt không hề nuối tiếc.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Địa ngục không phải là một nơi chốn, nó là trạng thái của tâm trí."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Ác Quỷ nghiêng người về phía trước, giọng thì thào: "Ở mức độ chủ động nhất, ta yêu cầu ngươi phải chấp nhận sự ràng buộc của chính mình. Hãy kể tên một 'Ác Quỷ' (góc khuất đen tối, sự xấu xa) bên trong bạn mà bạn đã từng làm ngơ, nhưng giờ bạn đã dám thừa nhận sự tồn tại của nó."
+
+⏳ Không Gian Hiện Tại: Cuộc Đối Đầu Với Bản Ngã
+[Kể chuyện - Cảnh 1: Cám dỗ bủa vây]
+"Ngươi nghĩ thoát khỏi ta dễ thế sao? Hiện tại, ta vẫn đang ở đây. Ngươi có nhận thức được mình đang là nô lệ cho điều gì không? Sự áp bức, bất lực và hạn chế vẫn luôn rình rập."
+
+Khúc mắc 1 (Lựa chọn):
+
+Ngọn lửa trong hang cháy bừng lên, hắt ánh sáng đỏ rực: "Sự 'cám dỗ' nào ở hiện tại đang khiến bạn khó cưỡng lại nhất, dù biết rõ hậu quả của nó?"
+
+A. Cám dỗ từ sự lười biếng, trì hoãn công việc để tìm kiếm thú vui tức thời.
+
+B. Cám dỗ tham gia vào những drama, nói xấu sau lưng để thỏa mãn sự hiếu kỳ.
+
+C. Cám dỗ tiêu xài hoang phí vượt quá mức thu nhập.
+
+D. Cám dỗ quay lại với người cũ hoặc một môi trường cũ vốn dĩ rất độc hại.
+
+[Kể chuyện - Cảnh 2: Đối mặt với nỗi sợ hãi]
+"Tận cùng của lá bài này chính là về việc đối mặt với nỗi sợ hãi bên trong. Hãy tự hỏi: 'Mình đang sợ điều gì?'. Điều gì đang khiến ngươi không dám bước ra khỏi bóng tối?"
+
+Khúc mắc 2 (Lựa chọn):
+
+Ác Quỷ chỉ thẳng ngón tay có móng vuốt nhọn hoắt vào bạn: "Nỗi sợ hãi sâu thẳm nhất đang trói buộc bạn ở hiện tại là gì?"
+
+A. Sợ thất bại và bị người đời chê cười là kẻ bất tài.
+
+B. Sợ bị bỏ rơi, không được ai yêu thương hay công nhận.
+
+C. Sợ đối mặt với sự thật rằng mình đã đi sai đường suốt thời gian qua.
+
+D. Sợ mất kiểm soát cuộc đời, mọi thứ rơi vào hỗn loạn.
+
+[Kể chuyện - Cảnh 3: Sự lảng tránh đau đớn]
+"Phá vỡ xiềng xích ban đầu có vẻ đau đớn, để thực hiện những điều chỉnh cuối cùng sẽ được đền đáp bằng việc tìm lại chính mình. Ngươi đang chần chừ vì sợ đau phải không?"
+
+Khúc mắc 3 (Lựa chọn):
+
+Bạn cảm thấy sợi xích quanh cổ mình đang siết nhẹ lại: "Bạn đang 'lảng tránh' điều gì ở hiện tại chỉ vì quá trình giải quyết nó đòi hỏi sự can đảm và tổn thương tâm lý quá lớn?"
+
+A. Chấm dứt một mối quan hệ/công việc dù biết nó không còn ý nghĩa.
+
+B. Thừa nhận lỗi lầm và nói lời xin lỗi với một người quan trọng.
+
+C. Đi khám sức khỏe (thể chất/tâm lý) để đối diện với bệnh tật.
+
+D. Bắt tay vào việc thay đổi một thói quen sinh hoạt tồi tệ đã ăn sâu vào máu.
+
+[Kể chuyện - Cảnh 4: Danh sách thanh lọc]
+"Việc tự đánh giá là cần thiết và cá nhân cần dành thời gian để liệt kê tất cả những thứ họ cần loại bỏ. Nếu ngươi muốn độc lập, tự do và giành lại quyền kiểm soát, ngươi phải biết mình cần vứt đi thứ gì."
+
+Khúc mắc 4 (Lựa chọn):
+
+Ác Quỷ đưa cho bạn một tờ giấy da bốc cháy phập phùng: "Nếu phải ưu tiên 'loại bỏ' một thứ độc hại ngay ngày hôm nay để giành lại quyền lực cá nhân, bạn chọn gì?"
+
+A. Tư duy nạn nhân (luôn đổ lỗi cho hoàn cảnh).
+
+B. Thói quen so sánh bản thân với những người thành công trên mạng.
+
+C. Nhu cầu phải làm hài lòng tất cả mọi người (People-pleasing).
+
+D. Sự tham lam vô độ, lúc nào cũng muốn có thêm nữa.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Ngươi chỉ thực sự tự do khi ngươi biết chính xác mình đang bị cầm tù bởi điều gì."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Ác Quỷ cười lớn, âm thanh dội vào vách đá: "Hãy thử thành thật với phần 'Ác Quỷ' bên trong bạn: Có một 'khoái cảm độc hại' nào (ví dụ: cảm giác hả hê khi người khác thất bại, sự thích thú khi thao túng được ai đó) mà thỉnh thoảng bạn vẫn lén lút tận hưởng ở hiện tại không?"
+
+🔭 Không Gian Tương Lai: Đỉnh Cao Của Sự Giải Phóng
+[Kể chuyện - Cảnh 1: Lấy lại quyền tự do]
+"Nếu ngươi bước qua được ta, tương lai sẽ là sự mặc khải, giải phóng và giành lại quyền lực. Cánh cửa địa ngục sẽ mở ra, và ngươi sẽ bước ra ngoài ánh sáng."
+
+Khúc mắc 1 (Lựa chọn):
+
+Hang động vỡ nát, ánh sáng chói lòa tràn vào: "Cảm giác 'tự do tuyệt đối' mà bạn mong muốn hướng tới trong tương lai mang hình hài gì?"
+
+A. Tự do tài chính, không còn phải làm nô lệ cho đồng tiền.
+
+B. Tự do cảm xúc, không để ai có quyền kiểm soát tâm trạng của mình nữa.
+
+C. Tự do thể hiện con người thật, không còn phải đeo mặt nạ xã hội.
+
+D. Tự do thời gian, được quyền quyết định mình làm gì mỗi ngày.
+
+[Kể chuyện - Cảnh 2: Hành trình khó khăn]
+"Nhưng đừng ảo tưởng. Đó sẽ là lúc ngươi bắt đầu hành trình khó khăn để hoàn thiện bản thân. Tự do không phải là điểm đến, tự do là quá trình tự kiểm soát khắc nghiệt nhất."
+
+Khúc mắc 2 (Lựa chọn):
+
+Ác Quỷ tan biến thành tro bụi, để lại những sợi xích đứt gãy: "Bạn đã chuẩn bị tinh thần để đối mặt với 'cái giá của sự tự do' trong tương lai chưa?"
+
+A. Tôi biết nó sẽ rất cô đơn, vì khi tự do, tôi phải tự chịu trách nhiệm 100%.
+
+B. Tôi biết nó sẽ đầy rẫy sự bất an, vì tôi không còn lớp vỏ bọc nào bảo vệ.
+
+C. Tôi biết tôi sẽ phải làm việc chăm chỉ gấp đôi để duy trì sự độc lập đó.
+
+D. Tôi chưa sẵn sàng, đôi khi tôi thấy thà làm nô lệ mà an toàn còn hơn.
+
+[Kể chuyện - Cảnh 3: Nhận thức về sự quay lại của cái ác]
+"Ác Quỷ không bao giờ chết. Nó chỉ thay đổi hình dạng. Trong tương lai, sự xa hoa và quyền lực sẽ lại đến để cám dỗ ngươi. Ngươi có chắc mình sẽ không tự nguyện đeo lại sợi xích không?"
+
+Khúc mắc 3 (Lựa chọn):
+
+Một chiếc vòng cổ bằng vàng nạm kim cương xuất hiện: "Khi đạt được thành công lớn trong tương lai, 'cám dỗ' nào bạn sợ sẽ dễ dàng kéo bạn trở lại vực thẳm nhất?"
+
+A. Sự kiêu ngạo, cho rằng mình đã đứng trên đỉnh cao và không ai chạm tới được.
+
+B. Sự buông thả bản thân vào các lạc thú để bù đắp cho những năm tháng cực khổ.
+
+C. Lòng tham vô đáy, kiếm được nhiều tiền nhưng vẫn thấy chưa đủ.
+
+D. Sự vô cảm, đánh mất lòng trắc ẩn với những người yếu thế hơn.
+
+[Kể chuyện - Cảnh 4: Trở thành bậc thầy của bản ngã]
+"Sức mạnh lớn nhất của lá bài The Devil ở tương lai chính là khi ngươi hợp nhất được với bóng tối của mình. Không chối bỏ nó, không để nó điều khiển, mà biến nó thành năng lượng phục vụ cho ngươi."
+
+Khúc mắc 4 (Lựa chọn):
+
+Bạn nhặt sợi xích đứt lên, nó biến thành một luồng sức mạnh chạy dọc cánh tay: "Làm thế nào để 'thuần phục' bóng tối (sự ích kỷ, tham vọng, ham muốn) của bạn trong tương lai và dùng nó làm bệ phóng?"
+
+A. Nhận thức rõ về nó mỗi ngày bằng cách thực hành chánh niệm/viết nhật ký.
+
+B. Dùng tham vọng đó để đặt ra các mục tiêu lớn lao có ích cho cả cộng đồng.
+
+C. Tạo ra một môi trường làm việc/sống minh bạch để không có cơ hội làm việc xấu.
+
+D. Tìm một người đồng hành đủ nghiêm khắc để luôn cảnh tỉnh tôi.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Giải thoát là một quyết định phải được đưa ra mỗi ngày."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Ngươi bước ra khỏi hang động, hít một hơi thật sâu: "Khi đã hoàn toàn giải phóng bản thân khỏi mọi sự 'nghiện ngập' và 'kìm hãm', Lời Tuyên Ngôn Độc Lập của cuộc đời bạn (dành cho chính bạn) sẽ có nội dung như thế nào?"
+
+【 Lá số 16 】The Tower / Tòa Tháp
+Nhạc nền gợi ý: Tiếng sấm chớp rền vang, tiếng đá tảng đổ sập vỡ vụn, âm thanh hỗn loạn của một cơn bão lớn xen lẫn tiếng la hét, rồi đột ngột chuyển sang sự tĩnh lặng rợn người của đống tro tàn.
+Hình ảnh: Một tòa tháp cao vút được xây trên đỉnh núi lởm chởm. Một tia sét giáng thẳng xuống đỉnh tháp, làm vương miện trên đó văng ra. Lửa bốc cháy dữ dội, và hai bóng người đang rơi tự do từ trên cao xuống màn đêm. Nó đại diện cho thảm họa, biến động, thay đổi đột ngột và sự hỗn loạn.  🕰️ Không Gian Quá Khứ: Cú Sét Đánh Thức Tỉnh[Kể chuyện - Cảnh 1: Cơn bão ập đến]
+"Chạy đi đâu lữ khách? Ngươi không thể trốn tránh ta. Ta là Tòa Tháp.
+Nhiều kẻ căm ghét ta, bởi vì khi ta xuất hiện, cuộc sống sẽ không bao giờ còn như cũ nữa. Sự thay đổi của lá Death là tự nhiên, nhẹ nhàng, nhưng sự thay đổi của ta là một cuộc khủng hoảng tàn khốc và đau đớn. Trong quá khứ, hẳn ngươi đã từng nếm mùi bị vạch trần hoàn toàn: bị lộ tẩy, mất việc, bị đuổi, bị đá..."  Khúc mắc 1 (Lựa chọn):Tia sét đánh chói lòa cả bầu trời: "Khi một 'sự kiện gây sốc' bất ngờ giáng xuống và phá hủy hoàn toàn cuộc sống bình yên của bạn trong quá khứ, phản xạ tâm lý đầu tiên của bạn là gì?"  A. Phủ nhận thực tại, không tin rằng chuyện tồi tệ này lại xảy ra với mình.B. Tức giận điên cuồng, tìm kiếm một kẻ giơ đầu chịu báng để trút giận.C. Đóng băng hoàn toàn, tâm trí trống rỗng không biết phải làm gì tiếp theo.  D. Lập tức thu dọn tàn cuộc dù trong lòng đang rỉ máu.[Kể chuyện - Cảnh 2: Nền móng mục nát]
+"Sự sụp đổ đó đau đớn khôn nguôi, nhưng ngươi phải biết rằng, tòa tháp đó được xây dựng trên nền móng sai lầm, và nó bắt buộc phải sụp đổ. Những chân lý ngươi từng biết, những cách thức cũ không còn hữu ích nữa."  Khúc mắc 2 (Lựa chọn):Những viên gạch vỡ nát dưới chân bạn: "Nhìn lại sự sụp đổ lớn nhất trong quá khứ, 'nền móng sai lầm' nào đã dẫn đến thảm họa đó?"  A. Sự ảo tưởng về vị trí và năng lực của bản thân.B. Một mối quan hệ được xây dựng hoàn toàn bằng sự dối trá và chịu đựng.C. Sự phụ thuộc quá mức vào một người/một công ty để họ nuôi sống mình.  D. Việc cố tình phớt lờ những dấu hiệu rạn nứt nhỏ từ rất lâu trước đó.[Kể chuyện - Cảnh 3: Trì hoãn điều tất yếu]
+"Ta từng thấy ngươi cố gắng dùng đôi tay nhỏ bé của mình để giữ lấy những bức tường đang nứt toác. Ngươi cố gắng trì hoãn điều không thể tránh khỏi, chống lại sự thay đổi. Điều mà ngươi chưa nhận ra là những đổ vỡ này có lợi trong việc phá vỡ sự phụ thuộc sai trái của ngươi."  Khúc mắc 3 (Lựa chọn):Tòa tháp rung chuyển dữ dội: "Bạn đã từng trả cái giá đắt nào cho việc cố tình 'ngăn chặn thảm họa' (níu kéo một thứ chắc chắn sẽ hỏng) trong quá khứ?"  A. Mất đi toàn bộ sự tự tôn và phẩm giá của chính mình.B. Đánh mất thêm rất nhiều tiền bạc, thời gian và sức khỏe vô ích.C. Khiến vết thương càng lúc càng sâu và khó chữa lành hơn.D. Tôi chưa từng níu kéo, thấy nứt là tôi đập bỏ xây lại luôn.[Kể chuyện - Cảnh 4: Điểm không thể quay lại]
+"Rồi mọi thứ tan tành. Cảm giác như mọi thứ đã tan vỡ hoặc mất mát. Nhưng chính sự kiện đột phá, nền tảng đó cuối cùng lại đưa ta tiến về phía trước, đến một điểm không thể quay lại."  Khúc mắc 4 (Lựa chọn):Khói bụi tản dần, để lộ một chân trời mới: "Bài học 'khiêm nhường' lớn nhất mà bạn học được sau khi Tòa Tháp của cái tôi kiêu ngạo sụp đổ là gì?"  A. Nhận ra mình không hề kiểm soát được vạn vật như mình tưởng.B. Nhận ra ai mới là người thực sự ở lại bên mình lúc trắng tay.C. Nhận ra những thứ vật chất/địa vị bên ngoài thật mong manh và phù phiếm.D. Không có bài học nào, tôi chỉ thấy một sự xui xẻo tột cùng.[Kể chuyện - Cảnh 5: Phóng chiếu]"Sự phá hủy là dạng thức hung bạo nhất của sự sáng tạo."Khúc mắc 5 (Câu hỏi Tự do):Người gác tháp đứng giữa đống tro tàn, trao cho bạn một viên gạch nung: "Hãy kể tên một 'Tòa Tháp' (một mối quan hệ, một công việc, một niềm tin) trong quá khứ đã sụp đổ tàn khốc, nhưng nhờ sự sụp đổ đó mà bạn được giải phóng và tìm thấy 'sự bình yên' như ngày hôm nay?"  ⏳ Không Gian Hiện Tại: Quả Bom Nổ Chậm[Kể chuyện - Cảnh 1: Cảm giác rình rập]
+"Quay lại với hiện tại. Ngươi có ngửi thấy mùi khét không? Nếu lá bài của ta xuất hiện ngược, ngươi có thể cảm thấy một cuộc khủng hoảng nào đó đang rình rập ở phía chân trời, và ngươi đang cố gắng hết sức để tránh nó."  Khúc mắc 1 (Lựa chọn):Bầu trời tối sầm lại, gió rít từng cơn: "Quả bom nổ chậm nào ở hiện tại đang khiến bạn nơm nớp lo sợ nó sẽ 'phát nổ' bất cứ lúc nào?"A. Bí mật mà tôi đang cố che giấu sắp bị phơi bày.B. Một mâu thuẫn gia đình/tình cảm đã bị dồn nén đến giới hạn chịu đựng.C. Tình hình tài chính/công việc đang bên bờ vực phá sản/sa thải.D. Sức khỏe thể chất hoặc tinh thần của tôi đang tuột dốc không phanh.[Kể chuyện - Cảnh 2: Đối mặt với nỗi sợ]
+"Ngươi đang bám víu lấy những gì ngươi từng dựa dẫm, nhưng chúng sẽ không còn nữa. Đừng coi đây là một sự thay đổi đột ngột và đáng buồn, đã đến lúc ngươi cần tự lập hơn."  Khúc mắc 2 (Lựa chọn):Mặt đất dưới chân bạn bắt đầu rung lắc: "Lý do khiến bạn không dám tự tay 'kích nổ' quả bom đó để kết thúc mọi chuyện trong êm đẹp là gì?"A. Tôi sợ làm tổn thương những người vô tội xung quanh.B. Tôi sợ bản thân không đủ bản lĩnh để dọn dẹp đống đổ nát sau đó.C. Tôi vẫn còn hy vọng mong manh rằng thảm họa sẽ tự biến mất.  D. Tôi thà để người khác hoặc hoàn cảnh kết liễu nó thay tôi.[Kể chuyện - Cảnh 3: Tìm kiếm hệ thống mới]
+"Ngươi phải tìm một hệ thống niềm tin, giá trị và quy trình khác để thay thế. Nếu căn nhà đã mục nát vì mối mọt, ngươi không thể dán giấy tường đè lên để che đi được."  Khúc mắc 3 (Lựa chọn):Những viên gạch bắt đầu rơi rụng từ trên cao: "Nếu toàn bộ 'hệ thống' công việc và cuộc sống của bạn sụp đổ ngay ngày mai, bạn sẽ làm gì đầu tiên?"A. Thu dọn chút tiền bạc ít ỏi và rời đi nơi khác làm lại từ đầu.B. Chấp nhận sự thật, ngồi xuống liệt kê xem mình còn lại những kỹ năng gì.  C. Gọi điện cầu cứu những mối quan hệ có thể giúp đỡ mình.D. Suy sụp hoàn toàn, tôi không thể chịu đựng thêm một cú sốc nào nữa.[Kể chuyện - Cảnh 4: Rũ bỏ lớp vỏ bọc]
+"Tòa Tháp là sự thật trần trụi. Nó vạch trần mọi lớp vỏ bọc, mọi sự giả tạo. Ngươi không biết mình sẽ làm gì tiếp theo, mọi người đều bị tổn thương. Nhưng sự vỡ vụn này là cần thiết."  Khúc mắc 4 (Lựa chọn):Một tia chớp xẹt qua, soi rõ khuôn mặt thật của bạn: "Sự 'thật trần trụi' nào về bản thân ở hiện tại mà bạn đang từ chối nhìn nhận, và cần Tòa Tháp này đánh sập để bạn thức tỉnh?"A. Sự yếu kém về năng lực mà tôi đang cố gắng dùng lời nói để che đậy.B. Sự phụ thuộc cảm xúc hèn nhát vào một người không coi trọng tôi.  C. Những tiêu chuẩn hoàn hảo độc hại mà tôi đang tự ép mình và người khác theo.D. Tôi đang sống rất thật, không có lớp vỏ bọc nào cần phải đánh sập.[Kể chuyện - Cảnh 5: Phóng chiếu]"Kẻ dũng cảm không chạy trốn khỏi cơn bão, kẻ dũng cảm bước vào mắt bão."Khúc mắc 5 (Câu hỏi Tự do):Người gác tháp đứng thẳng, nhìn bạn với ánh mắt sắc lạnh: "Nếu bạn được quyền ấn nút tự hủy để phá sập hoàn toàn một 'nền tảng sai lầm' trong cuộc sống hiện tại của bạn ngay lúc này, bạn sẽ phá sập điều gì? Bạn mong chờ sẽ tìm thấy gì dưới đống đổ nát đó?"  🔭 Không Gian Tương Lai: Kiến Tạo Tầm Nhìn Mới[Kể chuyện - Cảnh 1: Mặt đất trống không]
+"Nhìn về tương lai đi. Không còn chướng ngại vật nào nữa. Mọi thứ đã bị ta dọn sạch. Khủng hoảng mang tính nền tảng này trao cho ngươi một mảnh đất trống."  Khúc mắc 1 (Lựa chọn):Đống tro tàn đã nguội lạnh, chờ đợi bàn tay người kiến thiết: "Khi phải xây dựng lại 'cuộc đời' từ con số âm trong tương lai, nguyên tắc ưu tiên số 1 của bạn là gì?"A. Tính thực tế: Phải đảm bảo an toàn tài chính và sinh tồn trước nhất.B. Sự minh bạch: Xây dựng nền móng dựa trên sự thật, không lừa dối bất kỳ ai.C. Tính linh hoạt: Không xây tháp cao kiên cố nữa, xây một túp lều dễ bề di chuyển.D. Sự độc lập: Tự thân vận động, không dựa dẫm vào ai để không bị sụp đổ lần nữa.  [Kể chuyện - Cảnh 2: Thích nghi với sự sụp đổ]
+"Sự kiện thay đổi là một phần bình thường của cuộc sống. Tòa Tháp sẽ lại ập đến trong tương lai, dưới nhiều hình thức khác nhau. Ngươi không thể kiểm soát sấm sét."  Khúc mắc 2 (Lựa chọn):Những tia chớp xa xăm vẫn chớp nháy phía chân trời: "Bạn sẽ rèn luyện 'cơ bắp tâm lý' thế nào để không bị hoảng loạn khi Tòa Tháp tương lai tiếp tục sụp đổ?"A. Thực hành sự vô thường, nhắc nhở mình mỗi ngày rằng mọi thứ đều có thể mất đi.B. Luôn dự trù sẵn các phương án rủi ro (kế hoạch B, C) cho mọi tình huống.C. Không gắn chặt bản sắc cá nhân (cái tôi) vào công việc hay các mối quan hệ.D. Tìm kiếm sự bảo vệ từ các thế lực tâm linh/tôn giáo.[Kể chuyện - Cảnh 3: Cái giá của sự khiêm nhường]
+"Chỉ khi ngã xuống đất đen, ngươi mới biết mặt đất mềm mại đến nhường nào. Sự khiêm nhường đến từ những đổ vỡ có thể mang lại cho chúng ta sự bình yên."  Khúc mắc 3 (Lựa chọn):Bạn quỳ xuống, chạm tay vào mặt đất ẩm ướt: "Bạn nghĩ 'sự khiêm nhường' lớn nhất mà tương lai sẽ bắt bạn phải học là gì?"  A. Rằng tôi không thông minh và đặc biệt như tôi vẫn tưởng.B. Rằng tiền bạc không mua được sự bảo đảm trước sinh tử và bệnh tật.C. Rằng tôi luôn cần sự giúp đỡ của cộng đồng, tôi không thể sống một mình.D. Rằng tuổi trẻ và nhan sắc rồi cũng sẽ tàn phai một cách tàn nhẫn.[Kể chuyện - Cảnh 4: Rũ bỏ sự dựa dẫm]
+"Trong tương lai, những gì ngươi từng dựa dẫm sẽ không còn nữa. Tòa tháp càng cao, ngã càng đau. Ngươi phải học cách trở thành chính nơi trú ẩn của mình."  Khúc mắc 4 (Lựa chọn):Người gác tháp trao cho bạn một chiếc la bàn: "Điều gì sẽ là 'cốt lõi' không thể bị phá hủy bên trong bạn, giúp bạn tự lập hơn dù thế giới có sụp đổ?"  A. Lòng tự trọng và danh dự cá nhân.B. Khả năng tư duy, học hỏi và giải quyết vấn đề.C. Tình yêu thương vô điều kiện tôi dành cho những người máu mủ.D. Đức tin tuyệt đối vào một đấng tối cao/vũ trụ.[Kể chuyện - Cảnh 5: Phóng chiếu]"Sau Tòa Tháp, luôn luôn là Ngôi Sao."Khúc mắc 5 (Câu hỏi Tự do):Bóng tối bắt đầu nhường chỗ cho một bầu trời quang đãng: "Khi mọi sự hỗn loạn của tương lai đã đi qua, và bạn đứng giữa đống tro tàn để bắt đầu xây dựng lại. Bản thiết kế cho 'Tòa Tháp Mới' của cuộc đời bạn sẽ có hình dáng và tên gọi là gì?"
+
+【 Lá số 17 】The Star / Ngôi Sao
+Nhạc nền gợi ý: Tiếng nước suối chảy róc rách, êm đềm; những nốt nhạc piano trong trẻo, mang lại cảm giác xoa dịu, an toàn và tràn ngập hy vọng; thỉnh thoảng có tiếng chim hót báo hiệu bình minh.
+Hình ảnh: Một bầu trời đêm trong vắt rực rỡ những vì sao lớn. Dưới mặt đất, một người thiếu nữ khỏa thân (tượng trưng cho sự thuần khiết, không còn lớp vỏ bọc) đang quỳ bên một dòng suối. Nàng dùng hai bình nước, một bình đổ xuống đất để nuôi dưỡng, một bình đổ xuống suối để duy trì dòng chảy. Nàng đại diện cho hy vọng, cảm hứng, sự đổi mới và chữa lành.  🕰️ Không Gian Quá Khứ: Tìm Thấy Ánh Sáng Cuối Đường Hầm[Kể chuyện - Cảnh 1: Lời thì thầm của vũ trụ]
+"Hít thở sâu đi, lữ khách. Cơn bão đã qua rồi. Ta là Ngôi Sao.
+Ngược lại với nỗi kinh hoàng do Tòa Tháp gây ra, ta mang đến hòa bình, hy vọng, ánh sáng cuối đường hầm. Trong quá khứ của ngươi, sau những chuỗi ngày tăm tối nhất, ta là giọng nói êm dịu từ bầu trời đêm, thì thầm rằng 'mọi thứ sẽ ổn thôi'."  Khúc mắc 1 (Lựa chọn):Ngôi sao lớn nhất trên bầu trời tỏa ra thứ ánh sáng bạc ấm áp: "Sau khi trải qua một 'thử thách khủng khiếp' tàn phá mọi thứ trong quá khứ, điều gì đã trở thành chiếc phao cứu sinh mang lại 'hy vọng' cho bạn?"  A. Sự động viên, cái ôm ấm áp từ một người luôn thấu hiểu tôi.  B. Một triết lý sống, một cuốn sách hay một hệ tư tưởng mới.C. Khoảng thời gian hòa mình vào thiên nhiên, cây cỏ để chữa lành tâm hồn.D. Đơn giản là thời gian. Thời gian tự làm mờ đi mọi vết thương.[Kể chuyện - Cảnh 2: Sự chuyển dịch năng lượng]
+"Sự xuất hiện của ta là một sự chuyển dịch năng lượng mạnh mẽ. Mọi thứ từng rất khó khăn, nhưng ta cho ngươi biết rằng mọi thứ đang tốt đẹp hơn. Ta nhắc nhở ngươi về sức mạnh của chính mình, khả năng chữa lành tuyệt vời mà ngươi có."  Khúc mắc 2 (Lựa chọn):Nước từ chiếc bình chảy xuống, tưới mát những vùng đất nứt nẻ: "Bài học về sự 'tự chữa lành' đắt giá nhất mà bạn đã thấm thía trong quá khứ là gì?"  A. Nỗi đau không giết chết mình mà làm mình trở nên kiên cường hơn.B. Phải tự mình đứng lên, không ai có thể chữa lành thay mình được.C. Tha thứ cho bản thân là bước đầu tiên và quan trọng nhất để vượt qua.D. Nỗi đau vẫn luôn ở đó, tôi chỉ học cách sống chung hòa bình với nó.[Kể chuyện - Cảnh 3: Mất niềm tin]
+"Nhưng khi lá bài của ta bị đảo ngược, đó là sự tuyệt vọng và tiêu cực. Ngươi từng cảm thấy như mọi thứ đang chống lại mình. Ngươi đã đánh mất niềm tin vào điều gì đó từ bên trong bản thân hay từ một điều bình thường ngươi vẫn trân trọng."  Khúc mắc 3 (Lựa chọn):Mặt hồ gợn sóng u ám, những ngôi sao mờ dần: "Lần vấp ngã nào trong quá khứ đã khiến bạn 'mất niềm tin' tồi tệ nhất vào lòng tốt của con người hoặc sự công bằng của cuộc đời?"  A. Sự phản bội từ người mà tôi tin tưởng tuyệt đối.B. Bị cướp đoạt công sức/thành quả một cách trắng trợn.C. Cầu nguyện và hy vọng hết mình nhưng phép màu không hề xảy ra.D. Tôi chưa bao giờ hoàn toàn mất niềm tin, tôi vẫn luôn giữ một chút hy vọng.[Kể chuyện - Cảnh 4: Trân trọng những gì đang có]
+"Mất mát đã giúp ngươi khám phá ra sức bền và sức mạnh nội tâm của chính mình. Chỉ đến khi mọi thứ sụp đổ, ngươi mới thực sự trân trọng tất cả những gì mình đang có."  Khúc mắc 4 (Lựa chọn):Thiếu nữ khỏa thân mỉm cười, để lộ vẻ đẹp của sự chân thật: "Nhờ đi qua giông bão của quá khứ, bạn nhận ra 'điều giản dị' nào trong cuộc sống mới thực sự là vô giá đối với mình?"A. Có một sức khỏe tốt, không đau đớn bệnh tật.B. Bữa cơm gia đình ấm áp, được quây quần bên người thân.C. Một giấc ngủ ngon, không mộng mị, không giật mình lo âu.D. Sự tự do để làm những việc nhỏ bé mình thích mỗi ngày.[Kể chuyện - Cảnh 5: Phóng chiếu]"Ngôi sao không cố gắng tỏa sáng, nó chỉ tồn tại."Khúc mắc 5 (Câu hỏi Tự do):Ánh sáng từ mặt hồ chiếu rọi khuôn mặt bạn: "Hãy nhìn lại phiên bản của bạn trong quá khứ khi đang chìm trong sự tuyệt vọng. Nếu bạn của hiện tại có thể gửi một tia sáng (một thông điệp hy vọng) quay về soi rọi cho phiên bản đó, bạn sẽ nói gì để động viên họ?"  ⏳ Không Gian Hiện Tại: Kết Nối Với Suối Nguồn[Kể chuyện - Cảnh 1: Cảm giác đang trở về nhà]
+"Ta đang ở đây, ngay bên ngươi ở hiện tại. Ta là cái ôm mang lại sự tự tin, là tách trà giúp ngươi bình tĩnh và an tâm. Ngươi có đang cảm thấy sự nhẹ nhõm đó không?"  Khúc mắc 1 (Lựa chọn):Một ngọn gió mát lạnh thổi qua không gian tĩnh lặng: "Ngay tại thời điểm hiện tại, 'nơi trú ẩn' (cảm giác trở về nhà) mang lại cho bạn sự an tâm tuyệt đối nhất là nơi nào/điều gì?"  A. Căn phòng riêng tư của tôi, nơi tôi có thể đóng sập cửa với thế giới.B. Vòng tay của người yêu thương hoặc sự hiện diện của gia đình.C. Việc đắm chìm vào thế giới nghệ thuật, âm nhạc, sách truyện.D. Thiên nhiên, những chuyến đi dạo trong rừng hoặc trên bãi biển.[Kể chuyện - Cảnh 2: Lòng biết ơn sâu sắc]
+"Ngôi sao nhắc nhở chúng ta kết nối với những niềm vui giản dị, những điều khiến ta cảm thấy hạnh phúc hơn, tự do hơn. Đó là cảm giác biết ơn những điều tốt đẹp ta đang có, nói 'có' và nói lời cảm ơn ở một mức độ sâu sắc."  Khúc mắc 2 (Lựa chọn):Những giọt nước lấp lánh phản chiếu ánh sao: "Điều gì ở hiện tại khiến bạn cảm thấy 'biết ơn' một cách sâu sắc nhất, dù nó rất đỗi bình thường?"A. Vẫn có một công việc để làm và duy trì cuộc sống ổn định.B. Những người bạn tri kỷ luôn sẵn sàng lắng nghe khi tôi cần.C. Cơ thể tôi vẫn đang lành lặn và cho phép tôi trải nghiệm cuộc đời.D. Khả năng cảm nhận cái đẹp và giữ được sự rung động trong tâm hồn.[Kể chuyện - Cảnh 3: Nguy cơ của sự chán nản]
+"Tuy nhiên, nếu ngươi đang cảm thấy tuyệt vọng, đó là vì ngươi không tìm thấy động lực để tiến về phía trước trong những thử thách. Mây mù đang che khuất những vì sao của ngươi."  Khúc mắc 3 (Lựa chọn):Dòng suối bỗng trở nên đục ngầu, tĩnh lặng một cách đáng sợ: "Khía cạnh nào trong cuộc sống hiện tại khiến bạn dễ rơi vào 'sự chán nản' và 'cảm thấy thất bại' nhất?"  A. Áp lực phải thành công về mặt tài chính/địa vị xã hội.B. Sự bế tắc trong việc tìm kiếm đam mê và định hướng cá nhân.C. Những mối quan hệ xã giao hời hợt, không tìm thấy sự gắn kết thực sự.D. Sự bất mãn với ngoại hình hoặc năng lực cốt lõi của bản thân.[Kể chuyện - Cảnh 4: Thúc đẩy hành động bằng niềm vui]
+"Không có hy vọng, chúng ta không thể tiến lên. Ngôi sao ngược yêu cầu chúng ta phải nuôi dưỡng cảm giác hy vọng và năng lượng tích cực để thúc đẩy hành động của mình bằng niềm vui thay vì nỗi sợ hãi."  Khúc mắc 4 (Lựa chọn):Thiếu nữ nhẹ nhàng khỏa tay xuống dòng suối để làm sạch bùn lầy: "Để thay thế 'nỗi sợ hãi thất bại' bằng 'niềm vui của việc trải nghiệm' ngay lúc này, bạn cần thay đổi tư duy như thế nào?"  A. Xem mọi khó khăn hiện tại như một ván game để giải trí thay vì gánh nặng.B. Ngừng việc so sánh tiến độ của mình với người khác.C. Tập trung vào quá trình đang làm thay vì quá ám ảnh về kết quả cuối cùng.D. Cho phép bản thân được quyền làm sai và nghỉ ngơi mà không thấy tội lỗi.[Kể chuyện - Cảnh 5: Phóng chiếu]"Phép màu không phải là sự biến mất của bóng tối, mà là việc ta học được cách tự thắp sáng."Khúc mắc 5 (Câu hỏi Tự do):Hãy nhắm mắt lại và lắng nghe tiếng nước chảy: "Ngay trong phút giây này, nếu tâm hồn bạn là một vùng đất đang cần được 'tưới mát', dòng nước đó sẽ mang theo cảm xúc gì (Sự bao dung, Lòng dũng cảm, Sự thanh thản,...) và bạn sẽ tưới nó vào khu vực nào đang khô cằn nhất trong cuộc sống của bạn?"  🔭 Không Gian Tương Lai: Lan Tỏa Phép Màu Tập Thể[Kể chuyện - Cảnh 1: Sức mạnh của năng lượng tập thể]
+"Tương lai của The Star không chỉ là sự chữa lành cho cá nhân. Nó là năng lượng tập thể của tình yêu thương và lòng trắc ẩn. Chúng ta chứa đựng vô vàn điều, khả năng chữa lành của chúng ta là vô hạn."  Khúc mắc 1 (Lựa chọn):Hàng ngàn vì sao kết nối với nhau tạo thành một dải ngân hà rực rỡ: "Trong tương lai, bạn mong muốn nguồn năng lượng 'tích cực và chữa lành' của mình sẽ tác động đến tập thể như thế nào?"  A. Mang lại sự bình yên, ấm áp cho gia đình nhỏ của tôi.B. Lan tỏa niềm vui và sự chữa lành thông qua công việc/nghệ thuật tôi tạo ra.C. Xây dựng hoặc tham gia vào các cộng đồng hỗ trợ những người gặp khó khăn.D. Tôi chỉ muốn chữa lành cho chính mình, tôi không có tham vọng cứu rỗi ai.[Kể chuyện - Cảnh 2: Kết nối với vạn vật]
+"Ngôi sao cho thấy sự thật rằng tất cả chúng ta đều kết nối với nhau. Khi ngươi đổ một bình nước xuống dòng suối, ngươi đang nuôi dưỡng cả đại dương."  Khúc mắc 2 (Lựa chọn):Thiếu nữ chỉ tay về phía khu rừng tươi tốt nhờ dòng suối mát: "Để tạo ra một sự 'kết nối thiêng liêng' với những người xung quanh trong tương lai, bạn sẽ sử dụng ngôn ngữ yêu thương nào?"A. Sự lắng nghe không phán xét và thấu cảm sâu sắc.B. Sẵn sàng hi sinh thời gian và công sức để giúp đỡ họ bằng hành động thực tế.C. Những lời nói ái ngữ, động viên và ghi nhận nỗ lực của họ.D. Chia sẻ những nguồn lực vật chất và cơ hội phát triển cùng nhau.[Kể chuyện - Cảnh 3: Vượt qua sự thiếu niềm tin]
+"Dù tương lai có tốt đẹp, sẽ luôn có những lúc bóng tối quay lại làm ngươi chán nản. Những thử thách mà bình thường ngươi thấy thú vị dường như lại khiến ngươi cảm thấy như không thể vượt qua."  Khúc mắc 3 (Lựa chọn):Bầu trời xẹt qua một ngôi sao băng, mang theo một điềm báo: "Nếu trong tương lai, bạn lại một lần nữa 'đánh mất hy vọng', chiếc mỏ neo nào sẽ giữ bạn lại để không trôi dạt vào vùng biển tuyệt vọng?"  A. Ký ức về những khó khăn tồi tệ hơn mà mình đã từng vượt qua thành công.B. Một người dẫn đường tâm linh/chuyên gia tâm lý mà tôi tin tưởng.C. Niềm tin bất diệt vào luật nhân quả và sự công bằng của vũ trụ.D. Tình yêu vô điều kiện từ một người quan trọng nhất đời tôi.[Kể chuyện - Cảnh 4: Khơi dậy sự đổi mới]
+"Khả năng phục hồi của The Star là sự đổi mới, trẻ hóa. Tương lai sẽ cần ngươi liên tục tìm thấy sự mới mẻ trong những điều cũ kỹ."  Khúc mắc 4 (Lựa chọn):Dòng nước suối gột rửa mọi bụi bẩn, mang lại sự tinh khôi: "Làm thế nào để bạn luôn giữ được sự 'tươi trẻ' (trẻ hóa trong tâm hồn) dù thời gian và tuổi tác có trôi qua trong tương lai?"  A. Luôn giữ tinh thần của một đứa trẻ tò mò, không ngừng học hỏi cái mới.B. Nuôi dưỡng sự lãng mạn, biết rung động trước cái đẹp của nghệ thuật và thiên nhiên.C. Dành thời gian tiếp xúc, làm việc với những người trẻ tuổi, đầy năng lượng.D. Giữ cho tâm trí tĩnh lặng, không để những lo âu trần tục làm vẩn đục.[Kể chuyện - Cảnh 5: Phóng chiếu]"Vũ trụ không hứa cho ngươi một bầu trời không có bão, vũ trụ chỉ hứa rằng sau cơn bão luôn có những vì sao."Khúc mắc 5 (Câu hỏi Tự do):Ngôi Sao lớn nhất sà xuống, hóa thành một ánh sáng nằm gọn trong lòng bàn tay bạn: "Nếu ánh sáng hy vọng này có thể ban cho bạn một điều ước duy nhất cho 'sự thanh thản' ở tương lai, bạn sẽ ước điều gì cho linh hồn của mình?"
+
+【 Lá số 18 】The Moon / Mặt Trăng
+Nhạc nền gợi ý: Tiếng chó sói tru xa xăm, tiếng sóng vỗ rì rào vào bờ đá giữa đêm khuya, âm thanh của đàn gõ (xylophone) ngân vang tạo cảm giác huyền bí, mờ ảo và hơi rợn ngợp.
+Hình ảnh: Bầu trời đêm tĩnh lặng, một vầng trăng khuyết đang nhả ra những giọt sương ma thuật. Dưới đất là một hồ nước sâu thẳm, một con tôm hùm đất đang bò lên bờ, hai bên là một con chó và một con sói đang ngửa cổ tru lên. Nó đại diện cho ảo tưởng, trực giác, sự không chắc chắn, sự nhầm lẫn và vô thức.  🕰️ Không Gian Quá Khứ: Bước Đi Trong Màn Sương[Kể chuyện - Cảnh 1: Lạc lối trong ảo ảnh]
+"Cẩn thận bước chân, lữ khách. Ngươi đang đi trên một con đường mà ngươi không chắc chắn, bởi vì có thể ẩn chứa nguy hiểm. Ta là Mặt Trăng.
+Quá khứ của ta gắn liền với mọi thứ mờ ảo và khó nhìn thấy. Đã có những giai đoạn ta để trí tưởng tượng của mình lấn át lý trí, rơi vào một mạng lưới của những giấc mơ và biểu tượng khó hiểu."  Khúc mắc 1 (Lựa chọn):Mặt Trăng tỏa ra ánh sáng bàng bạc, soi rọi những bóng cây méo mó: "Nhớ lại trong quá khứ, lần bạn bị 'ảo tưởng' (tin vào một điều gì đó không có thật, hoặc tự tô hồng một mối quan hệ tồi tệ) nặng nề nhất, điều gì đã khiến bạn mù quáng như vậy?"  A. Sự cô đơn, tôi khao khát tình yêu nên tự vẽ ra một viễn cảnh hoàn hảo.B. Sự kiêu ngạo, tôi tin rằng mình đặc biệt và có thể thay đổi được người khác.C. Nỗi sợ hãi thực tại, tôi trốn vào ảo tưởng để không phải đối mặt với sự thật.D. Tôi bị thao túng bởi những lời nói dối quá đỗi ngọt ngào và tinh vi.[Kể chuyện - Cảnh 2: Mặt nạ và sự dối trá]
+"Ánh sáng của ta chiếu lên những yếu tố giả tạo trong chính chúng ta, đặt ra những câu hỏi khó trả lời về điều gì là thật, điều gì là giả. Trong quá khứ, ta biết rằng tất cả chúng ta đều đeo mặt nạ, đều lừa dối và bị lừa dối."  Khúc mắc 2 (Lựa chọn):Dưới mặt hồ phản chiếu vô số khuôn mặt khác nhau của bạn: "Chiếc 'mặt nạ' dày nhất mà bạn từng phải đeo trong quá khứ để đối phó với thế giới bên ngoài là gì?"A. Mặt nạ 'tôi luôn ổn', che giấu đi sự vụn vỡ và mệt mỏi bên trong.B. Mặt nạ 'hoàn hảo', luôn phải tỏ ra xuất sắc, không tì vết trước mọi người.C. Mặt nạ 'lạnh lùng, bất cần', để không ai có thể làm tổn thương mình nữa.D. Mặt nạ 'vui vẻ, hài hước', dùng tiếng cười để làm hài lòng đám đông.[Kể chuyện - Cảnh 3: Sự tự lừa dối bản thân]
+"Đáng sợ hơn cả việc bị người khác lừa dối, chính là việc ta tự lừa dối chính mình. Ta từng cảnh báo ngươi đừng để những xáo trộn nội tâm và sự tự lừa dối lấn át, nhưng trong màn đêm, thật dễ để lạc đường."  Khúc mắc 3 (Lựa chọn):Tiếng chó sói tru lên một hồi dài thê lương: "Bạn đã từng 'tự lừa dối' bản thân về điều gì trong quá khứ lâu nhất, cho đến khi sự thật vỡ lở?"  A. Rằng công việc/ngành học đó thực sự phù hợp với đam mê của tôi.B. Rằng người đó thực sự yêu tôi, chỉ là họ không biết cách thể hiện.C. Rằng tôi đã hoàn toàn tha thứ và quên đi một vết thương lòng.D. Rằng tôi có thể một mình giải quyết mọi khó khăn mà không cần ai giúp đỡ.[Kể chuyện - Cảnh 4: Ánh sáng của trực giác]
+"Nhưng không phải tất cả đều là bóng tối. Ánh trăng có thể mang lại cho ngươi sự sáng suốt và thấu hiểu, nếu ngươi để trực giác dẫn lối. Trong vô thức, những ký ức và thông tin trực giác luôn cố gắng gửi cho ngươi thông điệp."  Khúc mắc 4 (Lựa chọn):Một con đom đóm bay lên từ mặt hồ tăm tối: "Trong khoảnh khắc hoang mang nhất của quá khứ, 'trực giác' của bạn đã từng cứu bạn thoát khỏi một quyết định sai lầm như thế nào?"  A. Nó hiện ra qua một giấc mơ kỳ lạ báo trước điềm chẳng lành.B. Một cảm giác cồn cào, bất an trong dạ dày khiến tôi hủy bỏ kế hoạch phút chót.C. Sự linh cảm bất chợt về bản chất không trung thực của một người mới quen.D. Tôi chưa từng để trực giác cứu mình, tôi thường lờ nó đi và trả giá đắt.[Kể chuyện - Cảnh 5: Phóng chiếu]"Màn đêm lưu giữ những bí mật mà ban ngày không dám nói ra."Khúc mắc 5 (Câu hỏi Tự do):Mặt Trăng in bóng xuống đáy nước tĩnh lặng: "Hãy chia sẻ về một 'bí mật' hoặc một 'nỗi ám ảnh' từ quá khứ mà bạn chưa bao giờ kể cho ai nghe, thứ mà thỉnh thoảng vẫn hiện về trong giấc mơ hoặc những lúc bạn ở một mình?"  ⏳ Không Gian Hiện Tại: Cuộc Chiến Giữa Những Cái Bóng[Kể chuyện - Cảnh 1: Cảm giác hoài nghi]
+"Chào mừng đến với hiện tại. Ngươi có đang ngửi thấy mùi của sự không chắc chắn không? Nó giống như kiểu năng lượng 'có phải vậy không...? Hay mình chỉ đang tưởng tượng ra thôi?'."  Khúc mắc 1 (Lựa chọn):Sương mù từ mặt hồ bắt đầu dâng lên dày đặc: "Ở thời điểm hiện tại, lĩnh vực nào trong cuộc sống khiến bạn cảm thấy 'mơ hồ', mất phương hướng và nhiều 'sự nhầm lẫn' nhất?"  A. Định hướng sự nghiệp: Không biết con đường đang đi có đúng đắn không.B. Tình cảm: Không thể đọc vị được suy nghĩ và tình cảm thực sự của đối phương.C. Bản sắc cá nhân: Tôi đang rơi vào khủng hoảng hiện sinh, không biết mình là ai.D. Mối quan hệ xã hội: Cảm thấy xung quanh có quá nhiều sự phức tạp và giả tạo.  [Kể chuyện - Cảnh 2: Nỗi sợ hãi vô hình]
+"Bóng tối làm mọi thứ trở nên to lớn và đáng sợ hơn thực tế. Ta cảnh báo ngươi cần nhận thức được những tình huống đang gây ra nỗi sợ hãi và lo lắng trong tâm trí. Những cái bóng đó đang bóp nghẹt ngươi."  Khúc mắc 2 (Lựa chọn):Những chiếc bóng của cây cối uốn éo như những con quái vật: "Đâu là 'nỗi sợ hãi vô hình' đang âm thầm thao túng các quyết định hiện tại của bạn?"A. Nỗi sợ bị đánh giá, sợ ánh nhìn soi mói của đám đông/mạng xã hội.B. Nỗi sợ thất bại, sợ mọi nỗ lực của mình cuối cùng sẽ đổ sông đổ biển.C. Nỗi sợ bị bỏ rơi, sợ phải đối diện với sự cô độc một mình.D. Nỗi sợ về bệnh tật, tuổi già và cái chết.[Kể chuyện - Cảnh 3: Sự lừa dối xung quanh]
+"Ở vị trí đảo ngược, ta đại diện cho sự hiểu lầm, diễn giải sai và lừa dối. Có những sức mạnh tiềm ẩn cần được giải mã, bởi vì những gì ngươi đang thấy hiện tại có thể chỉ là một trò lừa bịp của ánh sáng."  Khúc mắc 3 (Lựa chọn):Mặt Trăng bỗng chốc bị một đám mây đen che khuất: "Bạn có linh cảm rằng có một 'sự thật ẩn giấu' nào đó đang bị che đậy trong cuộc sống hiện tại của bạn không?"  A. Có, một sự thật về tính cách thật sự của người mà tôi đang làm việc cùng/yêu thương.B. Có, một sự thật về nguyên nhân sâu xa khiến tôi luôn mệt mỏi và kiệt sức.C. Có, một lời nói dối từ những người thân thiết đang cố gắng 'bảo vệ' tôi.D. Không, mọi thứ quanh tôi đều rất rõ ràng và minh bạch.[Kể chuyện - Cảnh 4: Ánh sáng xua tan bóng tối]
+"Nhưng nếu ngươi dũng cảm, sự đảo ngược của ta cũng có nghĩa là những thế lực của màn đêm đang mang lại cho ngươi sự bối rối đang bắt đầu tan biến. Ngươi đang bắt đầu kiểm soát được nỗi sợ hãi và lo lắng của mình."  Khúc mắc 4 (Lựa chọn):Sương mù bắt đầu tan, ánh trăng trở nên trong trẻo hơn: "Hành động nào sẽ giúp bạn 'xua tan sương mù' và tìm lại sự rõ ràng, hiểu biết ngay lúc này?"  A. Yêu cầu một cuộc nói chuyện thẳng thắn, không né tránh với người liên quan.B. Dừng việc suy diễn (overthinking) và chỉ tập trung vào những bằng chứng thực tế.C. Thiền định, viết lách để gọi tên rõ ràng những cảm xúc hỗn độn bên trong.D. Tìm kiếm lời khuyên từ một người ngoài cuộc có góc nhìn khách quan.[Kể chuyện - Cảnh 5: Phóng chiếu]"Sự thật không nằm ở những gì ngươi nhìn thấy, mà ở những gì ngươi cảm nhận."Khúc mắc 5 (Câu hỏi Tự do):Mặt Trăng chiếu một luồng sáng thẳng vào trái tim bạn: "Nếu trực giác của bạn ngay lúc này là một 'người cảnh vệ' đang gào thét báo động về một điều gì đó trong cuộc sống hiện tại mà lý trí của bạn vẫn cố cãi lại, người cảnh vệ đó đang gào lên câu gì?"🔭 Không Gian Tương Lai: Vượt Qua Đêm Đen[Kể chuyện - Cảnh 1: Đối diện với phần con]
+"Tương lai không phải lúc nào cũng là ánh sáng ban ngày. Ngươi sẽ còn phải đi qua nhiều đêm trăng nữa. Con tôm hùm đất bò từ dưới nước lên tượng trưng cho những bản năng nguyên thủy, vô thức trỗi dậy từ đáy sâu tâm hồn."  Khúc mắc 1 (Lựa chọn):Con tôm hùm đất từ từ bò lên bờ cát: "Khi những 'mặt tối' (bản năng ghen tị, tham lam, sự đố kỵ) trỗi dậy trong tương lai, bạn sẽ đối diện với chúng như thế nào?"A. Kìm nén và chôn chặt chúng xuống đáy vì sợ chúng phá hoại hình ảnh của tôi.B. Quan sát và chấp nhận chúng như một phần tự nhiên của con người, không phán xét.C. Tìm cách chuyển hóa những năng lượng đó thành động lực để phấn đấu.D. Tôi sẽ tự trừng phạt bản thân vì đã có những suy nghĩ xấu xa đó.[Kể chuyện - Cảnh 2: Giải phóng năng lượng tiêu cực]
+"Để không bị màn đêm nuốt chửng, những ký ức và nỗi sợ hãi sâu sắc này cần được buông bỏ, và những năng lượng tiêu cực cần được giải phóng và chuyển hóa thành những điều tích cực."  Khúc mắc 2 (Lựa chọn):Những giọt sương từ mặt trăng rơi xuống, cuốn trôi bùn đất: "Trong tương lai, phương pháp nào sẽ là 'liều thuốc giải độc' hiệu quả nhất để bạn chuyển hóa sự tiêu cực?"  A. Sáng tạo nghệ thuật (thơ ca, hội họa, âm nhạc) từ chính những đau khổ đó.B. Tham gia các hoạt động thiện nguyện, dùng nỗi đau của mình để thấu hiểu người khác.C. Tập luyện thể thao cường độ cao để vã mồ hôi và xả stress.D. Xây dựng một không gian sống an toàn, chỉ bao quanh bởi những người tích cực.[Kể chuyện - Cảnh 3: Sự thấu suốt của bóng đêm]
+"Khi ngươi không còn sợ hãi bóng tối, nó sẽ trở thành đồng minh. Sự đảo ngược của Mặt Trăng mang đến một trải nghiệm giải phóng khi ngươi khám phá ra mặt tích cực của mọi thứ."  Khúc mắc 3 (Lựa chọn):Bầu trời đêm trở nên lấp lánh và thân thuộc: "Khả năng 'thấu thị' (nhìn thấu sự vật/con người) nào bạn hy vọng mình sẽ mài giũa được sắc bén nhất trong tương lai?"A. Khả năng nhìn thấu những lời nói dối và động cơ ẩn giấu của người khác.  B. Khả năng nhìn thấy tiềm năng và những điều tốt đẹp bên trong những người bị xã hội ruồng bỏ.C. Khả năng tự nhận thức, nhìn thấu những 'trò lừa bịp' của chính tâm trí mình.D. Khả năng nắm bắt những xu hướng và cơ hội đang ẩn mình trong sự hỗn loạn.[Kể chuyện - Cảnh 4: Niềm tin vào bản thân]
+"Cuối cùng, ngươi phải đi hết con đường hẹp này để đón bình minh. Đã đến lúc tin tưởng vào bản thân và tiến về phía trước."  Khúc mắc 4 (Lựa chọn):Ánh sáng lờ mờ của rạng đông bắt đầu xuất hiện phía chân trời: "Để bước ra khỏi 'đêm đen của linh hồn' trong tương lai, câu khẳng định (affirmation) nào sẽ là ngọn đuốc của bạn?"A. "Mình an toàn, mọi thứ rồi sẽ sáng tỏ khi bình minh đến."B. "Mình tin vào trực giác của mình, nó luôn dẫn mình đi đúng đường."C. "Mình có đủ sức mạnh để đối diện với bất kỳ sự thật nào, dù là tàn nhẫn nhất."D. "Bóng tối không thể làm hại mình, vì mình chính là ánh sáng."[Kể chuyện - Cảnh 5: Phóng chiếu]"Đêm càng sâu, rạng đông càng gần."Khúc mắc 5 (Câu hỏi Tự do):Mặt Trăng dần lùi khuất, nhường chỗ cho ánh sáng ban ngày: "Khi đã đi qua được một hành trình dài trong bóng tối của sự hoang mang, bài học lớn nhất về 'sự thật' mà màn đêm đã dạy cho bạn là gì?"
+
+【 Lá số 19 】The Sun / Mặt Trời
+Nhạc nền gợi ý: Tiếng sáo vui tươi, rộn rã, âm nhạc mang âm hưởng đồng quê ngập tràn ánh nắng, tiếng trẻ thơ cười đùa, sự ấm áp và năng lượng dâng trào.
+Hình ảnh: Một mặt trời lớn với những tia nắng rực rỡ tỏa khắp bầu trời. Phía dưới là một bức tường gạch, và một đứa trẻ khỏa thân, đầu đội vòng hoa, tay cầm lá cờ đỏ đang cưỡi trên một con ngựa trắng. Nó đại diện cho hạnh phúc, thành công, lạc quan, sức sống, niềm vui và sự thật.  🕰️ Không Gian Quá Khứ: Khởi Nguồn Của Niềm Vui[Kể chuyện - Cảnh 1: Ngày tháng rực rỡ]
+"Mở to mắt ra mà đón lấy ánh sáng, lữ khách! Ta là Mặt Trời.
+Sau tất cả những đêm đen, Tòa Tháp, Ác Quỷ... ta ở đây để sưởi ấm cho ngươi. Ta nói về sự thành công, may mắn, mọi việc suôn sẻ. Nhìn lại quá khứ đi, đã từng có những thời kỳ hoàng kim mà ngươi tỏa sáng rực rỡ, cảm giác hạnh phúc, sức sống và niềm vui ngập tràn."  Khúc mắc 1 (Lựa chọn):Ánh nắng ấm áp phủ lên vai bạn: "Hãy nhớ lại giai đoạn 'hạnh phúc tột đỉnh' và 'thành công' nhất trong quá khứ của bạn. Nguồn cơn lớn nhất tạo nên niềm vui lúc đó là gì?"  A. Tôi đạt được một thành tựu to lớn được mọi người nể phục, vinh danh.B. Tôi được sống trong tình yêu thương trọn vẹn, không có sự lừa dối hay nghi ngờ.C. Tôi cảm thấy hoàn toàn tự do, không vướng bận bất kỳ trách nhiệm hay áp lực nào.D. Tôi vượt qua được một căn bệnh/sự kiện thập tử nhất sinh và sống sót khỏe mạnh.[Kể chuyện - Cảnh 2: Hơi ấm lan tỏa]
+"Mặt Trời là nguồn năng lượng sống tỏa sáng và ban phước lành cho mọi thứ nó chạm đến bằng hơi ấm. Trong những ngày tháng tươi đẹp đó, nhờ sự viên mãn cá nhân, ngươi cũng mang đến nguồn cảm hứng và niềm vui cho người khác."  Khúc mắc 2 (Lựa chọn):Đứa trẻ trên lưng ngựa vẫy gọi bạn: "Khi bạn ở trạng thái 'viên mãn' nhất trong quá khứ, bạn đã lan tỏa tình yêu thương và sự trìu mến đến những người xung quanh bằng cách nào?"  A. Trở thành người kết nối, tổ chức những buổi gặp gỡ, tiệc tùng vui vẻ cho tập thể.B. Sẵn sàng hào phóng chia sẻ tài chính, vật chất để giúp đỡ những người khó khăn hơn.C. Dùng sự tích cực của mình để tư vấn, truyền động lực cho những người đang buồn bã.D. Tôi chỉ tỏa sáng lặng lẽ, năng lượng tốt của tôi tự động thu hút và làm người khác vui lây.  [Kể chuyện - Cảnh 3: Ánh sáng làm chói mắt]
+"Nhưng hãy nhớ rằng, ta cũng có mặt trái. Khi lá bài của ta bị đảo ngược, ta đại diện cho sự nhiệt tình quá mức, kỳ vọng không thực tế và sự tự phụ. Đôi khi ánh sáng của ta làm ngươi mờ mắt."  Khúc mắc 3 (Lựa chọn):Ánh nắng trở nên gay gắt, thiêu đốt những chiếc lá non: "Trong quá khứ, đã bao giờ sự 'lạc quan thái quá' hoặc 'tự phụ' vì chuỗi thành công liên tiếp khiến bạn phải trả một cái giá đắt chưa?"  A. Có, tôi chủ quan, khinh địch và cuối cùng chuốc lấy thất bại ê chề.B. Có, tôi vạch ra những kỳ vọng không thực tế cho tương lai rồi vỡ mộng đau đớn.  C. Có, sự kiêu ngạo của tôi đã làm tổn thương và đẩy những người đồng hành ra xa.D. Không, tôi luôn biết giữ đôi chân mình trên mặt đất, ngay cả khi thành công nhất.[Kể chuyện - Cảnh 4: Đứa trẻ bên trong]"Sự thuần khiết của lá bài này nằm ở đứa trẻ khỏa thân trên lưng ngựa. Đó là sự chân thật tuyệt đối, không che đậy. Trong quá khứ, đã có lúc ngươi sống đúng với bản chất thật của mình mà không cần quan tâm đến định kiến."Khúc mắc 4 (Lựa chọn):Đứa trẻ cười vang, vung vẩy lá cờ đỏ rực: "Khi được kết nối lại với 'đứa trẻ bên trong' (sự hồn nhiên, vui tươi) trong quá khứ, hoạt động nào khiến bạn cảm thấy hạnh phúc nhất?"A. Chơi đùa, sáng tạo một cách vô tri (vẽ nguệch ngoạc, hát hò linh tinh) không màng kết quả.B. Trải nghiệm những trò chơi cảm giác mạnh, phiêu lưu như một đứa trẻ tò mò.C. Khóc cười một cách thoải mái, bộc lộ cảm xúc trần trụi không kìm nén.D. Thưởng thức những món ăn tuổi thơ, tìm về những kỷ niệm cũ bình yên.[Kể chuyện - Cảnh 5: Phóng chiếu]"Mặt Trời luôn ở đó, ngay cả khi mây che khuất."Khúc mắc 5 (Câu hỏi Tự do):Những bông hoa hướng dương vươn mình rực rỡ: "Hãy tả lại một khoảnh khắc 'hạnh phúc dung dị' nhất trong quá khứ mà mỗi khi nhớ lại, nó vẫn đủ sức sưởi ấm trái tim bạn trong những ngày đông lạnh lẽo nhất?"⏳ Không Gian Hiện Tại: Sống Dưới Ánh Sáng Chân Lý[Kể chuyện - Cảnh 1: Cảm giác tự tin đáng kể]
+"Mở rộng vòng tay ra ở hiện tại đi. Cuộc sống hiện tại đặc biệt tốt đẹp, và mặt trời đang chiếu sáng con đường ngươi đạt được những mục tiêu đã đề ra. Ta mang đến cho ngươi cảm giác tự tin đáng kể."  Khúc mắc 1 (Lựa chọn):Ánh sáng chan hòa khắp không gian, xua tan mọi bóng tối: "Ngay lúc này, nguồn năng lượng 'tự tin' và 'sức sống' của bạn đang dâng trào mạnh mẽ nhất khi bạn làm công việc/hành động gì?"  A. Khi tôi được trình bày ý tưởng, thuyết trình hoặc làm việc đúng chuyên môn sở trường.B. Khi tôi đứng trước gương, cảm thấy yêu thương và tự hào về cơ thể/ngoại hình của mình.C. Khi tôi chăm sóc và mang lại nụ cười cho những người tôi yêu quý.D. Khi tôi tự do sáng tạo, không bị rập khuôn bởi bất kỳ quy tắc nào.[Kể chuyện - Cảnh 2: Niềm vui giản dị]
+"The Sun nhắc nhở chúng ta kết nối với những niềm vui giản dị trong cuộc sống, những điều khiến ta cảm thấy hạnh phúc hơn, nhẹ nhõm hơn, tự do hơn, gắn kết hơn. Đó là sự biết ơn những điều tốt đẹp ta đang có."  Khúc mắc 2 (Lựa chọn):Tiếng chim hót ríu rít quanh bức tường gạch: "Thói quen nhỏ bé nào mỗi ngày ở hiện tại giúp bạn 'kết nối với niềm vui giản dị' hiệu quả nhất?"  A. Dậy sớm đón ánh nắng mặt trời, hít thở không khí trong lành hoặc uống ly cà phê sáng.B. Chơi đùa với thú cưng hoặc nói chuyện với cây cối trong nhà.C. Dành 15 phút viết nhật ký biết ơn những điều nhỏ nhặt đã xảy ra trong ngày.D. Đọc vài trang sách hay, nghe một bản nhạc yêu thích để làm mới tâm hồn.[Kể chuyện - Cảnh 3: Hạnh phúc bị ngăn cản]
+"Nhưng đôi khi, mây có thể đang che khuất hơi ấm và ánh sáng mà ngươi cần để tiến bộ. Khi lá bài bị đảo ngược, đó là sự bi quan, hạnh phúc bị ngăn cản. Ngươi có thể gặp khó khăn đáng kể trong việc tìm kiếm khía cạnh tích cực."  Khúc mắc 3 (Lựa chọn):Một đám mây xám xịt lướt qua, che khuất mặt trời: "Đám mây 'bi quan' nào đang cố tình che lấp đi ánh sáng hạnh phúc hiện tại của bạn?"  A. Sự lo âu về tài chính, nỗi sợ thiếu thốn tiền bạc trong tương lai.B. Sự mặc cảm, hay so sánh mình với những người bạn đồng trang lứa thành công hơn.C. Những di chứng tổn thương từ quá khứ khiến tôi không dám tin vào hạnh phúc hiện tại.D. Áp lực từ những tiêu chuẩn xã hội khắt khe khiến tôi không được sống là chính mình.[Kể chuyện - Cảnh 4: Thiếu thực tế]
+"Ngươi cũng cần lưu ý, Mặt Trời ngược có thể chỉ ra rằng ngươi đang thiếu thực tế, đang có cái nhìn quá lạc quan về một số tình huống nhất định. Tích cực độc hại cũng nguy hiểm không kém gì sự tiêu cực."  Khúc mắc 4 (Lựa chọn):Ánh sáng quá gắt làm lóa mắt, khiến bạn không nhìn rõ thực tại: "Bạn có đang 'ảo tưởng' hoặc 'lạc quan thái quá' về một rủi ro/khó khăn nào ở hiện tại không?"A. Có, tôi đang đánh giá thấp mức độ nghiêm trọng của một khoản nợ/vấn đề tài chính.B. Có, tôi tin rằng một người tồi tệ sẽ tự động thay đổi tâm tính vì tình yêu của tôi.C. Có, tôi nghĩ mình có thể ôm đồm mọi việc mà không bị kiệt sức.D. Không, tôi rất thực tế, lạc quan nhưng vẫn luôn chuẩn bị cho tình huống xấu nhất.[Kể chuyện - Cảnh 5: Phóng chiếu]"Ánh sáng của sự thật là thứ duy nhất có thể thanh tẩy tâm hồn."Khúc mắc 5 (Câu hỏi Tự do):Mặt Trời rọi thẳng vào những góc khuất trong tim bạn: "Nếu ánh sáng của Mặt Trời bắt buộc bạn phải 'nói ra một Sự Thật' vô cùng tốt đẹp về bản thân mà bạn luôn ngại ngùng che giấu (vì sợ bị đánh giá là khoe khoang), sự thật đó là gì?"🔭 Không Gian Tương Lai: Thời Đại Hoàng Kim[Kể chuyện - Cảnh 1: Vinh quang rực rỡ]
+"Tương lai của The Sun là một cánh đồng hoa hướng dương bát ngát. Những hạt giống ngươi gieo sẽ nảy mầm và trổ bông. Nó là sự viên mãn cá nhân, sự thành công và vinh quang rực rỡ."  Khúc mắc 1 (Lựa chọn):Một bức tranh tương lai tươi sáng hiện ra trước mắt: "Khi tưởng tượng về 'thời kỳ hoàng kim' của cuộc đời mình trong tương lai, biểu tượng nào đại diện cho nó?"A. Một sự nghiệp vững chãi, độc lập tài chính và được tự do làm điều mình thích.B. Một đại gia đình đầm ấm, tràn ngập tiếng cười và sự thấu hiểu.C. Một kiệt tác cá nhân (nghệ thuật, dự án, công ty) mang lại giá trị lớn cho xã hội.D. Một tâm hồn hoàn toàn tự do, được chu du khắp thế giới, không vướng bận ưu phiền.[Kể chuyện - Cảnh 2: Trở thành nguồn sáng]
+"Ngươi sẽ ở vị thế có thể chia sẻ những phẩm chất cũng như thành tựu của mình với người khác. Ngươi sẽ trở thành mặt trời nhỏ trong vũ trụ của những người xung quanh."  Khúc mắc 2 (Lựa chọn):Bạn cưỡi trên lưng con ngựa trắng, tay giương cao lá cờ đỏ: "Khi đã ở đỉnh cao thành công, bạn sẽ chọn cách 'tỏa sáng' và giúp đỡ người khác như thế nào?"A. Cung cấp tài chính, học bổng, cơ hội việc làm cho những người khó khăn.B. Truyền đạt lại kinh nghiệm, kỹ năng và trở thành người cố vấn (mentor) cho thế hệ sau.C. Xây dựng môi trường sống/làm việc tích cực, an toàn cho những người đồng hành cùng tôi.D. Dùng sức ảnh hưởng của mình để lên tiếng bảo vệ lẽ phải và những người yếu thế.[Kể chuyện - Cảnh 3: Đối mặt với sự kiêu ngạo]
+"Tuy nhiên, sự tự phụ là cái bẫy của ánh sáng. Những kẻ đứng quá lâu dưới mặt trời thường quên mất cảm giác của những người đang chịu cảnh rét mướt trong bóng râm."  Khúc mắc 3 (Lựa chọn):Bức tường gạch nhắc nhở về ranh giới cần thiết: "Để ngăn chặn bản thân trở nên 'kiêu ngạo, tự phụ' khi đã nắm giữ quá nhiều thành công trong tương lai, bạn sẽ làm gì?"  A. Luôn tự nhắc nhở về những ngày tháng xuất phát điểm thấp kém, cơ hàn của mình.B. Kết bạn với những người xuất chúng hơn để luôn thấy mình cần phải học hỏi thêm.C. Duy trì lối sống giản dị, không phô trương vật chất hào nhoáng.D. Lắng nghe những lời góp ý thẳng thắn, phản biện từ những người thực sự quan tâm tôi.[Kể chuyện - Cảnh 4: Duy trì sức sống]
+"Để mặt trời không bao giờ lặn, ngươi phải liên tục nạp nhiên liệu cho nó. Sức sống và niềm vui không tự nhiên mà có, nó là một sự lựa chọn chủ động mỗi ngày."  Khúc mắc 4 (Lựa chọn):Hàng ngàn đóa hướng dương luôn hướng về phía mặt trời: "Đâu sẽ là 'nhiên liệu' vĩnh cửu giúp bạn duy trì 'sự lạc quan' trong suốt phần đời còn lại?"  A. Tình yêu thương gia đình, những người máu mủ ruột rà.B. Niềm đam mê công việc, luôn tìm thấy thử thách mới để chinh phục.C. Đức tin tâm linh, sự thực hành lòng biết ơn mỗi ngày.D. Những chuyến đi, sự khám phá thế giới và những điều mới mẻ chưa từng biết.[Kể chuyện - Cảnh 5: Phóng chiếu]"Ngươi chính là mặt trời của vũ trụ do chính ngươi tạo ra."Khúc mắc 5 (Câu hỏi Tự do):Ánh sáng mặt trời ôm trọn lấy bạn, ấm áp và rực rỡ: "Khi bạn đã chạm đến đỉnh cao của 'Sự Thật' và 'Hạnh Phúc' ở tương lai, nếu được đúc kết bí quyết hạnh phúc của mình thành một câu khẩu hiệu duy nhất để truyền lại cho đời sau, câu đó sẽ là gì?"  
+
+【 Lá số 20 】Judgement / Phán Xét
+Nhạc nền gợi ý: Tiếng kèn đồng vang dội từ trên chín tầng mây, phá vỡ mọi sự tĩnh lặng, âm thanh rạn nứt của những tảng đá nắp hầm mộ bị hất tung, một dàn hợp xướng mang âm hưởng hùng tráng và linh thiêng.
+Hình ảnh: Một vị đại thiên sứ đang thổi một chiếc kèn vàng rực rỡ trên bầu trời. Phía dưới, những con người trần truồng đang vươn mình trỗi dậy từ những cỗ quan tài đang trôi nổi trên đại dương. Nó đại diện cho sự thức tỉnh, đổi mới, tự đánh giá và tiếng gọi của mục đích sống.  
+
+🕰️ Không Gian Quá Khứ: Những Bản Án Của Lương Tâm
+[Kể chuyện - Cảnh 1: Khoảnh khắc không thể quay đầu]
+"Hãy lắng nghe tiếng kèn của ta, lữ khách! Ta là Phán Xét.
+Ta mang sức nặng của sự thật. Giống như Công lý và Bánh xe, ta mang chủ đề về trách nhiệm. Trong quá khứ, chắc chắn đã có những khoảnh khắc mà những hành động ngươi thực hiện đã thay đổi con đường của ngươi mãi mãi. Đó là khoảnh khắc ngươi bước qua vạch kẻ và biết rằng mình không thể ngoảnh lại."  
++2
+
+Khúc mắc 1 (Lựa chọn):
+
+Tiếng kèn ngân vang, khơi dậy những ký ức sâu thẳm: "Quyết định mang tính 'không thể quay đầu' lớn nhất mà bạn từng đưa ra trong quá khứ là gì?"  
+
+A. Quyết định cắt đứt hoàn toàn với gia đình/người thân để bảo vệ bản thân.
+
+B. Quyết định bỏ dở một con đường học vấn/sự nghiệp ổn định để rẽ ngang.
+
+C. Quyết định bước vào hoặc bước ra khỏi một cuộc hôn nhân/mối quan hệ sâu đậm.
+
+D. Quyết định di dời đến một thành phố/quốc gia khác để làm lại từ đầu.
+
+[Kể chuyện - Cảnh 2: Hậu quả đuổi kịp]
+"Những việc ngươi làm, dù tốt hay xấu, không bao giờ biến mất. Hậu quả của những hành động đó cuối cùng sẽ bắt kịp ngươi. Quá khứ của ta là những chuỗi ngày phải đối diện với sự tự đánh giá bản thân cũng như hành động của mình."  
++1
+
+Khúc mắc 2 (Lựa chọn):
+
+Những nắp quan tài mở tung, những bóng ma quá khứ hiện về: "Khi một 'hậu quả' (tốt hoặc xấu) từ quá khứ bất ngờ 'bắt kịp' bạn, cảm xúc nào thường trỗi dậy mạnh mẽ nhất?"
+
+A. Sự dằn vặt và hối hận vì giá như ngày đó mình làm khác đi.
+
+B. Cảm giác oan ức, cho rằng sự trừng phạt này là quá nặng nề.
+
+C. Sự bình thản, tôi luôn sẵn sàng trả giá cho mọi lựa chọn của mình.
+
+D. Sự biết ơn, vì những nỗ lực thầm lặng cuối cùng cũng đơm hoa kết trái.
+
+[Kể chuyện - Cảnh 3: Sự tự phán xét tàn nhẫn]
+"Ở vị trí đảo ngược, ta nhìn thấy sự tự nghi ngờ và tự ghét bỏ bản thân. Ta từng thấy ngươi dằn vặt mình, nghi ngờ và phán xét bản thân quá khắt khe. Ngươi bỏ lỡ những cơ hội đang chờ đón chỉ vì cho rằng mình không xứng đáng."  
++1
+
+Khúc mắc 3 (Lựa chọn):
+
+Thiên sứ hạ kèn xuống, ánh mắt xót xa: "Bạn đã từng để lỡ mất điều gì quý giá trong quá khứ chỉ vì sự 'tự nghi ngờ' và 'phán xét bản thân quá khắt khe'?"  
+
+A. Một cơ hội công việc/thăng tiến tuyệt vời vì nghĩ mình chưa đủ giỏi.
+
+B. Một người thực sự yêu thương tôi, vì tôi nghĩ mình không mang lại hạnh phúc cho họ.
+
+C. Quyền được lên tiếng bảo vệ bản thân vì nghĩ ý kiến của mình không quan trọng.
+
+D. Tôi chưa từng bỏ lỡ cơ hội nào, tôi luôn cực kỳ tự tin.
+
+[Kể chuyện - Cảnh 4: Những bài học bị phớt lờ]
+"Những sai lầm mà chúng ta đã mắc phải trong quá khứ là những công cụ học tập, giúp ta tiến lên. Nhưng nếu ngươi không cho mình không gian để suy nghĩ đầy đủ, ngươi sẽ không học được bài học và tiếp tục vấp ngã."  
++1
+
+Khúc mắc 4 (Lựa chọn):
+
+Một cuốn sổ sinh tử lật giở những trang giấy ố vàng: "Có một 'sai lầm' nào trong quá khứ mà bạn đã lặp đi lặp lại nhiều lần trước khi thực sự rút ra được bài học?"
+
+A. Việc tin tưởng và cho vay tiền/trao cơ hội cho những người không xứng đáng.
+
+B. Việc lờ đi các dấu hiệu cảnh báo (red flags) trong giai đoạn đầu của một mối quan hệ.
+
+C. Việc trì hoãn nước đến chân mới nhảy, khiến mọi thứ đổ bể.
+
+D. Tôi luôn học được bài học ngay từ lần vấp ngã đầu tiên.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Sự tha thứ lớn nhất không đến từ Chúa trời, mà đến từ chính ngươi."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Thiên sứ chìa tay ra, chờ đợi sự thành khẩn: "Ngay lúc này, hãy gọi tên một hành động/quyết định trong quá khứ mà bạn tự đánh giá là 'tồi tệ nhất' của mình. Nếu hôm nay là ngày Phán Xét, bạn sẽ dùng lời bào chữa nào để tự tha thứ cho bản thân và cho phép mình bước tiếp?"
+
+⏳ Không Gian Hiện Tại: Cuộc Thức Tỉnh Vĩ Đại
+[Kể chuyện - Cảnh 1: Lắng nghe tiếng gọi]
+"Mở mắt ra! Ngươi đang ở trong một giai đoạn thức tỉnh. Giờ đây, ngươi đã có ý tưởng rõ ràng hơn về những gì mình cần thay đổi và cách ngươi cần sống thật với chính mình."  
++1
+
+Khúc mắc 1 (Lựa chọn):
+
+Âm thanh hối thúc của chiếc kèn vang vọng mọi ngóc ngách: "Tiếng gọi 'thức tỉnh' nào đang gào thét mạnh mẽ nhất trong tâm trí bạn ở hiện tại?"
+
+A. "Phải ngay lập tức thay đổi môi trường sống/làm việc độc hại này!"
+
+B. "Phải dành nhiều thời gian hơn cho những người tôi thực sự yêu thương!"
+
+C. "Phải dừng việc sống để làm hài lòng người khác và bắt đầu sống cho mình!"
+
+D. "Phải trân trọng sức khỏe của mình trước khi quá muộn!"
+
+[Kể chuyện - Cảnh 2: Trách nhiệm với chính mình]
+"Phán xét ở đây không phải là tòa án của thế gian. Nó là việc chịu trách nhiệm với chính mình, một cách triệt để và trung thực nhất. Phần thưởng cho công việc khó khăn này chính là sự tự do."  
++1
+
+Khúc mắc 2 (Lựa chọn):
+
+Những chiếc bóng của sự ngụy biện dần tan biến: "Điều 'trung thực' phũ phàng nhất về bản thân mà bạn vừa mới dám thừa nhận ở hiện tại là gì?"
+
+A. Tôi là nguyên nhân chính gây ra những rắc rối của đời tôi, không phải ai khác.
+
+B. Tôi không hề đam mê công việc tôi đang làm, tôi chỉ làm vì tiền.
+
+C. Tôi thực chất rất cô đơn và kém cỏi trong việc xây dựng các mối quan hệ sâu sắc.
+
+D. Tôi đang lãng phí tiềm năng của mình vào những cuộc vui vô bổ.
+
+[Kể chuyện - Cảnh 3: Tạo ra sự thay đổi]
+"Sự thức tỉnh yêu cầu hành động. Điều này có thể đồng nghĩa với việc thực hiện những thay đổi nhỏ trong cuộc sống hàng ngày hoặc những thay đổi lớn ảnh hưởng đến cả những người thân yêu."  
+
+Khúc mắc 3 (Lựa chọn):
+
+Những cỗ quan tài biến thành những con thuyền nhỏ: "Để đáp lại sự 'thức tỉnh' ở hiện tại, sự thay đổi nào bạn đang bắt đầu thực hiện (hoặc định thực hiện)?"  
+
+A. Xây dựng một kỷ luật cá nhân khắt khe hơn (dậy sớm, tập thể dục, đọc sách).
+
+B. Đặt ra ranh giới cứng rắn, học cách nói 'Không' với những yêu cầu vô lý.
+
+C. Bắt tay vào học một kỹ năng hoàn toàn mới để chuyển đổi con đường sự nghiệp.
+
+D. Tôi vẫn đang sợ hãi, chưa dám thực hiện bất kỳ sự thay đổi nào.
+
+[Kể chuyện - Cảnh 4: Buông bỏ tội lỗi]
+"Có một chút gì đó của lá Death ở đây, nhưng Judgement yêu cầu ngươi chủ động thực hiện – đặc biệt là về mặt tha thứ. Ngươi phải thoát khỏi tội lỗi và giận dữ, không còn bị đè nặng bởi hận thù và bất an."  
++1
+
+Khúc mắc 4 (Lựa chọn):
+
+Thiên sứ rưới dòng nước thánh gột rửa mọi uế tạp: "Cảm giác 'tội lỗi' hoặc 'sự bất an' nào đang tốn nhiều năng lượng của bạn nhất, cản trở bạn cam kết sống cho hiện tại?"  
++1
+
+A. Tội lỗi vì chưa báo hiếu/chưa chăm lo đủ cho gia đình, cha mẹ.
+
+B. Sự bất an về ngoại hình, năng lực, luôn thấy mình kém cỏi hơn đồng trang lứa.
+
+C. Tội lỗi vì những lời nói/hành động đã vô tình làm tổn thương một người tốt.
+
+D. Bất an về một tương lai mờ mịt, sợ mình sẽ trở thành kẻ thất bại trắng tay.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Lòng bao dung với chính mình là phép màu lớn nhất."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Tiếng kèn vang lên một nốt cao vút, thanh tẩy tâm hồn: "Nếu bạn được quyền ban một 'Lệnh ân xá' tuyệt đối cho chính mình ở hiện tại để xóa sạch một lỗi lầm/khuyết điểm khiến bạn tự ti nhất, bạn sẽ ân xá cho điều gì?"
+
+🔭 Không Gian Tương Lai: Cuộc Sống Đổi Mới
+[Kể chuyện - Cảnh 1: Sự tái sinh huy hoàng]
+"Tương lai của Phán Xét là sự tái sinh. Ngươi sẽ buông bỏ quá khứ, để có thể tiếp tục kế hoạch có một cuộc sống mới. Ngươi cam kết sống trong hiện tại, cho sự phát triển và đổi mới của chính mình."  
++1
+
+Khúc mắc 1 (Lựa chọn):
+
+Những con người vươn vai hít thở không khí của một thế giới mới: "Khi bước vào 'cuộc sống mới' trong tương lai, ưu tiên phát triển hàng đầu của bạn sẽ là gì?"  
+
+A. Sức khỏe thể chất và sự tĩnh tại của tinh thần.
+
+B. Tự do tài chính và trải nghiệm tối đa thế giới rộng lớn.
+
+C. Xây dựng một cộng đồng/gia đình gắn kết, yêu thương vô điều kiện.
+
+D. Cống hiến trí tuệ để giải quyết các vấn đề xã hội/môi trường.
+
+[Kể chuyện - Cảnh 2: Vượt qua sự chỉ trích]
+"Sẽ có lúc tương lai bắt ngươi phải nhìn lại. Đừng tập trung quá nhiều vào những sai lầm, điều đó có thể khiến ngươi vấp ngã. Đừng tự chỉ trích những hành động trong quá khứ của mình mà không cho mình sự tha thứ để tiến về phía trước."  
++1
+
+Khúc mắc 2 (Lựa chọn):
+
+Bạn nhìn thấy hình ảnh phản chiếu của mình trưởng thành và mạnh mẽ: "Để ngăn chặn 'căn bệnh tự chỉ trích' tái phát trong tương lai, bạn sẽ tạo ra thói quen nào?"  
+
+A. Viết nhật ký ghi nhận những thành tựu nhỏ nhoi mỗi ngày thay vì chỉ soi lỗi.
+
+B. Chia sẻ sự yếu đuối của mình với người khác để thấy ai cũng có khuyết điểm.
+
+C. Thực hành thiền từ bi (Loving-kindness meditation) hướng về bản thân.
+
+D. Liên tục học hỏi để lấp đầy những khoảng trống năng lực, lấy sự tự tin đè bẹp sự chỉ trích.
+
+[Kể chuyện - Cảnh 3: Tiến lên với nhận thức]
+"Động lực bị mất có thể khiến ngươi tụt hậu. Nhưng nếu ngươi học được bài học, ngươi có thể tiến bộ với nhận thức. Ngươi sẽ không mù quáng lao đi, mà bước những bước chắc chắn."  
++1
+
+Khúc mắc 3 (Lựa chọn):
+
+Thiên sứ gật đầu tán thưởng: "Để duy trì 'sự nhận thức' (tỉnh thức) trong mọi quyết định tương lai, nguyên tắc cốt lõi của bạn là gì?"  
+
+A. Không đưa ra quyết định khi đang quá vui, quá buồn hoặc quá giận.
+
+B. Luôn tự hỏi: "Hành động này có phục vụ cho mục tiêu dài hạn của mình không?".
+
+C. Luôn tham khảo ý kiến từ nhiều góc nhìn đa chiều trước khi chốt hạ.
+
+D. Đặt tính đạo đức và không làm hại người khác lên hàng đầu.
+
+[Kể chuyện - Cảnh 4: Niềm tự hào rực rỡ]
+"Lá bài này nhắc nhở ngươi không nên thận trọng một cách thái quá, mà nên tiến về phía trước với niềm tự hào và sự tự tin. Ngươi đã trả giá đủ rồi, ngươi xứng đáng với phần thưởng."  
+
+Khúc mắc 4 (Lựa chọn):
+
+Một con đường trải đầy ánh sáng mở ra trước mắt: "Thành tựu nào trong tương lai sẽ khiến bạn cảm thấy 'tự hào' về bản thân mình một cách chính đáng và trọn vẹn nhất?"
+
+A. Khả năng tự đứng vững trên đôi chân mình mà không cần dựa dẫm vào ai.
+
+B. Sự tôn trọng và ngưỡng mộ từ những người trong ngành nghề chuyên môn của tôi.
+
+C. Việc vượt qua được giới hạn/chấn thương tâm lý tưởng chừng không thể chữa khỏi.
+
+D. Nuôi dạy được những đứa trẻ hạnh phúc và tử tế.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Sự tái sinh không phải là quên đi, mà là nhớ lại mà không còn thấy đau."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Thiên sứ trao cho bạn chiếc kèn vàng: "Nếu bạn là người thổi tiếng kèn báo hiệu 'Sự Thức Tỉnh' cho thế hệ tương lai, thông điệp duy nhất bạn muốn thổi vào không gian là gì?"  
+
+【 Lá số 21 】The World / Thế Giới
+Nhạc nền gợi ý: Tiếng nhạc giao hưởng du dương, hùng tráng nhưng vô cùng êm ái, mang cảm giác của không gian vũ trụ bao la, sự hòa quyện của mọi âm thanh trên thế gian tạo thành một bản hòa ca hoàn hảo.
+Hình ảnh: Một vũ công phi giới tính đang nhảy múa thanh thoát giữa không trung, xung quanh được bao bọc bởi một vòng nguyệt quế khổng lồ hình oval. Bốn góc lá bài là hình ảnh của Bò tót, Sư tử, Đại bàng và Thiên thần (đại diện cho bốn nguyên tố, bốn phương trời). Nó đại diện cho sự hoàn thành, thành tựu, sự trọn vẹn, sự hài hòa và cảm giác thân thuộc.  
+
+🕰️ Không Gian Quá Khứ: Những Mảnh Ghép Của Hành Trình
+[Kể chuyện - Cảnh 1: Lời hồi đáp cho Kẻ Khờ]
+"Ngươi đã đến đích rồi, lữ khách. Ta là Thế Giới.
+Sau tất cả những gì ngươi đã trải qua, từ bước chân mù quáng của The Fool cho đến tiếng gọi của Judgement... ở đây, cuối cùng chúng ta cũng hiểu được hành trình của Kẻ Khờ là gì. Quá khứ của ngươi là việc thu thập từng mảnh ghép nhỏ để tạo nên sự trọn vẹn của ngày hôm nay."  
++1
+
+Khúc mắc 1 (Lựa chọn):
+
+Vòng nguyệt quế lấp lánh những ký ức đã qua: "Khi nhìn lại toàn bộ quãng đường dài trong quá khứ, 'mảnh ghép' (cột mốc) nào bạn cho là bước ngoặt quan trọng nhất tạo nên con người bạn hiện tại?"
+
+A. Một thành tựu học vấn/sự nghiệp rực rỡ (tốt nghiệp, dự án thành công).  
+
+B. Một cuộc gặp gỡ định mệnh với người đã thay đổi hoàn toàn tư duy của tôi.
+
+C. Một khoảng thời gian chạm đáy vực thẳm và buộc phải tự thân đứng lên.
+
+D. Việc chuyển đến một môi trường sống mới, cắt đứt hoàn toàn với quá khứ độc hại.
+
+[Kể chuyện - Cảnh 2: Cái bẫy của sự trống rỗng]
+"Nhưng hành trình không phải lúc nào cũng viên mãn. Khi lá bài của ta bị đảo ngược, ta nhìn thấy sự thiếu kết thúc, thiếu thành tựu. Trong quá khứ, ngươi có thể đã có nhiều thành tựu trên con đường mình đi, nhưng có một khoảng trống kỳ lạ lấp đầy ngươi khi nhìn lại, như thể ngươi đã có tất cả mọi thứ nhưng chúng lại không khớp với nhau, còn điều gì đó còn thiếu."  
++1
+
+Khúc mắc 2 (Lựa chọn):
+
+Vũ công khẽ dừng nhịp nhảy, một nốt nhạc sai nhịp vang lên: "Cảm giác 'trống rỗng' tồi tệ nhất bạn từng trải qua sau khi nỗ lực đạt được một mục tiêu trong quá khứ là do đâu?"  
+
+A. Do mục tiêu đó là kỳ vọng của người khác (bố mẹ, xã hội), không phải khát khao của tôi.
+
+B. Do tôi đã đánh đổi quá nhiều (sức khỏe, tình cảm) để có được nó, cái giá quá đắt.
+
+C. Do sau khi đạt được đỉnh cao, tôi mất phương hướng, không biết làm gì tiếp theo.
+
+D. Tôi chưa từng cảm thấy trống rỗng, mọi thành tựu đều mang lại cho tôi niềm vui trọn vẹn.
+
+[Kể chuyện - Cảnh 3: Sự thiếu trọn vẹn]
+"Nếu ngươi đang tiến gần đến một điều gì đó đánh dấu sự kết thúc của một hành trình hay một kỷ nguyên nhưng lại bỏ dở giữa chừng, ngươi sẽ cảm thấy không trọn vẹn. Những dự án dang dở luôn níu chân linh hồn."  
++1
+
+Khúc mắc 3 (Lựa chọn):
+
+Một vòng hoa nguyệt quế chưa được tết xong hiện ra: "Điều 'dang dở' nào trong quá khứ (một dự án, một lời hứa, một mối quan hệ chưa có lời kết) khiến bạn vẫn luôn cảm thấy cấn cá và hối tiếc nhất?"
+
+A. Một đam mê/năng khiếu nghệ thuật bị bỏ xó vì áp lực cơm áo gạo tiền.
+
+B. Một mối quan hệ kết thúc trong im lặng (ghosting) mà không có lý do rõ ràng.
+
+C. Việc bỏ dở một chương trình học/khóa đào tạo khi sắp đến đích.
+
+D. Lời hứa đưa người thân đi du lịch/chăm sóc họ mà tôi chưa kịp thực hiện.
+
+[Kể chuyện - Cảnh 4: Xây dựng khả năng phục hồi]
+"Nhưng mọi thứ ngươi đã làm đều không vô ích. Mọi nỗ lực ngươi bỏ ra đều phản ánh rằng ngươi đã xây dựng được khả năng phục hồi để vượt qua những thử thách."  
+
+Khúc mắc 4 (Lựa chọn):
+
+Vũ công tiếp tục uyển chuyển vượt qua mọi chướng ngại vật: "Kỹ năng 'phục hồi' mạnh mẽ nhất mà bạn đã rèn được từ những tổn thương trong quá khứ là gì?"
+
+A. Khả năng tự xoa dịu cảm xúc, không để nỗi buồn kéo dài quá lâu.
+
+B. Năng lực tư duy thực tế, lập tức tìm giải pháp thay vì ngồi than khóc.
+
+C. Sự chai lì, tôi không còn dễ dàng bị tổn thương bởi miệng lưỡi người đời.
+
+D. Khả năng tìm thấy tính hài hước, sự tích cực ngay cả trong bi kịch.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Quá khứ là một bản nháp hoàn hảo cho kiệt tác của hiện tại."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Vũ công trao cho bạn một dải lụa mỏng: "Nếu bạn có thể quay lại dệt thêm một 'mảnh ghép' (một bài học hoặc một sự kiện) vào bức tranh quá khứ để nó trở nên 'trọn vẹn' hơn, mảnh ghép đó sẽ mang hình ảnh gì?"  
+
+⏳ Không Gian Hiện Tại: Trạng Thái Giác Ngộ
+[Kể chuyện - Cảnh 1: Sự thống nhất tuyệt đối]
+"Gặp gỡ ta trong hiện tại là gặp gỡ một sự thống nhất và trọn vẹn tuyệt vời. Nó tượng trưng cho khoảnh khắc thế giới bên trong và thế giới bên ngoài - bản thân và người khác - trở thành một thực thể duy nhất. Ngươi có đang cảm thấy sự hài hòa đó không?"  
++1
+
+Khúc mắc 1 (Lựa chọn):
+
+Bạn cảm thấy cơ thể mình nhẹ bẫng, lơ lửng trong không gian: "Ngay tại lúc này, bạn cảm thấy 'thế giới bên trong' (mong muốn, suy nghĩ) và 'thế giới bên ngoài' (hành động, môi trường) của mình đang đồng nhất ở mức độ nào?"
+
+A. Đồng nhất tuyệt đối: Tôi đang nghĩ gì thì sống đúng như vậy, không giả tạo.
+
+B. Khá đồng nhất: Chỉ có một vài khía cạnh nhỏ tôi vẫn phải thỏa hiệp với bên ngoài.
+
+C. Đang xung đột: Những gì tôi khao khát bên trong trái ngược hoàn toàn với hoàn cảnh hiện tại.
+
+D. Hoàn toàn mất kết nối: Tôi thậm chí không biết thế giới bên trong của mình đang muốn gì.
+
+[Kể chuyện - Cảnh 2: Nhịp điệu của sự chấp nhận]
+"Trong một số truyền thống, trạng thái này được mô tả là giác ngộ, hay niết bàn. Nó là sự thừa nhận rằng tất cả chúng ta đều nhảy múa và lắc lư theo dòng chảy của cuộc sống theo một nhịp điệu. Ngươi không chỉ lắng nghe nhịp điệu này mà còn hòa mình vào nó - theo những thăng trầm, những niềm vui và nỗi buồn."  
++1
+
+Khúc mắc 2 (Lựa chọn):
+
+Bản nhạc giao hưởng vang lên những nốt thăng trầm mãnh liệt: "Khả năng 'hòa mình vào những nỗi buồn' (chấp nhận sự tiêu cực như một phần tất yếu) của bạn ở hiện tại đang diễn ra thế nào?"  
+
+A. Rất tốt, tôi ôm ấp nỗi buồn một cách bình thản và hiểu rằng nó sẽ qua.
+
+B. Đang cố gắng, đôi khi tôi vẫn bị nỗi buồn dìm chết ngạt một lúc.
+
+C. Rất tệ, tôi luôn cố gắng trốn tránh hoặc kìm nén mọi cảm xúc tiêu cực.
+
+D. Tôi đang bị trầm cảm, tôi chỉ cảm nhận được nỗi buồn mà không thấy niềm vui.
+
+[Kể chuyện - Cảnh 3: Đạt được thành tựu]
+"Ý nghĩa của lá bài này là sự viên mãn, thành tựu và hoàn thiện. Điều này cho thấy tất cả những nỗ lực ngươi đã bỏ ra đang bắt đầu được đền đáp. Nó phản ánh rằng ngươi đã hoàn thành một cột mốc quan trọng trong cuộc đời."  
++2
+
+Khúc mắc 3 (Lựa chọn):
+
+Bốn linh vật quanh vòng nguyệt quế cúi đầu chào bạn: "Thành tựu (cột mốc) nào ở hiện tại mà bạn cảm thấy 'tự hào và viên mãn' nhất vì những nỗ lực đã được đền đáp?"
+
+A. Hoàn thành một khối lượng công việc khổng lồ/dự án dài hạn.
+
+B. Sự trưởng thành về mặt tâm lý, biết yêu thương và bảo vệ bản thân.
+
+C. Xây dựng được một tổ ấm hoặc một mối quan hệ thực sự lành mạnh.
+
+D. Tôi chưa cảm thấy viên mãn, tôi vẫn đang trên đường chạy và rất mệt mỏi.
+
+[Kể chuyện - Cảnh 4: Cảm giác thân thuộc]
+"Sự viên mãn không chỉ là thành công vật chất, nó là cảm giác thân thuộc. Ngươi nhận ra bản ngã cá nhân có mối liên hệ sâu sắc với tất cả mọi thứ khác."  
++1
+
+Khúc mắc 4 (Lựa chọn):
+
+Vũ trụ bao la thu nhỏ lại thành một cái ôm ấm áp: "Nơi nào hoặc tập thể nào mang lại cho bạn 'cảm giác thân thuộc' (belonging) mạnh mẽ nhất ở hiện tại, nơi bạn được là chính mình mà không cần cố gắng?"
+
+A. Gia đình nhỏ/ngôi nhà của chính tôi.
+
+B. Nhóm bạn bè thân thiết, những người có chung tần số tâm hồn.
+
+C. Một cộng đồng những người có chung đam mê, sở thích (fandom, câu lạc bộ).
+
+D. Tôi không cảm thấy thuộc về đâu cả, tôi luôn là một người ngoài cuộc (outsider).
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Giác ngộ là khi ngươi nhận ra mình vốn dĩ luôn ở nhà."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Vũ công bay đến gần bạn, nắm lấy tay bạn: "Trong khoảnh khắc hiện tại, nếu được mô tả trạng thái nội tâm của bạn bằng một 'điệu nhảy' (ví dụ: điệu valse êm đềm, điệu tango giằng xé, hay một điệu nhảy tự do hoang dã), bạn sẽ miêu tả nó như thế nào?"
+
+🔭 Không Gian Tương Lai: Vòng Lặp Mới Bắt Đầu
+[Kể chuyện - Cảnh 1: Cống hiến cho thế giới]
+"Sau khi hoàn thiện bản thân, tương lai của ngươi là hướng ra bên ngoài. The World cho thấy ngươi mong muốn đóng góp cho cộng đồng theo nhiều cách khác nhau. Ngươi cam kết làm cho thế giới trở nên tốt đẹp hơn bởi vì ngươi hiểu rằng mọi thứ đều có sự kết nối."  
+
+Khúc mắc 1 (Lựa chọn):
+
+Quả địa cầu xanh thẳm xoay tròn trong lòng bàn tay vũ công: "Sứ mệnh 'đóng góp cho cộng đồng' vĩ đại nhất mà bạn khao khát thực hiện trong tương lai là gì?"  
+
+A. Tạo ra việc làm, cơ hội phát triển kinh tế cho những người khó khăn.
+
+B. Lan tỏa tri thức, giáo dục để nâng cao nhận thức của thế hệ sau.
+
+C. Bảo vệ môi trường, thiên nhiên và các loài động vật.
+
+D. Sáng tạo ra những tác phẩm nghệ thuật/công nghệ giúp chữa lành và truyền cảm hứng.
+
+[Kể chuyện - Cảnh 2: Tránh sự trống rỗng cuối con đường]
+"Nhưng hãy nhớ lời cảnh báo. Đừng để tương lai của ngươi trở thành một The World đảo ngược. Đừng để thành công đi kèm với sự trống rỗng. Một vị vua có cả thế giới nhưng không có ai để chia sẻ là một vị vua nghèo nhất."  
+
+Khúc mắc 2 (Lựa chọn):
+
+Vòng nguyệt quế bỗng chốc trở nên xám xịt: "Để không rơi vào trạng thái 'có tất cả nhưng lại thấy trống rỗng' ở tương lai, bạn cần giữ chặt lấy giá trị nào?"  
+
+A. Tình yêu thương gia đình và sự chân thành từ những người tri kỷ.
+
+B. Sự khiêm tốn, luôn giữ tinh thần của một người học việc.
+
+C. Việc liên tục đặt ra những mục tiêu mới có ý nghĩa xã hội thay vì chỉ vì tiền.
+
+D. Đời sống tâm linh phong phú, sự kết nối sâu sắc với tự nhiên/vũ trụ.
+
+[Kể chuyện - Cảnh 3: Tìm kiếm sự kết thúc trọn vẹn]
+"Sự hoàn thành yêu cầu ngươi phải biết cách đóng lại những cánh cửa. Kỹ năng 'kết thúc' (closure) sẽ là thứ ngươi cần trau dồi cho tương lai."  
+
+Khúc mắc 3 (Lựa chọn):
+
+Một cánh cửa lớn đóng lại, phát ra âm thanh trầm mặc: "Bạn sẽ rèn luyện kỹ năng 'kết thúc một vấn đề' (closure) trong tương lai bằng cách nào?"  
+
+A. Luôn nói lời tạm biệt rõ ràng, không bao giờ im lặng biến mất (ghosting).
+
+B. Rút ra bài học triệt để từ mọi thất bại trước khi chuyển sang dự án mới.
+
+C. Tổ chức những 'nghi lễ' nhỏ để ăn mừng thành tựu hoặc chia tay quá khứ.
+
+D. Tha thứ hoàn toàn cho đối phương và cho mình trước khi bước tiếp.
+
+[Kể chuyện - Cảnh 4: Kết thúc là khởi đầu]
+"Ngươi biết không, lá bài số 21 là lá bài cuối cùng. Nhưng bánh xe vận mệnh là hình tròn. Khi ngươi hoàn tất Thế Giới, ngươi sẽ lại mang tay nải lên vai, và trở thành một Kẻ Khờ mới ở một cấp độ cao hơn."
+
+Khúc mắc 4 (Lựa chọn):
+
+Hình ảnh của Kẻ Khờ (The Fool) từ ngày đầu tiên mờ ảo hiện ra: "Khi đạt đến sự 'viên mãn' tuyệt đối ở tương lai, bạn sẽ mang theo 'hành trang' gì để chuẩn bị cho cú nhảy vách đá tiếp theo ở một kiếp sống/chu kỳ mới?"
+
+A. Sự thông thái và điềm tĩnh, không còn bất ngờ trước những thăng trầm.
+
+B. Sự ngây thơ và tò mò thuần khiết, vì vũ trụ luôn có điều bí ẩn để khám phá.
+
+C. Tình yêu thương vô điều kiện, sức mạnh vô địch bảo vệ tôi khỏi mọi tổn thương.
+
+D. Tôi không muốn nhảy nữa, tôi muốn dừng lại và nghỉ ngơi vĩnh viễn ở vương quốc này.
+
+[Kể chuyện - Cảnh 5: Phóng chiếu]
+"Cuộc đời là một vở kịch không có khán giả, ngươi vừa là diễn viên, vừa là đạo diễn."
+
+Khúc mắc 5 (Câu hỏi Tự do):
+
+Bản nhạc giao hưởng đẩy lên cao trào, vũ công vươn tay về phía ánh sáng tột cùng: "Khi tấm màn nhung của vòng lặp The World khép lại, bạn sẽ viết câu kết luận nào vào cuốn 'Biên niên sử' của chính cuộc đời mình?"

@@ -1,0 +1,166 @@
+[gd_scene format=3 uid="uid://da52tuxcadciu"]
+
+[ext_resource type="Script" uid="uid://xhldjmryyuoi" path="res://scripts/ui/screens/narrative_screen.gd" id="1_narrative"]
+[ext_resource type="Texture2D" uid="uid://cpabhoyxqrrpo" path="res://assets/backgrounds/opening.jpg" id="2_bg"]
+[ext_resource type="Texture2D" uid="uid://doclpfmjh57if" path="res://assets/characters/ki_avatar.jpg" id="3_avatar"]
+[ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="4_cinzel"]
+[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
+[ext_resource type="FontVariation" path="res://assets/fonts/roboto_mono.tres" id="6_roboto_mono"]
+
+[node name="NarrativeScreen" type="Control" unique_id=1683479662]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_narrative")
+
+[node name="BackgroundTexture" type="TextureRect" parent="." unique_id=321332698]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_bg")
+expand_mode = 2
+stretch_mode = 6
+
+[node name="DialogueBox" type="Control" parent="." unique_id=719705899]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -260.0
+offset_bottom = 11.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Panel" type="PanelContainer" parent="DialogueBox" unique_id=26996900]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -49.5
+offset_top = 10.0
+offset_right = 20.5
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="DialogueBox/Panel" unique_id=1752535955]
+custom_minimum_size = Vector2(1350, 0)
+layout_mode = 2
+theme_override_constants/margin_left = 350
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="DialogueBox/Panel/Margin" unique_id=1090149617]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NameBox" type="PanelContainer" parent="DialogueBox/Panel/Margin/VBox" unique_id=1503692512]
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Margin" type="MarginContainer" parent="DialogueBox/Panel/Margin/VBox/NameBox" unique_id=1506752029]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_right = 15
+
+[node name="SpeakerLabel" type="Label" parent="DialogueBox/Panel/Margin/VBox/NameBox/Margin" unique_id=1378369243]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 24
+text = "KÌ"
+
+[node name="BodyLabel" type="RichTextLabel" parent="DialogueBox/Panel/Margin/VBox" unique_id=715050583]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/normal_font_size = 18
+bbcode_enabled = true
+text = "Lời của KÌ sẽ hiện ra ở đây..."
+
+[node name="HBox" type="HBoxContainer" parent="DialogueBox/Panel/Margin/VBox" unique_id=361007032]
+layout_mode = 2
+alignment = 2
+
+[node name="ContinueButton" type="Button" parent="DialogueBox/Panel/Margin/VBox/HBox" unique_id=885994731]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_open_sans")
+text = "Tiếp tục"
+
+[node name="ChoicesContainer" type="VBoxContainer" parent="." unique_id=349689454]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -450.0
+offset_top = -150.0
+offset_right = -100.0
+offset_bottom = 150.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="FreeTextContainer" type="VBoxContainer" parent="." unique_id=1320674933]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -450.0
+offset_top = -100.0
+offset_right = -100.0
+offset_bottom = 100.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="InputField" type="TextEdit" parent="FreeTextContainer" unique_id=1222296473]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_roboto_mono")
+theme_override_font_sizes/font_size = 18
+placeholder_text = "Nhập câu trả lời của bạn..."
+wrap_mode = 1
+
+[node name="SubmitButton" type="Button" parent="FreeTextContainer" unique_id=498844355]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_open_sans")
+theme_override_font_sizes/font_size = 20
+text = "Gửi"
+
+[node name="AvatarTexture" type="TextureRect" parent="." unique_id=324503365]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -255.0
+offset_right = 249.0
+offset_bottom = 4.0
+grow_vertical = 0
+texture = ExtResource("3_avatar")
+expand_mode = 1
+stretch_mode = 5

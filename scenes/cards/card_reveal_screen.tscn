@@ -1,8 +1,9 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://berbql128v2cn"]
 
-[ext_resource type="Script" path="res://scripts/ui/screens/card_reveal_screen.gd" id="1_card_reveal"]
+[ext_resource type="Script" uid="uid://rbi6sjk56v75" path="res://scripts/ui/screens/card_reveal_screen.gd" id="1_card_reveal"]
+[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/mystic_void.png" id="2_bg"]
 
-[node name="CardRevealScreen" type="Control"]
+[node name="CardRevealScreen" type="Control" unique_id=1607902190]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +12,18 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_card_reveal")
 
-[node name="Panel" type="PanelContainer" parent="."]
+[node name="BackgroundTexture" type="TextureRect" parent="." unique_id=321332698]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_bg")
+expand_mode = 2
+stretch_mode = 6
+
+[node name="Panel" type="PanelContainer" parent="." unique_id=1160407493]
 custom_minimum_size = Vector2(980, 560)
 layout_mode = 1
 anchors_preset = 8
@@ -26,46 +38,48 @@ offset_bottom = 280.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Margin" type="MarginContainer" parent="Panel"]
+[node name="Margin" type="MarginContainer" parent="Panel" unique_id=2084429735]
 layout_mode = 2
 theme_override_constants/margin_left = 32
 theme_override_constants/margin_top = 32
 theme_override_constants/margin_right = 32
 theme_override_constants/margin_bottom = 32
 
-[node name="Scroll" type="ScrollContainer" parent="Panel/Margin"]
+[node name="Scroll" type="ScrollContainer" parent="Panel/Margin" unique_id=1396457001]
 layout_mode = 2
 horizontal_scroll_mode = 0
 
-[node name="Box" type="VBoxContainer" parent="Panel/Margin/Scroll"]
+[node name="Box" type="VBoxContainer" parent="Panel/Margin/Scroll" unique_id=1485589636]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_constants/separation = 24
 alignment = 1
 
-[node name="TitleLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="TitleLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=2044139829]
+custom_minimum_size = Vector2(920, 50)
 layout_mode = 2
 theme_override_font_sizes/font_size = 34
 text = "Ba Lá Của Bản Ngã"
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="BodyLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="BodyLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=334073813]
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "KÌ đã đặt bài theo Quá khứ / Hiện tại / Tương lai."
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="CardRow" type="HBoxContainer" parent="Panel/Margin/Scroll/Box"]
+[node name="CardRow" type="HBoxContainer" parent="Panel/Margin/Scroll/Box" unique_id=1003882190]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 20
 alignment = 1
 
-[node name="ContinueButton" type="Button" parent="Panel/Margin/Scroll/Box"]
+[node name="ContinueButton" type="Button" parent="Panel/Margin/Scroll/Box" unique_id=921312420]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2

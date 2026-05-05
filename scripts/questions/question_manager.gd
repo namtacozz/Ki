@@ -11,15 +11,15 @@ func load_questions() -> void:
 	var loaded: Variant = JsonLoader.load_json(QUESTIONS_DATA_PATH, {})
 	_data = loaded if loaded is Dictionary else {}
 
+func get_onboarding_intro() -> String:
+	_ensure_loaded()
+	return String(_data.get("onboarding_intro", ""))
+
 func get_onboarding_questions() -> Array[Dictionary]:
 	_ensure_loaded()
 	return _to_dictionary_array(_data.get("onboarding", []))
 
-func get_inner_space_questions() -> Array[Dictionary]:
-	return get_questions_for_position("inner_space")
 
-func get_questions_for_position(position: String) -> Array[Dictionary]:
-	return get_questions(get_set_id_for_position(position))
 
 func get_questions_for_card_position(card_slug: String, position: String) -> Array[Dictionary]:
 	_ensure_loaded()
@@ -52,30 +52,7 @@ func get_set_id_for_position(position: String) -> String:
 		_:
 			return "inner_space"
 
-func get_questions(set_id: String) -> Array[Dictionary]:
-	_ensure_loaded()
-	return _to_dictionary_array(_data.get(set_id, []))
 
-func get_question(set_id: String, question_id: String) -> Dictionary:
-	for question in get_questions(set_id):
-		if String(question.get("id", "")) == question_id:
-			return question.duplicate(true)
-	return {}
-
-func get_question_count(set_id: String) -> int:
-	return get_questions(set_id).size()
-
-func get_question_at(set_id: String, index: int) -> Dictionary:
-	var questions := get_questions(set_id)
-	if index < 0 or index >= questions.size():
-		return {}
-	return questions[index].duplicate(true)
-
-func get_next_question(set_id: String, answered_count: int) -> Dictionary:
-	return get_question_at(set_id, answered_count)
-
-func has_next_question(set_id: String, answered_count: int) -> bool:
-	return answered_count < get_question_count(set_id)
 
 func is_free_text_question(question: Dictionary) -> bool:
 	return bool(question.get("free_text", false))

@@ -1,12 +1,10 @@
 extends Control
 
 const TitleScreenScene := preload("res://scenes/title/title_screen.tscn")
-const IntroScreenScene := preload("res://scenes/title/intro_screen.tscn")
-const OnboardingScreenScene := preload("res://scenes/questions/onboarding_screen.tscn")
 const CardRevealScreenScene := preload("res://scenes/cards/card_reveal_screen.tscn")
-const InnerSpaceScreenScene := preload("res://scenes/inner_space/inner_space_screen.tscn")
 const MinigameScreenScene := preload("res://scenes/minigames/minigame_screen.tscn")
 const LoadingScreenScene := preload("res://scenes/ui/loading_screen.tscn")
+const NarrativeScreenScene := preload("res://scenes/ui/narrative_screen.tscn")
 const AIErrorScreenScene := preload("res://scenes/ui/ai_error_screen.tscn")
 const FinalReportScreenScene := preload("res://scenes/report/final_report_screen.tscn")
 
@@ -36,8 +34,9 @@ func show_title() -> void:
 	screen.continued.connect(_show_intro)
 
 func _show_intro() -> void:
-	var screen := _show_screen(IntroScreenScene)
+	var screen := _show_screen(NarrativeScreenScene)
 	screen.continued.connect(_on_title_continue)
+	screen.setup("KÌ", "KÌ sẽ hỏi ba câu nhập môn, chọn ba lá Major Arcana cho Quá khứ / Hiện tại / Tương lai, rồi dẫn Ngài qua từng không gian nội tâm.")
 
 func _on_title_continue() -> void:
 	onboarding_questions = QuestionManager.get_onboarding_questions()
@@ -46,18 +45,35 @@ func _on_title_continue() -> void:
 		error_mode = "missing_onboarding"
 		_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi nhập môn")
 		return
-	_show_onboarding_question()
+	var intro := QuestionManager.get_onboarding_intro()
+	if not intro.is_empty():
+		_show_onboarding_intro(intro)
+	else:
+		_show_onboarding_question()
+
+func _show_onboarding_intro(intro: String) -> void:
+	var screen := _show_screen(NarrativeScreenScene)
+	screen.continued.connect(_show_onboarding_question)
+	screen.setup("KÌ", intro, "res://assets/characters/ki_mystical.jpg", "res://assets/backgrounds/title_bg.jpg")
 
 func _show_onboarding_question() -> void:
 	if onboarding_index >= onboarding_questions.size():
 		_show_card_reveal()
 		return
 	var question := onboarding_questions[onboarding_index]
-	var screen := _show_screen(OnboardingScreenScene)
-	screen.choice_selected.connect(_on_onboarding_choice)
-	screen.setup(question, onboarding_index, onboarding_questions.size())
+	var screen := _show_screen(NarrativeScreenScene)
+	screen.choice_selected.connect(_on_onboarding_choice.bind(question))
+	
+	var prompt = question.get("prompt", "")
+	var choices = question.get("choices", [])
+	
+	screen.setup("KÌ", prompt, "res://assets/characters/ki_mystical.jpg", "res://assets/backgrounds/title_bg.jpg")
+	if QuestionManager.is_free_text_question(question):
+		screen.setup_free_text()
+	else:
+		screen.setup_choices(choices)
 
-func _on_onboarding_choice(question: Dictionary, choice: String) -> void:
+func _on_onboarding_choice(choice: String, question: Dictionary) -> void:
 	if not QuestionManager.is_valid_choice(question, choice):
 		return
 	GameState.add_onboarding_answer(QuestionManager.build_answer(question, choice))
@@ -85,24 +101,55 @@ func _show_current_inner_space() -> void:
 	current_space_story = QuestionManager.get_story_for_card_position(card_slug, card_position)
 	current_space_questions = QuestionManager.get_questions_for_card_position(card_slug, card_position)
 	if current_space_questions.is_empty():
-		error_mode = "missing_questions"
-		_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi cho %s / %s" % [card_slug, card_position])
+		_show_missing_questions_error(card_slug, card_position)
 		return
+	_reset_inner_space_state()
+	if not current_space_story.is_empty():
+		_show_inner_space_story(card)
+	else:
+		_show_inner_space_question(card)
+
+func _reset_inner_space_state() -> void:
 	current_space_answers = []
 	current_space_question_index = 0
 	error_mode = ""
-	_show_inner_space_question(card)
+
+func _show_missing_questions_error(card_slug: String, card_position: String) -> void:
+	error_mode = "missing_questions"
+	_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi cho %s / %s" % [card_slug, card_position])
+
+func _show_inner_space_story(card: Dictionary) -> void:
+	var screen := _show_screen(NarrativeScreenScene)
+	screen.continued.connect(_show_inner_space_question.bind(card))
+	
+	var speaker = TarotManager.get_display_name_for_card(card)
+	var art_path = _get_card_art_or_default(card)
+	var bg_path = _get_space_background(card)
+	
+	screen.setup(speaker, current_space_story, art_path, bg_path)
 
 func _show_inner_space_question(card: Dictionary) -> void:
 	if current_space_question_index >= current_space_questions.size():
 		_save_current_inner_space(card)
 		return
+		
 	var question := current_space_questions[current_space_question_index]
-	var screen := _show_screen(InnerSpaceScreenScene)
-	screen.choice_selected.connect(_on_inner_space_choice)
-	screen.setup(card, current_space_story, question, current_space_question_index, current_space_questions.size())
+	var screen := _show_screen(NarrativeScreenScene)
+	screen.choice_selected.connect(_on_inner_space_choice.bind(card, question))
+	
+	var speaker = TarotManager.get_display_name_for_card(card)
+	var prompt = question.get("prompt", "")
+	var choices = question.get("choices", [])
+	var art_path = _get_card_art_or_default(card)
+	var bg_path = _get_space_background(card)
+	
+	screen.setup(speaker, prompt, art_path, bg_path)
+	if QuestionManager.is_free_text_question(question):
+		screen.setup_free_text()
+	else:
+		screen.setup_choices(choices)
 
-func _on_inner_space_choice(card: Dictionary, question: Dictionary, choice: String) -> void:
+func _on_inner_space_choice(choice: String, card: Dictionary, question: Dictionary) -> void:
 	if not QuestionManager.is_valid_choice(question, choice):
 		return
 	_store_inner_space_answer(card, QuestionManager.build_answer(question, choice))
@@ -180,12 +227,15 @@ func _on_ai_failed(message: String) -> void:
 		_show_ai_error_screen(message)
 		return
 	if pending_ai_card.is_empty():
-		final_report_error = message
-		var report := ReportBuilder.build_local_summary(message)
-		GameState.set_final_report(report)
-		_show_final_report_screen(report, true)
+		_handle_final_report_failure(message)
 		return
 	_show_ai_error_screen(message)
+
+func _handle_final_report_failure(message: String) -> void:
+	final_report_error = message
+	var report := ReportBuilder.build_local_summary(message)
+	GameState.set_final_report(report)
+	_show_final_report_screen(report, true)
 
 func _show_ai_error_screen(message: String) -> void:
 	var screen := _show_screen(AIErrorScreenScene)
@@ -262,6 +312,22 @@ func _position_label(card_position: String) -> String:
 			return "Tương lai"
 		_:
 			return card_position
+
+func _get_card_art_or_default(card: Dictionary) -> String:
+	var art_path = TarotManager.get_art_path_for_card(card)
+	return art_path if not art_path.is_empty() else "res://assets/characters/ki_mystical.jpg"
+
+func _get_space_background(card: Dictionary) -> String:
+	var card_position = String(card.get("position", "")).to_lower()
+	match card_position:
+		"past":
+			return "res://assets/backgrounds/space_past.jpg"
+		"present":
+			return "res://assets/backgrounds/space_present.jpg"
+		"future":
+			return "res://assets/backgrounds/space_future.jpg"
+		_:
+			return "res://assets/backgrounds/inner_space_fallback.png"
 
 func _show_loading_screen(title: String, body: String) -> void:
 	var screen := _show_screen(LoadingScreenScene)

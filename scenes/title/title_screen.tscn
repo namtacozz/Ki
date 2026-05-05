@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://cvjy0t16lashb"]
 
-[ext_resource type="Script" path="res://scripts/ui/screens/title_screen.gd" id="1_title"]
+[ext_resource type="Script" uid="uid://yqff2dpoa8sy" path="res://scripts/ui/screens/title_screen.gd" id="1_title"]
+[ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
+[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
+[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/title_bg.jpg" id="bg_tex"]
 
-[node name="TitleScreen" type="Control"]
+[node name="TitleScreen" type="Control" unique_id=1681748735]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +15,18 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_title")
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
+[node name="BackgroundTexture" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("bg_tex")
+expand_mode = 2
+stretch_mode = 6
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=994583931]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -25,45 +40,54 @@ offset_bottom = 180.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1224355028]
 layout_mode = 2
 theme_override_constants/margin_left = 24
 theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 24
 theme_override_constants/margin_bottom = 24
 
-[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer" unique_id=509340714]
 layout_mode = 2
 horizontal_scroll_mode = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/ScrollContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/ScrollContainer" unique_id=1013205965]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_constants/separation = 16
 
-[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1965602617]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("2_cinzel")
+theme_override_font_sizes/font_size = 48
 text = "KÌ: Ba Lá Của Bản Ngã"
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="BodyLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="BodyLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=297703969]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_inter")
 text = "Chạm để mở cửa phòng bói của KÌ."
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="DemoLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="DemoLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=579156044]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_inter")
 text = "Demo: onboarding → 3 lá → 3 không gian → report cuối."
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="ContinueButton" type="Button" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer"]
+[node name="ContinueButton" type="Button" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1350593715]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_fonts/font = ExtResource("4_open_sans")
+theme_override_font_sizes/font_size = 20
 text = "Tiếp tục"

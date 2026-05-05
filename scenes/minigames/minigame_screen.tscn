@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://dg40p4seuyx3c"]
 
-[ext_resource type="Script" path="res://scripts/ui/screens/minigame_screen.gd" id="1"]
+[ext_resource type="Script" uid="uid://hvfj5b4kgmv4" path="res://scripts/ui/screens/minigame_screen.gd" id="1"]
+[ext_resource type="FontVariation" path="res://assets/fonts/cormorant.tres" id="2_cormorant"]
+[ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="3_cinzel"]
+[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="4_inter"]
+[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
+[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/tarot_table_premium.png" id="6_bg"]
 
-[node name="MinigameScreen" type="Control"]
+[node name="MinigameScreen" type="Control" unique_id=1391399720]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +16,18 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
 
-[node name="Panel" type="PanelContainer" parent="."]
+[node name="BackgroundTexture" type="TextureRect" parent="." unique_id=321332698]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_bg")
+expand_mode = 2
+stretch_mode = 6
+
+[node name="Panel" type="PanelContainer" parent="." unique_id=2050701962]
 custom_minimum_size = Vector2(920, 620)
 layout_mode = 1
 anchors_preset = 8
@@ -26,82 +42,96 @@ offset_bottom = 310.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Margin" type="MarginContainer" parent="Panel"]
+[node name="Margin" type="MarginContainer" parent="Panel" unique_id=1983743558]
 layout_mode = 2
 theme_override_constants/margin_left = 32
 theme_override_constants/margin_top = 32
 theme_override_constants/margin_right = 32
 theme_override_constants/margin_bottom = 32
 
-[node name="Scroll" type="ScrollContainer" parent="Panel/Margin"]
+[node name="Scroll" type="ScrollContainer" parent="Panel/Margin" unique_id=147058504]
 layout_mode = 2
 horizontal_scroll_mode = 0
 
-[node name="Box" type="VBoxContainer" parent="Panel/Margin/Scroll"]
+[node name="Box" type="VBoxContainer" parent="Panel/Margin/Scroll" unique_id=1386705818]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 20
 alignment = 1
 
-[node name="PositionLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="PositionLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1414350643]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("2_cormorant")
 theme_override_font_sizes/font_size = 20
+uppercase = true
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="TitleLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="TitleLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=2040457336]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("3_cinzel")
 theme_override_font_sizes/font_size = 34
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="GoalLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="GoalLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=2133216583]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("4_inter")
 theme_override_font_sizes/font_size = 22
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="HandLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="HandLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1563863170]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("4_inter")
 theme_override_font_sizes/font_size = 20
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="HandVisuals" type="HBoxContainer" parent="Panel/Margin/Scroll/Box"]
+[node name="HandVisuals" type="HBoxContainer" parent="Panel/Margin/Scroll/Box" unique_id=2108446450]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_constants/separation = 8
 alignment = 1
 
-[node name="DetailLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="DetailLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1594018579]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("4_inter")
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="ActionBox" type="VBoxContainer" parent="Panel/Margin/Scroll/Box"]
+[node name="ActionBox" type="VBoxContainer" parent="Panel/Margin/Scroll/Box" unique_id=130928795]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_constants/separation = 12
 
-[node name="RewardLabel" type="Label" parent="Panel/Margin/Scroll/Box"]
+[node name="RewardLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1142534610]
 unique_name_in_owner = true
+custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
+theme_override_fonts/font = ExtResource("4_inter")
 theme_override_font_sizes/font_size = 22
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="RewardButton" type="Button" parent="Panel/Margin/Scroll/Box"]
+[node name="RewardButton" type="Button" parent="Panel/Margin/Scroll/Box" unique_id=1315126453]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2
 size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("5_open_sans")
 theme_override_font_sizes/font_size = 18
 text = "Nhận Self Fragment"

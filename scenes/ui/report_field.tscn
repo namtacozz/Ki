@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="1_inter"]
+
+[node name="ReportField" type="VBoxContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 60.0
+grow_horizontal = 2
+theme_override_constants/separation = 8
+
+[node name="FieldTitle" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_fonts/font = ExtResource("1_inter")
+theme_override_font_sizes/font_size = 20
+text = "TÊN TRƯỜNG"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="FieldBody" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Nội dung soi chiếu sẽ hiển thị ở đây..."
+horizontal_alignment = 1
+autowrap_mode = 3
