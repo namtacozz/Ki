@@ -1,9 +1,8 @@
-[gd_resource type="Theme" load_steps=12 format=3]
+[gd_resource type="Theme" format=3 uid="uid://vicqg4kds74w"]
 
-[ext_resource type="FontVariation" uid="uid://bt18w06d87e0n" path="res://assets/fonts/cinzel.tres" id="1_cinzel"]
-[ext_resource type="FontVariation" uid="uid://bu3485w38166q" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
-[ext_resource type="FontVariation" uid="uid://cy88w655787f6" path="res://assets/fonts/eb_garamond.tres" id="5_eb_garamond"]
-[ext_resource type="FontVariation" uid="uid://dt3874678822" path="res://assets/fonts/roboto_mono.tres" id="7_roboto_mono"]
+[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
+[ext_resource type="FontVariation" path="res://assets/fonts/eb_garamond.tres" id="5_eb_garamond"]
+[ext_resource type="FontVariation" path="res://assets/fonts/roboto_mono.tres" id="7_roboto_mono"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ButtonHover"]
 bg_color = Color(0.14902, 0.14902, 0.14902, 0.8)

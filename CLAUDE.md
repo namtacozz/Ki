@@ -109,7 +109,6 @@ D:/KÌ/
 ```bash
 rtk git status --short
 rtk git diff
-rtk godot --headless --path "D:/KÌ" --quit
 rtk npm --prefix "D:/KÌ/tools/ai_proxy" install
 ```
 
@@ -119,14 +118,8 @@ rtk npm --prefix "D:/KÌ/tools/ai_proxy" install
 
 Ưu tiên sau mỗi task code:
 
-```bash
-rtk godot --headless --path "D:/KÌ" --quit
-```
-
 Khi có web export:
 
-```bash
-rtk godot --headless --path "D:/KÌ" --export-release Web "D:/KÌ/exports/web/index.html"
 rtk python -m http.server 8090 --directory "D:/KÌ/exports/web"
 ```
 

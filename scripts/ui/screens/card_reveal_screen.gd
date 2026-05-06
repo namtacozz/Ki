@@ -4,13 +4,23 @@ signal continued
 
 @onready var card_row: HBoxContainer = %CardRow
 @onready var continue_button: Button = %ContinueButton
+@onready var background_texture: TextureRect = $BackgroundTexture
 
 func _ready() -> void:
 	continue_button.pressed.connect(continued.emit)
+	_apply_accessibility()
+
+func _apply_accessibility() -> void:
+	if is_instance_valid(background_texture):
+		if SettingsManager.settings.high_contrast:
+			background_texture.modulate = Color.BLACK
+		else:
+			background_texture.modulate = Color.WHITE
 
 const TarotCardDisplayScene := preload("res://scenes/ui/tarot_card_display.tscn")
 
 func setup(cards: Array[Dictionary]) -> void:
+	AudioManager.play_sfx("card_draw")
 	_clear_cards()
 	var viewport_width := get_viewport_rect().size.x
 	var is_phone := viewport_width < 720
@@ -35,7 +45,7 @@ func _setup_card_display(display: Node, card: Dictionary) -> void:
 		display.get_node("%CardArt").texture = load(art_path)
 
 func _apply_phone_layout(display: Node) -> void:
-	display.custom_minimum_size = Vector2(104, 220)
+	display.custom_minimum_size = Vector2(90, 190)
 	display.get_node("%PositionLabel").add_theme_font_size_override("font_size", 14)
 	display.get_node("%NameLabel").add_theme_font_size_override("font_size", 14)
 	display.get_node("%SubtitleLabel").add_theme_font_size_override("font_size", 13)

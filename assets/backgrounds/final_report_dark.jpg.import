@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7n5jv6bbic6d"
-valid=false
+uid="uid://epy3hkecixe0"
+path="res://.godot/imported/final_report_dark.jpg-54f67bdf8ca1822c0aa4e3d4e70e4c03.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/backgrounds/mystic_void.png"
+source_file="res://assets/backgrounds/final_report_dark.jpg"
+dest_files=["res://.godot/imported/final_report_dark.jpg-54f67bdf8ca1822c0aa4e3d4e70e4c03.ctex"]
 
 [params]
 

@@ -4,9 +4,9 @@
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
 
 [node name="TarotCardDisplay" type="PanelContainer" unique_id=689839663]
-custom_minimum_size = Vector2(280, 450)
-offset_right = 280.0
-offset_bottom = 450.0
+custom_minimum_size = Vector2(240, 380)
+offset_right = 240.0
+offset_bottom = 380.0
 
 [node name="Margin" type="MarginContainer" parent="." unique_id=734730071]
 layout_mode = 2
@@ -32,7 +32,7 @@ horizontal_alignment = 1
 
 [node name="CardArt" type="TextureRect" parent="Margin/VBox" unique_id=428857765]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 300)
+custom_minimum_size = Vector2(0, 240)
 layout_mode = 2
 expand_mode = 1
 stretch_mode = 5

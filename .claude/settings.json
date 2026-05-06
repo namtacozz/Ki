@@ -23,7 +23,13 @@
       "Bash(godot --headless --path /d/KÌ --quit)",
       "Bash(rtk python3 *)",
       "Bash(rtk wc *)",
-      "Bash(rtk head *)"
+      "Bash(rtk head *)",
+      "Bash(godot --headless --path \"D:/KÌ\" --quit)",
+      "Bash(/c/Users/namta/bin/rtk godot *)",
+      "Bash(rtk --version)",
+      "PowerShell(rtk godot --headless --path \"D:\\\\KI\" --quit)",
+      "Bash(rtk find *)",
+      "Bash(godot --headless --quit)"
     ]
   }
 }

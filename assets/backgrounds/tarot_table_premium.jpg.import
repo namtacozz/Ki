@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnr6sxm7e3it4"
-valid=false
+uid="uid://bb0jggf46070m"
+path="res://.godot/imported/tarot_table_premium.jpg-bcc7955e8a5d12ba77722ff568c83418.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/backgrounds/inner_space_fallback.png"
+source_file="res://assets/backgrounds/tarot_table_premium.jpg"
+dest_files=["res://.godot/imported/tarot_table_premium.jpg-bcc7955e8a5d12ba77722ff568c83418.ctex"]
 
 [params]
 

@@ -18,7 +18,9 @@ func build_context() -> Dictionary:
 		"inner_space_results": GameState.inner_space_results.duplicate(true),
 		"ai_reflections": GameState.ai_reflections.duplicate(true),
 		"minigame_results": GameState.minigame_results.duplicate(true),
-		"self_fragments": GameState.self_fragments,
+		"soul_fragments_total": GameState.soul_fragments,
+		"soul_fragments_by_position": GameState.get_soul_fragments_by_position(),
+		"soul_fragment_events": GameState.get_soul_fragment_events(),
 		"final_report": GameState.final_report.duplicate(true),
 	}
 

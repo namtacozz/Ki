@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bwh5jtnnieeu4" path="res://scripts/ui/screens/final_report_screen.gd" id="1"]
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
-[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/final_report_dark.png" id="bg_tex"]
+[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/final_report_dark.jpg" id="bg_tex"]
 
 [node name="FinalReportScreen" type="Control" unique_id=1475821832]
 layout_mode = 3
@@ -26,63 +26,58 @@ expand_mode = 2
 stretch_mode = 6
 
 [node name="Panel" type="PanelContainer" parent="." unique_id=426582416]
-custom_minimum_size = Vector2(980, 680)
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -490.0
-offset_top = -340.0
-offset_right = 490.0
-offset_bottom = 340.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 70.0
+offset_right = -20.0
+offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Margin" type="MarginContainer" parent="Panel" unique_id=806709741]
 layout_mode = 2
-theme_override_constants/margin_left = 32
-theme_override_constants/margin_top = 32
-theme_override_constants/margin_right = 32
-theme_override_constants/margin_bottom = 32
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
 
 [node name="Scroll" type="ScrollContainer" parent="Panel/Margin" unique_id=784613789]
 layout_mode = 2
 horizontal_scroll_mode = 0
+vertical_scroll_mode = 0
 
 [node name="Box" type="VBoxContainer" parent="Panel/Margin/Scroll" unique_id=1639035661]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_constants/separation = 20
+theme_override_constants/separation = 12
 alignment = 1
 
 [node name="TitleLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1600804904]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_cinzel")
-theme_override_font_sizes/font_size = 48
+theme_override_font_sizes/font_size = 32
 text = "Bản Soi Chiếu Cuối"
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="TemporaryLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=60292564]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_inter")
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 15
 text = "Bản tạm thời. AI proxy chưa trả report hoàn chỉnh."
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="ErrorLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=2142664731]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_inter")
-theme_override_font_sizes/font_size = 16
+theme_override_font_sizes/font_size = 14
 horizontal_alignment = 1
 autowrap_mode = 3
 
@@ -90,24 +85,31 @@ autowrap_mode = 3
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_constants/separation = 18
+theme_override_constants/separation = 10
 
 [node name="ButtonRow" type="HBoxContainer" parent="Panel/Margin/Scroll/Box" unique_id=6279175]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_constants/separation = 16
+theme_override_constants/separation = 12
 alignment = 1
 
 [node name="RetryButton" type="Button" parent="Panel/Margin/Scroll/Box/ButtonRow" unique_id=1385774791]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(300, 60)
+custom_minimum_size = Vector2(200, 48)
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 16
 text = "Thử lại AI"
+
+[node name="CopyButton" type="Button" parent="Panel/Margin/Scroll/Box/ButtonRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 48)
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Sao chép Bản Soi Chiếu"
 
 [node name="ReplayButton" type="Button" parent="Panel/Margin/Scroll/Box/ButtonRow" unique_id=536218200]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(300, 60)
+custom_minimum_size = Vector2(200, 48)
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 16
 text = "Chơi lại"

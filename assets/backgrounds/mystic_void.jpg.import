@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3p6om8ta7xml"
-valid=false
+uid="uid://csrja135vl0s4"
+path="res://.godot/imported/mystic_void.jpg-7fbf37f66ab97d3195a808ff9eaa0dc4.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/backgrounds/tarot_table_premium.png"
+source_file="res://assets/backgrounds/mystic_void.jpg"
+dest_files=["res://.godot/imported/mystic_void.jpg-7fbf37f66ab97d3195a808ff9eaa0dc4.ctex"]
 
 [params]
 

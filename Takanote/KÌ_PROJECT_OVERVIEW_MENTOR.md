@@ -3,458 +3,246 @@
 ## 1. Thông tin tổng quan
 
 **Tên dự án:** KÌ: Ba Lá Của Bản Ngã  
-**Thể loại:** Web game narrative / giải đố nhẹ / tự khám phá bản thân  
-**Chủ đề:** Tarot, nội tâm, lựa chọn cá nhân, phản tư bằng AI  
+**Thể loại:** Web game narrative / tự khám phá bản thân / mini card game  
+**Chủ đề:** Tarot, nội tâm, lựa chọn cá nhân, Mảnh Hồn, phản tư bằng AI  
 **Engine:** Godot 4.x  
-**Ngôn ngữ:** GDScript  
 **Nền tảng mục tiêu:** Desktop browser và mobile browser  
-**Thời gian thực hiện:** 2026-05-04 đến trước 2026-05-15  
-**Mục tiêu demo:** Người chơi hoàn thành được một lượt chơi đầy đủ từ màn hình mở đầu đến bản tổng kết cuối.
+**Mục tiêu demo:** Người chơi hoàn thành được một lượt chơi đầy đủ từ màn hình mở đầu đến bản soi chiếu cuối.
+
+---
 
 ## 2. Tóm tắt dự án
 
-**KÌ: Ba Lá Của Bản Ngã** là một web game ngắn, nơi người chơi gặp thầy bói tên **KÌ** và bước vào một hành trình tự soi chiếu bản thân qua ba lá bài tarot.
+**KÌ: Ba Lá Của Bản Ngã** là một web game ngắn, nơi người chơi gặp thầy bói tên **KÌ** và đi qua một hành trình tự soi chiếu bản thân bằng tarot.
 
-Sau phần câu hỏi nhập môn, hệ thống chọn ra ba lá Major Arcana đại diện cho:
+Game bắt đầu bằng một vài câu hỏi nhập môn. Từ câu trả lời của người chơi, hệ thống chọn ra ba lá **Major Arcana** đại diện cho:
 
 1. **Quá khứ** — điều người chơi đang mang theo.
-2. **Hiện tại** — mâu thuẫn hoặc lựa chọn đang đối mặt.
-3. **Tương lai** — khả năng hoặc lời mời đang mở ra.
+2. **Hiện tại** — điều người chơi đang đối diện.
+3. **Tương lai** — khả năng hoặc lời mời phía trước.
 
-Mỗi lá bài dẫn người chơi vào một không gian nội tâm riêng. Tại đó, người chơi đọc một đoạn narrative ngắn, trả lời câu hỏi lựa chọn, nhập một câu trả lời tự do, chơi một mini card game nhẹ, rồi nhận diễn giải từ AI. Cuối hành trình, KÌ tổng hợp dữ liệu thành một bản đọc cuối cùng theo phong cách tarot và self-reflection.
+Sau đó, người chơi bước vào từng không gian nội tâm của mỗi lá bài, trả lời câu hỏi, chơi mini game bằng bài Tây để nhận **Mảnh Hồn**, rồi nhận diễn giải từ AI. Cuối hành trình, KÌ tổng hợp toàn bộ lựa chọn, câu trả lời và kết quả mini game thành một bản soi chiếu cuối.
+
+---
 
 ## 3. Lý do chọn đề tài
 
-Dự án được thiết kế để phù hợp với phạm vi kiến tập ngắn nhưng vẫn có điểm nổi bật rõ ràng:
+Em chọn đề tài này vì nó vừa đủ nhỏ để hoàn thành trong thời gian kiến tập, vừa có điểm nổi bật để trình bày:
 
-- **Có gameplay hoàn chỉnh:** người chơi có mục tiêu, lựa chọn, mini game và kết thúc.
-- **Có tính cá nhân hóa:** câu trả lời của người chơi ảnh hưởng đến lá bài, chỉ số ẩn và nội dung diễn giải.
-- **Có yếu tố sáng tạo:** kết hợp tarot, narrative design, puzzle nhẹ và AI.
-- **Có giá trị trình bày kỹ thuật:** dữ liệu tách riêng bằng JSON, luồng game có cấu trúc, AI gọi qua proxy an toàn.
-- **Có scope kiểm soát được:** chỉ dùng 22 lá Major Arcana, không làm hệ thống tarot đầy đủ 78 lá, không làm multiplayer, không làm chatbot phức tạp.
+- Có một vòng chơi hoàn chỉnh: mở đầu, lựa chọn, tiến triển, mini game, kết thúc.
+- Có yếu tố cá nhân hóa: câu trả lời ảnh hưởng đến lá bài và bản soi chiếu cuối.
+- Có phong cách riêng: tarot, thầy bói KÌ, không khí huyền bí nhẹ.
+- Có gameplay thật: ba mini game bài Tây gắn với Quá khứ / Hiện tại / Tương lai.
+- Có tích hợp AI: AI không điều khiển game, chỉ giúp diễn giải hành trình của người chơi.
 
-## 4. Đối tượng người chơi
+Scope được giữ gọn: chỉ dùng 22 lá Major Arcana, không làm đủ 78 lá tarot, không multiplayer, không chatbot dài, ưu tiên demo chơi được từ đầu đến cuối.
 
-Game hướng tới người chơi thích:
+---
 
-- Trải nghiệm narrative ngắn.
-- Tarot, biểu tượng và không khí huyền bí nhẹ.
-- Game tự khám phá bản thân.
-- Câu hỏi phản tư, lựa chọn mang màu sắc cá nhân.
-- Puzzle / mini game đơn giản, không yêu cầu phản xạ cao.
+## 4. Trải nghiệm người chơi
 
-Game không tập trung vào cạnh tranh, tốc độ, chiến đấu hoặc kỹ năng thao tác phức tạp.
+Người chơi phù hợp là người thích:
+
+- narrative game ngắn,
+- tarot và biểu tượng,
+- trải nghiệm tự khám phá bản thân,
+- câu hỏi phản tư,
+- mini game nhẹ, không cần phản xạ nhanh.
+
+Game không tập trung vào thắng thua căng thẳng. Trọng tâm là cảm giác người chơi đang đối thoại với chính mình thông qua lựa chọn, lá bài và Mảnh Hồn.
+
+---
 
 ## 5. Core gameplay loop
 
-Luồng chơi chính của demo:
+Luồng chơi chính:
 
-1. Người chơi mở game.
-2. Màn hình title giới thiệu tên game và bầu không khí.
-3. Người chơi gặp thầy bói KÌ.
-4. KÌ đặt các câu hỏi nhập môn.
-5. Hệ thống tính điểm chủ đề từ câu trả lời.
-6. Game chọn ba lá Major Arcana cho Quá khứ / Hiện tại / Tương lai.
-7. Người chơi xem nghi thức lật bài.
-8. Người chơi lần lượt bước vào ba không gian nội tâm.
-9. Trong mỗi không gian, người chơi:
-   - đọc narrative ngắn theo lá bài,
-   - trả lời câu hỏi lựa chọn,
+1. Người chơi mở game tại màn hình title.
+2. Gặp KÌ và nghe giới thiệu hành trình.
+3. Trả lời câu hỏi nhập môn.
+4. Game chọn ba lá tarot cho Quá khứ / Hiện tại / Tương lai.
+5. Người chơi xem nghi thức lật bài.
+6. Với từng lá bài, người chơi:
+   - đọc đoạn dẫn chuyện,
+   - trả lời các câu hỏi lựa chọn,
    - nhập một câu trả lời tự do,
-   - nhận AI interpretation,
-   - chơi một mini card game,
-   - nhận Self Fragment.
-10. Người chơi quay lại phòng bói.
-11. KÌ tạo final report từ toàn bộ dữ liệu hành trình.
-12. Game hiển thị bản tổng kết cuối.
+   - chơi mini game bài Tây,
+   - nhận Mảnh Hồn,
+   - nhận diễn giải AI.
+7. Sau ba không gian, KÌ tạo bản soi chiếu cuối.
+8. Người chơi đọc final report và có thể chơi lại.
 
-## 6. Các hệ thống chính
+---
 
-### 6.1. Title / Intro System
+## 6. Ba lá bài và ý nghĩa
 
-**Chức năng:**
+### Quá khứ
 
-- Hiển thị tên game.
-- Thiết lập tone dark cozy tarot.
-- Dẫn người chơi vào phòng bói của KÌ.
+Lá Quá khứ đại diện cho điều người chơi đã trải qua hoặc vẫn đang mang theo. Nội dung phần này thường liên quan đến ký ức, vết cũ, sự tiếc nuối hoặc điều cần buông bỏ.
 
-**Vai trò trong demo:** tạo ấn tượng ban đầu và giúp người chơi hiểu đây là hành trình tự soi chiếu, không phải game tarot ngẫu nhiên thuần túy.
+### Hiện tại
 
-### 6.2. KÌ Tarot Room
+Lá Hiện tại đại diện cho trạng thái người chơi đang đối diện. Phần này tập trung vào lựa chọn, mâu thuẫn, sự thích nghi và cách người chơi đọc tình huống trước mắt.
 
-**Chức năng:**
+### Tương lai
 
-- Đóng vai trò hub chính.
-- KÌ nói chuyện với người chơi.
-- KÌ đặt onboarding questions.
-- KÌ thực hiện nghi thức chọn và lật bài.
-- KÌ xuất hiện lại ở cuối game để trao final report.
+Lá Tương lai không nói trước kết quả chắc chắn, mà gợi ra một khả năng. Phần này liên quan đến trực giác, dự đoán, hy vọng và cách người chơi bước tiếp khi chưa biết mọi thứ.
 
-**Vai trò trong demo:** kết nối toàn bộ flow thành một trải nghiệm có nhân vật dẫn chuyện rõ ràng.
+---
 
-### 6.3. Onboarding Question System
+## 7. Hệ thống câu hỏi
 
-**Chức năng:**
+Game có hai loại câu hỏi:
 
-- Hiển thị câu hỏi nhập môn.
-- Ghi nhận lựa chọn của người chơi.
-- Mỗi lựa chọn cộng điểm vào một số nhóm chủ đề tarot.
+1. **Câu hỏi lựa chọn**  
+   Người chơi chọn một đáp án. Mỗi lựa chọn có nhãn ý nghĩa để game hiểu khuynh hướng của người chơi.
 
-**Ví dụ nhóm chủ đề:**
+2. **Câu hỏi tự do**  
+   Người chơi tự viết suy nghĩ của mình. Đây là dữ liệu quan trọng để AI diễn giải cá nhân hơn.
 
-- Ký ức / quá khứ.
-- Lựa chọn / hiện tại.
-- Hy vọng / tương lai.
-- Sợ thay đổi.
-- Trực giác.
-- Ý chí.
-- Cân bằng.
+Câu hỏi được thiết kế riêng theo từng lá bài và từng vị trí Quá khứ / Hiện tại / Tương lai, để cùng một lá tarot nhưng khi rơi vào vị trí khác nhau sẽ tạo cảm giác khác nhau.
 
-**Vai trò trong demo:** giúp việc chọn lá bài có cơ sở từ câu trả lời của người chơi, thay vì hoàn toàn ngẫu nhiên.
+---
 
-### 6.4. Tarot Card Selection System
+## 8. Mini game và Mảnh Hồn
 
-**Chức năng:**
+Mỗi không gian có một mini game dùng bộ bài Tây 52 lá. Mini game không chỉ để thắng thua, mà còn tạo thêm dữ liệu về cách người chơi ra quyết định.
 
-- Load dữ liệu 22 lá Major Arcana.
-- Tính điểm phù hợp giữa câu trả lời và từng lá bài.
-- Chọn ba lá cho Past / Present / Future.
-- Đảm bảo một lượt chơi không trùng lá.
+### 8.1. Quá khứ — Hai Mươi Mốt Lời Thú Nhận
 
-**Vai trò trong demo:** biến tarot thành một hệ thống gameplay có logic và có tính cá nhân hóa.
+Đây là biến thể blackjack. Người chơi rút bài để tiến gần 21 điểm, nhưng nếu vượt quá thì bị “quá tải” bởi ký ức.
 
-### 6.5. Card Reveal System
+Người chơi có thể:
 
-**Chức năng:**
+- rút thêm,
+- dừng lại,
+- đốt một lá bài để tượng trưng cho việc buông bỏ một phần ký ức.
 
-- Hiển thị ba lá bài đã chọn.
-- Gắn mỗi lá với một thời kỳ: Past, Present, Future.
-- Tạo khoảnh khắc nghi thức lật bài.
+Ý nghĩa: người chơi chọn đào sâu thêm hay dừng lại đúng lúc trước quá khứ.
 
-**Vai trò trong demo:** đây là điểm chuyển quan trọng từ phần nhập môn sang hành trình ba không gian nội tâm.
+### 8.2. Hiện tại — Poker của Hiện Tại
 
-### 6.6. Inner Space System
+Người chơi có 2 lá bài riêng. Các lá chung được lật dần theo kiểu Flop / Turn / River. Trước mỗi lần lật thêm, người chơi có thể đổi một trong hai lá của mình hoặc giữ nguyên.
 
-Mỗi lá bài mở ra một không gian nội tâm riêng.
+Kết quả được tính theo thứ hạng poker chuẩn như Pair, Straight, Flush, Full House, Royal Flush.
 
-Mỗi không gian gồm:
+Ý nghĩa: hiện tại là thứ đang mở dần ra, và người chơi phải quyết định giữ vững hay thay đổi bản thân theo thông tin mới.
 
-- Một đoạn narrative ngắn dựa trên ý nghĩa lá bài.
-- Một nhân vật hoặc hình ảnh đại diện cho lá bài.
-- Các câu hỏi lựa chọn.
-- Một câu hỏi tự do.
-- Một AI interpretation.
-- Một mini card game.
-- Một Self Fragment reward.
+### 8.3. Tương lai — Cao Hơn / Thấp Hơn
 
-Ba không gian chính:
+Game lật một lá bài đầu tiên. Người chơi đoán lá kế tiếp sẽ cao hơn hay thấp hơn. Mỗi lần đoán đúng sẽ tiếp tục và cộng dồn Mảnh Hồn. Người chơi có thể dừng lại để giữ phần đã đạt được.
 
-1. **Past Space** — nhìn lại điều đã qua.
-2. **Present Space** — nhận diện mâu thuẫn hiện tại.
-3. **Future Space** — hình dung khả năng phía trước.
+Ý nghĩa: tương lai là vùng bất định. Người chơi dùng trực giác để đọc dấu hiệu, nhưng không thể biết chắc hoàn toàn.
 
-**Vai trò trong demo:** tạo cấu trúc ba hồi rõ ràng, giúp game có nhịp tiến triển thay vì chỉ là một bài quiz.
+---
 
-### 6.7. Question & Personality Scoring System
+## 9. Mảnh Hồn
 
-**Chức năng:**
+**Mảnh Hồn** là phần thưởng người chơi nhận được từ mini game. Nó không phải tiền hay điểm số arcade, mà là dấu vết của hành trình nội tâm.
 
-- Quản lý câu hỏi trong từng giai đoạn.
-- Ghi nhận câu trả lời lựa chọn.
-- Cập nhật các chỉ số ẩn dùng cho final report.
+Mỗi mini game tạo ra:
 
-**Ví dụ chỉ số ẩn:**
+- số Mảnh Hồn nhận được,
+- lý do nhận Mảnh Hồn,
+- hồ sơ hành vi ngắn của người chơi,
+- các nhãn ý nghĩa để AI dùng trong bản soi chiếu cuối.
 
-- Attachment to Past — mức độ gắn với quá khứ.
-- Self Trust — mức độ tin vào bản thân.
-- Fear of Change — mức độ sợ thay đổi.
-- Action vs Reflection — thiên về hành động hay suy ngẫm.
-- Control vs Acceptance — thiên về kiểm soát hay chấp nhận.
-- Connection vs Solitude — thiên về kết nối hay một mình.
+Ví dụ:
 
-**Vai trò trong demo:** tạo dữ liệu nền để final report có cảm giác phản ánh lựa chọn của người chơi.
+- Quá khứ: người chơi thận trọng, mạo hiểm, hay biết buông bỏ.
+- Hiện tại: người chơi ổn định, thích nghi, hay thay đổi liên tục.
+- Tương lai: người chơi tin trực giác, dừng đúng lúc, hay cố đi quá xa.
 
-### 6.8. Free-text Reflection System
+---
 
-**Chức năng:**
+## 10. Vai trò của AI
 
-- Mỗi không gian có một câu hỏi tự do.
-- Người chơi nhập câu trả lời bằng văn bản.
-- Câu trả lời được gửi đến AI proxy để diễn giải.
+AI trong game có vai trò diễn giải, không điều khiển gameplay.
 
-**Vai trò trong demo:** tăng cảm giác cá nhân hóa vì người chơi không chỉ chọn đáp án có sẵn, mà còn có thể viết suy nghĩ riêng.
+AI nhận dữ liệu như:
 
-### 6.9. AI Integration System
+- lá tarot đã chọn,
+- vị trí Quá khứ / Hiện tại / Tương lai,
+- câu trả lời của người chơi,
+- kết quả mini game,
+- Mảnh Hồn,
+- diễn biến hành trình.
 
-**Chức năng:**
+AI dùng dữ liệu đó để tạo:
 
-- Godot gửi dữ liệu đến local AI proxy.
-- Proxy giữ API key ở môi trường local.
-- AI nhận context gồm: lá bài, giai đoạn, câu hỏi, câu trả lời, trạng thái hành trình.
-- AI trả về JSON có cấu trúc.
+1. diễn giải sau từng không gian,
+2. bản soi chiếu cuối.
 
-AI dùng cho:
-
-1. Diễn giải câu trả lời tự do trong từng không gian.
-2. Tạo final report cuối game.
-
-**Giới hạn scope:** AI không điều khiển logic thắng thua của mini game, không đóng vai chatbot xuyên suốt và không quyết định flow chính.
-
-**Vai trò trong demo:** tạo điểm nhấn kỹ thuật và giúp nội dung phản tư linh hoạt hơn nội dung hardcode.
+API key không nằm trong Godot project. Game gọi qua một local proxy để giữ phần nhạy cảm ở ngoài game.
 
-### 6.10. Mini Card Game System
+---
 
-Mỗi không gian có một mini card game nhỏ. Người chơi hoàn thành hoặc chiến thắng để nhận **Self Fragment**.
+## 11. Các hệ thống chính
 
-Ba biến thể dự kiến:
+### Title / Intro
 
-1. **Past — Blackjack-lite**
-   - Chủ đề: chuộc lại ký ức.
-   - Mục tiêu: đạt điểm gần 21 hơn đối thủ hoặc ngưỡng mục tiêu.
-
-2. **Present — Poker-lite**
-   - Chủ đề: dùng những lá bài đang có.
-   - Mục tiêu: tạo cặp, bộ hoặc pattern đơn giản.
-
-3. **Future — Symbol Match-lite**
-   - Chủ đề: mở đường tương lai.
-   - Mục tiêu: đánh lá theo biểu tượng hoặc màu phù hợp.
-
-**Vai trò trong demo:** thêm tương tác gameplay ngoài đọc thoại và trả lời câu hỏi, đồng thời giữ chủ đề “bài” xuyên suốt dự án.
+Màn hình mở đầu tạo không khí tarot và dẫn người chơi vào cuộc gặp với KÌ.
 
-### 6.11. Final Report System
+### Tarot Selection
 
-**Chức năng:**
+Hệ thống chọn ba lá Major Arcana dựa trên câu trả lời nhập môn, kết hợp một phần ngẫu nhiên để mỗi lượt chơi không quá giống nhau.
 
-- Tổng hợp toàn bộ dữ liệu hành trình:
-  - ba lá tarot,
-  - onboarding answers,
-  - multiple-choice answers,
-  - free-text reflections,
-  - AI interpretations,
-  - mini game results,
-  - Self Fragments,
-  - hidden personality scores.
-- Gửi context tổng hợp đến AI.
-- Hiển thị bản đọc cuối cùng cho người chơi.
+### Narrative Screen
 
-**Nội dung final report:**
+Đây là màn hình dẫn chuyện chính. Nó hiển thị nhân vật, nền, câu thoại, câu hỏi và lựa chọn của người chơi.
 
-- Tiêu đề bản đọc.
-- Core self — hình ảnh bản thân cốt lõi.
-- Past pattern — mô thức từ quá khứ.
-- Present tension — mâu thuẫn hiện tại.
-- Future invitation — lời mời từ tương lai.
-- Advice — lời khuyên ngắn.
-- Three keywords — ba từ khóa đại diện.
+### Mini Game System
 
-**Vai trò trong demo:** tạo kết thúc rõ ràng và thể hiện được toàn bộ pipeline: gameplay → dữ liệu → AI → kết quả cá nhân hóa.
+Quản lý ba mini game bài Tây, tính kết quả và Mảnh Hồn.
 
-## 7. Kiến trúc kỹ thuật dự kiến
+### Report System
 
-```text
-D:/KÌ/
-  project.godot
-  CLAUDE.md
-  README.md
+Gom toàn bộ dữ liệu hành trình và hiển thị bản soi chiếu cuối.
 
-  data/
-    tarot_major_arcana.json
-    questions.json
-    prompts.json
-    local_config.example.json
+### Settings / Trợ năng
 
-  scripts/
-    core/
-      game_state.gd
-      json_loader.gd
-    tarot/
-      tarot_manager.gd
-    questions/
-      question_manager.gd
-    ai/
-      ai_client.gd
-    report/
-      report_builder.gd
-    minigames/
-      card_model.gd
-      minigame_manager.gd
-    ui/
-      main_controller.gd
+Game có các tuỳ chọn cơ bản để người chơi dễ tiếp cận hơn, như cỡ chữ, tốc độ chữ chạy, giảm chuyển động, tương phản cao và hướng dẫn chơi.
 
-  scenes/
-    main.tscn
-    title/
-    tarot_room/
-    questions/
-    cards/
-    inner_space/
-    minigames/
-    report/
+---
 
-  tools/
-    ai_proxy/
-      server.mjs
-      package.json
-      .env.example
-```
 
-## 8. Vai trò các module chính
+## 12. Điểm nổi bật kỹ thuật
 
-### GameState
+- Game chạy bằng Godot 4.x và hướng đến web browser.
+- Dữ liệu tarot, câu hỏi và prompt được tách khỏi logic xử lý.
+- Ba mini game dùng cùng bộ bài Tây nhưng có luật và ý nghĩa khác nhau.
+- AI được gọi qua proxy để tránh hardcode API key trong game.
+- AI trả JSON để game dễ đọc và hiển thị.
+- Game có flow đầy đủ từ title đến final report.
 
-Lưu trạng thái một lượt chơi:
+---
 
-- câu trả lời nhập môn,
-- ba lá bài đã chọn,
-- câu trả lời trong từng không gian,
-- điểm tính cách ẩn,
-- AI interpretations,
-- mini game results,
-- Self Fragments,
-- final report.
+## 13. Kiểm soát rủi ro
 
-### TarotManager
+### Scope
 
-- Load dữ liệu tarot.
-- Tính điểm chủ đề.
-- Chọn ba lá bài phù hợp.
-- Đảm bảo không trùng lá trong một lượt chơi.
+Dự án giữ phạm vi nhỏ:
 
-### QuestionManager
+- chỉ dùng 22 lá Major Arcana,
+- chỉ có ba không gian Quá khứ / Hiện tại / Tương lai,
+- mỗi không gian có một mini game,
+- ưu tiên playable demo.
 
-- Load dữ liệu câu hỏi.
-- Trả về câu hỏi theo giai đoạn.
-- Ghi nhận lựa chọn và câu trả lời tự do.
-- Cập nhật score liên quan.
+---
 
-### AIClient
+## 14. Tiêu chí hoàn thành demo
 
-- Gọi local AI proxy.
-- Gửi context và prompt.
-- Parse JSON response.
-- Báo lỗi rõ nếu proxy hoặc AI fail.
+Dự án đạt mức demo khi:
 
-### MiniGameManager
+- game chạy được từ đầu đến cuối,
+- title screen hoạt động,
+- onboarding questions hoạt động,
+- chọn được ba lá tarot không trùng,
+- có ba không gian nội tâm,
+- có câu hỏi lựa chọn và câu hỏi tự do,
+- ba mini game chạy được,
+- Mảnh Hồn được ghi nhận,
+- AI interpretation và final report hoạt động,
+- UI đọc được trên desktop và phone,
+- API key không nằm trong Godot project.
 
-- Chạy mini game tương ứng với từng không gian.
-- Tính kết quả thắng / thua / hoàn thành.
-- Ghi Self Fragment reward.
-
-### ReportBuilder
-
-- Tổng hợp dữ liệu cuối game.
-- Tạo payload gửi AI.
-- Chuẩn hóa dữ liệu report để UI hiển thị.
-
-### MainController
-
-- Điều phối flow chính.
-- Chuyển giữa title, tarot room, onboarding, card reveal, inner spaces, mini games và report.
-- Giữ luồng demo chạy tuyến tính và dễ kiểm thử.
-
-## 9. Điểm nổi bật kỹ thuật
-
-- Project độc lập bằng Godot 4.x.
-- Có mục tiêu export Web / HTML5.
-- UI dùng Control nodes để phù hợp desktop và mobile browser.
-- Dữ liệu tarot, câu hỏi và prompt tách khỏi code bằng JSON.
-- Có hệ thống chọn bài dựa trên điểm từ câu trả lời.
-- Có hidden scoring dùng cho final report.
-- AI tích hợp qua local proxy, không hardcode API key trong Godot.
-- AI response dùng JSON schema để dễ parse và hiển thị.
-- Mini game logic nằm trong game, không phụ thuộc AI.
-- Core flow có thể kiểm thử từ đầu đến cuối.
-
-## 10. Kiểm soát rủi ro và phạm vi
-
-### Rủi ro 1: Scope quá rộng
-
-**Cách kiểm soát:**
-
-- Chỉ dùng 22 lá Major Arcana.
-- Chỉ làm ba không gian chính: Past / Present / Future.
-- Mỗi không gian chỉ có một mini game nhỏ.
-- Không làm đủ 78 lá tarot.
-- Không làm multiplayer.
-- Không làm chatbot xuyên suốt.
-- Ưu tiên playable demo trước polish.
-
-### Rủi ro 2: AI trả sai format
-
-**Cách kiểm soát:**
-
-- Prompt yêu cầu JSON rõ ràng.
-- AIClient parse response theo schema.
-- UI hiển thị lỗi và cho retry nếu proxy hoặc AI fail.
-- AI không quyết định logic thắng thua nên không làm hỏng mini game.
-
-### Rủi ro 3: Web export lỗi trên mobile
-
-**Cách kiểm soát:**
-
-- Dùng Control nodes và layout responsive.
-- Dùng ScrollContainer cho nội dung dài.
-- Button đủ lớn cho thao tác touch.
-- Test viewport phone sớm, khoảng 390x844.
-
-### Rủi ro 4: Mini game tốn thời gian hơn dự kiến
-
-**Cách kiểm soát:**
-
-- Luật chơi giữ đơn giản.
-- Ưu tiên một mini game chạy ổn trước, sau đó mở rộng thành ba biến thể.
-- Nếu cần demo gấp, có thể giảm độ sâu chiến thuật nhưng vẫn giữ tương tác và reward.
-
-## 11. Kế hoạch demo trước mentor
-
-Flow trình bày đề xuất:
-
-1. Giới thiệu mục tiêu: làm một web game ngắn trong thời gian kiến tập, có gameplay và điểm nhấn AI.
-2. Giới thiệu concept: tarot + tự khám phá bản thân + mini card game + AI reflection.
-3. Mở game trên browser.
-4. Cho mentor xem title và phòng bói của KÌ.
-5. Trả lời onboarding questions.
-6. Cho thấy hệ thống chọn ba lá Past / Present / Future.
-7. Vào một inner space.
-8. Trả lời câu hỏi lựa chọn.
-9. Nhập câu trả lời tự do.
-10. Cho AI trả interpretation.
-11. Chơi mini card game ngắn.
-12. Nhảy đến final report hoặc chạy hết flow nếu đủ thời gian.
-13. Giải thích kiến trúc: Godot scene flow, JSON data, managers, AI proxy, bảo mật API key.
-
-## 12. Tiêu chí hoàn thành demo
-
-Dự án đạt mức demo kiến tập khi:
-
-- Game chạy được từ đầu đến cuối.
-- Có title screen và phòng bói của KÌ.
-- Có onboarding questions.
-- Game chọn được ba lá Major Arcana không trùng nhau.
-- Card reveal hiển thị Past / Present / Future rõ ràng.
-- Có ba inner spaces hoặc ít nhất một inner space hoàn chỉnh để chứng minh pattern.
-- Có câu hỏi lựa chọn và câu hỏi tự do.
-- AI interpretation hoạt động trong intended demo path.
-- Có ít nhất một mini card game chạy được; mục tiêu tốt hơn là đủ ba biến thể nhẹ.
-- Self Fragment reward được ghi nhận.
-- Final report hiển thị rõ.
-- Game mở được trên browser.
-- UI không vỡ trên phone viewport.
-- API key không nằm trong Godot project hoặc GitHub.
-
-## 13. Giá trị học được từ dự án
-
-Thông qua dự án này, em tập trung rèn các nhóm kỹ năng:
-
-- Thiết kế gameplay loop có mở đầu, tương tác, tiến triển và kết thúc.
-- Tổ chức project Godot 4 theo scene và script rõ ràng.
-- Làm UI web game phù hợp cả desktop và mobile browser.
-- Thiết kế data-driven content bằng JSON.
-- Tích hợp AI vào game qua proxy thay vì hardcode API key.
-- Kiểm soát scope để hoàn thành demo trong thời gian ngắn.
-- Trình bày sản phẩm theo cả góc nhìn trải nghiệm người chơi và góc nhìn kỹ thuật.
-
-## 14. Tóm tắt một câu
-
-**KÌ: Ba Lá Của Bản Ngã** là một web game Godot ngắn dùng tarot, lựa chọn phản tư, mini card game và AI để dẫn người chơi qua hành trình nhìn lại quá khứ, nhận diện hiện tại và đối thoại với tương lai của chính mình.

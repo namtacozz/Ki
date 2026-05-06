@@ -44,9 +44,7 @@ D:/KÌ/
 │
 ├── data/
 │   ├── tarot_major_arcana.json
-│   ├── questions.md
 │   ├── questions.json
-│   ├── questions.generated.json
 │   ├── prompts.json
 │   └── local_config.example.json
 │
@@ -98,8 +96,6 @@ D:/KÌ/
 │           └── ai_error_screen.gd
 │
 ├── tools/
-│   ├── content/
-│   │   └── convert_questions_md.py
 │   └── ai_proxy/
 │       ├── package.json
 │       ├── package-lock.json
@@ -132,7 +128,10 @@ Godot autoloads được khai báo trong `project.godot`.
 
 ### `GameState`
 
-**Path:** `scripts/core/game_state.gd`
+**Path:**
+- `scripts/core/game_state.gd` (Autoload) - Lưu trữ state toàn cục của game.
+- `scripts/core/settings_manager.gd` (Autoload) - Quản lý cài đặt (âm lượng, trợ năng, text speed).
+- `scripts/core/json_loader.gd` (Autoload) - Hỗ trợ load JSON an toàn.
 
 Vai trò:
 
@@ -143,7 +142,7 @@ Vai trò:
 - Lưu score ẩn.
 - Lưu AI reflections.
 - Lưu mini game results.
-- Cộng Self Fragments từ mini game rewards.
+- Cộng Mảnh Hồn từ mini game rewards.
 - Lưu final report.
 
 Dữ liệu chính:
@@ -156,8 +155,18 @@ Dữ liệu chính:
 - `profile_scores`
 - `ai_reflections`
 - `minigame_results`
-- `self_fragments`
+- `soul_fragments`
 - `final_report`
+
+### `AudioManager`
+
+**Path:** `scripts/core/audio_manager.gd` (Autoload)
+
+Vai trò:
+
+- Quản lý và phát âm thanh SFX (hover, click, typewriter, v.v) thông qua hệ thống pool để tránh ngắt quãng.
+- Quản lý và phát nhạc nền BGM (TarotVeil và 22 track riêng cho Major Arcana) với cơ chế crossfade mượt mà dùng Tween.
+- Tải nhạc theo yêu cầu (on-demand) thay vì preload toàn bộ để tiết kiệm bộ nhớ RAM cho nền tảng Web.
 
 ### `TarotManager`
 
@@ -176,7 +185,7 @@ Vai trò:
 
 Vai trò:
 
-- Load `data/questions.json`.
+- Load `data/questions.json` fixed runtime question data.
 - Trả về onboarding questions.
 - Trả về questions theo từng space.
 - Ghi multiple-choice answers.
@@ -209,11 +218,11 @@ Signals dự kiến:
 Vai trò:
 
 - Chạy mini game theo mode:
-  - `blackjack` cho Past.
-  - `poker` cho Present.
-  - `symbol_match` cho Future.
+  - `twenty_one_confession` cho Past.
+  - `present_poker` cho Present.
+  - `higher_lower` cho Future.
 - Tính kết quả thắng/thua không dùng AI.
-- Tính Self Fragments.
+- Tính Mảnh Hồn.
 - Ghi kết quả vào `GameState`.
 
 ### `ReportBuilder`
@@ -261,6 +270,13 @@ Scene:
 
 - `title_screen.tscn`: màn hình title, bắt đầu hành trình.
 - `intro_screen.tscn`: màn hình KÌ giới thiệu hành trình tự hiểu bản thân.
+
+Script:
+- `scripts/ui/screens/title_screen.gd` - Màn hình chính (Bắt đầu, Cài đặt, Trợ năng, Hướng dẫn, Thoát).
+- `scripts/ui/screens/pause_menu.gd` - Menu in-game.
+- `scripts/ui/screens/settings_overlay.gd` - Giao diện cài đặt.
+- `scripts/ui/screens/accessibility_overlay.gd` - Giao diện trợ năng.
+- `scripts/ui/screens/guide_overlay.gd` - Giao diện hướng dẫn.
 
 Mục đích:
 
@@ -389,37 +405,18 @@ Hiện mỗi Major Arcana có `art_path` trỏ tới `res://assets/art/Tarot/Nam
 
 ### `data/questions.json`
 
+File dữ liệu câu hỏi cố định cho runtime.
+
 Chứa:
+- `onboarding_intro`
+- `onboarding` questions
+- `cards` theo từng tarot slug
+- mỗi card có `past`, `present`, `future`
+- mỗi position có `story` và 5 questions
+- questions 1-4 có choices + tags
+- question 5 là free-text
 
-- `onboarding` questions,
-- `past` questions,
-- `present` questions,
-- `future` questions.
-
-Mỗi inner space set hiện có 2 multiple-choice questions và 1 free-text question.
-
-Dùng cho:
-
-- chọn bài ban đầu,
-- inner space runtime flow,
-- score ẩn,
-- final report.
-
-### `data/questions.md`
-
-Markdown source file chứa câu hỏi theo định dạng structured.
-
-Dùng bởi:
-
-- `tools/content/convert_questions_md.py` để generate `data/questions.generated.json`.
-
-### `data/questions.generated.json`
-
-Generated JSON từ `data/questions.md` bằng converter script.
-
-Dùng cho:
-
-- runtime game nếu cần load từ generated version.
+Godot đọc trực tiếp file này qua `QuestionManager`.
 
 ### `data/prompts.json`
 
@@ -456,17 +453,7 @@ Dùng để override proxy URL khi demo.
 
 ## 6. 🛠️ Content Pipeline
 
-### `tools/content/convert_questions_md.py`
-
-Script Python để convert `data/questions.md` thành `data/questions.generated.json`.
-
-Vai trò:
-
-- Parse markdown source file.
-- Parse onboarding `Intro:` và card-position `Story:`.
-- Validate structure và schema.
-- Generate JSON output với onboarding intro, onboarding questions, và card questions theo past/present/future.
-- Hardening validation để tránh malformed data.
+Pipeline `data/questions.md` → `data/questions.generated.json` đã được bỏ để cố định câu hỏi trong game.
 
 ---
 
@@ -546,9 +533,9 @@ Vai trò:
 
 Mode hiện có:
 
-1. `blackjack` cho Past: rút/dừng để gần 21 hơn KÌ.
-2. `poker` cho Present: đoán chất bài xuất hiện nhiều nhất trong tay 5 lá.
-3. `symbol_match` cho Future: chọn biểu tượng cộng hưởng với lá tương lai.
+1. `twenty_one_confession` cho Past: Một biến thể blackjack về ký ức. Người chơi rút bài (hit), dừng (stand), hoặc "đốt" (burn) lá bài cao nhất để giảm áp lực từ quá khứ. Cố gắng tiến gần 21 mà không bị quá tải (bust).
+2. `present_poker` cho Present: Poker solo với 2 lá tẩy và 5 lá chung. Người chơi có 3 giai đoạn để quyết định đổi một trong hai lá tẩy hoặc giữ nguyên khi hoàn cảnh (lá chung) dần lộ diện.
+3. `higher_lower` cho Future: dự đoán lá kế tiếp cao hơn hay thấp hơn lá hiện tại.
 
 Kết quả mỗi mini game:
 
@@ -634,12 +621,6 @@ Parse/headless check:
 rtk godot --headless --path "D:/KÌ" --quit
 ```
 
-Questions converter:
-
-```bash
-rtk python tools/content/convert_questions_md.py
-```
-
 AI proxy:
 
 ```bash
@@ -714,7 +695,7 @@ Nội dung cần cập nhật:
 - Cập nhật `GameState`: lưu `current_space_index`, `space_answers`, `inner_space_results` cho inner space flow.
 - Thêm `scripts/minigames/card_model.gd`: deck 4 suit, value 1-13, symbol theo suit, draw/shuffle/label helpers.
 - Cập nhật `MiniGameManager`: Past blackjack-lite, Present poker-lite, Future symbol_match-lite, không dùng AI trong logic.
-- Cập nhật `main_controller.gd`: sau questions/free-text của mỗi space hiện mini game, nhận action, lưu result, cộng Self Fragments.
+- Cập nhật `main_controller.gd`: sau questions/free-text của mỗi space hiện mini game, nhận action, lưu result, cộng Mảnh Hồn.
 - Hoàn thiện final report flow: `ReportBuilder` gom context/normalize/fallback, `MainController` hiển thị final report + retry + replay, `data/prompts.json` khai báo schema JSON report.
 - Thêm `export_presets.cfg` cho Web export; tắt mobile VRAM compression để Godot 4.6 export release hợp lệ khi ETC2/ASTC chưa bật.
 - Cập nhật `main_controller.gd`: panel, margin, text input, và card row co theo viewport phone 390x844.
@@ -767,4 +748,68 @@ Nội dung cần cập nhật:
 - **Bảo mật**: Thiết lập `.gitignore` chuẩn cho Godot và loại bỏ các file nhạy cảm (`.env`, `local_config.json`) khỏi version control.
 - **Cải thiện CardRevealScreen**: Tách biệt logic xử lý layout mobile và loại bỏ comment dư thừa.
 - **Đồng bộ hóa Assets**: Đảm bảo toàn bộ asset hình ảnh sử dụng định dạng `.jpg` để tối ưu dung lượng và sửa lỗi import.
-+
+
+### 2026-05-05 (UI & Visual Overhaul)
+
+- **Premium Dark Theme**: Áp dụng hệ thống UI `default_theme.tres` mới với gam màu Deep Charcoal và Tarot Gold, tích hợp hiệu ứng glassmorphism cho các khung hiển thị.
+- **New Assets**: Bổ sung các hình nền (`mystic_void.png`, `tarot_table_premium.png`, `final_report_dark.png`, `inner_space_fallback.png`) thay thế cho các khoảng trống và nền mặc định.
+- **Micro-interactions**: Tạo và tích hợp `hover_button.gd` vào `ChoiceButton` và `GameButton` để có hiệu ứng scale/hover mượt mà theo chuẩn web hiện đại.
+- **Đồng bộ Scene**: Cập nhật `LoadingScreen`, `MinigameScreen`, `CardRevealScreen`, `FinalReportScreen` để sử dụng bộ asset mới.
+
+### 2026-05-05 (Future Minigame: Higher/Lower)
+
+- **Feature Replacement**: Thay thế minigame `symbol_match` của không gian Tương lai bằng minigame `higher_lower` (Cao hơn / Thấp hơn) sử dụng bộ bài chuẩn 52 lá.
+- **Gameplay Flow**: Rút từng lá và dự đoán cao/thấp. Hỗ trợ hệ thống streak (chuỗi đúng), nhận thêm Self Fragment khi đạt mốc 5, 10 hoặc hoàn thành cả bộ bài (perfect run). Hoà (tie) không mất điểm.
+- **UI Update**: Cập nhật `MinigameScreen` để hiển thị lá bài hiện tại và lá bài vừa rút trong chế độ `higher_lower`.
+
+### 2026-05-05 (Past Minigame: Twenty-One Confession)
+
+- **Feature Upgrade**: Thay thế `blackjack` bằng `twenty_one_confession` (Hai Mươi Mốt Lời Thú Nhận) cho không gian Quá khứ.
+- **Cơ chế Burn**: Cho phép người chơi loại bỏ lá bài cao nhất trong tay một lần duy nhất, tượng trưng cho việc buông bỏ một ký ức nặng nề.
+- **Hệ thống Risk Profile**: Tự động phân loại người chơi dựa trên hành vi: `cautious` (thận trọng), `balanced` (cân bằng), `reckless` (mạo hiểm/bị nhấn chìm), `released` (đã buông bỏ).
+- **Scoring**: Hệ thống điểm thưởng mới dựa trên độ gần với 21 và việc sử dụng cơ chế Burn thành công.
+
+### 2026-05-05 (Present Minigame: Present Poker)
+
+- **Feature Upgrade**: Thay thế `poker` cũ bằng `present_poker` (Poker của Hiện Tại).
+- **Gameplay Flow**: 2 lá bài tẩy + 5 lá bài chung (Flop, Turn, River). Người chơi có 3 lượt đổi bài để tối ưu hóa tay bài 5 lá tốt nhất từ 7 lá.
+- **Poker Evaluator**: Tích hợp bộ đánh giá bài chuẩn cho 10 loại tay bài (từ High Card đến Royal Flush).
+- **Hệ thống Present Profile**: Phân loại hành vi hiện tại: `stable` (giữ vững), `adaptive` (thích nghi), `restless` (thay đổi liên tục), `fortunate` (may mắn), `scattered` (rời rạc).
+
+### 2026-05-05 (Schema Standardization & Soul Fragments)
+
+- **Terminology Update**: Đổi tên hiển thị "Self Fragments" thành **"Mảnh Hồn"**.
+- **Schema Standardization**: Chuẩn hóa cấu trúc kết quả minigame (`soul_fragments`, `soul_fragment_events`, `profile`, `metrics`, `state`) để AI có thể đọc và phân tích đồng nhất.
+- **GameState Helpers**: Thêm các hàm `get_total_soul_fragments()`, `get_soul_fragments_by_position()`, và `get_soul_fragment_events()` để dễ dàng truy xuất dữ liệu tổng hợp cho báo cáo cuối.
+- **AI Context**: Cập nhật `ReportBuilder` để gửi đầy đủ thông tin Mảnh Hồn và sự kiện cho AI Client.
+
+### 2026-05-05 (Fixed Runtime Questions)
+
+- Bỏ pipeline câu hỏi `data/questions.md` → `data/questions.generated.json`.
+- Cố định dữ liệu câu hỏi hiện tại vào `data/questions.json`.
+- `QuestionManager` đọc trực tiếp `data/questions.json`.
+- Loại bỏ converter Markdown.
+
+### 2026-05-06 (Game Shell & Accessibility)
+
+- **Game Shell Architecture**: Thiết lập hệ thống UI Overlay bằng code-driven cho Pause Menu, Settings, Guide, và Accessibility, tránh tạo thêm file `.tscn` phức tạp.
+- **SettingsManager & Persistence**: Cấu hình lưu trữ trạng thái người dùng (Cài đặt) vào `user://settings.json`.
+- **Accessibility System**: 
+  - Triển khai `content_scale_factor` để phóng to/thu nhỏ toàn bộ giao diện đồng nhất.
+  - Áp dụng High Contrast bằng cách ghi đè màu nền (`modulate = Color.BLACK`) và màu viền (Theme Overrides).
+  - Tích hợp Reduce Motion vào `hover_button.gd` và `minigame_screen.gd` (tắt hiệu ứng bay/zoom).
+  - Loại bỏ các "fake controls" (thanh trượt âm thanh khi chưa có node audio).
+
+### 2026-05-06 (Final Polish & Feature Freeze)
+
+- **Deep AI Prompt**: Cập nhật `data/prompts.json` cho bản soi chiếu cuối. Yêu cầu AI đối chiếu chéo giữa lời nói (answers) và hành động thực tế (minigame profiles), chỉ ra các điểm mâu thuẫn để tạo hiệu ứng "calling out", và sáng tạo một nguyên mẫu (archetype) độc quyền cho `title` dựa trên Mảnh Hồn.
+- **Copy Report Feature**: Thêm `CopyButton` vào `final_report_screen`. Tích hợp `DisplayServer.clipboard_set()` để chép kết quả tóm tắt vào bộ nhớ tạm với hiệu ứng text phản hồi trực quan.
+- **Smooth Scene Transitions**: Nâng cấp hàm `_show_screen()` trong `main_controller.gd`. Chuyển từ cắt cảnh tức thời sang hiệu ứng mờ dần (fade out/fade in) sử dụng `Tween` (thời lượng 0.3s) trong khi vẫn giữ nguyên khả năng pass data liền mạch qua `setup()`.
+- **UI Audio Hooks**: Chuẩn bị sẵn sàng hệ thống âm thanh. Tích hợp các tham chiếu `AudioStreamPlayer` cho âm thanh tương tác (`hover`, `click`) trong `hover_button.gd` và âm nhạc nền (`BGM`) tự động loop trong `main_controller.gd`.
+
+### 2026-05-06 (Complete Audio System)
+
+- **Global AudioManager**: Tạo singleton `scripts/core/audio_manager.gd` quản lý toàn bộ hệ thống âm thanh SFX và BGM.
+- **SFX Pooling & Hooks**: Xây dựng pool 8 players để xử lý hiệu ứng âm thanh chồng chéo. Đã kết nối âm thanh UI (`hover_button.gd`), âm thanh narrative (`typewriter`), và các hiệu ứng in-game (`card_draw`, `soul_fragment`, `transition` khi chuyển cảnh).
+- **Dynamic BGM Crossfading**: Tích hợp 23 bản nhạc nền (1 Main Theme `TarotVeil` + 22 Card Themes). Xây dựng cơ chế tải nhạc on-demand để tối ưu RAM trình duyệt và hệ thống crossfade mượt mà 1 giây giữa các không gian.
+- **Context-Aware Music**: `MainController` tự động điều phối nhạc theo bối cảnh: phát `TarotVeil` tại các màn hình tổng quan (Title/Intro/Report) và tự chuyển sang nhạc riêng biệt của từng lá Tarot khi bước vào Không gian Nội tâm.

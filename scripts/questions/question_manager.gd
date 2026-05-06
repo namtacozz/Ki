@@ -1,6 +1,6 @@
 extends Node
 
-const QUESTIONS_DATA_PATH := "res://data/questions.generated.json"
+const QUESTIONS_DATA_PATH := "res://data/questions.json"
 
 var _data: Dictionary = {}
 

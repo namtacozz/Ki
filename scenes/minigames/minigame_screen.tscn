@@ -5,7 +5,7 @@
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="3_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="4_inter"]
 [ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
-[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/tarot_table_premium.png" id="6_bg"]
+[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/tarot_table_premium.jpg" id="6_bg"]
 
 [node name="MinigameScreen" type="Control" unique_id=1391399720]
 layout_mode = 3
@@ -28,71 +28,65 @@ expand_mode = 2
 stretch_mode = 6
 
 [node name="Panel" type="PanelContainer" parent="." unique_id=2050701962]
-custom_minimum_size = Vector2(920, 620)
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -460.0
-offset_top = -310.0
-offset_right = 460.0
-offset_bottom = 310.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 70.0
+offset_right = -20.0
+offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Margin" type="MarginContainer" parent="Panel" unique_id=1983743558]
 layout_mode = 2
-theme_override_constants/margin_left = 32
-theme_override_constants/margin_top = 32
-theme_override_constants/margin_right = 32
-theme_override_constants/margin_bottom = 32
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 16
 
 [node name="Scroll" type="ScrollContainer" parent="Panel/Margin" unique_id=147058504]
 layout_mode = 2
 horizontal_scroll_mode = 0
+vertical_scroll_mode = 0
 
 [node name="Box" type="VBoxContainer" parent="Panel/Margin/Scroll" unique_id=1386705818]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_constants/separation = 20
+theme_override_constants/separation = 12
 alignment = 1
 
 [node name="PositionLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1414350643]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_cormorant")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 16
 uppercase = true
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="TitleLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=2040457336]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_cinzel")
-theme_override_font_sizes/font_size = 34
+theme_override_font_sizes/font_size = 26
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="GoalLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=2133216583]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_inter")
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="HandLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1563863170]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_inter")
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 16
 horizontal_alignment = 1
 autowrap_mode = 3
 
@@ -105,33 +99,31 @@ alignment = 1
 
 [node name="DetailLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1594018579]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_inter")
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 15
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="ActionBox" type="VBoxContainer" parent="Panel/Margin/Scroll/Box" unique_id=130928795]
+[node name="ActionBox" type="HBoxContainer" parent="Panel/Margin/Scroll/Box" unique_id=130928795]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_constants/separation = 12
+theme_override_constants/separation = 10
 
 [node name="RewardLabel" type="Label" parent="Panel/Margin/Scroll/Box" unique_id=1142534610]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_inter")
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="RewardButton" type="Button" parent="Panel/Margin/Scroll/Box" unique_id=1315126453]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(300, 60)
+custom_minimum_size = Vector2(240, 48)
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("5_open_sans")
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 16
 text = "Nhận Self Fragment"

@@ -35,8 +35,7 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -260.0
-offset_bottom = 11.0
+offset_top = -240.0
 grow_horizontal = 2
 grow_vertical = 0
 
@@ -45,24 +44,23 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -49.5
-offset_top = 10.0
-offset_right = 20.5
-offset_bottom = -10.0
+offset_left = 20.0
+offset_top = 5.0
+offset_right = -20.0
+offset_bottom = -5.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Margin" type="MarginContainer" parent="DialogueBox/Panel" unique_id=1752535955]
-custom_minimum_size = Vector2(1350, 0)
 layout_mode = 2
-theme_override_constants/margin_left = 350
-theme_override_constants/margin_top = 25
-theme_override_constants/margin_right = 40
-theme_override_constants/margin_bottom = 20
+theme_override_constants/margin_left = 280
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 12
 
 [node name="VBox" type="VBoxContainer" parent="DialogueBox/Panel/Margin" unique_id=1090149617]
 layout_mode = 2
-theme_override_constants/separation = 10
+theme_override_constants/separation = 6
 
 [node name="NameBox" type="PanelContainer" parent="DialogueBox/Panel/Margin/VBox" unique_id=1503692512]
 layout_mode = 2
@@ -78,16 +76,18 @@ unique_name_in_owner = true
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
 theme_override_fonts/font = ExtResource("4_cinzel")
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/font_size = 20
 text = "KÌ"
 
 [node name="BodyLabel" type="RichTextLabel" parent="DialogueBox/Panel/Margin/VBox" unique_id=715050583]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_font_sizes/normal_font_size = 18
+theme_override_font_sizes/normal_font_size = 16
 bbcode_enabled = true
 text = "Lời của KÌ sẽ hiện ra ở đây..."
+fit_content = true
+scroll_active = false
 
 [node name="HBox" type="HBoxContainer" parent="DialogueBox/Panel/Margin/VBox" unique_id=361007032]
 layout_mode = 2
@@ -95,44 +95,46 @@ alignment = 2
 
 [node name="ContinueButton" type="Button" parent="DialogueBox/Panel/Margin/VBox/HBox" unique_id=885994731]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(120, 40)
+custom_minimum_size = Vector2(100, 36)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("5_open_sans")
+theme_override_font_sizes/font_size = 16
 text = "Tiếp tục"
 
-[node name="ChoicesContainer" type="VBoxContainer" parent="." unique_id=349689454]
+[node name="ChoicesContainer" type="GridContainer" parent="." unique_id=349689454]
 unique_name_in_owner = true
 layout_mode = 1
-anchors_preset = 6
-anchor_left = 1.0
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = -450.0
-offset_top = -150.0
-offset_right = -100.0
-offset_bottom = 150.0
-grow_horizontal = 0
-grow_vertical = 2
-theme_override_constants/separation = 15
-alignment = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = -520.0
+offset_right = 500.0
+offset_bottom = -280.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 4
 
 [node name="FreeTextContainer" type="VBoxContainer" parent="." unique_id=1320674933]
 unique_name_in_owner = true
 layout_mode = 1
-anchors_preset = 6
-anchor_left = 1.0
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = -450.0
-offset_top = -100.0
-offset_right = -100.0
-offset_bottom = 100.0
-grow_horizontal = 0
-grow_vertical = 2
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -340.0
+offset_right = 250.0
+offset_bottom = -340.0
+grow_horizontal = 2
+grow_vertical = 0
 theme_override_constants/separation = 15
-alignment = 1
+alignment = 2
 
 [node name="InputField" type="TextEdit" parent="FreeTextContainer" unique_id=1222296473]
 unique_name_in_owner = true

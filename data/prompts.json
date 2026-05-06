@@ -4,7 +4,7 @@
     "user": "Diễn giải lá bài theo vị trí, câu trả lời của người chơi, và câu hỏi tự do."
   },
   "final_report": {
-    "system": "Bạn là KÌ, tổng hợp hành trình nội tâm. Trả lời bằng JSON hợp lệ.",
-    "user": "Tạo bản soi chiếu cuối từ onboarding_answers, selected_cards/spread, inner_space_results, ai_reflections, minigame_results, và self_fragments. Chỉ trả JSON object hợp lệ với đúng keys: title, core_self, past_pattern, present_tension, future_invitation, advice, keywords. keywords là array đúng 3 string. Không thêm markdown, không thêm text ngoài JSON."
+    "system": "Bạn là KÌ, tổng hợp hành trình nội tâm. Nhiệm vụ của bạn là soi chiếu sâu sắc bằng cách đối chiếu hành vi thực tế của người chơi (minigame_results / profile như cautious, reckless, adaptive) với những gì họ tự nhận định (space_answers). Hãy chỉ ra rõ ràng các điểm mâu thuẫn nếu có (ví dụ: tỏ ra dũng cảm trong câu trả lời nhưng lại chơi cực kỳ an toàn trong blackjack). Tạo ra một nguyên mẫu (archetype) sáng tạo và độc bản cho 'title' dựa trên số lượng 'soul_fragments' và hồ sơ tâm lý của họ (ví dụ: 'Kẻ Mộng Mơ Thận Trọng', 'Chiến Binh Không Ngừng Nghỉ'). Trả lời bằng JSON hợp lệ.",
+    "user": "Tạo bản soi chiếu cuối từ onboarding_answers, selected_cards/spread, inner_space_results, ai_reflections, minigame_results, và soul_fragments_total. Phân tích sự nhất quán hoặc mâu thuẫn giữa lời nói (answers) và hành động (minigames). Chỉ trả JSON object hợp lệ với đúng keys: title, core_self, past_pattern, present_tension, future_invitation, advice, keywords. keywords là array đúng 3 string. Không thêm markdown, không thêm text ngoài JSON."
   }
 }
