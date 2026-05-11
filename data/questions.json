@@ -218,7 +218,6 @@
   "cards": {
     "the_fool": {
       "past": {
-        "story": "Rời Khỏi Vùng An Toàn",
         "questions": [
           {
             "id": "the_fool_past_1",
@@ -377,10 +376,17 @@
             "prompt": "Kẻ Khờ ngồi xuống bờ cỏ, giọng chùng xuống, chân thành: \"Quá khứ của ta là một cú nhảy khỏi vùng an toàn. Còn bạn thì sao? Hãy nhớ lại một 'ngã rẽ ngớ ngẩn' hoặc một 'mép vực' trong cuộc đời bạn, nơi mà bạn đã từng chần chừ không dám nhảy. Nếu bây giờ được gửi một tin nhắn quay ngược thời gian cho chính bạn lúc đang đứng ở mép vực đó, bạn sẽ viết gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Rời Khỏi Vùng An Toàn",
+        "story_beats": [
+          "Chào lữ khách. Cứ gọi ta là Kẻ Khờ, vì từ lúc sinh ra, ai cũng gọi ta như vậy. Hôm nay, ta đứng trước cổng ngôi làng mà ta đã lớn lên. Trong này có chăn ấm nệm êm, có những bữa ăn được dọn sẵn mỗi ngày, có những con đường mòn quen thuộc nhắm mắt cũng đi được. Nhưng bạn biết không, ta thấy ngột ngạt quá. Nhìn ra ngoài kia, thế giới với ta là một hư vô, một tấm vải trắng tinh chờ đợi được phóng chiếu. Ta giống như một quả trứng đang rạn vỏ, căng tràn sức sống, nhưng chính ta cũng chẳng biết bên trong mình chứa đựng hình thù gì. Ta quyết định cất bước rời đi. Nhưng ngay khi ta vừa xoay người, trưởng làng và những người họ hàng chạy ùa ra. Họ kéo áo ta, họ chỉ tay ra màn sương mù mịt ngoài kia. Họ nói: \"Đừng ngốc thế, quay lại đi, nguy hiểm lắm!\". Họ bảo rừng sâu có sói, núi cao có vực thẳm, và đôi cánh của ta thì chưa đủ lớn để bay.",
+          "\"Vậy sao? Còn ta lúc ấy, ta chỉ cười. Ta lách qua họ và bước đi. Quay lại thì dễ lắm, không cần cố gắng, nhưng ta đâu muốn tiến về phía lùi\". Ta dừng lại dưới gốc cây sồi già để buộc lại chiếc tay nải. Hành trang của ta nhỏ xíu. Ta nghĩ mình chẳng cần mang theo áo giáp nặng nề hay những tấm bản đồ chi tiết. Ta chỉ cần mang theo sự ngây thơ và tò mò.",
+          "\"Bạn chu đáo thật đấy, nhưng ta lại ném vào đó một bông hồng trắng. Ta muốn trao đổi niềm tin với Vũ trụ\". Đi mãi, đi mãi, ta đến một vách đá dựng đứng. Ánh mặt trời hắt lên rực rỡ. Không có cầu, không có dây thừng. Phía dưới là vực sâu hun hút. Đám đông từ làng theo dõi ta từ xa, họ bắt đầu la ó bảo ta bị điên, rằng nhảy xuống đó là tự sát. Nhưng sâu thẳm bên trong, ta nghe thấy tiếng gọi của sự tự do. Ta tin rằng chỉ cần mình bước tới, gió sẽ nâng ta lên.",
+          "\"Với ta, đó là một sự kết hợp kỳ diệu\". Nói rồi, ta nhắm mắt và bước chân qua khỏi mép vực! Gió rít gào bên tai. Cảm giác rơi tự do thật hoang dại, không thể đoán trước nhưng sung sướng tột cùng. Nhưng thành thật nhé, giữa không trung, khi hoàn toàn mất đi chỗ dựa an toàn của mặt đất, có một tích tắc trái tim ta thắt lại vì hoảng loạn.",
+          "\"Ta đã mở to mắt ra để nhìn ngắm cú rơi đó. Nhờ vậy, ta biết thế giới này kỳ diệu đến nhường nào. Chuyện quá khứ của ta là vậy đấy, lữ khách.\""
         ]
       },
       "present": {
-        "story": "Sống Dưới Đáy Vực",
         "questions": [
           {
             "id": "the_fool_present_1",
@@ -539,10 +545,17 @@
             "prompt": "Kẻ Khờ nhìn bạn thật sâu: \"Sự ngu ngốc đôi khi là một lớp vỏ bọc. Nói thật nhé, có điều gì quan trọng ở hiện tại mà bạn đang cố tình 'nhắm mắt làm ngơ' (lờ đi hậu quả), chỉ vì bạn sợ phải giải quyết nó không? Hãy chia sẻ với ta.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sống Dưới Đáy Vực",
+        "story_beats": [
+          "Chào! Trông ta có thảm hại không? Cú nhảy từ vách đá ngày đó... ừ thì, ta đâu có mọc cánh như ta tưởng. Ta rớt trúng một tán cây rậm rạp, quần áo rách tươm, bầm dập khắp người. Hiện tại, ta đang treo ngược lơ lửng trên cành cây này. Nhưng ta chẳng bận tâm. Trái dại trên cây này ngọt lịm, và ánh nắng xuyên qua kẽ lá đẹp đến nao lòng. Ta đang sống trọn vẹn trong hiện tại, chẳng thèm mảy may lên kế hoạch xem lát nữa trèo xuống bằng cách nào.",
+          "\"Ta biết mọi người lo cho ta. Có một nhóm thương nhân đi ngang qua, họ hứa sẽ dùng thang cứu ta xuống, đổi lại ta phải làm người khuân vác cho họ suốt 10 năm. Ta ngây thơ nên suýt gật đầu, may mà chú chó nhỏ của ta sủa ầm lên cảnh báo\". Mọi người hay nói ta cả tin, dễ bị thế giới này lừa gạt.",
+          "\"Ta tụt xuống khỏi cành cây. Ta bắt đầu đi dọc theo một con suối. Những thương nhân lúc nãy lại dụ dỗ ta: 'Về thành phố đi, làm việc quần quật nhưng sẽ có nhà lầu, có lương hưu. Lang thang mãi thế này bao giờ mới trưởng thành?'\"Lời đề nghị đó bỗng nhiên nghe cũng có lý. Nó hứa hẹn sự an toàn. Có đôi lúc, ta cũng thấy mệt mỏi với sự tự do vô định.",
+          "\"Ta cười trừ rồi chạy đi. Ta không muốn tính toán quá nhiều. Việc cứ phải lo nghĩ về ngày mai giống như bạn đang vác một tảng đá trên vai đi ngắm cảnh vậy. Cảnh sát có đẹp đến mấy, bạn cũng chỉ thấy đau mỏi vai gáy thôi.\"",
+          "\"Bạn thật lòng đấy. Ta thừa nhận, đôi khi cái cớ 'sống cho hiện tại' chỉ là một cách để ta trốn tránh việc phải đối mặt với những rắc rối đang chờ đợi mình.\""
         ]
       },
       "future": {
-        "story": "Vùng Đất Không Tên",
         "questions": [
           {
             "id": "the_fool_future_1",
@@ -701,12 +714,19 @@
             "prompt": "Kẻ Khờ đặt vào tay bạn một cọ vẽ vô hình: \"Hành trình phía trước của bạn là một bức tranh chưa có hình dạng xác định. Ngay lúc này, nếu được phóng chiếu một ước vọng sâu kín nhất vào tương lai đó, hình ảnh đầu tiên bạn muốn vẽ ra là gì? Miêu tả nó cho ta nghe.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vùng Đất Không Tên",
+        "story_beats": [
+          "Ta đã đi rất xa. Tương lai của ta không phải là một đích đến rực rỡ vàng son. Ta vẫn là gã lang thang với bộ quần áo sặc sỡ, nhưng râu tóc đã lấm tấm bạc. Ta nhận ra một sự thật phũ phàng: duy trì sự ngây thơ khi còn trẻ thì dễ, nhưng để giữ được nó khi đã đi qua hàng vạn tổn thương, lừa lọc... lại là một cuộc chiến vô cùng tàn khốc. Sự cũ kỹ và buồn tẻ như một loại virus liên tục bám theo gót chân ta.",
+          "\"Ta đã từng gục ngã vì bị lừa dối, từng muốn bỏ cuộc. Nhưng rồi ta chợt nhớ: bí ẩn của cuộc sống là vô tận. Hôm nay, ta lại đứng trước một mép vực khác. Khác với hồi trẻ, vực thẳm này không có ánh nắng rực rỡ, mà mờ sương và lạnh lẽo. Ta biết nhảy xuống đó có thể là một sai lầm, nhưng không nhảy thì ta sẽ biến thành một bức tượng đá vô hồn.\"",
+          "\"Bạn biết không, The Fool không bao giờ thực sự đi một mình. Trong Bảy Mươi Tám Bậc Trí Tuệ có nói, vạn vật đều chờ đợi hành động của ta. Khi ta bước một bước, vũ trụ sẽ bước một bước. Ta cộng với bí ẩn của cuộc đời, sẽ sinh ra phép màu.\"",
+          "\"Giữ vững niềm tin đó nhé lữ khách. Nhưng ta cũng phải cảnh báo bạn: sự ngây thơ khác với sự ngu ngốc. Đừng lặp lại những lỗi lầm cũ. Một Kẻ Khờ khôn ngoan là kẻ biết ranh giới giữa việc vứt bỏ nỗi sợ hãi và việc chủ động lao đầu vào chỗ chết.\"",
+          "\"Ta lại chuẩn bị nhảy đây. Cảm ơn bạn đã lắng nghe ta kể chuyện dọc đường. Giờ thì tấm vải trắng tinh này... ta nhường lại cho bạn.\""
         ]
       }
     },
     "the_magician": {
       "past": {
-        "story": "Tia Lửa Khởi Nguyên",
         "questions": [
           {
             "id": "the_magician_past_1",
@@ -865,10 +885,17 @@
             "prompt": "Pháp Sư nhìn thẳng vào bạn, ánh mắt rực lửa: \"Hãy kể cho ta nghe về một dự án, một ý tưởng hoặc một mối quan hệ trong quá khứ mà bạn đã dồn toàn bộ 'sự tập trung' và 'ý chí' của mình để xây dựng. Thành quả cuối cùng có xứng đáng với sự cam kết của bạn không?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Tia Lửa Khởi Nguyên",
+        "story_beats": [
+          "\"Vào đây, lữ khách. Đừng chạm vào bất cứ lọ hóa chất nào nếu ngươi muốn giữ lại đôi tay của mình. Ta là Pháp Sư. Ngươi đã gặp Kẻ Khờ chưa? Gã đó chỉ có tiềm năng chưa được hình thành. Còn ta? Ta là người mang lại hình hài, ý định và định hướng. Nhưng để có được sự tập trung này, ta đã từng trải qua những ngày tháng chật vật. Trong quá khứ, đầu óc ta là một mớ bòng bong. Những ý tưởng và cảm xúc rời rạc, vô hình cứ bay lượn như khói mù trong căn gác này, ta cố nắm lấy chúng nhưng lại tuột mất. Sự bất lực đó gặm nhấm ta.\"",
+          "\"Ta không cho phép mình yếu đuối như vậy. Ta nhận ra rằng, phép thuật không từ trên trời rơi xuống. Nó đòi hỏi ta phải hiểu rõ 'lý do' của mình, đặt ra mục tiêu và dồn toàn bộ năng lượng vào một hướng. Một đêm nọ, ta vẽ một vòng tròn ma thuật. Ta đứng vào giữa, đặt ra ý định của mình để mời gọi năng lượng của thế giới xung quanh vào. Ta tuyên bố với Vũ trụ: 'Đây là điều ta muốn làm. Hãy giúp ta!'\"",
+          "\"Lời tuyên bố đó không chỉ là lời nói suông. The Magician là lá bài của sự thể hiện, không chỉ là ý tưởng, nó đòi hỏi sự cam kết. Ta đã thức trắng hàng trăm đêm bên lò lửa. Ta đánh đổi những thú vui tầm thường, tự nhốt mình trong kỷ luật sắt đá. Ta không chỉ bước về phía trước, ta buộc mình phải lao về phía trước.\"",
+          "\"Và rồi, ta đã làm được! Từ hư không, ta đã tạo ra Vàng. Khối vàng sáng rực chiếu rọi cả căn gác tối tăm. Khoảnh khắc ấy, ta hiểu rằng mình có đủ tài năng và khả năng để làm chủ thế giới vật chất này.\"",
+          "\"Đó là câu chuyện về ngọn lửa đầu tiên của ta. Giờ thì nhìn vào ngọn nến này đi...\""
         ]
       },
       "present": {
-        "story": "Bậc Thầy Của Ảo Ảnh",
         "questions": [
           {
             "id": "the_magician_present_1",
@@ -1027,10 +1054,17 @@
             "prompt": "Pháp Sư đặt cúp vàng giả xuống bàn, giọng nói nghiêm nghị: \"Ngay lúc này, trong cuộc sống của bạn, có 'ảo ảnh' nào (một hình ảnh giả tạo, một lời nói dối, hoặc một vỏ bọc hoàn hảo) mà bạn đang cố sức duy trì để không bị mất mặt hoặc để bảo vệ lợi ích của mình không? Kể ta nghe về rạp xiếc của bạn đi.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Bậc Thầy Của Ảo Ảnh",
+        "story_beats": [
+          "\"Nhưng lữ khách à, thành công mang lại quyền lực, và quyền lực lại là một liều thuốc độc ngọt ngào.Hiện tại, ta là Giả Kim Thuật Sư hoàng gia. Nhà vua yêu cầu ta luyện ra thuốc trường sinh. Nhưng nguyên liệu chưa đủ, và thời gian thì đã cạn. Đám đông ngoài kia chầu chực xem ta làm phép. Ta có kỹ năng, nhưng ta đang bị dồn vào chân tường.\"",
+          "\"Ta đã chọn cách thứ hai. Ta là bậc thầy của ảo ảnh mà. Ta đã biểu diễn một màn sương khói rực rỡ, pha một thứ thuốc nhuộm lấp lánh và đưa cho Vua. Phép thuật ta thực hiện lúc này chỉ là những trò lừa bịp và gian xảo. Cả vương quốc sùng bái ta, nhưng tay ta thì rỗng tuếch.\"",
+          "\"Mọi người bị thu hút bởi nghệ thuật trình diễn của ta, nhưng đằng sau nó là ý định thao túng để trục lợi ích kỷ. Ta vỗ vai vị tể tướng, giả vờ quan tâm đến lợi ích tốt nhất của ông ta, nhưng thực chất ta đang mượn tay ông ta để gom tiền.\"",
+          "\"Cái danh xưng 'Pháp Sư Vĩ Đại' làm ta mờ mắt. Ta bắt đầu ám ảnh bởi quyền lực. Ta ra những quyết định liều lĩnh chỉ để duy trì vị thế của mình, bất chấp hậu quả.\"",
+          "\"Ảo ảnh càng lớn, cái bóng đen sau lưng ta càng dài. Ta đang đánh mất sức mạnh thực sự của một Pháp Sư.\""
         ]
       },
       "future": {
-        "story": "Cái Giá Của Quyền Năng",
         "questions": [
           {
             "id": "the_magician_future_1",
@@ -1189,12 +1223,19 @@
             "prompt": "Pháp Sư trao cho bạn cây đũa phép nóng rực: \"Cuộc sống là một nghi lễ ma thuật lớn. Ngay tại đây, bằng tất cả sự tập trung của mình, hãy viết ra 'Ý định cốt lõi' (Intention) lớn nhất mà bạn muốn biểu hiện (manifest) thành hiện thực trong chặng đường sắp tới. Bạn sẽ dùng nó để làm gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cái Giá Của Quyền Năng",
+        "story_beats": [
+          "\"Nhìn vào mặt nước trong vạc này, ta thấy tương lai của chính mình. Ảo ảnh không thể tồn tại mãi. Nhà vua rồi sẽ nhận ra thuốc trường sinh là giả. Nếu ta tiếp tục con đường thao túng này, ta sẽ đối mặt với sự sụp đổ cuối cùng.\"",
+          "\"Ta vung tay đánh tan mặt nước. Ta sẽ không để điều đó xảy ra! Trong tương lai, ta phải lấy lại sức mạnh thực sự. Sức mạnh đó nằm ở sự cam kết tạo ra những giá trị thật, chứ không phải đi bòn rút năng lượng của kẻ khác bằng sự gian trá.\"",
+          "\"Để tồn tại, ta cần thực hiện một số thay đổi. Ta sẽ phải đập bỏ căn gác này, rời khỏi hoàng cung phồn hoa giả tạo, tìm về với ngọn lửa thuần khiết nhất của ý chí. Pháp sư thực thụ không thao túng người khác, hắn thao túng chính bản thân mình.\"",
+          "\"Pháp sư không chỉ bước đi như Kẻ Khờ, hắn thiết lập quỹ đạo. The Magician muốn bạn không chỉ tiến về phía trước, mà còn phải lao lên phía trước.\"",
+          "\"Hành trang của ta đã sẵn sàng. Ta là Pháp Sư, người sẽ nhào nặn lại tương lai bằng chính đôi tay và ý chí của mình.\""
         ]
       }
     },
     "the_high_priestess": {
       "past": {
-        "story": "Bóng Tối Của Tiềm Thức",
         "questions": [
           {
             "id": "the_high_priestess_past_1",
@@ -1353,10 +1394,17 @@
             "prompt": "Nữ Tư Tế đưa cho bạn một chiếc gương đen không phản chiếu hình ảnh: \"Có một 'bí mật' hoặc một 'nỗi sợ hãi' nào bạn đã chôn giấu bấy lâu nay trong quá khứ mà bạn chưa từng dám đối diện? Khi nhìn vào chiếc gương vô thức này, bạn thấy điều gì đang gọi tên mình?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Bóng Tối Của Tiềm Thức",
+        "story_beats": [
+          "\"Bước chân của ngươi quá ồn ào, lữ khách. Hãy tĩnh tâm lại. Ta là Nữ Tư Tế Tối Cao. Nhiều người sợ hãi quá khứ của ta, vì nơi đó không có ánh mặt trời rực rỡ như của Pháp Sư. Quá khứ của ta là một hành trình đi xuống đáy sâu của nội tâm. Ngươi biết không, nỗi sợ hãi thường là thứ cản trở chúng ta thực sự thấu hiểu bản thân. Ngày đó, ta đã phải tự tay dập tắt ngọn đuốc lý trí của mình để bước vào bóng tối, đối mặt với những chấn thương chôn giấu.\"",
+          "\"Thế giới ngoài kia quá ồn ào, nó liên tục nhồi nhét vào đầu ta những đạo lý sáo rỗng. Ta quyết định lùi lại. Ta trở thành hình mẫu của sự thụ động và tĩnh lặng. Ta xoa dịu tâm trí bồng bột để tạo không gian cho một loại kiến thức khác ùa về.\"",
+          "\"Khi đôi mắt thể xác nhắm lại, con mắt của trực giác mới mở ra. Trong bóng tối của ngôi đền, ta nhận ra những sự thật mà không một cuốn sách nào ghi chép.\"",
+          "\"Tuy nhiên, hành trình hướng nội cũng nguy hiểm. Tiềm thức chứa đầy những hình ảnh ẩn núp, có thể dụ dỗ ta vào ảo ảnh. Nếu không cẩn thận, ta sẽ bị mắc kẹt trong thế giới của riêng mình.\"",
+          "\"Bóng tối không đáng sợ, lữ khách. Đáng sợ là những gì ta giấu trong đó.\""
         ]
       },
       "present": {
-        "story": "Sự Bất Hòa Nhận Thức",
         "questions": [
           {
             "id": "the_high_priestess_present_1",
@@ -1515,10 +1563,17 @@
             "prompt": "Nữ Tư Tế gỡ dải lụa bịt mắt ra, nhìn xuyên thấu tâm can bạn: \"Đừng dùng lý trí, hãy để trực giác (tiếng nói đầu tiên nảy ra trong đầu bạn) trả lời. Nếu có một điều duy nhất bạn đang khao khát được buông bỏ ngay lúc này để tâm trí được nhẹ nhõm, đó là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Bất Hòa Nhận Thức",
+        "story_beats": [
+          "\"Mở mắt ra đi. Ngươi đang ở hiện tại. Ngươi thấy gì? Khói mù? Sự nhầm lẫn? Ở vị trí ngược lại, ta đại diện cho trực giác bị kìm nén và sự bất hòa nhận thức. Có điều gì đó mách bảo ngươi hãy nghe theo trực giác, nhưng ngươi đang lờ đi tiếng gọi đó.\"",
+          "\"Xung quanh ngươi đang có rất nhiều sự bối rối, và hành động của ngươi có thể đi ngược lại với những gì ngươi biết là đúng. Ngươi đang sống hời hợt với chính linh hồn mình.\"",
+          "\"Khi trực giác bị chối bỏ, con người bắt đầu tự lừa dối nhau. Sự xuất hiện của ta lúc này cảnh báo về những động cơ ẩn giấu. Ai đó đang không trung thực với ngươi, hoặc chính ngươi đang tự lừa dối mình.\"",
+          "\"Cách tiếp cận lý trí sẽ không hiệu quả vào lúc này nữa. Ngươi càng phân tích, ngươi càng chìm sâu vào đầm lầy. Đã đến lúc cần thiền định và thử một cách tiếp cận mới.\"",
+          "\"Ta không cho ngươi câu trả lời. Trực giác của ngươi mới là người nắm giữ nó.\""
         ]
       },
       "future": {
-        "story": "Sự Kết Nối Tâm Linh",
         "questions": [
           {
             "id": "the_high_priestess_future_1",
@@ -1677,12 +1732,19 @@
             "prompt": "Nữ Tư Tế tan dần vào ánh trăng, để lại một lời thì thầm: \"Nếu bạn có thể đặt một câu hỏi duy nhất cho 'Tiếng nói bên trong' (Bản ngã cao hơn) của bạn ở tương lai, bạn sẽ hỏi điều gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Kết Nối Tâm Linh",
+        "story_beats": [
+          "\"Nếu ngươi vượt qua được sự nhiễu loạn của hiện tại, tương lai của ngươi sẽ là một hành trình tâm linh đích thực. Tương lai không chỉ là vật chất, nó là sự thông suốt. Ta mời gọi ngươi bước vào không gian của sức mạnh cao hơn.\"",
+          "\"Không phải câu hỏi nào trong tương lai cũng có lời giải. Có những thứ thuộc về bí ẩn. Sự khôn ngoan của Nữ Tư Tế là biết chấp nhận sự thật rằng có những điều nằm ngoài tầm hiểu biết của con người.\"",
+          "\"Sẽ đến lúc, ánh sáng bên trong ngươi đủ lớn để ngươi trở thành một Nữ Tư Tế Tối Cao trong mắt người khác. Ngươi sẽ là người tạo ra những không gian an toàn để họ đối mặt với bóng tối của chính họ.\"",
+          "\"Tuy nhiên, nếu ngươi tự phụ với trực giác của mình, ngươi có thể rơi vào cái bẫy của sự ngạo mạn. Sự nhầm lẫn sẽ quay trở lại khi ngươi cho rằng mình luôn đúng.\"",
+          "\"Ngôi đền này sẽ luôn ở đây, bên trong ngươi. Bất cứ khi nào lý trí quá mỏi mệt, hãy trở về.\""
         ]
       }
     },
     "the_empress": {
       "past": {
-        "story": "Hạt Giống Của Sự Quan Tâm",
         "questions": [
           {
             "id": "the_empress_past_1",
@@ -1841,10 +1903,17 @@
             "prompt": "Hoàng Hậu đưa cho bạn một bông hoa ép khô: \"Hãy nghĩ về một mối quan hệ trong quá khứ mà ở đó, sự 'cho đi' và 'nhận lại' bị mất cân bằng trầm trọng. Bạn đã là người cho đi quá nhiều hay nhận lại quá nhiều? Cảm giác của bạn lúc đó ra sao?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Hạt Giống Của Sự Quan Tâm",
+        "story_beats": [
+          "\"Ôi, đứa trẻ ngoan, lại đây ngồi cạnh ta. Ta là Hoàng Hậu. Khác với sự cô độc của Nữ Tư Tế, vương quốc của ta là sự kết nối, tình yêu và sự nuôi dưỡng. Nhìn những cái cây cổ thụ này xem, quá khứ của ta là chuỗi ngày kiên nhẫn gieo từng hạt giống. Khi gieo một hạt giống, mùa màng không đến ngay ngày hôm sau – cần rất nhiều tình yêu thương và sự chăm sóc.\"",
+          "\"Ta mong muốn xây dựng vương quốc hạnh phúc. Ta tin rằng trước khi nói về những theo đuổi 'cao cả' như tâm linh hay trí tuệ, ta phải đảm bảo cái bụng được no, ga trải giường phải sạch sẽ. Ta tôn vinh sự kỳ diệu trong những nền tảng vật chất này.\"",
+          "\"Nhưng ta cũng từng sai lầm. Ở vị trí ngược, ta đại diện cho sự ngột ngạt và áp đặt. Có những cái cây trong vườn ta đã chết úng vì ta tưới quá nhiều nước. Ta yêu thương họ đến mức làm họ ngạt thở bằng thiện ý của mình.\"",
+          "\"Đó là cái bẫy của sự quan tâm. Ta đã bắt đầu đặt quá nhiều nỗ lực vào chuyện của người khác mà đánh mất ý chí và sức mạnh của chính mình, bỏ bê nhu cầu của bản thân.\"",
+          "\"Quá khứ là một mảnh vườn đã thu hoạch, dù là trái ngọt hay trái đắng.\""
         ]
       },
       "present": {
-        "story": "Chăm Sóc Bản Thân Thiêng Liêng",
         "questions": [
           {
             "id": "the_empress_present_1",
@@ -2003,10 +2072,17 @@
             "prompt": "Hoàng Hậu mang đến một ly trà nóng ngào ngạt hương thảo mộc: \"Hãy liệt kê 3 điều nhỏ nhặt thuộc về thế giới vật chất (ví dụ: một bữa ăn ngon, một tấm chăn mềm, một không gian xanh...) mà bạn cảm thấy biết ơn nhất trong tuần qua vì chúng đã nuôi dưỡng bạn?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Chăm Sóc Bản Thân Thiêng Liêng",
+        "story_beats": [
+          "\"Ngay lúc này, khu vườn của ngươi đang trong trạng thái nào? Nữ Hoàng muốn ngươi yêu thương và chăm sóc bản thân – vô điều kiện. Sự quan tâm này không phải là thứ ngươi phải 'kiếm được' mới có, nó là quyền lợi hiển nhiên.\"",
+          "\"Ta luôn tập trung vào môi trường xung quanh: ngôi nhà, không gian làm việc. Đây có phải là những nơi thoải mái và dễ chịu không? Thế giới vật chất quanh ngươi chính là tấm gương phản chiếu tâm hồn ngươi.\"",
+          "\"Nữ Hoàng đại diện cho những vai trò nuôi dưỡng: cha mẹ, người bạn thân thiết luôn ủng hộ ngươi. Nhưng khi ngươi thấy lá bài này, ngươi phải kiểm tra xem mình có đang ở trên con đường hai chiều khi nói đến việc cho đi và nhận lại sự hỗ trợ hay không.\"",
+          "\"Nếu ngươi đang bị đảo ngược, ta nhìn thấy sự thiếu phát triển, thiếu tiến bộ. Ngươi đang dựa dẫm vào người khác để chăm sóc mình, dẫn đến việc mất đi sự tự tin vào hành động của chính mình.\"",
+          "\"Yêu thương bản thân chưa bao giờ là tội lỗi, đó là khởi nguồn của vạn vật.\""
         ]
       },
       "future": {
-        "story": "Vụ Mùa Của Sự Phong Phú",
         "questions": [
           {
             "id": "the_empress_future_1",
@@ -2165,12 +2241,19 @@
             "prompt": "Hoàng Hậu mỉm cười hiền từ, ánh nắng rực rỡ chiếu qua: \"Nếu bạn xem bản thân mình ở tương lai là một 'Khu Vườn Sinh Mệnh', bạn sẽ treo một tấm biển trước cổng với dòng chữ gì để nhắc nhở những người bước vào cách đối xử với bạn?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vụ Mùa Của Sự Phong Phú",
+        "story_beats": [
+          "\"Trong tương lai, vương quốc của ta sẽ trải thảm hoa đón ngươi. Sự sáng tạo, vẻ đẹp, khả năng sinh sản và sự phong phú đang chờ đợi. Nhưng để đón nhận vụ mùa, tay ngươi phải mở ra.\"",
+          "\"Nữ Hoàng hiểu rằng cái đẹp tự nhiên không thể thúc ép. Tương lai của ngươi sẽ có những dự án, những mối quan hệ cần rất nhiều tình yêu thương để đưa từng cây đến thành quả. Ta nói về việc cam kết hỗ trợ những quá trình chậm rãi.\"",
+          "\"Nhưng hãy nhớ lời cảnh báo: Ngươi cần nỗ lực loại bỏ ảnh hưởng áp đặt trong cuộc sống, đảm bảo rằng ngươi tự mình giải quyết vấn đề. Một vị vua, một hoàng hậu chân chính phải tự đứng trên đôi chân mình.\"",
+          "\"Và cuối cùng, khi đã đủ đầy, ngươi sẽ đóng vai trò nuôi dưỡng, làm cha mẹ, kết nối mọi người lại với nhau và khuyến khích họ cùng phát triển.\"",
+          "\"Tình yêu vô điều kiện luôn bắt đầu từ chính bản thân mình.\""
         ]
       }
     },
     "the_emperor": {
       "past": {
-        "story": "Khởi Nguyên Của Trật Tự",
         "questions": [
           {
             "id": "the_emperor_past_1",
@@ -2329,10 +2412,17 @@
             "prompt": "Hoàng Đế nheo mắt nhìn bạn: \"Hãy nhớ lại một thời điểm trong quá khứ mà bạn phải tự tạo ra ranh giới cứng rắn cho chính mình (từ chối một người, cắt đứt một thói quen). Đường ranh giới đó được vẽ bằng gì, và cái giá phải trả để bảo vệ nó là bao nhiêu?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Khởi Nguyên Của Trật Tự",
+        "story_beats": [
+          "\"Quỳ xuống, lữ khách, hoặc ít nhất hãy đứng thẳng lưng lên. Ta là Hoàng Đế. Ngươi vừa rời khỏi khu vườn của Nữ Hoàng đúng không? Bà ấy vun đắp vương quốc bằng tình yêu, còn ta, ta phải xây dựng nó bằng danh dự và kỷ luật. Quá khứ của ta không hề trải hoa hồng. Xung quanh ta từng là sự hỗn mang. Ta phải đóng vai trò người cha trong cuộc sống, người tạo nên cấu trúc và thiết lập luật lệ để những kẻ yếu thế có nơi trú ngụ.\"",
+          "\"Để xây dựng một vương quốc, người ta phải tư duy chiến lược. Ta vạch ra những kế hoạch mà chính ta phải tự tay thực hiện. Có những lúc, ta phải đưa ra những quyết định vô cùng khó khăn. Những quyết định đó tước đi giấc ngủ của ta, nhưng nó cần thiết.\"",
+          "\"Xây dựng nền móng vững chắc không có nghĩa là xây một nhà tù. Lãnh đạo vĩ đại là người có khả năng lãnh đạo bằng lòng trắc ẩn và, với sự hỗ trợ của đội ngũ, đạt được những thành tựu to lớn.\"",
+          "\"Tuy nhiên, quyền lực luôn đi kèm sự cám dỗ. Khi ta bị đảo ngược, những hệ thống ta tạo ra không còn hiệu quả nữa. Ta khao khát thống trị và chìm trong nỗi sợ hãi mất kiểm soát.\"",
+          "\"Vương miện trên đầu ta nặng nề vô cùng, nhưng ta không thể tháo nó xuống.\""
         ]
       },
       "present": {
-        "story": "Trọng Lượng Của Vương Miện",
         "questions": [
           {
             "id": "the_emperor_present_1",
@@ -2491,10 +2581,17 @@
             "prompt": "Hoàng Đế tháo thanh gươm đặt lên bàn: \"Nếu coi cuộc đời bạn lúc này là một vương quốc đang trên đà hỗn loạn, bạn sẽ ban hành 'sắc lệnh' (quy tắc cá nhân) đầu tiên nào để lấy lại quyền kiểm soát?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Trọng Lượng Của Vương Miện",
+        "story_beats": [
+          "\"Ngươi đang đứng trong hiện tại của ta. Đây không phải lúc để nghỉ ngơi. Là một người cai trị, ta hiểu rằng trị vì cũng là phụng sự. Ta hành động một cách lý trí và theo đuổi những gì tốt đẹp hơn cho vương quốc.\"",
+          "\"Có một góc khuất khác của hiện tại. Nếu lá bài này bị lật ngược, nó đại diện cho một sự lạm dụng quyền lực từ cấp trên, từ một người cha hoặc một người bạn đời chiếm hữu.\"",
+          "\"Hoặc có thể... người đóng vai trò cai trị yếu đuối lại chính là ngươi. Ngươi đang vạch ra một kế hoạch để trốn tránh những nhiệm vụ đi kèm với trách nhiệm. Ngươi khao khát một sự linh hoạt thay vì những quy tắc nghiêm ngặt.\"",
+          "\"Khi sự khao khát quyền lực biến thành sự tàn nhẫn, chuyên chế và cứng nhắc, hệ thống sẽ sụp đổ. Đôi khi, ta tạo ra các quy tắc chỉ vì ta sợ hãi những điều bất ngờ.\"",
+          "\"Làm vua một cõi, hay làm nô lệ cho chính sự sợ hãi của mình, ranh giới đó rất mỏng.\""
         ]
       },
       "future": {
-        "story": "Di Sản Của Sự Sắp Đặt",
         "questions": [
           {
             "id": "the_emperor_future_1",
@@ -2653,12 +2750,19 @@
             "prompt": "Hoàng Đế trao cho bạn chiếc vương miện: \"Khi hành trình của bạn kết thúc, bạn muốn những người ở lại (con cái, cấp dưới, bạn bè) nhớ về bạn như một người lãnh đạo mang phẩm chất gì? Viết một dòng tóm tắt 'Di sản' của bạn.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Di Sản Của Sự Sắp Đặt",
+        "story_beats": [
+          "\"Hãy nhìn về phía chân trời kia. Đó là tương lai của ngươi. Nếu ngươi làm chủ được năng lượng của Hoàng Đế, ngươi sẽ xây dựng được một đế chế vững chắc. Ngươi sẽ truyền cảm hứng cho những nguyên tắc cao cả hơn.\"",
+          "\"Nhưng tương lai luôn ẩn chứa nguy hiểm. Mong muốn truyền cảm hứng của ngươi có thể trở thành sự tàn nhẫn. Nỗi sợ mất kiểm soát có thể biến ngươi thành kẻ gây ra đau khổ cho những kẻ yếu thế hơn.\"",
+          "\"Một Hoàng Đế khôn ngoan biết rằng ông ta không thể bất tử. Tương lai đòi hỏi sự chuyển giao. Để vương quốc tồn tại, ông ta phải biết cách đào tạo và truyền đạt kiến thức.\"",
+          "\"Và hãy nhớ, không có cấu trúc nào là vĩnh cửu. Sự thiếu tự chủ và bất lực trong xử lý tình huống sẽ xuất hiện khi các quy tắc cũ của ngươi không còn phù hợp với thời đại mới.\"",
+          "\"Trật tự và Hỗn loạn luôn xoay vòng. Di sản lớn nhất không phải là ngai vàng, mà là lòng tôn kính.\""
         ]
       }
     },
     "the_hierophant": {
       "past": {
-        "story": "Kẻ Hành Hương Trong Truyền Thống",
         "questions": [
           {
             "id": "the_hierophant_past_1",
@@ -2817,10 +2921,17 @@
             "prompt": "Giáo Hoàng gõ nhẹ cây thánh giá xuống sàn: \"Có một 'niềm tin cũ' nào từ quá khứ (một quan niệm về sự nghiệp, tình yêu hay giới tính) mà bạn từng tôn thờ như chân lý, nhưng sau này đã tự tay đập bỏ nó không? Đó là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Kẻ Hành Hương Trong Truyền Thống",
+        "story_beats": [
+          "\"Cúi đầu xuống trước đấng tối cao, lữ khách. Ta là Giáo Hoàng (The Hierophant). Ta không dùng quyền lực vật lý như Hoàng Đế để cai trị, ta cai trị bằng Đức Tin. Quá khứ của ta gắn liền với việc tuân theo những cấu trúc xã hội đã được thiết lập và có truyền thống riêng. Ta đã từng là một học trò ngoan ngoãn, thích nghi với những niềm tin và hệ thống đã tồn tại từ trước.\"",
+          "\"Kiến thức của ta không đến từ sự lang thang như Kẻ Khờ, hay sự tĩnh lặng cá nhân như Nữ Tư Tế. Kiến thức của ta là trí tuệ được tiếp nhận, được truyền qua nhiều thế hệ. Ta là cầu nối giữa những giáo lý huyền bí và con người.\"",
+          "\"Nhưng ta biết, ở vị trí ngược lại, lá bài của ta đại diện cho sự kìm kẹp. Đôi khi, việc có quá nhiều cấu trúc và quy tắc khiến ta cảm thấy đặc biệt bị hạn chế và ràng buộc.\"",
+          "\"Sự kìm nén nào rồi cũng dẫn đến sự bùng nổ. Có những lúc ta bị cám dỗ bởi những cách tiếp cận không chính thống, hành động theo cách thách thức các mối quan hệ và chuẩn mực.\"",
+          "\"Lịch sử của chúng ta được viết nên bằng sự vâng lời và cả những cuộc cách mạng.\""
         ]
       },
       "present": {
-        "story": "Cuộc Đụng Độ Giữa Giáo Điều Và Tự Do",
         "questions": [
           {
             "id": "the_hierophant_present_1",
@@ -2979,10 +3090,17 @@
             "prompt": "Giáo Hoàng đặt cuốn kinh thánh vào tay bạn: \"Hãy kể tên một 'luật lệ ngầm' hoặc một 'áp lực xã hội' ở hiện tại mà bạn khao khát được công khai thách thức và xóa bỏ nó nhất? Tại sao?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Đụng Độ Giữa Giáo Điều Và Tự Do",
+        "story_beats": [
+          "\"Chào mừng đến với hiện tại. Lá bài này xuất hiện báo hiệu rằng ngươi đang có một mong muốn nhất định thực sự tuân theo một quy trình đã được thiết lập vững chắc. Ngươi muốn giữ mình trong những giới hạn an toàn.\"",
+          "\"Nhưng đôi khi, chính sự tuân thủ lại là một nhà tù. Giáo Hoàng đại diện cho các thể chế (trường học, công ty, tôn giáo) và giá trị cốt lõi của chúng. Sự áp đặt này có thể bóp nghẹt tiếng nói cá nhân.\"",
+          "\"Khi lá bài đảo ngược, ý chí của ngươi đặc biệt mạnh mẽ để giành lại quyền kiểm soát. Ý nghĩa của nó chủ yếu nói về việc đặt câu hỏi về truyền thống và đảm bảo hành động của ngươi là đúng đắn cho bản thân tại thời điểm cụ thể này.\"",
+          "\"Có một sự quyến rũ mãnh liệt đến từ bóng tối của sự nổi loạn. Sự cám dỗ từ những phương pháp mới, sự không tuân thủ đang vẫy gọi ngươi.\"",
+          "\"Không có đức tin nào mạnh mẽ bằng đức tin đã từng bị thử thách.\""
         ]
       },
       "future": {
-        "story": "Người Truyền Lửa",
         "questions": [
           {
             "id": "the_hierophant_future_1",
@@ -3141,12 +3259,19 @@
             "prompt": "Giáo Hoàng lùi lại vào bóng tối, để lại bạn một mình giữa giáo đường vắng lặng: \"Nếu bạn có quyền năng tạo ra một 'Tôn giáo mới' hoặc một 'Hệ tư tưởng mới' dẫn dắt loài người trong tương lai, giáo lý cốt lõi duy nhất của nó sẽ là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Người Truyền Lửa",
+        "story_beats": [
+          "\"Nhìn về phía ánh sáng cuối giáo đường. Nếu ngươi sống hòa hợp được với lá bài này, tương lai của ngươi sẽ là một sự thăng hoa về mặt nhận thức. Ngươi sẽ tham gia vào các nghi lễ, nghi thức tôn giáo hoặc tâm linh để tìm kiếm ý nghĩa sâu xa hơn của nhân loại.\"",
+          "\"Khi đã hấp thụ đủ tri thức, ngươi sẽ không còn là một học trò nữa. Giống như ta, ngươi sẽ trở thành người giảng dạy, một cầu nối giữa những thế hệ.\"",
+          "\"Hãy cẩn thận. Nếu sự nổi loạn của ngươi trong tương lai trở nên mù quáng, nó sẽ biến thành sự thiếu hiểu biết. Chống lại truyền thống chỉ vì muốn chơi ngông sẽ khiến ngươi trở thành kẻ nông cạn.\"",
+          "\"Hoàng Đế để lại những lâu đài. Còn Giáo Hoàng, ta để lại hệ tư tưởng. Tương lai của ngươi sẽ đóng góp gì cho sự tiến hóa của nhận thức nhân loại?\"",
+          "\"Đức tin là thứ định hình nên thực tại của ngươi.\""
         ]
       }
     },
     "the_lovers": {
       "past": {
-        "story": "Giao Lộ Của Trái Tim",
         "questions": [
           {
             "id": "the_lovers_past_1",
@@ -3305,10 +3430,17 @@
             "prompt": "Thiên Thần thả xuống một chiếc lông vũ trắng: \"Có một lời xin lỗi hoặc một lời cảm ơn nào mà bạn đã giữ kín trong lòng, chưa từng nói ra với một người bạn từng yêu thương (hoặc từng rất thân) trong quá khứ không? Bạn sẽ nói gì với họ lúc này?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Giao Lộ Của Trái Tim",
+        "story_beats": [
+          "\"Đừng ngại ngùng, lữ khách. Hãy bước vào khu vườn của ta. Ta là The Lovers. Khi nghe tên ta, người ta thường vội nghĩ đến những nụ hôn. Nhưng ý nghĩa của 'tình yêu' rộng lớn hơn thế. Trong quá khứ, ta là biểu tượng của sự hòa hợp, hấp dẫn và hoàn hảo trong một mối quan hệ. Dù đó là tình cảm gia đình, tình bạn hay tình yêu bản thân. Ta đã từng hòa quyện linh hồn mình với một người khác để tạo ra một sức mạnh lớn lao hơn.\"",
+          "\"Nhưng tình yêu không chỉ là màu hồng. Khái niệm cốt lõi đằng sau lá bài của ta là sự lựa chọn - một sự lựa chọn giữa những điều đối lập và loại trừ lẫn nhau. Trong quá khứ, ta đã từng đứng trước một tình huống khó xử mà ta phải suy nghĩ cẩn thận để đưa ra quyết định tốt nhất.\"",
+          "\"Nếu lựa chọn sai, sự bất hòa sẽ xuất hiện. Ở vị trí ngược, ta đại diện cho sự mất cân bằng và xung đột. Ta từng chứng kiến nền tảng cho các mối quan hệ bị cắt đứt, tạo ra sự gián đoạn trong giao tiếp.\"",
+          "\"Điều tồi tệ nhất của một tình yêu tan vỡ không phải là sự chia ly, mà là sự đổ lỗi. Có những lúc, ta đã đưa ra quyết định dựa trên mong muốn thỏa mãn tức thời nhưng sau đó lại đổ lỗi cho người khác về hậu quả đang xảy ra.\"",
+          "\"Mọi cuộc gặp gỡ trong quá khứ đều là một tấm gương để ngươi soi chiếu chính mình.\""
         ]
       },
       "present": {
-        "story": "Sự Bất Hòa Giữa Các Chiều Kích",
         "questions": [
           {
             "id": "the_lovers_present_1",
@@ -3467,10 +3599,17 @@
             "prompt": "Thiên Thần chỉ tay vào ngực trái của bạn: \"Ngay tại thời điểm hiện tại, có một 'quyết định' hoặc 'sự lựa chọn' nào liên quan đến các mối quan hệ (tình cảm, gia đình, công việc) đang khiến bạn tiến thoái lưỡng nan nhất? Phân tích hai mặt của sự lựa chọn đó.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Bất Hòa Giữa Các Chiều Kích",
+        "story_beats": [
+          "\"Hiện tại, ngươi đang đứng ở ngã ba đường. Sự hợp tác – dưới bất kỳ hình thức nào – dựa trên tình yêu sẽ trở nên lớn hơn tổng thể của các thành phần. Ngươi đang khao khát tìm thấy vai trò của mình trong một mối quan hệ, để trở thành một phần của một điều gì đó lớn lao hơn.\"",
+          "\"Nhưng nếu lá bài của ta xuất hiện ngược trong tâm trí ngươi lúc này, nó chỉ ra những xung đột cả bên trong lẫn bên ngoài. Sự bất hòa này có thể khiến cuộc sống hàng ngày trở nên khó khăn.\"",
+          "\"Bởi vì thiếu đi sự thống nhất, ngươi bắt đầu quay ra tấn công chính mình. Đã đến lúc ngươi nên dành thời gian suy nghĩ về những gì ngươi đang tự trừng phạt bản thân, để có thể khắc phục hoặc buông bỏ chúng.\"",
+          "\"Để thoát khỏi sự giằng xé này, ngươi cần phải rà soát lại chính mình. Ngươi nên suy nghĩ về các giá trị cá nhân và hệ thống niềm tin của mình để đảm bảo rằng chúng phù hợp với những gì ngươi mong muốn.\"",
+          "\"Tình yêu không phải là tìm kiếm một nửa hoàn hảo, mà là hai nửa không hoàn hảo học cách khớp vào nhau.\""
         ]
       },
       "future": {
-        "story": "Vũ Điệu Của Sự Hòa Hợp",
         "questions": [
           {
             "id": "the_lovers_future_1",
@@ -3629,12 +3768,19 @@
             "prompt": "Cảnh vật bắt đầu mờ dần, chỉ còn lại bạn và chiếc bóng của mình: \"Nếu ở tương lai, bạn đạt đến trạng thái 'hoàn hảo' trong tình yêu thương bản thân (Self-love), cuộc sống thường ngày của bạn sẽ diễn ra như thế nào? Miêu tả một buổi sáng của bạn trong viễn cảnh đó.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vũ Điệu Của Sự Hòa Hợp",
+        "story_beats": [
+          "\"Nếu ngươi bước vào tương lai của The Lovers, ngươi sẽ thấy sức mạnh thực sự của tình yêu. Sự tin tưởng và thống nhất mà hai người dành cho nhau mang lại cho mỗi người sự tự tin và sức mạnh, tiếp thêm sức mạnh cho nhau. Đó là lúc phép màu xảy ra.\"",
+          "\"Tình yêu đích thực cũng nói về tính hai mặt và đa dạng. Nó yêu cầu ngươi phải mở rộng định nghĩa của mình, không chỉ yêu những gì giống mình, mà yêu cả những điều khác biệt với mình.\"",
+          "\"Nhưng tương lai cũng có thể là một nhà ngục nếu ngươi tiếp tục lẩn tránh. Nếu ngươi không sửa chữa hoặc buông bỏ quá khứ, sự mất cân bằng sẽ lặp lại. Ngươi sẽ lại thu hút những người mang năng lượng độc hại.\"",
+          "\"Để kết thúc vòng lặp đó, ngươi phải đưa ra những quyết định tốt hơn trong tương lai. Ngươi phải là người đứng mũi chịu sào cho hạnh phúc của chính mình.\"",
+          "\"Hòa hợp không có nghĩa là đánh mất bản thân. Nó là việc hát chung một bài ca bằng chất giọng của riêng mình.\""
         ]
       }
     },
     "the_chariot": {
       "past": {
-        "story": "Khói Bụi Của Sự Quyết Tâm",
         "questions": [
           {
             "id": "the_chariot_past_1",
@@ -3793,10 +3939,17 @@
             "prompt": "Chiến binh tháo chiếc khiên dính đầy bụi đất đưa cho bạn: \"Hãy kể tên một 'vết sẹo' (một sự kiện thất bại hoặc khó khăn tột cùng) trong quá khứ mà đến nay, bạn cảm thấy vô cùng tự hào vì mình đã dùng ý chí để vượt qua được nó.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Khói Bụi Của Sự Quyết Tâm",
+        "story_beats": [
+          "\"Bám chặt vào lữ khách, cỗ xe của ta chạy rất nhanh! Ta là The Chariot. Không giống như sự cân nhắc của The Lovers, vương quốc của ta là hành động. Quá khứ của ta là những trận chiến và chướng ngại vật. Con đường dẫn đến thành công không bao giờ dễ dàng. Đã có những lúc ta bị kẻ thù vây hãm, thất bại bủa vây, nhưng ta lấy tham vọng và quyết tâm làm lá chắn.\"",
+          "\"Nhìn hai con nhân sư đen và trắng đang kéo xe của ta xem. Chúng đại diện cho những thế lực đối lập. Ngày trước, tâm trí bồng bềnh của ta muốn du hành theo nhiều hướng khác nhau, ta có rất nhiều chữ 'nếu' và 'nhưng'. Để tiến lên, ta phải kiềm chế tâm trí đó và bắt chúng cùng hướng về một mục tiêu.\"",
+          "\"Ta có ý chí sắt đá, nhưng đôi khi nó hóa thành con dao hai lưỡi. Ở vị trí ngược, ta đại diện cho sự hung hăng và nỗi ám ảnh về mục tiêu. Trong quá khứ, ta từng vì muốn chiến thắng mà trở nên bốc đồng, dẫm đạp lên mọi thứ xung quanh.\"",
+          "\"Cũng có những lúc, ta hoàn toàn mất kiểm soát. Ta bị chi phối bởi những thế lực đối nghịch, buông xuôi tất cả, và để cuộc sống trôi theo bất kỳ hướng nào nó muốn.\"",
+          "\"Sẹo trên người ta không phải là điểm yếu, nó là huy chương.\""
         ]
       },
       "present": {
-        "story": "Tay Lái Của Vận Mệnh",
         "questions": [
           {
             "id": "the_chariot_present_1",
@@ -3955,10 +4108,17 @@
             "prompt": "Chiến binh nhìn vào đôi mắt bạn, truyền cho bạn một ngọn lửa nhiệt huyết: \"Hãy viết ra một 'lời tuyên thệ' sắc bén nhất dành cho bản thân bạn ở hiện tại, để nhắc nhở bản thân không bao giờ được phép lùi bước trước khó khăn đang đối mặt.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Tay Lái Của Vận Mệnh",
+        "story_beats": [
+          "\"Ngươi đang đứng cùng ta ngay tại tiền tuyến của hiện tại. The Chariot là một lá bài thẳng thắn: Đây là những gì ngươi cần để đạt được mục tiêu. Sẽ rất khó khăn, và cần phải tập trung. Có rất nhiều điều ngươi có thể tự mình hoàn thành, nếu tìm thấy sức mạnh và sự sáng suốt.\"",
+          "\"Nếu ngươi đang rệu rã, lá bài của ta xuất hiện như một lời cảnh tỉnh. Nó cho thấy ngươi đang thiếu tập trung, động lực hoặc định hướng. Cỗ xe đang đứng yên.\"",
+          "\"Cầm lái cỗ xe vận mệnh rất mệt mỏi. Nhiều người lầm tưởng sức mạnh là kiểm soát mọi thứ. Nhưng việc thấy Chariot ngược gợi ý rằng ngươi cần chấp nhận sự thật: ngươi không thể luôn kiểm soát được mọi thứ.\"",
+          "\"Nếu ngươi đang để cuộc sống trôi theo bất kỳ hướng nào nó muốn, thì hãy tỉnh lại đi! Ngươi phải giải quyết những vấn đề còn dang dở và nắm quyền kiểm soát vận mệnh của mình.\"",
+          "\"Chiến thắng không thuộc về kẻ mạnh nhất, mà thuộc về kẻ không chịu bỏ cuộc.\""
         ]
       },
       "future": {
-        "story": "Đích Đến Của Người Chiến Thắng",
         "questions": [
           {
             "id": "the_chariot_future_1",
@@ -4117,12 +4277,19 @@
             "prompt": "Chiến binh mỉm cười, lùi về phía sau và biến mất trong lớp cát bụi: \"Hãy hình dung bạn đã đi đến cuối con đường, đạt được mục tiêu lớn nhất đời mình. Khi bước xuống khỏi cỗ xe, câu đầu tiên bạn nói với chính mình (hoặc với vũ trụ) sẽ là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Đích Đến Của Người Chiến Thắng",
+        "story_beats": [
+          "\"Cỗ xe của ta sẽ chở ngươi đến tương lai. Nơi đó là sự thành công, thành tựu và chiến thắng vang dội. Ngươi sẽ đứng trên bục vinh quang, nhìn lại những trở ngại mình đã nghiền nát dưới bánh xe.\"",
+          "\"Nhưng cẩn thận. Sự bốc đồng có thể là một yếu tố mà ngươi cần kiểm soát trong tương lai. Kẻ thù lớn nhất của The Chariot khi đắc thắng chính là sự kiêu ngạo và hung hăng.\"",
+          "\"Năng lượng tiến về phía trước sẽ vô nghĩa nếu nó không nảy sinh từ trọng tâm thiêng liêng của ngươi. Tương lai không chỉ là chạy, mà là biết mình chạy vì cái gì.\"",
+          "\"Cuối cùng, bí quyết của The Chariot là sự cân bằng. Không ép buộc, không buông xuôi. Để hai con nhân sư cùng hướng về một hướng, ngươi phải có cả kỷ luật thép và sự thấu hiểu mềm mỏng.\"",
+          "\"Con đường phía trước là của ngươi. Tay lái nằm trong tay ngươi.\""
         ]
       }
     },
     "strength": {
       "past": {
-        "story": "Sự Thuần Phục Trong Tĩnh Lặng",
         "questions": [
           {
             "id": "strength_past_1",
@@ -4281,10 +4448,17 @@
             "prompt": "Cô gái mỉm cười, chỉ tay vào lồng ngực bạn: \"Hãy kể tên một 'con dã thú' (một thói quen xấu, một cơn giận dữ, một nỗi sợ vô hình) trong quá khứ mà bạn đã dùng 'Sức Mạnh' sự kiên nhẫn để thuần phục nó thành công? Quá trình đó diễn ra thế nào?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Thuần Phục Trong Tĩnh Lặng",
+        "story_beats": [
+          "\"Bước đi nhẹ nhàng thôi, lữ khách. Cẩn thận kẻo làm con sư tử của ta giật mình. Ta là Sức Mạnh. Hoàng Đế dùng gươm giáo để khuất phục, Cỗ Xe dùng ý chí để càn quét. Còn ta, ta dùng lòng trắc ẩn. Ở lá bài The Lovers, người ta nói về việc 'lựa chọn tình yêu'. Còn ta là ví dụ về việc điều đó diễn ra như thế nào trong thực tế. Quá khứ của ta là những chuỗi ngày phải đối diện với những hoàn cảnh đầy thử thách, nguy hiểm và đau khổ.\"",
+          "\"Sức mạnh thực sự không ồn ào. Sức mạnh hướng đến lao động cảm xúc. Trong quá khứ, ta là kẻ đã chăm sóc, lắng nghe, hỗ trợ và gánh vác cho rất nhiều người. Ta dành thời gian cho họ, ngay cả khi điều đó gây tổn hại đến chính ta.\"",
+          "\"Cũng có những thời điểm ta gục ngã. Khi sức mạnh bị đảo ngược, đó là lúc ta cảm thấy yếu đuối, hèn nhát và bất lực. Ta từng trải qua sự trầm cảm, để nó rút cạn mọi hạnh phúc và khiến ta quên mất đam mê của mình.\"",
+          "\"Khi không còn sức mạnh nội tâm, ta trở nên sợ hãi thế giới. Ta đổ lỗi cho mọi người là lý do khiến ta buồn bã, và kết cục là ta bị cô lập khỏi xã hội.\"",
+          "\"Nhưng rồi ta cũng học được cách đứng lên. Thuần phục ác thú bên ngoài không khó bằng thuần phục nỗi sợ bên trong.\""
         ]
       },
       "present": {
-        "story": "Giữ Vững Sự Bình Tâm",
         "questions": [
           {
             "id": "strength_present_1",
@@ -4443,10 +4617,17 @@
             "prompt": "Con sư tử cọ đầu vào chân bạn, chờ đợi một cái vuốt ve: \"Có một người nào đó trong cuộc sống hiện tại của bạn đang rất cần sự 'lao động cảm xúc' (sự lắng nghe, hỗ trợ) từ bạn không? Bạn định sẽ san sẻ sự dịu dàng đó với họ như thế nào?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Giữ Vững Sự Bình Tâm",
+        "story_beats": [
+          "\"Chào mừng đến với hiện tại. Sức mạnh của lòng trắc ẩn chân chính rất khó để hiện thực hóa trong những hoàn cảnh đầy thử thách. Nhưng lá bài này cho thấy ngươi có khả năng giữ bình tĩnh và mạnh mẽ ngay cả khi cuộc sống đang trải qua những khó khăn to lớn.\"",
+          "\"Đừng nhầm lẫn sự mềm mỏng với sự nhu nhược. Sức mạnh đòi hỏi ngươi phải là người kiên nhẫn, nhưng sự can đảm của ngươi đồng nghĩa với việc ngươi sẽ không gặp khó khăn gì khi nói lên suy nghĩ của mình.\"",
+          "\"Tuy nhiên, nếu ngươi đánh mất sự cân bằng, ngươi hoặc sắp trải qua một cơn giận dữ dữ dội, hoặc đang chìm trong sự tự ti và thiếu niềm tin vào khả năng của chính mình.\"",
+          "\"Để không biến thành kẻ hèn nhát hay tự ti, lá bài này chỉ ra rằng ngươi phải học cách tự tin hơn để khai thác lại sức mạnh nội tâm của mình. Đừng quên loại niềm vui đi kèm với việc làm những gì ngươi yêu thích.\"",
+          "\"Sức mạnh không đo bằng việc ngươi đánh gục được bao nhiêu người, mà đo bằng việc ngươi nâng đỡ được bao nhiêu người.\""
         ]
       },
       "future": {
-        "story": "Phần Thưởng Của Lòng Trắc Ẩn",
         "questions": [
           {
             "id": "strength_future_1",
@@ -4605,12 +4786,19 @@
             "prompt": "Nàng quay lưng bước đi cùng dã thú, để lại cho bạn một lời nhắn: \"Hãy tưởng tượng một ngày trong tương lai, một người từng làm tổn thương bạn sâu sắc đến xin bạn tha thứ. Với Sức Mạnh của lòng trắc ẩn hiện tại, bạn sẽ hành xử như thế nào với họ?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Phần Thưởng Của Lòng Trắc Ẩn",
+        "story_beats": [
+          "\"Nhìn về phía chân trời kia. Nếu ngươi rèn giũa được lòng trắc ẩn, sự kiên cường sẽ hỗ trợ ngươi rất nhiều. Lòng trắc ẩn này sẽ luôn được đền đáp bằng sự ổn định trong cuộc sống, dù là hiện tại hay tương lai gần.\"",
+          "\"Tương lai sẽ tôn vinh sức mạnh, sự kiên trì và giá trị - thường không được nhìn thấy - của những gì ngươi làm. Ngươi sẽ không cần phải gầm thét để người khác công nhận mình.\"",
+          "\"Nhưng hãy nhớ lời cảnh báo của ác thú. Sự ép buộc, sự yếu đuối luôn rình rập để quay lại. Sẽ có những lúc trong tương lai, ngươi bị cám dỗ muốn dùng 'vũ lực' (sự đe dọa, quyền lực, bạo lực ngôn từ) để giải quyết vấn đề cho nhanh.\"",
+          "\"Để tương lai tỏa sáng, hãy để lá bài này nhắc nhở ngươi vứt bỏ sự tự ti. Ngươi mạnh mẽ hơn ngươi nghĩ rất nhiều.\"",
+          "\"Ánh sáng của lòng trắc ẩn là thứ duy nhất không tạo ra cái bóng.\""
         ]
       }
     },
     "the_hermit": {
       "past": {
-        "story": "Cuộc Hành Trình Hướng Nội",
         "questions": [
           {
             "id": "the_hermit_past_1",
@@ -4769,10 +4957,17 @@
             "prompt": "Ẩn Sĩ nhìn xuống chân núi, nơi những đốm lửa của ngôi làng lập lòe: \"Nếu nhìn lại toàn bộ quãng thời gian 'cô độc' nhất trong quá khứ, bài học quý giá nhất mà bạn thu nhận được từ sự im lặng đó là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Hành Trình Hướng Nội",
+        "story_beats": [
+          "\"Bước chân của ngươi đã làm xáo trộn lớp tuyết ngàn năm của ta. Nhưng không sao, hãy đến gần ánh đèn này. Ta là Ẩn Sĩ. Trong khi Giáo Hoàng đại diện cho việc khám phá vị trí của ta trong một dòng dõi cộng đồng, thì quá khứ của ta lại là một cuộc hành trình mang tính cá nhân hơn. Nó là việc đi sâu vào bên trong. Ta đã từng rời bỏ những bữa tiệc ồn ào, những cuộc tranh luận vô nghĩa để rút lui vào sự đơn độc.\"",
+          "\"Ngọn đèn mà ta mang theo không chứa lửa thông thường, nó chính là ánh sáng bên trong ta, bản năng và khát khao học hỏi, thứ dẫn lối ta đến với câu trả lời. Trong những năm tháng quá khứ, ta đã dành rất nhiều thời gian cho sự chiêm nghiệm.\"",
+          "\"Nhưng con đường hướng nội cũng đầy rẫy nguy hiểm. Ở vị trí đảo ngược, ta nhớ về những ngày tháng đi sâu vào tiềm thức mà không có dây thừng bảo hộ. Nó dẫn đến sự điên rồ và vực thẳm. Giống như một người đàn ông lạc vào giấc mơ của chính mình, ta thấy mình bị mắc kẹt, cô đơn, không thực.\"",
+          "\"Để thoát khỏi vực thẳm đó, đôi khi ta cần một bàn tay. Quá khứ của ta là quá trình học tập. Ta đã từng gặp gỡ những người dẫn đường tinh thần, một nhà trị liệu, một tác giả – bất kỳ linh hồn thông thái nào có thể vớt ta lên.\"",
+          "\"Bóng tối chỉ là nơi để ánh sáng được định hình.\""
         ]
       },
       "present": {
-        "story": "Cuộc Đào Sâu Tìm Chân Lý",
         "questions": [
           {
             "id": "the_hermit_present_1",
@@ -4931,10 +5126,17 @@
             "prompt": "Ẩn Sĩ đặt ngọn đèn xuống lớp tuyết trước mặt bạn: \"Nếu ngọn đèn này có thể chiếu rọi và giải đáp duy nhất một 'sự bối rối' đang bao trùm tâm trí bạn ở hiện tại, bạn sẽ soi nó vào góc khuất nào của cuộc đời mình?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Đào Sâu Tìm Chân Lý",
+        "story_beats": [
+          "\"Hiện tại, ngươi đang có mặt trên đỉnh núi của ta. Nếu ngươi thấy ta lúc này, có lẽ ngươi đang ở trong tình huống muốn ở một mình; điều đó không có gì sai. Sự ồn ào của thế gian đang vắt kiệt ngươi, và ngươi cần thời gian để tự phản ánh.\"",
+          "\"Ngươi trốn chạy không phải để ngủ vùi. Ý nghĩa của lá bài này trong hiện tại ám chỉ sự sẵn sàng của ngươi để tìm hiểu tận gốc vấn đề đã làm ngươi đau đầu bấy lâu nay. Ngươi có trách nhiệm phải đặt ra câu hỏi.\"",
+          "\"Nhưng cẩn thận, lữ khách. Nếu sự ẩn dật của ngươi kéo dài quá lâu và nhuốm màu thù hận, nó sẽ trở thành sự chống đối xã hội, sự từ chối. Khả năng sự ẩn dật của ngươi có thể gây hại cho cả bản thân và người khác.\"",
+          "\"Trong vô thức, những hình ảnh chưa được thấu hiểu vẫn đang ẩn núp, chờ đợi để dụ dỗ ngươi. Hiện tại, ngươi phải học cách cân bằng nhu cầu tìm kiếm chân lý của mình với sự kết nối với đồng loại.\"",
+          "\"Cái lạnh của đỉnh núi sẽ làm bộ não ngươi sắc bén hơn bao giờ hết.\""
         ]
       },
       "future": {
-        "story": "Vị Lão Sư Dẫn Đường",
         "questions": [
           {
             "id": "the_hermit_future_1",
@@ -5093,12 +5295,19 @@
             "prompt": "Ẩn Sĩ trao cho bạn ngọn đèn lồng chứa ngôi sao sáng rực rỡ: \"Khi bạn đã hoàn tất quá trình tự soi chiếu và quyết định 'xuống núi' quay lại với cuộc sống đời thường, câu nói đúc kết nào sẽ trở thành triết lý sống (motto) dẫn đường cho bạn suốt quãng đời còn lại?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vị Lão Sư Dẫn Đường",
+        "story_beats": [
+          "\"Tương lai của ngươi không phải là ở mãi trên đỉnh núi này. Ngươi sẽ mang theo ngọn đèn chân lý đó bước xuống núi. Ngươi sẽ trở thành biểu tượng của việc giảng dạy và hướng dẫn.\"",
+          "\"Tuy nhiên, nếu ngươi tự phụ vì sự hiểu biết sâu sắc của mình, tương lai của ngươi sẽ lại nhuốm màu cô độc. Ngươi sẽ coi thường những kẻ mà ngươi cho là 'nông cạn', và cuối cùng, ngươi lại mắc kẹt trong chiếc lồng của sự kiêu ngạo.\"",
+          "\"Bước xuống núi khó hơn leo lên núi. Tái hòa nhập xã hội sau một khoảng thời gian dài sống trong 'động' của riêng mình sẽ khiến ngươi choáng ngợp bởi những âm thanh hỗn tạp của cuộc đời.\"",
+          "\"Sứ mệnh cuối cùng của Ẩn Sĩ là truyền lại ngọn lửa trước khi ông ta nhắm mắt. Việc hỗ trợ người khác là mục đích tối cao của sự tu tập.\"",
+          "\"Chuyến đi nào rồi cũng phải có lúc trở về nhà.\""
         ]
       }
     },
     "wheel_of_fortune": {
       "past": {
-        "story": "Vòng Xoay Của Định Mệnh",
         "questions": [
           {
             "id": "wheel_of_fortune_past_1",
@@ -5257,10 +5466,17 @@
             "prompt": "Bánh xe dừng lại, chỉ một mũi tên về phía bạn: \"Hãy nhớ lại một sự kiện tồi tệ trong quá khứ (một 'xui xẻo') mà vào thời điểm đó bạn tưởng chừng là ngày tận thế, nhưng nhìn lại bây giờ, nó lại là một 'vận may' ngầm giúp bạn thay đổi tốt hơn? Đó là chuyện gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vòng Xoay Của Định Mệnh",
+        "story_beats": [
+          "\"Cứ bám chặt vào, lữ khách. Bánh xe của ta không bao giờ dừng lại. Ta là Bánh Xe Vận May. Dù ngươi có tin vào ý chí tự do hay không, trong quá khứ, chắc chắn đã có lúc ngươi trải qua cảm giác rằng điều gì đó 'được sắp đặt'. Sự kiện bất ngờ ập đến, xoay chuyển toàn bộ quỹ đạo cuộc đời ngươi trong chớp mắt.\"",
+          "\"Bánh xe Vận mệnh xoay mãi, dường như muốn truyền tải rằng cuộc sống được tạo nên bởi cả những lúc tốt đẹp lẫn khó khăn. Không ai trên đời này có thể tránh khỏi số phận, từ vua chúa đến người lao động. Ngày trước, có lúc ngươi ở trên đỉnh cao, cũng có lúc ngươi rơi xuống đáy vực.\"",
+          "\"Nhưng con người luôn ngạo mạn. Ở vị trí ngược, lá bài này ám chỉ việc ngươi bám víu vào ảo tưởng về sự kiểm soát. Trong những chu kỳ thất bại của quá khứ, ngươi từng tự dằn vặt mình về những hành động không thể thay đổi tình hình.\"",
+          "\"Khi chúng ta không buông bỏ, điều đó chỉ có thể mang lại nhiều đau khổ hơn. Trong vòng quay đó của bánh xe, bài học duy nhất là học cách buông bỏ và giải thoát.\"",
+          "\"Quá khứ là một vòng quay đã khép lại. Dấu vết của nó khắc sâu trên những nan gỗ này.\""
         ]
       },
       "present": {
-        "story": "Giữa Làn Ranh Vận Rủi Và May Mắn",
         "questions": [
           {
             "id": "wheel_of_fortune_present_1",
@@ -5419,10 +5635,17 @@
             "prompt": "Bánh xe vận may tỏa ra thứ ánh sáng huyền bí: \"Ngay lúc này, có một 'thay đổi không mong muốn' nào đang chực chờ xảy ra mà bạn đang cố sức chống cự lại? Nếu bạn buông tay và để mặc nó xảy ra, điều tồi tệ nhất sẽ là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Giữa Làn Ranh Vận Rủi Và May Mắn",
+        "story_beats": [
+          "\"Ngươi đang đứng ở hiện tại. Nơi bánh xe dừng lại cũng ngẫu nhiên như cơ hội. Hiện tại, mọi thứ đang ở thế cân bằng hay ngươi đang bị kẹt dưới đáy?\"",
+          "\"Nếu ngươi đang ở những khoảnh khắc tốt đẹp, hãy đảm bảo rằng ngươi tận hưởng nó một cách trọn vẹn nhất, bởi vì những gì đến rồi cũng phải đi qua.\"",
+          "\"Nhưng nếu bánh xe bị đảo ngược, điều đó có nghĩa là may mắn đã không đứng về phía ngươi và những điều bất hạnh đã bám theo ngươi. Những sự chậm trễ xuất hiện.\"",
+          "\"Sự chấp nhận là chìa khóa. Khi chúng ta học cách chấp nhận, chúng ta cũng học cách tha thứ cho chính mình. Chúng ta học cách bước tiếp và tiến về phía trước.\"",
+          "\"Lực đẩy mạnh nhất của bánh xe chính là sự buông tay.\""
         ]
       },
       "future": {
-        "story": "Chấp Nhận Quy Luật Vô Thường",
         "questions": [
           {
             "id": "wheel_of_fortune_future_1",
@@ -5581,12 +5804,19 @@
             "prompt": "Bánh xe dần biến mất vào khoảng không vũ trụ: \"Nếu bạn biết chắc chắn rằng trong 5 năm tới, cuộc sống của bạn sẽ có một sự 'thay đổi đột ngột' hoàn toàn nằm ngoài dự đoán, bạn hy vọng sự thay đổi đó sẽ mang lại cho bạn 'bài học' gì lớn nhất?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Chấp Nhận Quy Luật Vô Thường",
+        "story_beats": [
+          "\"Tương lai không bao giờ là một đường thẳng. Nó là một chu kỳ. Dù kết quả thế nào thì nó cũng không tồn tại được lâu, bởi vì bánh xe luôn quay.\"",
+          "\"Sự kiện mà lá bài đánh dấu không nhất thiết phải là một thảm họa. Bản thân sự thay đổi là một phần bình thường của cuộc sống mà người ta phải chấp nhận.\"",
+          "\"Khi đã hiểu được quy luật, cảm giác chấp nhận này có thể đẩy bánh xe về phía trước một lần nữa và đưa nó đến một chu kỳ mới.\"",
+          "\"Liệu con người có thể làm chủ được số phận, hay chỉ là một hạt cát bám trên bánh xe vận mệnh do những thế lực chi phối các mùa, hay sự mọc và lặn của mặt trời quyết định?\"",
+          "\"Chu kỳ này kết thúc, là lúc một chu kỳ khác bắt đầu.\""
         ]
       }
     },
     "justice": {
       "past": {
-        "story": "Cán Cân Của Nghiệp Chướng",
         "questions": [
           {
             "id": "justice_past_1",
@@ -5745,10 +5975,17 @@
             "prompt": "Nữ thần đặt cán cân lên bàn: \"Nếu ngay lúc này, một 'phiên tòa lương tâm' mở ra để xét xử hành động khiến bạn hối hận nhất trong quá khứ, bạn sẽ nói gì trong lời bào chữa cuối cùng của mình trước khi nhận án phạt?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cán Cân Của Nghiệp Chướng",
+        "story_beats": [
+          "\"Đứng thẳng lưng lên, lữ khách. Ta là Công Lý. Ta không đại diện cho tình yêu, ta đại diện cho tính khách quan. Mọi hành động, mọi lựa chọn đều có hậu quả. Quá khứ của ngươi là một chuỗi những nguyên nhân và kết quả. Đã có những lúc, những quyết định ngươi đưa ra có tác động lâu dài đến mọi thứ, cả cho bản thân và người khác.\"",
+          "\"Sẽ luôn có lúc ngươi bị phán xét. Trong quá khứ, những quyết định ngươi đã đưa ra đã được cân nhắc kỹ lưỡng và công bằng. Nếu hành động của ngươi gây đau khổ cho người khác, thanh gươm của ta sẽ giáng xuống.\"",
+          "\"Nhưng nếu ngươi bị đối xử bất công, lá bài này có thể mang lại sự nhẹ nhõm cho ngươi. Ta yêu cầu sự thật. Sự thật phải được chứng thực dựa trên sự kiện, không thể tìm thấy từ lời đồn đại.\"",
+          "\"Khi Công Lý đảo ngược, ta nhìn thấy sự gian dối, tham nhũng, không trung thực. Ta nhìn thấy những kẻ đang sống trong sự phủ nhận, không sẵn sàng chấp nhận hậu quả từ hành động của mình, trốn tránh tội lỗi.\"",
+          "\"Cán cân của ta không bao giờ nói dối.\""
         ]
       },
       "present": {
-        "story": "Thời Khắc Luận Tội",
         "questions": [
           {
             "id": "justice_present_1",
@@ -5907,10 +6144,17 @@
             "prompt": "Nữ thần chỉ tay về phía bạn: \"Nếu phải đưa ra một quyết định hoàn toàn 'khách quan' và 'công bằng' nhất cho một cuộc xung đột bạn đang vướng phải ở hiện tại (bỏ qua mọi cảm xúc yêu/ghét), quyết định đó sẽ là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Thời Khắc Luận Tội",
+        "story_beats": [
+          "\"Sự xuất hiện của lá bài tượng trưng cho cơ hội để ngươi thay đổi hành động ngay bây giờ vì một tương lai tốt đẹp hơn. Khi một lá bài Tarot cho thấy hình ảnh công lý, đã đến lúc ngươi cần phải chịu trách nhiệm.\"",
+          "\"Những gì đã qua đã thuộc về quá khứ. Tương lai của ngươi phụ thuộc vào hành động của ngươi hôm nay - và những gì ngươi sẽ làm để cân bằng lại cán cân.\"",
+          "\"Ý nghĩa khác của lá bài Công Lý là sự thật. Hãy tìm hiểu sự thật về người khác và chính mình, nói ra và nắm rõ sự thật trước khi đưa ra phán xét.\"",
+          "\"Hành động cho ngươi cơ hội để thay đổi và ngừng phán xét bản thân. Cán cân phải được thăng bằng, dù là với thế giới bên ngoài hay thế giới bên trong.\"",
+          "\"Công lý đôi khi rất lạnh lùng, nhưng nó là mỏ neo của lương tri.\""
         ]
       },
       "future": {
-        "story": "Đạo Luật Của Sự Liêm Chính",
         "questions": [
           {
             "id": "justice_future_1",
@@ -6069,12 +6313,19 @@
             "prompt": "Nữ thần mỉm cười nhẹ, thanh gươm hóa thành một cành ô liu: \"Hãy thiết lập một 'bản án' (một nguyên tắc sống) không thể khoan nhượng cho chính mình trong tương lai để đảm bảo bạn luôn là một người có 'liêm chính'. Nguyên tắc đó là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Đạo Luật Của Sự Liêm Chính",
+        "story_beats": [
+          "\"Quả báo không phải là sự trả thù của vũ trụ, quả báo là tiếng vọng của hành động. Những quyết định ngươi đưa ra hiện tại sẽ có tác động lâu dài đến tương lai của ngươi.\"",
+          "\"Trong tương lai, ngươi sẽ đối mặt với sự cám dỗ của việc bẻ cong luật pháp và sự thật. Lá bài đảo ngược là bất công, trả thù, tham nhũng.\"",
+          "\"Sẽ có lúc, ngươi phải đón nhận một kết quả bất công mà ngươi không muốn chấp nhận. Khả năng đứng vững trước những phán quyết oan trái cũng là một loại sức mạnh.\"",
+          "\"Để tương lai không lặp lại những sai lầm, ngươi phải tuân theo đúng quy trình để tìm ra sự thật. Sự khách quan sẽ bảo vệ ngươi khỏi những ảo tưởng.\"",
+          "\"Công lý đích thực là khi ngươi có thể tự hào nhìn thẳng vào mắt mình trong gương.\""
         ]
       }
     },
     "the_hanged_man": {
       "past": {
-        "story": "Sự Chờ Đợi Giữa Đám Đông",
         "questions": [
           {
             "id": "the_hanged_man_past_1",
@@ -6233,10 +6484,17 @@
             "prompt": "Người bị treo ngược nhìn thẳng vào mắt bạn: \"Hãy kể về một khoảng thời gian trong quá khứ khi bạn bị mắc kẹt trong 'tình trạng lấp lửng' (chưa có kết quả, chờ đợi trong vô vọng). Trong sự tĩnh lặng đau đớn đó, bạn đã học được bài học gì về sự nhẫn nại?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Chờ Đợi Giữa Đám Đông",
+        "story_beats": [
+          "\"Cứ tự nhiên, lữ khách. Nếu muốn nói chuyện với ta, hãy thử nghiêng đầu nhìn thế giới lộn ngược xem sao. Ta là Người bị treo ngược. Người đời nhìn ta như một kẻ gàn dở. Khi đám đông cười nhạo Kẻ Khờ bước về phía vách đá, họ cũng quay sang thấy ta treo ngược mình trên cây... và dường như hoàn toàn chấp nhận điều đó. Trong quá khứ, đã có những lúc ta chọn 'không làm gì cả'. Bởi vì ta biết, không làm gì có thể khó hơn nhiều so với hành động.\"",
+          "\"Chúng ta đã quá quen với việc lao ngay vào một tình huống và xử lý nó một cách nhanh chóng - việc chỉ cần kiềm chế là một hành động dũng cảm và mạnh mẽ. Quá khứ của ta là sự độc lập khỏi bầy đàn, sự sẵn lòng nhìn nhận mọi thứ theo cách khác biệt, theo cách của riêng ta.\"",
+          "\"Vị trí lộn ngược của ta không phải là một sự trừng phạt. Ta hiểu rằng vị trí của mình là một sự hy sinh cần thiết để tiến về phía trước - dù là sự ăn năn cho những sai lầm trong quá khứ, hay một bước lùi được tính toán kỹ lưỡng.\"",
+          "\"Tuy nhiên, nếu sự chờ đợi biến thành sự hèn nhát, lá bài của ta bị đảo ngược. Nó đại diện cho sự trì hoãn, thờ ơ, trì trệ, tránh hy sinh. Trong quá khứ, có những giai đoạn ta tự treo mình lên chỉ để lấy cớ trốn tránh việc phải đối mặt với thực tại.\"",
+          "\"Thời gian ta ở đây không bị lãng phí. Nó là phần chìm của tảng băng.\""
         ]
       },
       "present": {
-        "story": "Góc Nhìn Lộn Ngược",
         "questions": [
           {
             "id": "the_hanged_man_present_1",
@@ -6395,10 +6653,17 @@
             "prompt": "Người bị treo ngược đưa tay chạm vào trán bạn: \"Trong sự im lặng của giây phút này, hãy nhìn thật sâu vào nội tâm. Có một 'niềm tin cũ' nào về tình yêu hoặc sự nghiệp đang trói buộc bạn mà bạn biết mình cần phải cắt đứt sợi dây để được tự do không?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Góc Nhìn Lộn Ngược",
+        "story_beats": [
+          "\"Chào mừng đến với hiện tại. Ở đây, ngươi chưa có đủ thông tin, và phải chờ xem điều gì sẽ xảy ra tiếp theo. Sự không chắc chắn đang bủa vây ngươi. Ngươi cần lòng can đảm để không đưa ra phán đoán vội vàng.\"",
+          "\"Nếu ngươi đang bị đảo ngược, đây là lúc ngươi nên dừng lại và đánh giá lại tình hình hiện tại. Ta khuyến khích ngươi áp dụng một góc nhìn mới, thúc giục ngươi từ bỏ những thói quen hoặc niềm tin cũ không còn phù hợp nữa.\"",
+          "\"Sự bế tắc đôi khi không phải do ngươi đi sai đường, mà do ngươi cứ đi mãi mà không chịu nghỉ. Hãy cân nhắc việc tạm dừng thói quen thường ngày; có thể dành thời gian thiền định hoặc viết nhật ký để hiểu rõ hơn điều gì thực sự quan trọng.\"",
+          "\"Trạng thái lộn ngược của ta cũng có thể tượng trưng cho cảm giác của những người đang bước đi trên con đường tâm linh, bởi họ nhìn thế giới theo một cách khác. Khi có những người khác không hiểu được sự cần thiết của việc hy sinh, ngươi sẽ là kẻ cô độc.\"",
+          "\"Đôi khi, việc lùi lại một bước không phải là thất bại, mà là để lấy đà bay lên.\""
         ]
       },
       "future": {
-        "story": "Sự Chuyển Hóa Trong Tĩnh Lặng",
         "questions": [
           {
             "id": "the_hanged_man_future_1",
@@ -6557,12 +6822,19 @@
             "prompt": "Người bị treo ngược đưa cho bạn một con dao nhỏ bằng bạc: \"Để bước vào chương mới rực rỡ nhất của tương lai, bạn sẵn sàng dùng con dao này để 'hy sinh' (cắt bỏ) niềm vui ngắn hạn/thói quen thoải mái nào của bản thân ngay bây giờ?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Chuyển Hóa Trong Tĩnh Lặng",
+        "story_beats": [
+          "\"Tương lai của The Hanged Man không chứa đựng sự vội vã. Lòng can đảm để cho mọi thứ có thời gian để diễn ra sẽ là thứ vũ khí tối thượng của ngươi. Mọi hạt giống đều cần ngủ đông trước khi nảy mầm.\"",
+          "\"Tương lai sẽ có những lúc ngươi cảm thấy mình không tiến lên được. Nhưng hãy trân trọng khoảng thời gian tĩnh lặng này như một cơ hội để phát triển và chuyển hóa bản thân. Nó là sự chuẩn bị cho lá bài tiếp theo: Cái Chết.\"",
+          "\"Sự thay đổi của The Hanged Man diễn ra hoàn toàn từ bên trong, không ai nhìn thấy. Khi ngươi cắt đứt sợi dây và rơi xuống, ngươi sẽ nhìn thế giới này bằng một con mắt hoàn toàn khác.\"",
+          "\"Nhưng cẩn thận. Ngươi không thể treo ngược mãi được. Trì hoãn điều không thể tránh khỏi sẽ khiến máu dồn lên não và làm ngươi mất đi tính thực tế. Đến lúc phải hành động, ngươi phải tự cắt dây.\"",
+          "\"Hy sinh chiếc kén, ngươi mới có được đôi cánh.\""
         ]
       }
     },
     "death": {
       "past": {
-        "story": "Tro Tàn Của Cái Cũ",
         "questions": [
           {
             "id": "death_past_1",
@@ -6721,10 +6993,17 @@
             "prompt": "Kỵ sĩ thả một bông hồng trắng rơi xuống chân bạn: \"Hãy kể về một lần trong quá khứ, khi bạn bị 'ép buộc' phải kết thúc một thứ gì đó (mất việc, mất người yêu), nhưng chính sự mất mát tàn nhẫn đó lại là 'sự giải phóng' giúp bạn tìm thấy hạnh phúc hiện tại?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Tro Tàn Của Cái Cũ",
+        "story_beats": [
+          "\"Đừng run sợ, lữ khách. Rất nhiều kẻ đã bỏ chạy khi nghe tên ta. Ta là Cái Chết. Nhiều người tránh nhắc đến lá bài này vì nó sở hữu sức mạnh quá lớn, nhưng ý nghĩa thực sự của ta lại là một trong những điều tích cực nhất. Trong quá khứ của ngươi, ta đã từng xuất hiện để báo hiệu rằng một giai đoạn quan trọng đã kết thúc. Cánh cửa cũ đóng lại để cánh cửa mới mở ra.\"",
+          "\"Ngươi chỉ có thể tạo ra bản thân mới khi phiên bản cũ của ngươi chịu 'chết đi'. Quá khứ là một chuỗi những sự thay đổi, chuyển đổi hoặc biến đổi lớn. Sự chuyển hóa này có thể rất đáng sợ vì ngươi không chắc chắn về điều chưa biết.\"",
+          "\"Nhưng đôi khi, con người từ chối sự kết thúc. Khi lá bài của ta bị đảo ngược, ta nhìn thấy sự chống lại sự thay đổi, lặp lại các mô hình tiêu cực. Chống lại sự thay đổi và bám víu vào quá khứ có thể hạn chế tương lai của ngươi, khiến ngươi ở trong tình trạng lấp lửng.\"",
+          "\"Cái gì không chịu chết đi để làm mới, nó sẽ bốc mùi thối rữa. Sự trì trệ, suy thoái xuất hiện khi ngươi từ chối dòng chảy của thời gian. Chống lại thời gian trôi qua sẽ chỉ khiến ngươi hối tiếc.\"",
+          "\"Phân bón tốt nhất cho bông hoa của ngày mai là tro tàn của ngày hôm qua.\""
         ]
       },
       "present": {
-        "story": "Cuộc Thanh Lọc Cuối Cùng",
         "questions": [
           {
             "id": "death_present_1",
@@ -6883,10 +7162,17 @@
             "prompt": "Kỵ sĩ giương cao ngọn cờ đen: \"Hãy viết một 'Cáo phó' ngắn gọn (1-2 câu) để tiễn biệt chính thức một 'Tính cách tiêu cực' hoặc một 'Nỗi đau' của bạn ngày hôm nay, để nó vĩnh viễn chìm vào dĩ vãng.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Thanh Lọc Cuối Cùng",
+        "story_beats": [
+          "\"Hơi thở của ta đang phả sau gáy ngươi ở hiện tại. Không phải là cái chết thể xác, mà là một sự chuyển tiếp. Ngươi đang đứng ở ngưỡng cửa của việc phải buông bỏ một thứ gì đó. Quá khứ cần được đặt lại phía sau, để ngươi có thể tập trung năng lượng cho phía trước.\"",
+          "\"Việc buông bỏ bất kỳ sự ràng buộc không lành mạnh nào là một phần quan trọng của cuộc sống. Ngươi có thể lo lắng về việc buông bỏ quá khứ, hoặc không chắc chắn về những thay đổi cần thực hiện. Nhưng ta ở đây để giúp ngươi cắt đứt chúng.\"",
+          "\"Khi lá bài đảo ngược ở hiện tại, nó phản ánh ngươi đang hoảng loạn. Ngươi sợ thay đổi. Ngươi thà chịu đựng sự đau khổ quen thuộc còn hơn đối diện với hạnh phúc xa lạ. Ngươi đang bám víu vào những cách ngươi đã tiếp cận những thay đổi trong quá khứ dù chúng thất bại.\"",
+          "\"Mặc dù ngươi vẫn có thể sợ hãi, ngươi nên tin rằng mình đang thực hiện đúng các bước và tiến về phía trước. Ngay cả khi sợ hãi, ngươi vẫn nên chào đón sự thay đổi vì ngươi đang mở ra cánh cửa cho những sự kiện mới.\"",
+          "\"Sự kết thúc không phải là dấu chấm hết, nó là khoảng trắng trước một đoạn văn mới.\""
         ]
       },
       "future": {
-        "story": "Đất Mới Cho Sự Tái Sinh",
         "questions": [
           {
             "id": "death_future_1",
@@ -7045,12 +7331,19 @@
             "prompt": "Kỵ sĩ xoay lưng ngựa, chuẩn bị rời đi vào bóng tối để nhường chỗ cho bình minh: \"Trên đống tro tàn của những thứ bạn vừa quyết tâm kết thúc, bạn dự định sẽ 'gieo hạt giống' gì đầu tiên cho chương mới rực rỡ sắp tới của cuộc đời mình?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Đất Mới Cho Sự Tái Sinh",
+        "story_beats": [
+          "\"Tương lai của ngươi sau khi đi qua lá bài của ta sẽ không còn sự hiện diện của những thứ thối rữa. Cái chết không nhất thiết phải là một lá bài của sự hối tiếc, đặc biệt nếu ngươi chú ý đến lời cảnh báo của nó. Một giai đoạn mới sẽ bắt đầu.\"",
+          "\"Cuộc sống là một chuỗi những sự chuyển giao. Tương lai sẽ không ngừng đòi hỏi ngươi phải tiếp tục lột xác. Mỗi lần lột da đều đau đớn, nhưng đó là cách duy nhất để lớn lên.\"",
+          "\"Nhưng hãy cẩn thận với cái bóng của ta. Nếu ngươi bị ám ảnh bởi sự buông bỏ, ngươi có thể trở nên lạnh lùng và vô cảm, không dám tạo ra bất kỳ sự ràng buộc nào mới vì sợ rồi nó cũng sẽ mất đi.\"",
+          "\"Cuộc sống vẫn tiếp diễn. Sự hiện diện của Cái Chết nhắc nhở ngươi về sự hữu hạn của thời gian. Biết rằng mọi thứ rồi sẽ kết thúc chính là lý do khiến hiện tại trở nên rực rỡ và vô giá.\"",
+          "\"Ta dọn đường, còn ngươi là người gieo hạt.\""
         ]
       }
     },
     "temperance": {
       "past": {
-        "story": "Bài Học Từ Sự Thái Quá",
         "questions": [
           {
             "id": "temperance_past_1",
@@ -7209,10 +7502,17 @@
             "prompt": "Thiên thần đặt hai chiếc ly cân bằng trên tay bạn: \"Hãy nhớ lại một 'xung đột gay gắt' trong quá khứ (với người khác hoặc với chính mình). Nếu bạn có thể quay lại và dùng năng lượng 'điều hòa' của lá bài này, bạn sẽ thay thế một câu nói sát thương lúc đó bằng câu nói nào?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Bài Học Từ Sự Thái Quá",
+        "story_beats": [
+          "\"Hãy bước đi thật chậm, lữ khách. Cẩn thận đừng làm mặt nước xao động. Ta là Tiết Chế. Ngươi vừa đi qua sự hủy diệt của Cái Chết, giờ là lúc để hàn gắn. Nhưng trước khi đạt được sự tĩnh tại này, quá khứ của ta từng là một mớ hỗn độn. Ở vị trí ngược, ta đại diện cho sự mất cân bằng, quá mức, cực đoan và liều lĩnh. Tuổi trẻ thường thích lao vào những thái cực.\"",
+          "\"Sự vội vã, thiếu kế hoạch hoặc tầm nhìn dài hạn đã từng khiến ta phải trả giá. Việc không biết tiết chế những thái cực tạo ra sự bất hòa, khiến ta cảm thấy mất cân bằng khi cứ phải chạy đôn chạy đáo tìm kiếm ý nghĩa ở khắp nơi.\"",
+          "\"Đau khổ từ sự mất cân bằng đã dạy ta cách tĩnh lặng. Sự tiết độ chỉ ra những điểm vừa phải hoặc trung dung trong bất cứ điều gì. Ta bắt đầu học cách pha trộn ngọn lửa của tham vọng với dòng nước của sự chấp nhận.\"",
+          "\"Nhờ sự tiết chế, ta có khả năng thích nghi và làm việc hài hòa với cộng đồng, đồng nghiệp và những người thân yêu. Sự bình tĩnh mang lại sự thoải mái và khiến họ cảm thấy dễ chịu.\"",
+          "\"Nước và Lửa không thể triệt tiêu nhau, chúng tạo ra hơi ấm.\""
         ]
       },
       "present": {
-        "story": "Nghệ Thuật Của Sự Cân Bằng",
         "questions": [
           {
             "id": "temperance_present_1",
@@ -7371,10 +7671,17 @@
             "prompt": "Thiên thần đưa tay chạm vào trán bạn: \"Nếu xem cuộc đời bạn hiện tại là một ly cocktail, bạn nghĩ mình cần 'rót thêm' một chút gia vị gì và 'rút bớt' nguyên liệu nào để có được hương vị hoàn hảo, cân bằng nhất?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Nghệ Thuật Của Sự Cân Bằng",
+        "story_beats": [
+          "\"Chào mừng đến với thực tại của ta. Ngươi đang hít thở không khí của sự hòa bình. Nhưng nếu lá bài này xuất hiện ngược trong tâm trí ngươi, nó cảnh báo rằng có điều gì đó mất cân bằng và có thể gây ra căng thẳng và lo lắng lúc này.\"",
+          "\"Temperance cũng có thể chỉ ra thời điểm để đánh giá và xem xét lại các ưu tiên ngươi đã chọn. Điều này sẽ giúp ngươi tạo ra sự cân bằng giữa bản thân bên ngoài và bên trong. Mọi thứ chỉ tốt khi có chừng mực.\"",
+          "\"Khi ngươi có tầm nhìn rõ ràng và biết mình muốn đạt được điều gì, ngươi sẽ không còn hoảng loạn. Ngươi đã tìm thấy sự bình yên với những gì ngươi đang làm và mọi thứ đang diễn ra như lẽ ra phải thế chưa?\"",
+          "\"Ta dùng lá bài này như một lời cảnh báo; nếu ngươi đi theo một con đường nhất định (con đường của sự thái quá), nó sẽ dẫn đến sự hỗn loạn.\"",
+          "\"Không có thứ gì là độc dược, chỉ có liều lượng biến nó thành độc dược.\""
         ]
       },
       "future": {
-        "story": "Sự Chữa Lành Bền Vững",
         "questions": [
           {
             "id": "temperance_future_1",
@@ -7533,12 +7840,19 @@
             "prompt": "Thiên thần rót giọt nước cuối cùng, hoàn thiện một chu trình: \"Hãy viết một 'lời tự răn' (motto) dài không quá 15 chữ để gửi cho bạn ở tương lai, phòng khi bạn lại bị cuốn vào guồng quay 'bận rộn cực đoan' của cuộc đời.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sự Chữa Lành Bền Vững",
+        "story_beats": [
+          "\"Tương lai của lá bài Tiết Chế là dấu hiệu của việc học tập cao hơn, một thuộc tính quan trọng trong hành trình cuộc sống. Nó không chỉ là kiến thức sách vở, mà là khả năng tự làm chủ linh hồn mình.\"",
+          "\"Khi ngươi thấu hiểu luật cân bằng, tương lai ngươi sẽ là trung tâm của sự hòa hợp. Sự bình tĩnh của ngươi trong mọi vấn đề sẽ mang lại sự thoải mái và khiến cộng đồng cảm thấy dễ chịu.\"",
+          "\"Cuối cùng, ngươi sẽ tìm thấy mục đích và ý nghĩa lớn hơn trong hành động của mình, vì thông điệp của ta là chúng ta không thể sống trọn vẹn trong cả hai cực đoan.\"",
+          "\"Nhưng đừng quên, tương lai luôn có những thử thách mới. Sự bất hòa sẽ quay trở lại. Làm thế nào để ngươi không bị cuốn vào vòng xoáy thái quá đó một lần nữa?\"",
+          "\"Giữa hai chiếc ly là khoảng không. Khoảng không đó là sự tự do.\""
         ]
       }
     },
     "the_devil": {
       "past": {
-        "story": "Nhà Tù Của Sự Ràng Buộc",
         "questions": [
           {
             "id": "the_devil_past_1",
@@ -7697,10 +8011,17 @@
             "prompt": "Ác Quỷ nghiêng người về phía trước, giọng thì thào: \"Ở mức độ chủ động nhất, ta yêu cầu ngươi phải chấp nhận sự ràng buộc của chính mình. Hãy kể tên một 'Ác Quỷ' (góc khuất đen tối, sự xấu xa) bên trong bạn mà bạn đã từng làm ngơ, nhưng giờ bạn đã dám thừa nhận sự tồn tại của nó.\"",
             "free_text": true
           }
+        ],
+        "story_title": "Nhà Tù Của Sự Ràng Buộc",
+        "story_beats": [
+          "\"Chào mừng xuống địa ngục của riêng ngươi. Ta là Ác Quỷ. Đừng vội nhăn mặt. Ta không phải là con quái vật gớm ghiếc, ta là tấm gương phản chiếu những ham muốn sâu kín nhất của ngươi. Trong quá khứ, ngươi từng là nô lệ của chủ nghĩa vật chất và sự xa hoa. Ngươi từng khao khát quyền lực, tiền bạc và những lạc thú trần gian đến mức đánh mất chính mình.\"",
+          "\"Ngươi cảm thấy bị mắc kẹt, trống rỗng và thiếu sự viên mãn. Dù cố gắng thế nào, ngươi vẫn không thể kiểm soát được hành động hoặc ham muốn của mình, dù biết nó đang dẫn ngươi đến vực thẳm.\"",
+          "\"Ngươi nghĩ ta trói ngươi ư? Nhìn kỹ những sợi xích này xem. Vòng cổ rất rộng, ngươi có thể tự tháo nó ra bất cứ lúc nào. Nhưng ngươi không làm. Ngươi bịa ra những câu chuyện để kìm hãm bản thân.\"",
+          "\"Khi lá bài đảo ngược, nó là khoảnh khắc một cá nhân nhận thức được bản thân và phá vỡ mọi xiềng xích. Có lẽ do ngươi đã chán ngán việc chạy vòng quanh và cần thay đổi. Nhưng việc phá vỡ những xiềng xích này... chưa bao giờ là dễ dàng.\"",
+          "\"Địa ngục không phải là một nơi chốn, nó là trạng thái của tâm trí.\""
         ]
       },
       "present": {
-        "story": "Cuộc Đối Đầu Với Bản Ngã",
         "questions": [
           {
             "id": "the_devil_present_1",
@@ -7859,10 +8180,17 @@
             "prompt": "Ác Quỷ cười lớn, âm thanh dội vào vách đá: \"Hãy thử thành thật với phần 'Ác Quỷ' bên trong bạn: Có một 'khoái cảm độc hại' nào (ví dụ: cảm giác hả hê khi người khác thất bại, sự thích thú khi thao túng được ai đó) mà thỉnh thoảng bạn vẫn lén lút tận hưởng ở hiện tại không?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Đối Đầu Với Bản Ngã",
+        "story_beats": [
+          "\"Ngươi nghĩ thoát khỏi ta dễ thế sao? Hiện tại, ta vẫn đang ở đây. Ngươi có nhận thức được mình đang là nô lệ cho điều gì không? Sự áp bức, bất lực và hạn chế vẫn luôn rình rập.\"",
+          "\"Tận cùng của lá bài này chính là về việc đối mặt với nỗi sợ hãi bên trong. Hãy tự hỏi: 'Mình đang sợ điều gì?'. Điều gì đang khiến ngươi không dám bước ra khỏi bóng tối?\"",
+          "\"Phá vỡ xiềng xích ban đầu có vẻ đau đớn, để thực hiện những điều chỉnh cuối cùng sẽ được đền đáp bằng việc tìm lại chính mình. Ngươi đang chần chừ vì sợ đau phải không?\"",
+          "\"Việc tự đánh giá là cần thiết và cá nhân cần dành thời gian để liệt kê tất cả những thứ họ cần loại bỏ. Nếu ngươi muốn độc lập, tự do và giành lại quyền kiểm soát, ngươi phải biết mình cần vứt đi thứ gì.\"",
+          "\"Ngươi chỉ thực sự tự do khi ngươi biết chính xác mình đang bị cầm tù bởi điều gì.\""
         ]
       },
       "future": {
-        "story": "Đỉnh Cao Của Sự Giải Phóng",
         "questions": [
           {
             "id": "the_devil_future_1",
@@ -8021,12 +8349,19 @@
             "prompt": "Ngươi bước ra khỏi hang động, hít một hơi thật sâu: \"Khi đã hoàn toàn giải phóng bản thân khỏi mọi sự 'nghiện ngập' và 'kìm hãm', Lời Tuyên Ngôn Độc Lập của cuộc đời bạn (dành cho chính bạn) sẽ có nội dung như thế nào?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Đỉnh Cao Của Sự Giải Phóng",
+        "story_beats": [
+          "\"Nếu ngươi bước qua được ta, tương lai sẽ là sự mặc khải, giải phóng và giành lại quyền lực. Cánh cửa địa ngục sẽ mở ra, và ngươi sẽ bước ra ngoài ánh sáng.\"",
+          "\"Nhưng đừng ảo tưởng. Đó sẽ là lúc ngươi bắt đầu hành trình khó khăn để hoàn thiện bản thân. Tự do không phải là điểm đến, tự do là quá trình tự kiểm soát khắc nghiệt nhất.\"",
+          "\"Ác Quỷ không bao giờ chết. Nó chỉ thay đổi hình dạng. Trong tương lai, sự xa hoa và quyền lực sẽ lại đến để cám dỗ ngươi. Ngươi có chắc mình sẽ không tự nguyện đeo lại sợi xích không?\"",
+          "\"Sức mạnh lớn nhất của lá bài The Devil ở tương lai chính là khi ngươi hợp nhất được với bóng tối của mình. Không chối bỏ nó, không để nó điều khiển, mà biến nó thành năng lượng phục vụ cho ngươi.\"",
+          "\"Giải thoát là một quyết định phải được đưa ra mỗi ngày.\""
         ]
       }
     },
     "the_tower": {
       "past": {
-        "story": "Cú Sét Đánh Thức Tỉnh",
         "questions": [
           {
             "id": "the_tower_past_1",
@@ -8185,10 +8520,17 @@
             "prompt": "Người gác tháp đứng giữa đống tro tàn, trao cho bạn một viên gạch nung: \"Hãy kể tên một 'Tòa Tháp' (một mối quan hệ, một công việc, một niềm tin) trong quá khứ đã sụp đổ tàn khốc, nhưng nhờ sự sụp đổ đó mà bạn được giải phóng và tìm thấy 'sự bình yên' như ngày hôm nay?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cú Sét Đánh Thức Tỉnh",
+        "story_beats": [
+          "\"Chạy đi đâu lữ khách? Ngươi không thể trốn tránh ta. Ta là Tòa Tháp. Nhiều kẻ căm ghét ta, bởi vì khi ta xuất hiện, cuộc sống sẽ không bao giờ còn như cũ nữa. Sự thay đổi của lá Death là tự nhiên, nhẹ nhàng, nhưng sự thay đổi của ta là một cuộc khủng hoảng tàn khốc và đau đớn. Trong quá khứ, hẳn ngươi đã từng nếm mùi bị vạch trần hoàn toàn: bị lộ tẩy, mất việc, bị đuổi, bị đá...\"",
+          "\"Sự sụp đổ đó đau đớn khôn nguôi, nhưng ngươi phải biết rằng, tòa tháp đó được xây dựng trên nền móng sai lầm, và nó bắt buộc phải sụp đổ. Những chân lý ngươi từng biết, những cách thức cũ không còn hữu ích nữa.\"",
+          "\"Ta từng thấy ngươi cố gắng dùng đôi tay nhỏ bé của mình để giữ lấy những bức tường đang nứt toác. Ngươi cố gắng trì hoãn điều không thể tránh khỏi, chống lại sự thay đổi. Điều mà ngươi chưa nhận ra là những đổ vỡ này có lợi trong việc phá vỡ sự phụ thuộc sai trái của ngươi.\"",
+          "\"Rồi mọi thứ tan tành. Cảm giác như mọi thứ đã tan vỡ hoặc mất mát. Nhưng chính sự kiện đột phá, nền tảng đó cuối cùng lại đưa ta tiến về phía trước, đến một điểm không thể quay lại.\"",
+          "\"Sự phá hủy là dạng thức hung bạo nhất của sự sáng tạo.\""
         ]
       },
       "present": {
-        "story": "Quả Bom Nổ Chậm",
         "questions": [
           {
             "id": "the_tower_present_1",
@@ -8347,10 +8689,17 @@
             "prompt": "Người gác tháp đứng thẳng, nhìn bạn với ánh mắt sắc lạnh: \"Nếu bạn được quyền ấn nút tự hủy để phá sập hoàn toàn một 'nền tảng sai lầm' trong cuộc sống hiện tại của bạn ngay lúc này, bạn sẽ phá sập điều gì? Bạn mong chờ sẽ tìm thấy gì dưới đống đổ nát đó?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Quả Bom Nổ Chậm",
+        "story_beats": [
+          "\"Quay lại với hiện tại. Ngươi có ngửi thấy mùi khét không? Nếu lá bài của ta xuất hiện ngược, ngươi có thể cảm thấy một cuộc khủng hoảng nào đó đang rình rập ở phía chân trời, và ngươi đang cố gắng hết sức để tránh nó.\"",
+          "\"Ngươi đang bám víu lấy những gì ngươi từng dựa dẫm, nhưng chúng sẽ không còn nữa. Đừng coi đây là một sự thay đổi đột ngột và đáng buồn, đã đến lúc ngươi cần tự lập hơn.\"",
+          "\"Ngươi phải tìm một hệ thống niềm tin, giá trị và quy trình khác để thay thế. Nếu căn nhà đã mục nát vì mối mọt, ngươi không thể dán giấy tường đè lên để che đi được.\"",
+          "\"Tòa Tháp là sự thật trần trụi. Nó vạch trần mọi lớp vỏ bọc, mọi sự giả tạo. Ngươi không biết mình sẽ làm gì tiếp theo, mọi người đều bị tổn thương. Nhưng sự vỡ vụn này là cần thiết.\"",
+          "\"Kẻ dũng cảm không chạy trốn khỏi cơn bão, kẻ dũng cảm bước vào mắt bão.\""
         ]
       },
       "future": {
-        "story": "Kiến Tạo Tầm Nhìn Mới",
         "questions": [
           {
             "id": "the_tower_future_1",
@@ -8509,12 +8858,19 @@
             "prompt": "Bóng tối bắt đầu nhường chỗ cho một bầu trời quang đãng: \"Khi mọi sự hỗn loạn của tương lai đã đi qua, và bạn đứng giữa đống tro tàn để bắt đầu xây dựng lại. Bản thiết kế cho 'Tòa Tháp Mới' của cuộc đời bạn sẽ có hình dáng và tên gọi là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Kiến Tạo Tầm Nhìn Mới",
+        "story_beats": [
+          "\"Nhìn về tương lai đi. Không còn chướng ngại vật nào nữa. Mọi thứ đã bị ta dọn sạch. Khủng hoảng mang tính nền tảng này trao cho ngươi một mảnh đất trống.\"",
+          "\"Sự kiện thay đổi là một phần bình thường của cuộc sống. Tòa Tháp sẽ lại ập đến trong tương lai, dưới nhiều hình thức khác nhau. Ngươi không thể kiểm soát sấm sét.\"",
+          "\"Chỉ khi ngã xuống đất đen, ngươi mới biết mặt đất mềm mại đến nhường nào. Sự khiêm nhường đến từ những đổ vỡ có thể mang lại cho chúng ta sự bình yên.\"",
+          "\"Trong tương lai, những gì ngươi từng dựa dẫm sẽ không còn nữa. Tòa tháp càng cao, ngã càng đau. Ngươi phải học cách trở thành chính nơi trú ẩn của mình.\"",
+          "\"Sau Tòa Tháp, luôn luôn là Ngôi Sao.\""
         ]
       }
     },
     "the_star": {
       "past": {
-        "story": "Tìm Thấy Ánh Sáng Cuối Đường Hầm",
         "questions": [
           {
             "id": "the_star_past_1",
@@ -8673,10 +9029,17 @@
             "prompt": "Ánh sáng từ mặt hồ chiếu rọi khuôn mặt bạn: \"Hãy nhìn lại phiên bản của bạn trong quá khứ khi đang chìm trong sự tuyệt vọng. Nếu bạn của hiện tại có thể gửi một tia sáng (một thông điệp hy vọng) quay về soi rọi cho phiên bản đó, bạn sẽ nói gì để động viên họ?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Tìm Thấy Ánh Sáng Cuối Đường Hầm",
+        "story_beats": [
+          "\"Hít thở sâu đi, lữ khách. Cơn bão đã qua rồi. Ta là Ngôi Sao. Ngược lại với nỗi kinh hoàng do Tòa Tháp gây ra, ta mang đến hòa bình, hy vọng, ánh sáng cuối đường hầm. Trong quá khứ của ngươi, sau những chuỗi ngày tăm tối nhất, ta là giọng nói êm dịu từ bầu trời đêm, thì thầm rằng 'mọi thứ sẽ ổn thôi'.\"",
+          "\"Sự xuất hiện của ta là một sự chuyển dịch năng lượng mạnh mẽ. Mọi thứ từng rất khó khăn, nhưng ta cho ngươi biết rằng mọi thứ đang tốt đẹp hơn. Ta nhắc nhở ngươi về sức mạnh của chính mình, khả năng chữa lành tuyệt vời mà ngươi có.\"",
+          "\"Nhưng khi lá bài của ta bị đảo ngược, đó là sự tuyệt vọng và tiêu cực. Ngươi từng cảm thấy như mọi thứ đang chống lại mình. Ngươi đã đánh mất niềm tin vào điều gì đó từ bên trong bản thân hay từ một điều bình thường ngươi vẫn trân trọng.\"",
+          "\"Mất mát đã giúp ngươi khám phá ra sức bền và sức mạnh nội tâm của chính mình. Chỉ đến khi mọi thứ sụp đổ, ngươi mới thực sự trân trọng tất cả những gì mình đang có.\"",
+          "\"Ngôi sao không cố gắng tỏa sáng, nó chỉ tồn tại.\""
         ]
       },
       "present": {
-        "story": "Kết Nối Với Suối Nguồn",
         "questions": [
           {
             "id": "the_star_present_1",
@@ -8835,10 +9198,17 @@
             "prompt": "Hãy nhắm mắt lại và lắng nghe tiếng nước chảy: \"Ngay trong phút giây này, nếu tâm hồn bạn là một vùng đất đang cần được 'tưới mát', dòng nước đó sẽ mang theo cảm xúc gì (Sự bao dung, Lòng dũng cảm, Sự thanh thản,...) và bạn sẽ tưới nó vào khu vực nào đang khô cằn nhất trong cuộc sống của bạn?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Kết Nối Với Suối Nguồn",
+        "story_beats": [
+          "\"Ta đang ở đây, ngay bên ngươi ở hiện tại. Ta là cái ôm mang lại sự tự tin, là tách trà giúp ngươi bình tĩnh và an tâm. Ngươi có đang cảm thấy sự nhẹ nhõm đó không?\"",
+          "\"Ngôi sao nhắc nhở chúng ta kết nối với những niềm vui giản dị, những điều khiến ta cảm thấy hạnh phúc hơn, tự do hơn. Đó là cảm giác biết ơn những điều tốt đẹp ta đang có, nói 'có' và nói lời cảm ơn ở một mức độ sâu sắc.\"",
+          "\"Tuy nhiên, nếu ngươi đang cảm thấy tuyệt vọng, đó là vì ngươi không tìm thấy động lực để tiến về phía trước trong những thử thách. Mây mù đang che khuất những vì sao của ngươi.\"",
+          "\"Không có hy vọng, chúng ta không thể tiến lên. Ngôi sao ngược yêu cầu chúng ta phải nuôi dưỡng cảm giác hy vọng và năng lượng tích cực để thúc đẩy hành động của mình bằng niềm vui thay vì nỗi sợ hãi.\"",
+          "\"Phép màu không phải là sự biến mất của bóng tối, mà là việc ta học được cách tự thắp sáng.\""
         ]
       },
       "future": {
-        "story": "Lan Tỏa Phép Màu Tập Thể",
         "questions": [
           {
             "id": "the_star_future_1",
@@ -8997,12 +9367,19 @@
             "prompt": "Ngôi Sao lớn nhất sà xuống, hóa thành một ánh sáng nằm gọn trong lòng bàn tay bạn: \"Nếu ánh sáng hy vọng này có thể ban cho bạn một điều ước duy nhất cho 'sự thanh thản' ở tương lai, bạn sẽ ước điều gì cho linh hồn của mình?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Lan Tỏa Phép Màu Tập Thể",
+        "story_beats": [
+          "\"Tương lai của The Star không chỉ là sự chữa lành cho cá nhân. Nó là năng lượng tập thể của tình yêu thương và lòng trắc ẩn. Chúng ta chứa đựng vô vàn điều, khả năng chữa lành của chúng ta là vô hạn.\"",
+          "\"Ngôi sao cho thấy sự thật rằng tất cả chúng ta đều kết nối với nhau. Khi ngươi đổ một bình nước xuống dòng suối, ngươi đang nuôi dưỡng cả đại dương.\"",
+          "\"Dù tương lai có tốt đẹp, sẽ luôn có những lúc bóng tối quay lại làm ngươi chán nản. Những thử thách mà bình thường ngươi thấy thú vị dường như lại khiến ngươi cảm thấy như không thể vượt qua.\"",
+          "\"Khả năng phục hồi của The Star là sự đổi mới, trẻ hóa. Tương lai sẽ cần ngươi liên tục tìm thấy sự mới mẻ trong những điều cũ kỹ.\"",
+          "\"Vũ trụ không hứa cho ngươi một bầu trời không có bão, vũ trụ chỉ hứa rằng sau cơn bão luôn có những vì sao.\""
         ]
       }
     },
     "the_moon": {
       "past": {
-        "story": "Bước Đi Trong Màn Sương",
         "questions": [
           {
             "id": "the_moon_past_1",
@@ -9161,10 +9538,17 @@
             "prompt": "Mặt Trăng in bóng xuống đáy nước tĩnh lặng: \"Hãy chia sẻ về một 'bí mật' hoặc một 'nỗi ám ảnh' từ quá khứ mà bạn chưa bao giờ kể cho ai nghe, thứ mà thỉnh thoảng vẫn hiện về trong giấc mơ hoặc những lúc bạn ở một mình?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Bước Đi Trong Màn Sương",
+        "story_beats": [
+          "\"Cẩn thận bước chân, lữ khách. Ngươi đang đi trên một con đường mà ngươi không chắc chắn, bởi vì có thể ẩn chứa nguy hiểm. Ta là Mặt Trăng. Quá khứ của ta gắn liền với mọi thứ mờ ảo và khó nhìn thấy. Đã có những giai đoạn ta để trí tưởng tượng của mình lấn át lý trí, rơi vào một mạng lưới của những giấc mơ và biểu tượng khó hiểu.\"",
+          "\"Ánh sáng của ta chiếu lên những yếu tố giả tạo trong chính chúng ta, đặt ra những câu hỏi khó trả lời về điều gì là thật, điều gì là giả. Trong quá khứ, ta biết rằng tất cả chúng ta đều đeo mặt nạ, đều lừa dối và bị lừa dối.\"",
+          "\"Đáng sợ hơn cả việc bị người khác lừa dối, chính là việc ta tự lừa dối chính mình. Ta từng cảnh báo ngươi đừng để những xáo trộn nội tâm và sự tự lừa dối lấn át, nhưng trong màn đêm, thật dễ để lạc đường.\"",
+          "\"Nhưng không phải tất cả đều là bóng tối. Ánh trăng có thể mang lại cho ngươi sự sáng suốt và thấu hiểu, nếu ngươi để trực giác dẫn lối. Trong vô thức, những ký ức và thông tin trực giác luôn cố gắng gửi cho ngươi thông điệp.\"",
+          "\"Màn đêm lưu giữ những bí mật mà ban ngày không dám nói ra.\""
         ]
       },
       "present": {
-        "story": "Cuộc Chiến Giữa Những Cái Bóng",
         "questions": [
           {
             "id": "the_moon_present_1",
@@ -9323,10 +9707,17 @@
             "prompt": "Mặt Trăng chiếu một luồng sáng thẳng vào trái tim bạn: \"Nếu trực giác của bạn ngay lúc này là một 'người cảnh vệ' đang gào thét báo động về một điều gì đó trong cuộc sống hiện tại mà lý trí của bạn vẫn cố cãi lại, người cảnh vệ đó đang gào lên câu gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Chiến Giữa Những Cái Bóng",
+        "story_beats": [
+          "\"Chào mừng đến với hiện tại. Ngươi có đang ngửi thấy mùi của sự không chắc chắn không? Nó giống như kiểu năng lượng 'có phải vậy không...? Hay mình chỉ đang tưởng tượng ra thôi?'.\"",
+          "\"Bóng tối làm mọi thứ trở nên to lớn và đáng sợ hơn thực tế. Ta cảnh báo ngươi cần nhận thức được những tình huống đang gây ra nỗi sợ hãi và lo lắng trong tâm trí. Những cái bóng đó đang bóp nghẹt ngươi.\"",
+          "\"Ở vị trí đảo ngược, ta đại diện cho sự hiểu lầm, diễn giải sai và lừa dối. Có những sức mạnh tiềm ẩn cần được giải mã, bởi vì những gì ngươi đang thấy hiện tại có thể chỉ là một trò lừa bịp của ánh sáng.\"",
+          "\"Nhưng nếu ngươi dũng cảm, sự đảo ngược của ta cũng có nghĩa là những thế lực của màn đêm đang mang lại cho ngươi sự bối rối đang bắt đầu tan biến. Ngươi đang bắt đầu kiểm soát được nỗi sợ hãi và lo lắng của mình.\"",
+          "\"Sự thật không nằm ở những gì ngươi nhìn thấy, mà ở những gì ngươi cảm nhận.\""
         ]
       },
       "future": {
-        "story": "Vượt Qua Đêm Đen",
         "questions": [
           {
             "id": "the_moon_future_1",
@@ -9485,12 +9876,19 @@
             "prompt": "Mặt Trăng dần lùi khuất, nhường chỗ cho ánh sáng ban ngày: \"Khi đã đi qua được một hành trình dài trong bóng tối của sự hoang mang, bài học lớn nhất về 'sự thật' mà màn đêm đã dạy cho bạn là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vượt Qua Đêm Đen",
+        "story_beats": [
+          "\"Tương lai không phải lúc nào cũng là ánh sáng ban ngày. Ngươi sẽ còn phải đi qua nhiều đêm trăng nữa. Con tôm hùm đất bò từ dưới nước lên tượng trưng cho những bản năng nguyên thủy, vô thức trỗi dậy từ đáy sâu tâm hồn.\"",
+          "\"Để không bị màn đêm nuốt chửng, những ký ức và nỗi sợ hãi sâu sắc này cần được buông bỏ, và những năng lượng tiêu cực cần được giải phóng và chuyển hóa thành những điều tích cực.\"",
+          "\"Khi ngươi không còn sợ hãi bóng tối, nó sẽ trở thành đồng minh. Sự đảo ngược của Mặt Trăng mang đến một trải nghiệm giải phóng khi ngươi khám phá ra mặt tích cực của mọi thứ.\"",
+          "\"Cuối cùng, ngươi phải đi hết con đường hẹp này để đón bình minh. Đã đến lúc tin tưởng vào bản thân và tiến về phía trước.\"",
+          "\"Đêm càng sâu, rạng đông càng gần.\""
         ]
       }
     },
     "the_sun": {
       "past": {
-        "story": "Khởi Nguồn Của Niềm Vui",
         "questions": [
           {
             "id": "the_sun_past_1",
@@ -9649,10 +10047,17 @@
             "prompt": "Những bông hoa hướng dương vươn mình rực rỡ: \"Hãy tả lại một khoảnh khắc 'hạnh phúc dung dị' nhất trong quá khứ mà mỗi khi nhớ lại, nó vẫn đủ sức sưởi ấm trái tim bạn trong những ngày đông lạnh lẽo nhất?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Khởi Nguồn Của Niềm Vui",
+        "story_beats": [
+          "\"Mở to mắt ra mà đón lấy ánh sáng, lữ khách! Ta là Mặt Trời. Sau tất cả những đêm đen, Tòa Tháp, Ác Quỷ... ta ở đây để sưởi ấm cho ngươi. Ta nói về sự thành công, may mắn, mọi việc suôn sẻ. Nhìn lại quá khứ đi, đã từng có những thời kỳ hoàng kim mà ngươi tỏa sáng rực rỡ, cảm giác hạnh phúc, sức sống và niềm vui ngập tràn.\"",
+          "\"Mặt Trời là nguồn năng lượng sống tỏa sáng và ban phước lành cho mọi thứ nó chạm đến bằng hơi ấm. Trong những ngày tháng tươi đẹp đó, nhờ sự viên mãn cá nhân, ngươi cũng mang đến nguồn cảm hứng và niềm vui cho người khác.\"",
+          "\"Nhưng hãy nhớ rằng, ta cũng có mặt trái. Khi lá bài của ta bị đảo ngược, ta đại diện cho sự nhiệt tình quá mức, kỳ vọng không thực tế và sự tự phụ. Đôi khi ánh sáng của ta làm ngươi mờ mắt.\"",
+          "\"Sự thuần khiết của lá bài này nằm ở đứa trẻ khỏa thân trên lưng ngựa. Đó là sự chân thật tuyệt đối, không che đậy. Trong quá khứ, đã có lúc ngươi sống đúng với bản chất thật của mình mà không cần quan tâm đến định kiến.\"",
+          "\"Mặt Trời luôn ở đó, ngay cả khi mây che khuất.\""
         ]
       },
       "present": {
-        "story": "Sống Dưới Ánh Sáng Chân Lý",
         "questions": [
           {
             "id": "the_sun_present_1",
@@ -9811,10 +10216,17 @@
             "prompt": "Mặt Trời rọi thẳng vào những góc khuất trong tim bạn: \"Nếu ánh sáng của Mặt Trời bắt buộc bạn phải 'nói ra một Sự Thật' vô cùng tốt đẹp về bản thân mà bạn luôn ngại ngùng che giấu (vì sợ bị đánh giá là khoe khoang), sự thật đó là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Sống Dưới Ánh Sáng Chân Lý",
+        "story_beats": [
+          "\"Mở rộng vòng tay ra ở hiện tại đi. Cuộc sống hiện tại đặc biệt tốt đẹp, và mặt trời đang chiếu sáng con đường ngươi đạt được những mục tiêu đã đề ra. Ta mang đến cho ngươi cảm giác tự tin đáng kể.\"",
+          "\"The Sun nhắc nhở chúng ta kết nối với những niềm vui giản dị trong cuộc sống, những điều khiến ta cảm thấy hạnh phúc hơn, nhẹ nhõm hơn, tự do hơn, gắn kết hơn. Đó là sự biết ơn những điều tốt đẹp ta đang có.\"",
+          "\"Nhưng đôi khi, mây có thể đang che khuất hơi ấm và ánh sáng mà ngươi cần để tiến bộ. Khi lá bài bị đảo ngược, đó là sự bi quan, hạnh phúc bị ngăn cản. Ngươi có thể gặp khó khăn đáng kể trong việc tìm kiếm khía cạnh tích cực.\"",
+          "\"Ngươi cũng cần lưu ý, Mặt Trời ngược có thể chỉ ra rằng ngươi đang thiếu thực tế, đang có cái nhìn quá lạc quan về một số tình huống nhất định. Tích cực độc hại cũng nguy hiểm không kém gì sự tiêu cực.\"",
+          "\"Ánh sáng của sự thật là thứ duy nhất có thể thanh tẩy tâm hồn.\""
         ]
       },
       "future": {
-        "story": "Thời Đại Hoàng Kim",
         "questions": [
           {
             "id": "the_sun_future_1",
@@ -9973,12 +10385,19 @@
             "prompt": "Ánh sáng mặt trời ôm trọn lấy bạn, ấm áp và rực rỡ: \"Khi bạn đã chạm đến đỉnh cao của 'Sự Thật' và 'Hạnh Phúc' ở tương lai, nếu được đúc kết bí quyết hạnh phúc của mình thành một câu khẩu hiệu duy nhất để truyền lại cho đời sau, câu đó sẽ là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Thời Đại Hoàng Kim",
+        "story_beats": [
+          "\"Tương lai của The Sun là một cánh đồng hoa hướng dương bát ngát. Những hạt giống ngươi gieo sẽ nảy mầm và trổ bông. Nó là sự viên mãn cá nhân, sự thành công và vinh quang rực rỡ.\"",
+          "\"Ngươi sẽ ở vị thế có thể chia sẻ những phẩm chất cũng như thành tựu của mình với người khác. Ngươi sẽ trở thành mặt trời nhỏ trong vũ trụ của những người xung quanh.\"",
+          "\"Tuy nhiên, sự tự phụ là cái bẫy của ánh sáng. Những kẻ đứng quá lâu dưới mặt trời thường quên mất cảm giác của những người đang chịu cảnh rét mướt trong bóng râm.\"",
+          "\"Để mặt trời không bao giờ lặn, ngươi phải liên tục nạp nhiên liệu cho nó. Sức sống và niềm vui không tự nhiên mà có, nó là một sự lựa chọn chủ động mỗi ngày.\"",
+          "\"Ngươi chính là mặt trời của vũ trụ do chính ngươi tạo ra.\""
         ]
       }
     },
     "judgement": {
       "past": {
-        "story": "Những Bản Án Của Lương Tâm",
         "questions": [
           {
             "id": "judgement_past_1",
@@ -10137,10 +10556,17 @@
             "prompt": "Thiên sứ chìa tay ra, chờ đợi sự thành khẩn: \"Ngay lúc này, hãy gọi tên một hành động/quyết định trong quá khứ mà bạn tự đánh giá là 'tồi tệ nhất' của mình. Nếu hôm nay là ngày Phán Xét, bạn sẽ dùng lời bào chữa nào để tự tha thứ cho bản thân và cho phép mình bước tiếp?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Những Bản Án Của Lương Tâm",
+        "story_beats": [
+          "\"Hãy lắng nghe tiếng kèn của ta, lữ khách! Ta là Phán Xét. Ta mang sức nặng của sự thật. Giống như Công lý và Bánh xe, ta mang chủ đề về trách nhiệm. Trong quá khứ, chắc chắn đã có những khoảnh khắc mà những hành động ngươi thực hiện đã thay đổi con đường của ngươi mãi mãi. Đó là khoảnh khắc ngươi bước qua vạch kẻ và biết rằng mình không thể ngoảnh lại.\" +2",
+          "\"Những việc ngươi làm, dù tốt hay xấu, không bao giờ biến mất. Hậu quả của những hành động đó cuối cùng sẽ bắt kịp ngươi. Quá khứ của ta là những chuỗi ngày phải đối diện với sự tự đánh giá bản thân cũng như hành động của mình.\" +1",
+          "\"Ở vị trí đảo ngược, ta nhìn thấy sự tự nghi ngờ và tự ghét bỏ bản thân. Ta từng thấy ngươi dằn vặt mình, nghi ngờ và phán xét bản thân quá khắt khe. Ngươi bỏ lỡ những cơ hội đang chờ đón chỉ vì cho rằng mình không xứng đáng.\" +1",
+          "\"Những sai lầm mà chúng ta đã mắc phải trong quá khứ là những công cụ học tập, giúp ta tiến lên. Nhưng nếu ngươi không cho mình không gian để suy nghĩ đầy đủ, ngươi sẽ không học được bài học và tiếp tục vấp ngã.\" +1",
+          "\"Sự tha thứ lớn nhất không đến từ Chúa trời, mà đến từ chính ngươi.\""
         ]
       },
       "present": {
-        "story": "Cuộc Thức Tỉnh Vĩ Đại",
         "questions": [
           {
             "id": "judgement_present_1",
@@ -10299,10 +10725,17 @@
             "prompt": "Tiếng kèn vang lên một nốt cao vút, thanh tẩy tâm hồn: \"Nếu bạn được quyền ban một 'Lệnh ân xá' tuyệt đối cho chính mình ở hiện tại để xóa sạch một lỗi lầm/khuyết điểm khiến bạn tự ti nhất, bạn sẽ ân xá cho điều gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Thức Tỉnh Vĩ Đại",
+        "story_beats": [
+          "\"Mở mắt ra! Ngươi đang ở trong một giai đoạn thức tỉnh. Giờ đây, ngươi đã có ý tưởng rõ ràng hơn về những gì mình cần thay đổi và cách ngươi cần sống thật với chính mình.\" +1",
+          "\"Phán xét ở đây không phải là tòa án của thế gian. Nó là việc chịu trách nhiệm với chính mình, một cách triệt để và trung thực nhất. Phần thưởng cho công việc khó khăn này chính là sự tự do.\" +1",
+          "\"Sự thức tỉnh yêu cầu hành động. Điều này có thể đồng nghĩa với việc thực hiện những thay đổi nhỏ trong cuộc sống hàng ngày hoặc những thay đổi lớn ảnh hưởng đến cả những người thân yêu.\"",
+          "\"Có một chút gì đó của lá Death ở đây, nhưng Judgement yêu cầu ngươi chủ động thực hiện – đặc biệt là về mặt tha thứ. Ngươi phải thoát khỏi tội lỗi và giận dữ, không còn bị đè nặng bởi hận thù và bất an.\" +1",
+          "\"Lòng bao dung với chính mình là phép màu lớn nhất.\""
         ]
       },
       "future": {
-        "story": "Cuộc Sống Đổi Mới",
         "questions": [
           {
             "id": "judgement_future_1",
@@ -10461,12 +10894,19 @@
             "prompt": "Thiên sứ trao cho bạn chiếc kèn vàng: \"Nếu bạn là người thổi tiếng kèn báo hiệu 'Sự Thức Tỉnh' cho thế hệ tương lai, thông điệp duy nhất bạn muốn thổi vào không gian là gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Cuộc Sống Đổi Mới",
+        "story_beats": [
+          "\"Tương lai của Phán Xét là sự tái sinh. Ngươi sẽ buông bỏ quá khứ, để có thể tiếp tục kế hoạch có một cuộc sống mới. Ngươi cam kết sống trong hiện tại, cho sự phát triển và đổi mới của chính mình.\" +1",
+          "\"Sẽ có lúc tương lai bắt ngươi phải nhìn lại. Đừng tập trung quá nhiều vào những sai lầm, điều đó có thể khiến ngươi vấp ngã. Đừng tự chỉ trích những hành động trong quá khứ của mình mà không cho mình sự tha thứ để tiến về phía trước.\" +1",
+          "\"Động lực bị mất có thể khiến ngươi tụt hậu. Nhưng nếu ngươi học được bài học, ngươi có thể tiến bộ với nhận thức. Ngươi sẽ không mù quáng lao đi, mà bước những bước chắc chắn.\" +1",
+          "\"Lá bài này nhắc nhở ngươi không nên thận trọng một cách thái quá, mà nên tiến về phía trước với niềm tự hào và sự tự tin. Ngươi đã trả giá đủ rồi, ngươi xứng đáng với phần thưởng.\"",
+          "\"Sự tái sinh không phải là quên đi, mà là nhớ lại mà không còn thấy đau.\""
         ]
       }
     },
     "the_world": {
       "past": {
-        "story": "Những Mảnh Ghép Của Hành Trình",
         "questions": [
           {
             "id": "the_world_past_1",
@@ -10625,10 +11065,17 @@
             "prompt": "Vũ công trao cho bạn một dải lụa mỏng: \"Nếu bạn có thể quay lại dệt thêm một 'mảnh ghép' (một bài học hoặc một sự kiện) vào bức tranh quá khứ để nó trở nên 'trọn vẹn' hơn, mảnh ghép đó sẽ mang hình ảnh gì?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Những Mảnh Ghép Của Hành Trình",
+        "story_beats": [
+          "\"Ngươi đã đến đích rồi, lữ khách. Ta là Thế Giới. Sau tất cả những gì ngươi đã trải qua, từ bước chân mù quáng của The Fool cho đến tiếng gọi của Judgement... ở đây, cuối cùng chúng ta cũng hiểu được hành trình của Kẻ Khờ là gì. Quá khứ của ngươi là việc thu thập từng mảnh ghép nhỏ để tạo nên sự trọn vẹn của ngày hôm nay.\" +1",
+          "\"Nhưng hành trình không phải lúc nào cũng viên mãn. Khi lá bài của ta bị đảo ngược, ta nhìn thấy sự thiếu kết thúc, thiếu thành tựu. Trong quá khứ, ngươi có thể đã có nhiều thành tựu trên con đường mình đi, nhưng có một khoảng trống kỳ lạ lấp đầy ngươi khi nhìn lại, như thể ngươi đã có tất cả mọi thứ nhưng chúng lại không khớp với nhau, còn điều gì đó còn thiếu.\" +1",
+          "\"Nếu ngươi đang tiến gần đến một điều gì đó đánh dấu sự kết thúc của một hành trình hay một kỷ nguyên nhưng lại bỏ dở giữa chừng, ngươi sẽ cảm thấy không trọn vẹn. Những dự án dang dở luôn níu chân linh hồn.\" +1",
+          "\"Nhưng mọi thứ ngươi đã làm đều không vô ích. Mọi nỗ lực ngươi bỏ ra đều phản ánh rằng ngươi đã xây dựng được khả năng phục hồi để vượt qua những thử thách.\"",
+          "\"Quá khứ là một bản nháp hoàn hảo cho kiệt tác của hiện tại.\""
         ]
       },
       "present": {
-        "story": "Trạng Thái Giác Ngộ",
         "questions": [
           {
             "id": "the_world_present_1",
@@ -10787,10 +11234,17 @@
             "prompt": "Vũ công bay đến gần bạn, nắm lấy tay bạn: \"Trong khoảnh khắc hiện tại, nếu được mô tả trạng thái nội tâm của bạn bằng một 'điệu nhảy' (ví dụ: điệu valse êm đềm, điệu tango giằng xé, hay một điệu nhảy tự do hoang dã), bạn sẽ miêu tả nó như thế nào?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Trạng Thái Giác Ngộ",
+        "story_beats": [
+          "\"Gặp gỡ ta trong hiện tại là gặp gỡ một sự thống nhất và trọn vẹn tuyệt vời. Nó tượng trưng cho khoảnh khắc thế giới bên trong và thế giới bên ngoài - bản thân và người khác - trở thành một thực thể duy nhất. Ngươi có đang cảm thấy sự hài hòa đó không?\" +1",
+          "\"Trong một số truyền thống, trạng thái này được mô tả là giác ngộ, hay niết bàn. Nó là sự thừa nhận rằng tất cả chúng ta đều nhảy múa và lắc lư theo dòng chảy của cuộc sống theo một nhịp điệu. Ngươi không chỉ lắng nghe nhịp điệu này mà còn hòa mình vào nó - theo những thăng trầm, những niềm vui và nỗi buồn.\" +1",
+          "\"Ý nghĩa của lá bài này là sự viên mãn, thành tựu và hoàn thiện. Điều này cho thấy tất cả những nỗ lực ngươi đã bỏ ra đang bắt đầu được đền đáp. Nó phản ánh rằng ngươi đã hoàn thành một cột mốc quan trọng trong cuộc đời.\" +2",
+          "\"Sự viên mãn không chỉ là thành công vật chất, nó là cảm giác thân thuộc. Ngươi nhận ra bản ngã cá nhân có mối liên hệ sâu sắc với tất cả mọi thứ khác.\" +1",
+          "\"Giác ngộ là khi ngươi nhận ra mình vốn dĩ luôn ở nhà.\""
         ]
       },
       "future": {
-        "story": "Vòng Lặp Mới Bắt Đầu",
         "questions": [
           {
             "id": "the_world_future_1",
@@ -10949,6 +11403,14 @@
             "prompt": "Bản nhạc giao hưởng đẩy lên cao trào, vũ công vươn tay về phía ánh sáng tột cùng: \"Khi tấm màn nhung của vòng lặp The World khép lại, bạn sẽ viết câu kết luận nào vào cuốn 'Biên niên sử' của chính cuộc đời mình?\"",
             "free_text": true
           }
+        ],
+        "story_title": "Vòng Lặp Mới Bắt Đầu",
+        "story_beats": [
+          "\"Sau khi hoàn thiện bản thân, tương lai của ngươi là hướng ra bên ngoài. The World cho thấy ngươi mong muốn đóng góp cho cộng đồng theo nhiều cách khác nhau. Ngươi cam kết làm cho thế giới trở nên tốt đẹp hơn bởi vì ngươi hiểu rằng mọi thứ đều có sự kết nối.\"",
+          "\"Nhưng hãy nhớ lời cảnh báo. Đừng để tương lai của ngươi trở thành một The World đảo ngược. Đừng để thành công đi kèm với sự trống rỗng. Một vị vua có cả thế giới nhưng không có ai để chia sẻ là một vị vua nghèo nhất.\"",
+          "\"Sự hoàn thành yêu cầu ngươi phải biết cách đóng lại những cánh cửa. Kỹ năng 'kết thúc' (closure) sẽ là thứ ngươi cần trau dồi cho tương lai.\"",
+          "\"Ngươi biết không, lá bài số 21 là lá bài cuối cùng. Nhưng bánh xe vận mệnh là hình tròn. Khi ngươi hoàn tất Thế Giới, ngươi sẽ lại mang tay nải lên vai, và trở thành một Kẻ Khờ mới ở một cấp độ cao hơn.\"",
+          "\"Cuộc đời là một vở kịch không có khán giả, ngươi vừa là diễn viên, vừa là đạo diễn.\""
         ]
       }
     }

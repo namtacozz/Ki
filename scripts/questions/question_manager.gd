@@ -26,8 +26,24 @@ func get_questions_for_card_position(card_slug: String, position: String) -> Arr
 	var section := get_card_position_section(card_slug, position)
 	return _to_dictionary_array(section.get("questions", []))
 
-func get_story_for_card_position(card_slug: String, position: String) -> String:
-	return String(get_card_position_section(card_slug, position).get("story", ""))
+func get_story_title_for_card_position(card_slug: String, position: String) -> String:
+	return String(get_card_position_section(card_slug, position).get("story_title", ""))
+
+func get_story_beats_for_card_position(card_slug: String, position: String) -> Array[String]:
+	var beats: Array[String] = []
+	var section := get_card_position_section(card_slug, position)
+	var value: Variant = section.get("story_beats", [])
+	if value is Array:
+		for item in value:
+			var beat := String(item).strip_edges()
+			if not beat.is_empty():
+				beats.append(beat)
+		return beats
+
+	var legacy_story := String(section.get("story", "")).strip_edges()
+	if not legacy_story.is_empty():
+		beats.append(legacy_story)
+	return beats
 
 func get_card_position_section(card_slug: String, position: String) -> Dictionary:
 	_ensure_loaded()

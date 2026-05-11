@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://beq05rpihl253"]
 
 [ext_resource type="Script" uid="uid://b47tp3ghdfg1q" path="res://scripts/ui/screens/ai_error_screen.gd" id="1_error"]
-[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
-[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="3_open_sans"]
+[ext_resource type="FontFile" path="res://assets/fonts/inter.tres" id="2_inter"]
+[ext_resource type="FontFile" path="res://assets/fonts/open_sans.tres" id="3_open_sans"]
 [ext_resource type="Texture2D" path="res://assets/backgrounds/bg_ai_state_booth.png" id="4_bg"]
 
 [node name="AIErrorScreen" type="Control" unique_id=462369953]
@@ -27,15 +27,13 @@ stretch_mode = 6
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=943673884]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -280.0
-offset_top = -160.0
-offset_right = 280.0
-offset_bottom = 160.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 100.0
+offset_top = 100.0
+offset_right = -100.0
+offset_bottom = -100.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -58,7 +56,6 @@ theme_override_constants/separation = 16
 
 [node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1168148317]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_inter")
 theme_override_font_sizes/font_size = 24
@@ -68,7 +65,6 @@ autowrap_mode = 3
 
 [node name="MessageLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=207734223]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_inter")
 theme_override_font_sizes/font_size = 18

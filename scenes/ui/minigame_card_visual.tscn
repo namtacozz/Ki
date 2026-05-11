@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="1_inter"]
+[ext_resource type="FontFile" path="res://assets/fonts/inter.tres" id="1_inter"]
 
 [node name="MinigameCardVisual" type="PanelContainer"]
 custom_minimum_size = Vector2(80, 120)

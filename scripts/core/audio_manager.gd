@@ -39,6 +39,9 @@ var _bgm_player2: AudioStreamPlayer
 var _active_bgm: AudioStreamPlayer
 var _fading_out_bgm: AudioStreamPlayer
 var _music_tween: Tween
+var _audio_unlocked := not OS.has_feature("web")
+var _pending_music: AudioStream
+var _pending_track_name := ""
 
 var sfx_paths = {
 	"hover": "res://assets/audio/sfx_hover.ogg",
@@ -52,40 +55,79 @@ var sfx_paths = {
 var sfx_cache = {}
 
 func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	for i in range(POOL_SIZE):
 		var player = AudioStreamPlayer.new()
 		add_child(player)
 		sfx_players.append(player)
-		
+
 	typewriter_player = AudioStreamPlayer.new()
-	# Pre-cache typewriter if it exists
-	if FileAccess.file_exists(sfx_paths["typewriter"]):
+	if ResourceLoader.exists(sfx_paths["typewriter"]):
 		typewriter_player.stream = load(sfx_paths["typewriter"])
 	add_child(typewriter_player)
-	
+
 	_bgm_player1 = AudioStreamPlayer.new()
 	add_child(_bgm_player1)
-	
+
 	_bgm_player2 = AudioStreamPlayer.new()
 	add_child(_bgm_player2)
-	
+
 	_active_bgm = _bgm_player1
+	set_process_input(OS.has_feature("web"))
+
+func _input(event: InputEvent) -> void:
+	if _audio_unlocked:
+		return
+	if event is InputEventMouseButton and event.pressed:
+		_unlock_audio()
+	elif event is InputEventKey and event.pressed:
+		_unlock_audio()
+
+func _unlock_audio() -> void:
+	if _audio_unlocked:
+		return
+	_audio_unlocked = true
+	if _pending_music:
+		_transition_music(_pending_music)
+		if not _pending_track_name.is_empty():
+			music_changed.emit(_pending_track_name)
+		_pending_music = null
+		_pending_track_name = ""
+	elif not _active_bgm.playing:
+		play_main_theme()
+	set_process_input(false)
+
+func _queue_or_play_music(stream: AudioStream, track_name: String) -> void:
+	if stream == null:
+		return
+	if OS.has_feature("web") and not _audio_unlocked:
+		_pending_music = stream
+		_pending_track_name = track_name
+		return
+	_transition_music(stream)
+	music_changed.emit(track_name)
+
+func notify_user_interaction() -> void:
+	_unlock_audio()
 
 func play_sfx(stream_name: String) -> void:
 	if not sfx_paths.has(stream_name):
 		push_warning("AudioManager: Stream '%s' not found in paths." % stream_name)
 		return
-		
+
+	if OS.has_feature("web") and not _audio_unlocked:
+		_unlock_audio()
+
 	var stream = _get_sfx_stream(stream_name)
 	if not stream:
 		return
-		
+
 	for player in sfx_players:
 		if not player.playing:
 			player.stream = stream
 			player.play()
 			return
-			
+
 	var oldest_player = sfx_players[0]
 	oldest_player.stream = stream
 	oldest_player.play()
@@ -95,11 +137,11 @@ func _get_sfx_stream(stream_name: String) -> AudioStream:
 		return sfx_cache[stream_name]
 	
 	var path = sfx_paths[stream_name]
-	if FileAccess.file_exists(path):
+	if ResourceLoader.exists(path):
 		var stream = load(path)
 		sfx_cache[stream_name] = stream
 		return stream
-	
+
 	return null
 
 func play_typewriter() -> void:
@@ -111,26 +153,25 @@ func stop_typewriter() -> void:
 		typewriter_player.stop()
 
 func play_main_theme() -> void:
-	if not FileAccess.file_exists(MAIN_THEME_PATH): return
+	if not ResourceLoader.exists(MAIN_THEME_PATH):
+		return
 	var stream = load(MAIN_THEME_PATH)
-	_transition_music(stream)
-	music_changed.emit("Tarot Veil")
+	_queue_or_play_music(stream, "Tarot Veil")
 
 func play_card_music(card_id: int) -> void:
 	if card_id < 0 or card_id >= card_music_paths.size():
 		return
 	var path = card_music_paths[card_id]
-	if not FileAccess.file_exists(path): return
+	if not ResourceLoader.exists(path):
+		return
 	var stream = load(path)
-	_transition_music(stream)
-	
 	var track_name := path.get_file().get_basename()
 	var tarot_manager = get_node_or_null("/root/TarotManager")
 	if tarot_manager and tarot_manager.has_method("get_card_by_id"):
 		var card = tarot_manager.get_card_by_id(card_id)
 		if not card.is_empty():
 			track_name = card.get("name", track_name)
-	music_changed.emit(track_name)
+	_queue_or_play_music(stream, track_name)
 
 func stop_music() -> void:
 	if is_instance_valid(_music_tween):

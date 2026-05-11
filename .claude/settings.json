@@ -29,7 +29,21 @@
       "Bash(rtk --version)",
       "PowerShell(rtk godot --headless --path \"D:\\\\KI\" --quit)",
       "Bash(rtk find *)",
-      "Bash(godot --headless --quit)"
+      "Bash(godot --headless --quit)",
+      "Read(//c/Users/namta/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/brainstorming/**)",
+      "Bash(rtk rm *)",
+      "Bash(rtk bash *)",
+      "Bash(git rev-list *)",
+      "Bash(git reset *)",
+      "Bash(git rm *)",
+      "Bash(git restore *)",
+      "Bash(\"/d/Godot_v4.6.2-stable_win64.exe/Godot_v4.6.2-stable_win64.exe\" --headless --path \"d:/KÌ\" --quit)",
+      "Bash(\"D:/Godot_v4.6.2-stable_win64.exe/Godot_v4.6.2-stable_win64_console.exe\" --headless --path \"D:/KÌ\" --export-release \"KI\" \"exports/web/index.html\")",
+      "Bash(\"D:/Godot_v4.6.2-stable_win64.exe/Godot_v4.6.2-stable_win64_console.exe\" --headless --editor --quit --path \"D:/KÌ\")",
+      "Bash(rtk which *)",
+      "Bash(where.exe godot*)",
+      "PowerShell(& 'D:\\\\Godot_v4.6.2-stable_win64.exe\\\\Godot_v4.6.2-stable_win64_console.exe' --headless --path 'D:\\\\KI' --export-release Web 'D:\\\\KI\\\\exports\\\\web\\\\index.html')",
+      "PowerShell(& 'D:\\\\Godot_v4.6.2-stable_win64.exe\\\\Godot_v4.6.2-stable_win64_console.exe' --headless --path 'D:\\\\KI' --export-release 'KI' 'D:\\\\KI\\\\exports\\\\web\\\\index.html')"
     ]
   }
 }

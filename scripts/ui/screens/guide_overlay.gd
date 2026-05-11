@@ -14,7 +14,12 @@ func _init() -> void:
 
 	_panel = PanelContainer.new()
 	_panel.set_anchors_preset(Control.PRESET_CENTER)
-	_panel.custom_minimum_size = Vector2(500, 0)
+	_panel.offset_left = -250.0
+	_panel.offset_top = -180.0
+	_panel.offset_right = 250.0
+	_panel.offset_bottom = 180.0
+	_panel.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	_panel.grow_vertical = Control.GROW_DIRECTION_BOTH
 	add_child(_panel)
 
 	var margin := MarginContainer.new()

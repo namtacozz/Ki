@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/Temperance.mp3-6f947e1591eac5e5114d90da9866c6
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

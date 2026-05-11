@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cvjy0t16lashb"]
 
 [ext_resource type="Script" uid="uid://yqff2dpoa8sy" path="res://scripts/ui/screens/title_screen.gd" id="1_title"]
-[ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
-[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
-[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
+[ext_resource type="FontFile" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
+[ext_resource type="FontFile" path="res://assets/fonts/inter.tres" id="3_inter"]
+[ext_resource type="FontFile" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
 [ext_resource type="Texture2D" path="res://assets/backgrounds/bg_title_fortune_booth_ki.png" id="bg_tex"]
 
 [node name="TitleScreen" type="Control" unique_id=1681748735]
@@ -28,15 +28,13 @@ stretch_mode = 6
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=994583931]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -280.0
-offset_top = -180.0
-offset_right = 280.0
-offset_bottom = 180.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 80.0
+offset_top = 80.0
+offset_right = -80.0
+offset_bottom = -80.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -59,7 +57,6 @@ theme_override_constants/separation = 16
 
 [node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=1965602617]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 30)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_cinzel")
 theme_override_font_sizes/font_size = 48
@@ -69,7 +66,6 @@ autowrap_mode = 3
 
 [node name="BodyLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=297703969]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_inter")
 text = "Chạm để mở cửa phòng bói của KÌ."
@@ -78,7 +74,6 @@ autowrap_mode = 3
 
 [node name="DemoLabel" type="Label" parent="PanelContainer/MarginContainer/ScrollContainer/VBoxContainer" unique_id=579156044]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(920, 20)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_inter")
 text = "Demo: onboarding → 3 lá → 3 không gian → report cuối."

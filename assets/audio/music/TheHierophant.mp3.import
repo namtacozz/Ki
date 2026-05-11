@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TheHierophant.mp3-03a6d6bbb3d82197968be153657
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

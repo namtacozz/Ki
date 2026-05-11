@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TheEmperor.mp3-65accae83db5af590308bea8614ae3
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

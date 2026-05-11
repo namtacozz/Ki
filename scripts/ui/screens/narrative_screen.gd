@@ -21,6 +21,8 @@ var _type_speed := 0.03
 var _typing_timer := 0.0
 var _is_free_text := false
 
+const HoverButtonScript := preload("res://scripts/ui/hover_button.gd")
+
 func _ready() -> void:
 	continue_button.set_script(HoverButtonScript)
 	submit_button.set_script(HoverButtonScript)
@@ -34,6 +36,7 @@ func _ready() -> void:
 
 func _input(event: InputEvent) -> void:
 	if (event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed) or event.is_action_pressed("ui_accept"):
+		AudioManager.notify_user_interaction()
 		if _is_typing:
 			get_viewport().set_input_as_handled()
 			_finish_typing()
@@ -54,9 +57,9 @@ func setup(speaker: String, body: String, avatar_path: String = "res://assets/ch
 	speaker_label.text = speaker
 	_full_text = body
 	body_label.text = body
-	
+
 	_apply_accessibility()
-	
+
 	var is_instant = SettingsManager.settings.instant_text or not SettingsManager.settings.typewriter_enabled
 	if is_instant:
 		body_label.visible_characters = -1
@@ -69,11 +72,11 @@ func setup(speaker: String, body: String, avatar_path: String = "res://assets/ch
 		free_text_container.hide()
 		_is_free_text = false
 		AudioManager.play_typewriter()
-	
-	if FileAccess.file_exists(avatar_path):
+
+	if ResourceLoader.exists(avatar_path):
 		avatar_texture.texture = load(avatar_path)
-	
-	if FileAccess.file_exists(bg_path):
+
+	if ResourceLoader.exists(bg_path):
 		background_texture.texture = load(bg_path)
 		if SettingsManager.settings.high_contrast:
 			background_texture.modulate = Color.BLACK
@@ -84,10 +87,13 @@ func setup(speaker: String, body: String, avatar_path: String = "res://assets/ch
 
 func _apply_accessibility() -> void:
 	var spd = SettingsManager.settings.text_speed
-	if spd == 0: _type_speed = 0.08 # Chậm hơn nữa để rõ rệt
-	elif spd == 1: _type_speed = 0.03
-	else: _type_speed = 0.01
-	
+	if spd == 0:
+		_type_speed = 0.08
+	elif spd == 1:
+		_type_speed = 0.03
+	else:
+		_type_speed = 0.01
+
 	if SettingsManager.settings.high_contrast:
 		background_texture.modulate = Color(0, 0, 0, 1)
 		avatar_texture.modulate = Color(0.5, 0.5, 0.5, 1)
@@ -95,10 +101,6 @@ func _apply_accessibility() -> void:
 	else:
 		avatar_texture.modulate = Color.WHITE
 		body_label.remove_theme_color_override("default_color")
-		# background modulate is handled in setup() based on bg type
-
-
-const HoverButtonScript := preload("res://scripts/ui/hover_button.gd")
 
 func setup_choices(choices: Array) -> void:
 	_is_free_text = false
@@ -107,10 +109,10 @@ func setup_choices(choices: Array) -> void:
 
 	var labels := ["A", "B", "C", "D"]
 	var colors := [
-		Color(0.4, 0.8, 0.4),  # Green
-		Color(0.9, 0.3, 0.3),  # Red
-		Color(0.95, 0.8, 0.2), # Yellow
-		Color(0.3, 0.6, 0.95)  # Blue
+		Color(0.4, 0.8, 0.4),
+		Color(0.9, 0.3, 0.3),
+		Color(0.95, 0.8, 0.2),
+		Color(0.3, 0.6, 0.95)
 	]
 
 	for i in range(min(choices.size(), 4)):
@@ -199,4 +201,3 @@ func _on_submit_pressed() -> void:
 	var text := input_field.text.strip_edges()
 	if not text.is_empty():
 		choice_selected.emit(text)
-

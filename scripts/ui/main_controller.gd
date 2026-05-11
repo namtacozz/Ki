@@ -119,6 +119,7 @@ func show_title() -> void:
 	screen.guide_requested.connect(_show_guide)
 
 func _show_intro() -> void:
+	AudioManager.notify_user_interaction()
 	if is_instance_valid(_menu_button):
 		_menu_button.show()
 	var screen := _show_screen(NarrativeScreenScene)
@@ -394,7 +395,7 @@ func _format_reflection_summary(space_id: String, data: Dictionary) -> String:
 		sections.append("%s — %s" % [_position_label(space_id), card_name])
 
 	for key in ["tong_quan", "tổng_quan", "summary", "overview"]:
-		var text := _string_or_empty(data.get(key, ""))
+		var text := _extract_display_text(data.get(key, ""))
 		if not text.is_empty():
 			sections.append(text)
 			break
@@ -404,14 +405,37 @@ func _format_reflection_summary(space_id: String, data: Dictionary) -> String:
 		sections.append(answer_insights)
 
 	for key in ["mau_hinh_bong_toi", "mẫu_hình_bóng_tối", "shadow_pattern"]:
-		var text := _string_or_empty(data.get(key, ""))
+		var text := _extract_display_text(data.get(key, ""))
 		if not text.is_empty():
 			sections.append("Mẫu hình bóng tối: %s" % text)
 			break
 
 	if sections.is_empty():
-		return _format_ai_dictionary(data)
+		return "KÌ vẫn chưa thể diễn giải phần này thành lời rõ ràng."
 	return "\n\n".join(sections)
+
+func _extract_display_text(value: Variant) -> String:
+	if value is String:
+		return value.strip_edges()
+	if value is Array:
+		var lines: Array[String] = []
+		for item in value:
+			var text := _extract_display_text(item)
+			if not text.is_empty():
+				lines.append(text)
+		return "\n".join(lines)
+	if value is Dictionary:
+		for key in ["text", "summary", "content", "message", "insight", "tong_quan", "tổng_quan", "shadow_pattern", "mau_hinh_bong_toi", "mẫu_hình_bóng_tối"]:
+			var text := _extract_display_text(value.get(key, ""))
+			if not text.is_empty():
+				return text
+		var parts: Array[String] = []
+		for item in value.values():
+			var text := _extract_display_text(item)
+			if not text.is_empty():
+				parts.append(text)
+		return "\n".join(parts)
+	return String(value).strip_edges()
 
 func _format_answer_insights(value: Variant) -> String:
 	var sections: Array[String] = []
@@ -420,7 +444,7 @@ func _format_answer_insights(value: Variant) -> String:
 		var onboarding: Variant = value.get("onboarding", [])
 		if onboarding is Array:
 			for item in onboarding:
-				var text := _string_or_empty(item)
+				var text := _extract_display_text(item)
 				if not text.is_empty():
 					onboarding_lines.append("• %s" % text)
 		if not onboarding_lines.is_empty():
@@ -430,14 +454,13 @@ func _format_answer_insights(value: Variant) -> String:
 		var space_answers: Variant = value.get("space_answers", [])
 		if space_answers is Array:
 			for item in space_answers:
-				if item is Dictionary:
-					var text := _string_or_empty(item.get("insight", ""))
-					if not text.is_empty():
-						insight_lines.append("• %s" % text)
+				var text := _extract_display_text(item)
+				if not text.is_empty():
+					insight_lines.append("• %s" % text)
 		if not insight_lines.is_empty():
 			sections.append("Điểm phản chiếu trong không gian này:\n%s" % "\n".join(insight_lines))
 	elif value is String:
-		var text := _string_or_empty(value)
+		var text := _extract_display_text(value)
 		if not text.is_empty():
 			sections.append(text)
 	return "\n\n".join(sections)

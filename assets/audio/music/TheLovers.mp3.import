@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TheLovers.mp3-ff21b72fbe4b809cfb2e6d1ea6ff57b
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

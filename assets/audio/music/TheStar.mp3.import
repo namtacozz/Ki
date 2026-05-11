@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TheStar.mp3-8c74c0a27c5a7a685f1eca36a41bc2e0.
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

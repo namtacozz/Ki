@@ -41,7 +41,7 @@ window/stretch/aspect="expand"
 [gui]
 
 theme/custom="res://assets/themes/default_theme.tres"
-theme/custom_font="res://assets/fonts/eb_garamond.tres"
+theme/custom_font="res://assets/fonts/inter.tres"
 
 [rendering]
 

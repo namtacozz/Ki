@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TheHighPriestess.mp3-5448081dd882daa3db5b59b0
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TarotVeil.mp3-353772bba498c280cc2841a0fb66b90
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

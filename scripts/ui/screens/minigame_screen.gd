@@ -11,7 +11,7 @@ signal reward_requested
 @onready var hand_label: Label = %HandLabel
 @onready var hand_visuals: HBoxContainer = %HandVisuals
 @onready var detail_label: Label = %DetailLabel
-@onready var action_box: HBoxContainer = %ActionBox
+@onready var action_box: VBoxContainer = %ActionBox
 @onready var reward_label: Label = %RewardLabel
 @onready var reward_button: Button = %RewardButton
 @onready var background_texture: TextureRect = $BackgroundTexture
@@ -72,16 +72,16 @@ func _populate_hand_visuals(game: Dictionary) -> void:
 		if not current_card.is_empty():
 			hand_visuals.add_child(_create_card_visual(current_card))
 	elif mode == "present_poker":
-		var container := VBoxContainer.new()
+		var container: VBoxContainer = VBoxContainer.new()
 		container.alignment = BoxContainer.ALIGNMENT_CENTER
 		container.add_theme_constant_override("separation", 20)
 		hand_visuals.add_child(container)
-		
-		var comm_row := HBoxContainer.new()
+
+		var comm_row: HBoxContainer = HBoxContainer.new()
 		comm_row.alignment = BoxContainer.ALIGNMENT_CENTER
 		container.add_child(comm_row)
-		
-		var hole_row := HBoxContainer.new()
+
+		var hole_row: HBoxContainer = HBoxContainer.new()
 		hole_row.alignment = BoxContainer.ALIGNMENT_CENTER
 		container.add_child(hole_row)
 		
@@ -127,7 +127,7 @@ func _animate_card_appear(card_visual: Control, delay: float) -> void:
 func _create_card_visual(card: Dictionary) -> Control:
 	var visual := MinigameCardVisualScene.instantiate()
 	var art_path := _card_art_path(card)
-	if not art_path.is_empty() and FileAccess.file_exists(art_path):
+	if not art_path.is_empty() and ResourceLoader.exists(art_path):
 		visual.get_node("%CardTexture").texture = load(art_path)
 	visual.get_node("%Label").text = String(card.get("label", ""))
 	return visual

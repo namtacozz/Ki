@@ -1,13 +1,10 @@
 [gd_scene format=3 uid="uid://dp41k58wcs24k"]
 
-[ext_resource type="FontVariation" path="res://assets/fonts/cormorant.tres" id="1_cormorant"]
-[ext_resource type="Texture2D" uid="uid://dj4ruklinqjwg" path="res://assets/art/Tarot/Death.jpg" id="2_ao5u1"]
-[ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
+[ext_resource type="FontFile" uid="uid://dq2cv5oufyqud" path="res://assets/fonts/cormorant.tres" id="1_cormorant"]
+[ext_resource type="FontFile" path="res://assets/fonts/inter.tres" id="2_inter"]
 
 [node name="TarotCardDisplay" type="PanelContainer" unique_id=689839663]
-custom_minimum_size = Vector2(240, 380)
-offset_right = 240.0
-offset_bottom = 380.0
+size_flags_horizontal = 3
 
 [node name="Margin" type="MarginContainer" parent="." unique_id=734730071]
 layout_mode = 2
@@ -35,7 +32,6 @@ uppercase = true
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
-texture = ExtResource("2_ao5u1")
 expand_mode = 1
 stretch_mode = 5
 

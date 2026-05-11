@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/TheTower.mp3-cfed2b3d02477b146b3909f8a63c88a9
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

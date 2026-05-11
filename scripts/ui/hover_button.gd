@@ -27,4 +27,5 @@ func _on_mouse_exited() -> void:
 	tween.tween_property(self, "scale", Vector2(1.0, 1.0), 0.2)
 
 func _on_pressed() -> void:
+	AudioManager.notify_user_interaction()
 	AudioManager.play_sfx("click")

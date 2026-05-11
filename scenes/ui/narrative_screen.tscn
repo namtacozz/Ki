@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://da52tuxcadciu"]
 
 [ext_resource type="Script" uid="uid://xhldjmryyuoi" path="res://scripts/ui/screens/narrative_screen.gd" id="1_narrative"]
-[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_title_fortune_booth_ki.png" id="2_bg"]
-[ext_resource type="Texture2D" path="res://assets/characters/KI.png" id="3_avatar"]
-[ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="4_cinzel"]
-[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
-[ext_resource type="FontVariation" path="res://assets/fonts/roboto_mono.tres" id="6_roboto_mono"]
+[ext_resource type="Texture2D" uid="uid://cjpuydi72m01l" path="res://assets/backgrounds/bg_title_fortune_booth_ki.png" id="2_bg"]
+[ext_resource type="Texture2D" uid="uid://dmcmtbt2ttm30" path="res://assets/characters/KI.png" id="3_avatar"]
+[ext_resource type="FontFile" uid="uid://b1dt8ti013tpn" path="res://assets/fonts/cinzel.tres" id="4_cinzel"]
+[ext_resource type="FontFile" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
+[ext_resource type="FontFile" path="res://assets/fonts/roboto_mono.tres" id="6_roboto_mono"]
 
 [node name="NarrativeScreen" type="Control" unique_id=1683479662]
 layout_mode = 3
@@ -35,7 +35,7 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -240.0
+offset_top = -280.0
 grow_horizontal = 2
 grow_vertical = 0
 
@@ -159,9 +159,10 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -255.0
-offset_right = 249.0
-offset_bottom = 4.0
+offset_left = 35.0
+offset_top = -280.0
+offset_right = 255.0
+offset_bottom = -20.0
 grow_vertical = 0
 texture = ExtResource("3_avatar")
 expand_mode = 1

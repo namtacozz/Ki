@@ -1,8 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://vicqg4kds74w"]
 
-[ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
-[ext_resource type="FontVariation" path="res://assets/fonts/eb_garamond.tres" id="5_eb_garamond"]
-[ext_resource type="FontVariation" path="res://assets/fonts/roboto_mono.tres" id="7_roboto_mono"]
+[ext_resource type="FontVariation" uid="uid://b30jsjlfu5vfp" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ButtonHover"]
 bg_color = Color(0.14902, 0.14902, 0.14902, 0.8)
@@ -75,7 +73,7 @@ shadow_color = Color(0, 0, 0, 0.3)
 shadow_size = 10
 
 [resource]
-default_font = ExtResource("5_eb_garamond")
+default_font = ExtResource("4_open_sans")
 default_font_size = 18
 Button/colors/font_hover_color = Color(0.831373, 0.686275, 0.215686, 1)
 Button/fonts/font = ExtResource("4_open_sans")
@@ -83,14 +81,14 @@ Button/styles/hover = SubResource("StyleBoxFlat_ButtonHover")
 Button/styles/normal = SubResource("StyleBoxFlat_ButtonNormal")
 Button/styles/pressed = SubResource("StyleBoxFlat_ButtonPressed")
 Label/colors/font_color = Color(0.960784, 0.960784, 0.960784, 1)
-Label/fonts/font = ExtResource("5_eb_garamond")
-LineEdit/fonts/font = ExtResource("7_roboto_mono")
+Label/fonts/font = ExtResource("4_open_sans")
+LineEdit/fonts/font = ExtResource("4_open_sans")
 LineEdit/styles/normal = SubResource("StyleBoxFlat_Input")
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_Panel")
-RichTextLabel/fonts/bold_font = ExtResource("5_eb_garamond")
-RichTextLabel/fonts/bold_italics_font = ExtResource("5_eb_garamond")
-RichTextLabel/fonts/italics_font = ExtResource("5_eb_garamond")
-RichTextLabel/fonts/mono_font = ExtResource("7_roboto_mono")
-RichTextLabel/fonts/normal_font = ExtResource("5_eb_garamond")
-TextEdit/fonts/font = ExtResource("7_roboto_mono")
+RichTextLabel/fonts/bold_font = ExtResource("4_open_sans")
+RichTextLabel/fonts/bold_italics_font = ExtResource("4_open_sans")
+RichTextLabel/fonts/italics_font = ExtResource("4_open_sans")
+RichTextLabel/fonts/mono_font = ExtResource("4_open_sans")
+RichTextLabel/fonts/normal_font = ExtResource("4_open_sans")
+TextEdit/fonts/font = ExtResource("4_open_sans")
 TextEdit/styles/normal = SubResource("StyleBoxFlat_Input")
