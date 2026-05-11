@@ -2,22 +2,128 @@
 
 [ext_resource type="Script" uid="uid://cp86bfoaxgy8m" path="res://scripts/ui/screens/hud_menu_button.gd" id="1_hud_menu"]
 
-[node name="HUDMenuButton" type="MarginContainer" unique_id=918218392]
+[node name="HUDMenuButton" type="Control" unique_id=918218392]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_hud_menu")
+
+[node name="ButtonMargin" type="MarginContainer" parent="." unique_id=1444752562]
+layout_mode = 1
 anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -70.0
-offset_top = 83.0
+offset_left = -88.0
+offset_top = 71.0
 offset_right = -20.0
-offset_bottom = -587.0
+offset_bottom = -581.0
 grow_horizontal = 0
 grow_vertical = 2
-script = ExtResource("1_hud_menu")
 
-[node name="MenuButton" type="Button" parent="." unique_id=1527430892]
+[node name="MenuButton" type="Button" parent="ButtonMargin" unique_id=1527430892]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(50, 50)
+custom_minimum_size = Vector2(68, 68)
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 theme_override_font_sizes/font_size = 24
 text = "☰"
+
+[node name="MenuOverlay" type="CanvasLayer" parent="." unique_id=1971377486]
+layer = 150
+visible = false
+
+[node name="Dim" type="ColorRect" parent="MenuOverlay" unique_id=1803442662]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.7)
+
+[node name="Center" type="CenterContainer" parent="MenuOverlay" unique_id=1888571650]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Panel" type="PanelContainer" parent="MenuOverlay/Center" unique_id=960298320]
+custom_minimum_size = Vector2(280, 0)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Margin" type="MarginContainer" parent="MenuOverlay/Center/Panel" unique_id=456912629]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="MenuOverlay/Center/Panel/Margin" unique_id=2142885525]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Title" type="Label" parent="MenuOverlay/Center/Panel/Margin/VBox" unique_id=1670246332]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "MENU"
+horizontal_alignment = 1
+
+[node name="ResumeButton" type="Button" parent="MenuOverlay/Center/Panel/Margin/VBox" unique_id=1853180277]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+text = "Tiếp tục"
+
+[node name="SettingsButton" type="Button" parent="MenuOverlay/Center/Panel/Margin/VBox" unique_id=1567814962]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+text = "Cài đặt"
+
+[node name="GuideButton" type="Button" parent="MenuOverlay/Center/Panel/Margin/VBox" unique_id=118394801]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+text = "Hướng dẫn"
+
+[node name="RestartButton" type="Button" parent="MenuOverlay/Center/Panel/Margin/VBox" unique_id=1053102858]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+text = "Chơi lại"
+
+[node name="TitleButton" type="Button" parent="MenuOverlay/Center/Panel/Margin/VBox" unique_id=553851287]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+text = "Về màn hình chính"
+
+[node name="OverlayBlocker" type="Control" parent="." unique_id=1970887729]
+visible = false
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="ConfirmDialog" type="ConfirmationDialog" parent="." unique_id=2088104179]
+oversampling_override = 1.0
+title = "Xác nhận"
+position = Vector2i(450, 300)
+size = Vector2i(359, 100)
+ok_button_text = "Xác nhận"
+dialog_text = "Hành trình hiện tại sẽ bị mất. Ngài chắc chứ?"
+cancel_button_text = "Tiếp tục hành trình"

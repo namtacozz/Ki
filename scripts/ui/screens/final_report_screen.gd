@@ -26,24 +26,24 @@ func _apply_accessibility() -> void:
 			background_texture.modulate = Color.WHITE
 
 const ReportFieldScene := preload("res://scenes/ui/report_field.tscn")
+const DEFAULT_REPORT_TITLE := "Bản Soi Chiếu Cuối"
+const KEYWORDS_LABEL := "Từ khóa"
 
 var _current_report: Dictionary = {}
 
 func setup(report: Dictionary, is_local_summary: bool, final_report_error: String) -> void:
 	_current_report = report
-	title_label.text = String(report.get("title", "Bản Soi Chiếu Cuối"))
+	var report_title := String(report.get("title", "")).strip_edges()
+	title_label.text = report_title if not report_title.is_empty() else DEFAULT_REPORT_TITLE
 	temporary_label.visible = is_local_summary
 	error_label.visible = is_local_summary and not final_report_error.is_empty()
 	error_label.text = final_report_error
 	retry_button.visible = is_local_summary
 	_clear_fields()
-	
-	_add_field("Core self", String(report.get("core_self", "")))
-	_add_field("Past pattern", String(report.get("past_pattern", "")))
-	_add_field("Present tension", String(report.get("present_tension", "")))
-	_add_field("Future invitation", String(report.get("future_invitation", "")))
-	_add_field("Advice", String(report.get("advice", "")))
-	_add_field("Keywords", ", ".join(report.get("keywords", [])))
+
+	_add_field("Tổng soi chiếu", String(report.get("overall_reflection", "")))
+	_add_field("Lời khuyên", String(report.get("guidance", "")))
+	_add_field(KEYWORDS_LABEL, _format_keywords(report.get("keywords", [])))
 
 func _add_field(title: String, body: String) -> void:
 	if body.is_empty(): return
@@ -52,6 +52,18 @@ func _add_field(title: String, body: String) -> void:
 	field.get_node("%FieldTitle").text = title
 	field.get_node("%FieldBody").text = body
 
+func _format_keywords(value: Variant) -> String:
+	if value is Array:
+		var keywords: Array[String] = []
+		for item in value:
+			var text := String(item).strip_edges()
+			if not text.is_empty():
+				keywords.append(text)
+		return ", ".join(keywords)
+	if value is String:
+		return String(value).strip_edges()
+	return ""
+
 func _clear_fields() -> void:
 	for child in fields_box.get_children():
 		child.queue_free()
@@ -59,24 +71,22 @@ func _clear_fields() -> void:
 func _on_copy_pressed() -> void:
 	var copy_text := ""
 	copy_text += "--- KÌ: Bản Soi Chiếu Cuối ---\n\n"
-	copy_text += "Tước Hiệu: %s\n\n" % String(_current_report.get("title", "Bản Soi Chiếu Cuối"))
-	
+	var report_title := String(_current_report.get("title", "")).strip_edges()
+	copy_text += "Tước Hiệu: %s\n\n" % (report_title if not report_title.is_empty() else DEFAULT_REPORT_TITLE)
+
 	var fields = [
-		["Core self", "core_self"],
-		["Past pattern", "past_pattern"],
-		["Present tension", "present_tension"],
-		["Future invitation", "future_invitation"],
-		["Advice", "advice"]
+		["Tổng soi chiếu", "overall_reflection"],
+		["Lời khuyên", "guidance"]
 	]
-	
+
 	for f in fields:
-		var val = String(_current_report.get(f[1], ""))
+		var val = String(_current_report.get(f[1], "")).strip_edges()
 		if not val.is_empty():
 			copy_text += "✨ %s:\n%s\n\n" % [f[0], val]
-			
-	var kws = _current_report.get("keywords", [])
-	if kws is Array and not kws.is_empty():
-		copy_text += "🔑 Keywords: %s\n" % ", ".join(kws)
+
+	var keywords_text := _format_keywords(_current_report.get("keywords", []))
+	if not keywords_text.is_empty():
+		copy_text += "🔑 %s: %s\n" % [KEYWORDS_LABEL, keywords_text]
 		
 	DisplayServer.clipboard_set(copy_text)
 	

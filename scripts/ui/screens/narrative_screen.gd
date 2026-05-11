@@ -155,24 +155,36 @@ func setup_choices(choices: Array) -> void:
 
 		choices_container.add_child(box)
 
+	if not _is_typing:
+		_refresh_post_text_ui()
+
 func setup_free_text() -> void:
 	_is_free_text = true
 	input_field.text = ""
+	if not _is_typing:
+		_refresh_post_text_ui()
+
+func _refresh_post_text_ui() -> void:
+	if _is_free_text:
+		free_text_container.show()
+		choices_container.hide()
+		continue_button.hide()
+	elif choices_container.get_child_count() > 0:
+		choices_container.show()
+		free_text_container.hide()
+		continue_button.hide()
+	else:
+		choices_container.hide()
+		free_text_container.hide()
+		continue_button.show()
+		continue_button.disabled = false
 
 func _finish_typing() -> void:
 	_is_typing = false
 	AudioManager.stop_typewriter()
 	body_label.visible_characters = -1
 	continue_button.disabled = false
-	
-	if _is_free_text:
-		free_text_container.show()
-		continue_button.hide()
-	elif choices_container.get_child_count() > 0:
-		choices_container.show()
-		continue_button.hide()
-	else:
-		continue_button.show()
+	_refresh_post_text_ui()
 
 func _on_continue_pressed() -> void:
 	if _is_typing:
@@ -187,3 +199,4 @@ func _on_submit_pressed() -> void:
 	var text := input_field.text.strip_edges()
 	if not text.is_empty():
 		choice_selected.emit(text)
+

@@ -1,12 +1,9 @@
 extends Node
 
-const REPORT_KEYS := [
+const REPORT_KEYS = [
 	"title",
-	"core_self",
-	"past_pattern",
-	"present_tension",
-	"future_invitation",
-	"advice",
+	"overall_reflection",
+	"guidance",
 	"keywords",
 ]
 
@@ -33,18 +30,20 @@ func normalize_report(data: Dictionary) -> Dictionary:
 			report[key] = String(data.get(key, "")).strip_edges()
 	return report
 
-func build_local_summary(error_message: String) -> Dictionary:
+func build_local_summary(_error_message: String) -> Dictionary:
 	var spread := _build_spread()
 	var past: Dictionary = spread.get("past", {})
 	var present: Dictionary = spread.get("present", {})
 	var future: Dictionary = spread.get("future", {})
 	return {
 		"title": "Bản soi chiếu tạm thời",
-		"core_self": "AI chưa khả dụng: %s" % error_message,
-		"past_pattern": _card_sentence(past, "Quá khứ đang nhắc lại một mô thức quanh"),
-		"present_tension": _card_sentence(present, "Hiện tại đang giữ một lực căng quanh"),
-		"future_invitation": _card_sentence(future, "Tương lai đang mời Ngài bước tới"),
-		"advice": "Giữ lại điều đã học từ ba không gian, rồi thử lại AI khi proxy sẵn sàng.",
+		"overall_reflection": "KÌ chưa thể hoàn tất bản soi chiếu AI lúc này.\n\nQuá khứ: %s\nHiện tại: %s\nTương lai: %s\nTổng Mảnh Hồn: %d." % [
+			_card_sentence(past, "Mô thức nổi bật quanh"),
+			_card_sentence(present, "Lực căng hiện tại quanh"),
+			_card_sentence(future, "Lời mời phía trước quanh"),
+			GameState.soul_fragments,
+		],
+		"guidance": "Giữ lại trục chung lặp đi lặp lại giữa ba không gian, rồi chọn một hành động nhỏ nhưng thật để thay đổi nó trong hôm nay.",
 		"keywords": _fallback_keywords(),
 	}
 

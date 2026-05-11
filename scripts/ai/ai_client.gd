@@ -80,14 +80,35 @@ func _on_request_completed(result: int, response_code: int, _headers: PackedStri
 		emit_signal("ai_failed", String(wrapper.get("error", "AI proxy báo lỗi.")))
 		return
 	var ai_text := String(wrapper.get("text", ""))
-	var ai_data: Variant = JSON.parse_string(ai_text)
-	if not ai_data is Dictionary:
+	var ai_data := _extract_ai_payload(ai_text)
+	if ai_data.is_empty():
 		emit_signal("ai_failed", "AI trả nội dung không phải JSON hợp lệ.")
 		return
 	if _pending_type == "reflection":
-		emit_signal("reflection_ready", _pending_space_id, ai_data as Dictionary)
+		emit_signal("reflection_ready", _pending_space_id, ai_data)
 	elif _pending_type == "final_report":
-		emit_signal("report_ready", ai_data as Dictionary)
+		emit_signal("report_ready", ai_data)
+
+func _extract_ai_payload(ai_text: String) -> Dictionary:
+	var parsed: Variant = JSON.parse_string(ai_text)
+	if parsed is Dictionary:
+		var payload := parsed as Dictionary
+		var unwrapped := _unwrap_nested_json(payload)
+		if not unwrapped.is_empty():
+			return unwrapped
+		return payload
+	return {}
+
+func _unwrap_nested_json(payload: Dictionary) -> Dictionary:
+	for key in ["reading", "report", "result", "data", "content"]:
+		var value: Variant = payload.get(key, null)
+		if value is Dictionary:
+			return value as Dictionary
+		if value is String:
+			var parsed: Variant = JSON.parse_string(String(value))
+			if parsed is Dictionary:
+				return parsed as Dictionary
+	return {}
 
 func _request_result_label(result: int) -> String:
 	match result:

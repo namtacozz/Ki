@@ -218,7 +218,8 @@ Vai trò:
 - Gom onboarding summary.
 - Gom 3 lá và inner space answers.
 - Chuẩn hóa payload cho final report prompt.
-- Merge AI output vào format final report dùng cho UI.
+- Merge AI output vào format final report dùng cho UI với schema rút gọn: `title`, `overall_reflection`, `guidance`, `keywords`.
+- Tổng hợp chung cả 3 không gian và Mảnh Hồn vào một mục soi chiếu ngắn gọn.
 
 ### `MinigameManager`
 
@@ -306,7 +307,8 @@ Mục đích:
 Mục đích:
 
 - Hiển thị tổng kết cuối.
-- Gồm AI report, 3 card summary, soul fragments earned.
+- Gồm 1 mục soi chiếu tổng hợp chung cho Quá khứ / Hiện tại / Tương lai và Mảnh Hồn, cùng 1 mục lời khuyên cuối.
+- Có thêm `keywords` ngắn để người chơi nhớ trục chính.
 - Nếu AI/proxy fail, `MainController` swap `ai_error_screen.tscn` hoặc truyền fallback summary vào final report scene.
 - Screen script nhận report data qua `setup(...)` và emit replay/retry/copy signals về `MainController`.
 - Replay reset run về title.
@@ -319,7 +321,7 @@ Scene:
 - `loading_screen.tscn`: màn hình chờ AI/proxy hoặc bước xử lý dài.
 - `narrative_screen.tscn`: màn hình dẫn chuyện/dialogue cho onboarding intro và card story.
 - `ai_error_screen.tscn`: màn hình lỗi AI/proxy có retry rõ ràng.
-- `hud_menu_button.tscn`: component nút menu HUD độc lập để chỉnh vị trí trực quan trong editor.
+- `hud_menu_button.tscn`: component nút menu HUD kèm menu overlay sau khi bấm `MenuButton`, để chỉnh vị trí và layout trực quan trong editor.
 
 Mục đích:
 
@@ -354,35 +356,42 @@ Mỗi object nên có:
 
 Chứa:
 
-1. Onboarding questions.
-2. Câu hỏi theo từng inner space/card.
-3. Mapping answer → score/themes.
+1. `onboarding_intro` cho mở đầu câu hỏi nhập môn.
+2. `onboarding` questions.
+3. `cards.<slug>.<past|present|future>` cho từng inner space theo lá và vị trí.
+4. `story_title` + `story_beats` + `questions` cho từng card-position section.
 
-Đề xuất schema:
+Runtime schema hiện hành:
 
 ```json
 {
-  "onboarding": [
-    {
-      "id": "q1",
-      "text": "...",
-      "choices": [
-        {
-          "id": "a",
-          "label": "...",
-          "themes": ["identity", "control"]
-        }
-      ]
-    }
-  ],
-  "spaces": {
+  "onboarding_intro": "...",
+  "onboarding": [],
+  "cards": {
     "the_fool": {
-      "multiple_choice": [],
-      "free_text_prompt": "..."
+      "past": {
+        "story_title": "Rời Khỏi Vùng An Toàn",
+        "story_beats": ["...", "...", "...", "...", "..."],
+        "questions": []
+      },
+      "present": {
+        "story_title": "Sống Dưới Đáy Vực",
+        "story_beats": ["...", "...", "...", "...", "..."],
+        "questions": []
+      },
+      "future": {
+        "story_title": "Vùng Đất Không Tên",
+        "story_beats": ["...", "...", "...", "...", "..."],
+        "questions": []
+      }
     }
   }
 }
 ```
+
+- Mỗi inner space chạy theo nhịp: story beat 1 → question 1 → ... → story beat 5 → question 5.
+- `Takanote/BienNienSu.md` là nguồn prose tham chiếu để đồng bộ `story_beats` trong `data/questions.json`.
+- Hiện tại prose được đồng bộ thủ công từ `BienNienSu.md` sang `data/questions.json`; chưa có converter tự động trong runtime path hiện hành.
 
 ### `data/prompts.json`
 
@@ -631,7 +640,7 @@ Checklist:
 
 ### 2026-05-11
 
-- Thêm `hud_menu_button.tscn` vào `scenes/ui/` để đặt nút menu trực tiếp trong editor.
+- Thêm `hud_menu_button.tscn` vào `scenes/ui/` để đặt nút menu trực tiếp trong editor, và gộp menu overlay sau `MenuButton` vào cùng component HUD.
 - Cập nhật mô tả `scenes/ui/` và `scenes/minigames/minigame_screen.tscn` theo HUD menu button component.
 - Đồng bộ thêm `choice_button.tscn`, `tarot_card_display.tscn`, `report_field.tscn`, `minigame_card_visual.tscn`, `game_button.tscn`.
 - Bổ sung `SettingsManager`, `settings_panel.tscn`, `settings_row.tscn`, `settings_tab_button.tscn`, `high_contrast_theme.tres`, `audio_config.json`, `audio_manager.gd`, và `assets/audio/` vào sơ đồ cấu trúc.

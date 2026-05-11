@@ -8,7 +8,6 @@ const NarrativeScreenScene := preload("res://scenes/ui/narrative_screen.tscn")
 const AIErrorScreenScene := preload("res://scenes/ui/ai_error_screen.tscn")
 const HUDMenuButtonScene := preload("res://scenes/ui/hud_menu_button.tscn")
 const FinalReportScreenScene := preload("res://scenes/report/final_report_screen.tscn")
-const PauseMenuScript := preload("res://scripts/ui/screens/pause_menu.gd")
 const SettingsOverlayScript := preload("res://scripts/ui/screens/settings_overlay.gd")
 const GuideOverlayScript := preload("res://scripts/ui/screens/guide_overlay.gd")
 const LoadingScreenScript := preload("res://scripts/ui/screens/loading_screen.gd")
@@ -19,7 +18,8 @@ var current_screen: Control
 var onboarding_questions: Array[Dictionary] = []
 var onboarding_index := 0
 var current_space_questions: Array[Dictionary] = []
-var current_space_story := ""
+var current_space_story_title := ""
+var current_space_story_beats: Array[String] = []
 var current_space_answers: Array[Dictionary] = []
 var current_space_question_index := 0
 var current_minigame: Dictionary = {}
@@ -71,9 +71,12 @@ func _setup_hud() -> void:
 	margin.add_child(_fragments_label)
 
 	_menu_button = HUDMenuButtonScene.instantiate() as Control
-	_menu_button.mouse_filter = Control.MOUSE_FILTER_PASS
+	_menu_button.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hud_root.add_child(_menu_button)
-	_menu_button.connect("pressed", _show_pause_menu)
+	_menu_button.connect("settings_requested", _show_settings)
+	_menu_button.connect("guide_requested", _show_guide)
+	_menu_button.connect("confirm_restart_requested", _restart_run)
+	_menu_button.connect("confirm_title_requested", _return_to_title)
 	_menu_button.show()
 
 	var bgm_margin := MarginContainer.new()
@@ -185,16 +188,18 @@ func _show_current_inner_space() -> void:
 
 	var card_slug := TarotManager.get_slug_for_card(card)
 	var card_position := String(card.get("position", ""))
-	current_space_story = QuestionManager.get_story_for_card_position(card_slug, card_position)
+	current_space_story_title = QuestionManager.get_story_title_for_card_position(card_slug, card_position)
+	current_space_story_beats = QuestionManager.get_story_beats_for_card_position(card_slug, card_position)
 	current_space_questions = QuestionManager.get_questions_for_card_position(card_slug, card_position)
 	if current_space_questions.is_empty():
 		_show_missing_questions_error(card_slug, card_position)
 		return
+	if not current_space_story_beats.is_empty() and current_space_story_beats.size() != current_space_questions.size():
+		error_mode = "story_beats_mismatch"
+		_show_ai_error_screen("Thiếu dữ liệu cảnh truyện\nSố cảnh không khớp số câu hỏi cho %s / %s" % [card_slug, card_position])
+		return
 	_reset_inner_space_state()
-	if not current_space_story.is_empty():
-		_show_inner_space_story(card)
-	else:
-		_show_inner_space_question(card)
+	_show_next_inner_space_step(card)
 
 func _reset_inner_space_state() -> void:
 	current_space_answers = []
@@ -205,7 +210,20 @@ func _show_missing_questions_error(card_slug: String, card_position: String) -> 
 	error_mode = "missing_questions"
 	_show_ai_error_screen("Thiếu dữ liệu câu hỏi\nKhông tìm thấy câu hỏi cho %s / %s" % [card_slug, card_position])
 
-func _show_inner_space_story(card: Dictionary) -> void:
+func _show_next_inner_space_step(card: Dictionary) -> void:
+	if current_space_question_index >= current_space_questions.size():
+		_save_current_inner_space(card)
+		return
+
+	if current_space_question_index < current_space_story_beats.size():
+		var beat := current_space_story_beats[current_space_question_index]
+		if not beat.is_empty():
+			_show_inner_space_story(card, beat)
+			return
+
+	_show_inner_space_question(card)
+
+func _show_inner_space_story(card: Dictionary, beat: String) -> void:
 	var screen := _show_screen(NarrativeScreenScene)
 	screen.continued.connect(_show_inner_space_question.bind(card))
 
@@ -213,7 +231,7 @@ func _show_inner_space_story(card: Dictionary) -> void:
 	var art_path = _get_card_art_or_default(card)
 	var bg_path = _get_space_background(card)
 
-	screen.setup(speaker, current_space_story, art_path, bg_path)
+	screen.setup(speaker, beat, art_path, bg_path)
 
 func _show_inner_space_question(card: Dictionary) -> void:
 	if current_space_question_index >= current_space_questions.size():
@@ -230,11 +248,7 @@ func _show_inner_space_question(card: Dictionary) -> void:
 	var art_path = _get_card_art_or_default(card)
 	var bg_path = _get_space_background(card)
 
-	var narrative_prefix := ""
-	if current_space_question_index > 0:
-		narrative_prefix = "Tiếng vọng tiếp tục ngân vang... "
-
-	screen.setup(speaker, narrative_prefix + prompt, art_path, bg_path)
+	screen.setup(speaker, prompt, art_path, bg_path)
 	if QuestionManager.is_free_text_question(question):
 		screen.setup_free_text()
 	else:
@@ -250,13 +264,16 @@ func _store_inner_space_answer(card: Dictionary, answer: Dictionary) -> void:
 	current_space_answers.append(answer)
 	GameState.add_space_answer(card_position, answer)
 	current_space_question_index += 1
-	_show_inner_space_question(card)
+	_show_next_inner_space_step(card)
 
 func _save_current_inner_space(card: Dictionary) -> void:
+	var story_text := "\n\n".join(current_space_story_beats)
 	var result := {
 		"position": String(card.get("position", "")),
 		"card": card.duplicate(true),
-		"story": current_space_story,
+		"story_title": current_space_story_title,
+		"story_beats": current_space_story_beats.duplicate(),
+		"story": story_text,
 		"answers": current_space_answers.duplicate(true),
 	}
 	GameState.add_inner_space_result(result)
@@ -295,7 +312,9 @@ func _build_reflection_context(card: Dictionary) -> Dictionary:
 	return {
 		"position": card_position,
 		"card": card.duplicate(true),
-		"story": current_space_story,
+		"story_title": current_space_story_title,
+		"story_beats": current_space_story_beats.duplicate(),
+		"story": "\n\n".join(current_space_story_beats),
 		"questions": current_space_questions.duplicate(true),
 		"onboarding_answers": GameState.onboarding_answers.duplicate(true),
 		"space_answers": current_space_answers.duplicate(true),
@@ -310,7 +329,7 @@ func _on_reflection_ready(space_id: String, data: Dictionary) -> void:
 func _show_reflection_summary(space_id: String, data: Dictionary) -> void:
 	AudioManager.play_main_theme()
 	pending_ai_card = {}
-	var summary := _format_ai_dictionary(data)
+	var summary := _format_reflection_summary(space_id, data)
 	var screen = _show_screen(NarrativeScreenScene)
 	screen.setup("KÌ", summary, "res://assets/characters/KI.png", "res://assets/backgrounds/bg_ai_state_booth.png")
 	screen.continued.connect(_advance_inner_space)
@@ -366,9 +385,73 @@ func _continue_after_ai_error(message: String) -> void:
 	else:
 		_show_final_report_screen(ReportBuilder.build_local_summary(message), true)
 
+func _format_reflection_summary(space_id: String, data: Dictionary) -> String:
+	var sections: Array[String] = []
+	var card_name := String(data.get("display_name_vi", data.get("name", ""))).strip_edges()
+	if card_name.is_empty() and not pending_ai_card.is_empty():
+		card_name = String(pending_ai_card.get("display_name_vi", pending_ai_card.get("name", ""))).strip_edges()
+	if not card_name.is_empty():
+		sections.append("%s — %s" % [_position_label(space_id), card_name])
+
+	for key in ["tong_quan", "tổng_quan", "summary", "overview"]:
+		var text := _string_or_empty(data.get(key, ""))
+		if not text.is_empty():
+			sections.append(text)
+			break
+
+	var answer_insights := _format_answer_insights(data.get("dien_giai_theo_cau_tra_loi", data.get("diễn_giải_theo_câu_trả_lời", {})))
+	if not answer_insights.is_empty():
+		sections.append(answer_insights)
+
+	for key in ["mau_hinh_bong_toi", "mẫu_hình_bóng_tối", "shadow_pattern"]:
+		var text := _string_or_empty(data.get(key, ""))
+		if not text.is_empty():
+			sections.append("Mẫu hình bóng tối: %s" % text)
+			break
+
+	if sections.is_empty():
+		return _format_ai_dictionary(data)
+	return "\n\n".join(sections)
+
+func _format_answer_insights(value: Variant) -> String:
+	var sections: Array[String] = []
+	if value is Dictionary:
+		var onboarding_lines: Array[String] = []
+		var onboarding: Variant = value.get("onboarding", [])
+		if onboarding is Array:
+			for item in onboarding:
+				var text := _string_or_empty(item)
+				if not text.is_empty():
+					onboarding_lines.append("• %s" % text)
+		if not onboarding_lines.is_empty():
+			sections.append("Điểm phản chiếu từ câu trả lời:\n%s" % "\n".join(onboarding_lines))
+
+		var insight_lines: Array[String] = []
+		var space_answers: Variant = value.get("space_answers", [])
+		if space_answers is Array:
+			for item in space_answers:
+				if item is Dictionary:
+					var text := _string_or_empty(item.get("insight", ""))
+					if not text.is_empty():
+						insight_lines.append("• %s" % text)
+		if not insight_lines.is_empty():
+			sections.append("Điểm phản chiếu trong không gian này:\n%s" % "\n".join(insight_lines))
+	elif value is String:
+		var text := _string_or_empty(value)
+		if not text.is_empty():
+			sections.append(text)
+	return "\n\n".join(sections)
+
+func _string_or_empty(value: Variant) -> String:
+	if value is String:
+		return value.strip_edges()
+	return String(value).strip_edges()
+
 func _format_ai_dictionary(data: Dictionary) -> String:
 	var lines: Array[String] = []
 	for key in data.keys():
+		if key in ["card", "ngon_ngu", "ngôn_ngữ", "position", "id"]:
+			continue
 		lines.append("%s: %s" % [str(key), _format_ai_value(data[key])])
 	return "\n".join(lines)
 
@@ -452,14 +535,6 @@ func _show_screen(scene: PackedScene) -> Control:
 	tween.tween_property(new_screen, "modulate:a", 1.0, 0.3)
 
 	return new_screen
-
-func _show_pause_menu() -> void:
-	var menu = PauseMenuScript.new()
-	add_child(menu)
-	menu.settings_requested.connect(_show_settings)
-	menu.guide_requested.connect(_show_guide)
-	menu.confirm_restart_requested.connect(_restart_run)
-	menu.confirm_title_requested.connect(_return_to_title)
 
 func _show_settings() -> void:
 	add_child(SettingsOverlayScript.new())
