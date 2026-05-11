@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bwh5jtnnieeu4" path="res://scripts/ui/screens/final_report_screen.gd" id="1"]
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
-[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/final_report_dark.jpg" id="bg_tex"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_final_booth_ki_smile.png" id="bg_tex"]
 
 [node name="FinalReportScreen" type="Control" unique_id=1475821832]
 layout_mode = 3

@@ -1060,7 +1060,7 @@ rtk godot --headless --path "D:/KÌ" --export-release Web "D:/KÌ/exports/web/in
 rtk python -m http.server 8090 --directory "D:/KÌ/exports/web"
 ```
 
-Open browser at local server, test: title → intro → onboarding → reveal → first inner space question. Phone viewport 390x844: confirm choices readable and no softlock.
+Open browser at local server, test: title → intro → onboarding → reveal → first inner space question. Confirm desktop layout remains readable and no softlock occurs.
 
 ## Self-review notes
 

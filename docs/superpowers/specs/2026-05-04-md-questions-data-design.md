@@ -148,6 +148,6 @@ rtk godot --headless --path "D:/KÌ" --quit
 Manual verification:
 
 - Desktop browser can complete onboarding, reveal cards, enter inner spaces, answer five questions per card, and reach final report.
-- Phone viewport around 390x844 keeps question text and buttons usable.
+- Desktop browser keeps question text and buttons readable through onboarding and inner-space flow.
 - Converter rejects malformed Markdown with a clear message.
 - Hybrid draw changes across runs while still reflecting onboarding tags.

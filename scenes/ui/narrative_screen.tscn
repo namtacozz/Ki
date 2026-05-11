@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://da52tuxcadciu"]
 
 [ext_resource type="Script" uid="uid://xhldjmryyuoi" path="res://scripts/ui/screens/narrative_screen.gd" id="1_narrative"]
-[ext_resource type="Texture2D" uid="uid://cpabhoyxqrrpo" path="res://assets/backgrounds/opening.jpg" id="2_bg"]
-[ext_resource type="Texture2D" uid="uid://doclpfmjh57if" path="res://assets/characters/ki_avatar.jpg" id="3_avatar"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_title_fortune_booth_ki.png" id="2_bg"]
+[ext_resource type="Texture2D" path="res://assets/characters/KI.png" id="3_avatar"]
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="4_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
 [ext_resource type="FontVariation" path="res://assets/fonts/roboto_mono.tres" id="6_roboto_mono"]

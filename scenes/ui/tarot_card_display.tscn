@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dp41k58wcs24k"]
 
 [ext_resource type="FontVariation" path="res://assets/fonts/cormorant.tres" id="1_cormorant"]
+[ext_resource type="Texture2D" uid="uid://dj4ruklinqjwg" path="res://assets/art/Tarot/Death.jpg" id="2_ao5u1"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
 
 [node name="TarotCardDisplay" type="PanelContainer" unique_id=689839663]
@@ -26,14 +27,15 @@ layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
 theme_override_fonts/font = ExtResource("1_cormorant")
 theme_override_font_sizes/font_size = 20
-uppercase = true
 text = "VỊ TRÍ"
 horizontal_alignment = 1
+uppercase = true
 
 [node name="CardArt" type="TextureRect" parent="Margin/VBox" unique_id=428857765]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 240)
+custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
+texture = ExtResource("2_ao5u1")
 expand_mode = 1
 stretch_mode = 5
 
@@ -41,7 +43,7 @@ stretch_mode = 5
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_cormorant")
-theme_override_font_sizes/font_size = 34
+theme_override_font_sizes/font_size = 28
 text = "Tên Lá Bài"
 horizontal_alignment = 1
 autowrap_mode = 3
@@ -49,7 +51,7 @@ autowrap_mode = 3
 [node name="SubtitleLabel" type="Label" parent="Margin/VBox" unique_id=371057170]
 unique_name_in_owner = true
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 16
 text = "Tiêu đề phụ"
 horizontal_alignment = 1
 autowrap_mode = 3
@@ -59,7 +61,7 @@ unique_name_in_owner = true
 layout_mode = 2
 theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
 theme_override_fonts/font = ExtResource("2_inter")
-theme_override_font_sizes/font_size = 14
+theme_override_font_sizes/font_size = 12
 text = "từ khóa, từ khóa"
 horizontal_alignment = 1
 autowrap_mode = 3

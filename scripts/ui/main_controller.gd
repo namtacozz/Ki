@@ -6,6 +6,7 @@ const MinigameScreenScene := preload("res://scenes/minigames/minigame_screen.tsc
 const LoadingScreenScene := preload("res://scenes/ui/loading_screen.tscn")
 const NarrativeScreenScene := preload("res://scenes/ui/narrative_screen.tscn")
 const AIErrorScreenScene := preload("res://scenes/ui/ai_error_screen.tscn")
+const HUDMenuButtonScene := preload("res://scenes/ui/hud_menu_button.tscn")
 const FinalReportScreenScene := preload("res://scenes/report/final_report_screen.tscn")
 const PauseMenuScript := preload("res://scripts/ui/screens/pause_menu.gd")
 const SettingsOverlayScript := preload("res://scripts/ui/screens/settings_overlay.gd")
@@ -27,7 +28,7 @@ var final_report_error := ""
 var error_mode := ""
 var _last_soul_fragments := 0
 var _fragments_label: Label
-var _menu_button: Button
+var _menu_button: Control
 var _bgm_label: Label
 var _bgm_clip: Control
 
@@ -46,49 +47,35 @@ func _on_settings_changed() -> void:
 	if is_instance_valid(current_screen) and current_screen.has_method("_apply_accessibility"):
 		current_screen.call("_apply_accessibility")
 
-
-
 func _setup_hud() -> void:
 	var canvas := CanvasLayer.new()
 	canvas.layer = 100
 	add_child(canvas)
-	
-	# Root control for layout inside CanvasLayer
+
 	var hud_root := Control.new()
 	hud_root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	hud_root.mouse_filter = Control.MOUSE_FILTER_IGNORE # Don't block input
+	hud_root.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	canvas.add_child(hud_root)
-	
+
 	var margin := MarginContainer.new()
 	margin.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	margin.add_theme_constant_override("margin_left", 20)
 	margin.add_theme_constant_override("margin_top", 20)
 	hud_root.add_child(margin)
-	
+
 	_fragments_label = Label.new()
 	_fragments_label.add_theme_font_size_override("font_size", 20)
 	_fragments_label.add_theme_color_override("font_color", Color(1.0, 0.84, 0.0))
 	_fragments_label.text = "Mảnh Hồn: 0"
 	_fragments_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	margin.add_child(_fragments_label)
-	
-	var right_margin := MarginContainer.new()
-	right_margin.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	right_margin.add_theme_constant_override("margin_right", 20)
-	right_margin.add_theme_constant_override("margin_top", 20)
-	# Use set_anchors_and_offsets_preset to ensure size and position are correct
-	right_margin.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
-	hud_root.add_child(right_margin)
-	
-	_menu_button = Button.new()
-	_menu_button.text = "☰"
-	_menu_button.add_theme_font_size_override("font_size", 24)
-	_menu_button.custom_minimum_size = Vector2(50, 50)
-	_menu_button.pressed.connect(_show_pause_menu)
-	right_margin.add_child(_menu_button)
-	# Show button by default or it will be hidden
+
+	_menu_button = HUDMenuButtonScene.instantiate() as Control
+	_menu_button.mouse_filter = Control.MOUSE_FILTER_PASS
+	hud_root.add_child(_menu_button)
+	_menu_button.connect("pressed", _show_pause_menu)
 	_menu_button.show()
-	
+
 	var bgm_margin := MarginContainer.new()
 	bgm_margin.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	bgm_margin.add_theme_constant_override("margin_right", 80)
@@ -107,7 +94,7 @@ func _setup_hud() -> void:
 	_bgm_label.add_theme_font_size_override("font_size", 16)
 	_bgm_label.add_theme_color_override("font_color", Color(0.8, 0.8, 0.8, 0.7))
 	_bgm_label.text = "♪ BGM: Tarot Veil"
-	_bgm_label.position.x = 180 # Start exactly at the right edge of clip
+	_bgm_label.position.x = 180
 	_bgm_clip.add_child(_bgm_label)
 
 	AudioManager.music_changed.connect(_on_music_changed)
@@ -122,7 +109,7 @@ func _on_soul_fragments_changed(amount: int) -> void:
 func show_title() -> void:
 	AudioManager.play_main_theme()
 	if is_instance_valid(_menu_button):
-		_menu_button.show() # Show on title too
+		_menu_button.show()
 	var screen := _show_screen(TitleScreenScene)
 	screen.continued.connect(_show_intro)
 	screen.settings_requested.connect(_show_settings)
@@ -151,7 +138,7 @@ func _on_title_continue() -> void:
 func _show_onboarding_intro(intro: String) -> void:
 	var screen := _show_screen(NarrativeScreenScene)
 	screen.continued.connect(_show_onboarding_question)
-	screen.setup("KÌ", intro, "res://assets/characters/ki_mystical.jpg", "res://assets/backgrounds/title_bg.jpg")
+	screen.setup("KÌ", intro, "res://assets/characters/KI.png", "res://assets/backgrounds/bg_title_fortune_booth_ki.png")
 
 func _show_onboarding_question() -> void:
 	if onboarding_index >= onboarding_questions.size():
@@ -160,11 +147,11 @@ func _show_onboarding_question() -> void:
 	var question := onboarding_questions[onboarding_index]
 	var screen := _show_screen(NarrativeScreenScene)
 	screen.choice_selected.connect(_on_onboarding_choice.bind(question))
-	
+
 	var prompt = question.get("prompt", "")
 	var choices = question.get("choices", [])
-	
-	screen.setup("KÌ", prompt, "res://assets/characters/ki_mystical.jpg", "res://assets/backgrounds/title_bg.jpg")
+
+	screen.setup("KÌ", prompt, "res://assets/characters/KI.png", "res://assets/backgrounds/bg_title_fortune_booth_ki.png")
 	if QuestionManager.is_free_text_question(question):
 		screen.setup_free_text()
 	else:
@@ -195,7 +182,7 @@ func _show_current_inner_space() -> void:
 	var card := GameState.selected_cards[GameState.current_space_index]
 	var card_id := int(card.get("id", -1))
 	AudioManager.play_card_music(card_id)
-	
+
 	var card_slug := TarotManager.get_slug_for_card(card)
 	var card_position := String(card.get("position", ""))
 	current_space_story = QuestionManager.get_story_for_card_position(card_slug, card_position)
@@ -221,32 +208,32 @@ func _show_missing_questions_error(card_slug: String, card_position: String) -> 
 func _show_inner_space_story(card: Dictionary) -> void:
 	var screen := _show_screen(NarrativeScreenScene)
 	screen.continued.connect(_show_inner_space_question.bind(card))
-	
+
 	var speaker = TarotManager.get_display_name_for_card(card)
 	var art_path = _get_card_art_or_default(card)
 	var bg_path = _get_space_background(card)
-	
+
 	screen.setup(speaker, current_space_story, art_path, bg_path)
 
 func _show_inner_space_question(card: Dictionary) -> void:
 	if current_space_question_index >= current_space_questions.size():
 		_save_current_inner_space(card)
 		return
-		
+
 	var question := current_space_questions[current_space_question_index]
 	var screen := _show_screen(NarrativeScreenScene)
 	screen.choice_selected.connect(_on_inner_space_choice.bind(card, question))
-	
+
 	var speaker = TarotManager.get_display_name_for_card(card)
 	var prompt = question.get("prompt", "")
 	var choices = question.get("choices", [])
 	var art_path = _get_card_art_or_default(card)
 	var bg_path = _get_space_background(card)
-	
+
 	var narrative_prefix := ""
 	if current_space_question_index > 0:
 		narrative_prefix = "Tiếng vọng tiếp tục ngân vang... "
-	
+
 	screen.setup(speaker, narrative_prefix + prompt, art_path, bg_path)
 	if QuestionManager.is_free_text_question(question):
 		screen.setup_free_text()
@@ -273,11 +260,11 @@ func _save_current_inner_space(card: Dictionary) -> void:
 		"answers": current_space_answers.duplicate(true),
 	}
 	GameState.add_inner_space_result(result)
-	
+
 	pending_ai_card = card.duplicate(true)
 	var card_position := String(card.get("position", ""))
 	AIClient.request_reflection(card_position, _build_reflection_context(card))
-	
+
 	current_minigame = MiniGameManager.create_game(card)
 	_show_minigame_screen(card)
 
@@ -316,7 +303,7 @@ func _build_reflection_context(card: Dictionary) -> Dictionary:
 
 func _on_reflection_ready(space_id: String, data: Dictionary) -> void:
 	GameState.set_ai_reflection(space_id, data)
-	
+
 	if is_instance_valid(current_screen) and current_screen.get_script() == LoadingScreenScript:
 		_show_reflection_summary(space_id, data)
 
@@ -325,9 +312,8 @@ func _show_reflection_summary(space_id: String, data: Dictionary) -> void:
 	pending_ai_card = {}
 	var summary := _format_ai_dictionary(data)
 	var screen = _show_screen(NarrativeScreenScene)
-	screen.setup("KÌ", summary, "res://assets/characters/ki_thinking.jpg", "res://assets/backgrounds/mystic_void.png")
+	screen.setup("KÌ", summary, "res://assets/characters/KI.png", "res://assets/backgrounds/bg_ai_state_booth.png")
 	screen.continued.connect(_advance_inner_space)
-
 
 func _on_report_ready(data: Dictionary) -> void:
 	final_report_error = ""
@@ -431,19 +417,19 @@ func _position_label(card_position: String) -> String:
 
 func _get_card_art_or_default(card: Dictionary) -> String:
 	var art_path = TarotManager.get_art_path_for_card(card)
-	return art_path if not art_path.is_empty() else "res://assets/characters/ki_mystical.jpg"
+	return art_path if not art_path.is_empty() else "res://assets/characters/KI.png"
 
 func _get_space_background(card: Dictionary) -> String:
 	var card_position = String(card.get("position", "")).to_lower()
 	match card_position:
 		"past":
-			return "res://assets/backgrounds/space_past.jpg"
+			return "res://assets/backgrounds/bg_space_past.png"
 		"present":
-			return "res://assets/backgrounds/space_present.jpg"
+			return "res://assets/backgrounds/bg_space_present.png"
 		"future":
-			return "res://assets/backgrounds/space_future.jpg"
+			return "res://assets/backgrounds/bg_space_future.png"
 		_:
-			return "res://assets/backgrounds/inner_space_fallback.jpg"
+			return "res://assets/backgrounds/bg_ai_state_booth.png"
 
 func _show_loading_screen(title: String, body: String) -> void:
 	var screen := _show_screen(LoadingScreenScene)
@@ -452,20 +438,21 @@ func _show_loading_screen(title: String, body: String) -> void:
 func _show_screen(scene: PackedScene) -> Control:
 	AudioManager.play_sfx("transition")
 	var old_screen = current_screen
-	
+
 	var new_screen := scene.instantiate() as Control
 	new_screen.modulate.a = 0.0
 	screen_root.add_child(new_screen)
 	current_screen = new_screen
-	
+
 	var tween := create_tween()
 	if is_instance_valid(old_screen):
 		tween.tween_property(old_screen, "modulate:a", 0.0, 0.3)
 		tween.tween_callback(old_screen.queue_free)
-	
+
 	tween.tween_property(new_screen, "modulate:a", 1.0, 0.3)
-	
+
 	return new_screen
+
 func _show_pause_menu() -> void:
 	var menu = PauseMenuScript.new()
 	add_child(menu)
@@ -486,6 +473,7 @@ func _restart_run() -> void:
 
 func _return_to_title() -> void:
 	show_title()
+
 func _clear_screen() -> void:
 	for child in screen_root.get_children():
 		child.queue_free()

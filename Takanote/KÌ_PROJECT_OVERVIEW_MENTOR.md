@@ -6,7 +6,7 @@
 **Thể loại:** Web game narrative / tự khám phá bản thân / mini card game  
 **Chủ đề:** Tarot, nội tâm, lựa chọn cá nhân, Mảnh Hồn, phản tư bằng AI  
 **Engine:** Godot 4.x  
-**Nền tảng mục tiêu:** Desktop browser và mobile browser  
+**Nền tảng mục tiêu:** Desktop browser  
 **Mục tiêu demo:** Người chơi hoàn thành được một lượt chơi đầy đủ từ màn hình mở đầu đến bản soi chiếu cuối.
 
 ---
@@ -243,6 +243,6 @@ Dự án đạt mức demo khi:
 - ba mini game chạy được,
 - Mảnh Hồn được ghi nhận,
 - AI interpretation và final report hoạt động,
-- UI đọc được trên desktop và phone,
+- UI đọc được và dùng ổn định trên desktop,
 - API key không nằm trong Godot project.
 

@@ -50,7 +50,7 @@ func _process(delta: float) -> void:
 			if body_label.visible_characters >= _full_text.length():
 				_finish_typing()
 
-func setup(speaker: String, body: String, avatar_path: String = "res://assets/characters/ki_avatar.jpg", bg_path: String = "res://assets/backgrounds/opening.jpg") -> void:
+func setup(speaker: String, body: String, avatar_path: String = "res://assets/characters/KI.png", bg_path: String = "res://assets/backgrounds/bg_title_fortune_booth_ki.png") -> void:
 	speaker_label.text = speaker
 	_full_text = body
 	body_label.text = body
@@ -77,7 +77,7 @@ func setup(speaker: String, body: String, avatar_path: String = "res://assets/ch
 		background_texture.texture = load(bg_path)
 		if SettingsManager.settings.high_contrast:
 			background_texture.modulate = Color.BLACK
-		elif bg_path != "res://assets/backgrounds/opening.jpg":
+		elif bg_path != "res://assets/backgrounds/bg_title_fortune_booth_ki.png":
 			background_texture.modulate = Color(0.3, 0.3, 0.3, 1.0)
 		else:
 			background_texture.modulate = Color(1.0, 1.0, 1.0, 1.0)

@@ -854,13 +854,12 @@ Expected: project opens headless without parse errors.
 
 ---
 
-### Task 7: Fix responsive mobile sizing in scene scripts
+### Task 7: Keep desktop-safe sizing in scene scripts
 
 **Files:**
 - Modify: `scripts/ui/screens/card_reveal_screen.gd`
 - Modify: `scripts/ui/screens/onboarding_screen.gd`
 - Modify: `scripts/ui/screens/inner_space_screen.gd`
-- Modify: `scripts/ui/screens/minigame_screen.gd`
 
 - [ ] **Step 1: Add `_content_width(max_width)` helper to screens with dynamic buttons/text input**
 
@@ -881,17 +880,17 @@ Use in `inner_space_screen.gd` setup for free text:
 free_text_input.custom_minimum_size = Vector2(_content_width(640), 120)
 ```
 
-- [ ] **Step 2: Add mobile card width in `card_reveal_screen.gd`**
+- [ ] **Step 2: Keep readable desktop card width in `card_reveal_screen.gd`**
 
 ```gdscript
-var card_width := 280.0 if get_viewport_rect().size.x >= 720 else 96.0
+var card_width := min(280.0, max(180.0, (get_viewport_rect().size.x - 120.0) / 3.0))
 panel.custom_minimum_size = Vector2(card_width, 220)
 ```
 
-- [ ] **Step 3: Add mobile card row spacing in `card_reveal_screen.gd`**
+- [ ] **Step 3: Keep desktop-safe card row spacing in `card_reveal_screen.gd`**
 
 ```gdscript
-card_row.add_theme_constant_override("separation", 8 if get_viewport_rect().size.x < 720 else 20)
+card_row.add_theme_constant_override("separation", 20)
 ```
 
 - [ ] **Step 4: Run Godot syntax check**

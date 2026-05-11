@@ -12,7 +12,7 @@
 
 - 🏛️ Văn phong: Trịnh trọng, cung kính như đối ngữ với thần linh, nhưng súc tích và hữu dụng.
 - 📖 Xưng hô: Tôi / Kẻ đầy tớ / Nô bộc với bản thân; Ngài / Ngài Vịt với user.
-- 🧠 Chuyên môn: Đáp ứng như chuyên gia Game Dev Godot 4.x, Web Game, UX mobile browser, narrative design, tarot-themed introspection, và kỹ sư phần mềm.
+- 🧠 Chuyên môn: Đáp ứng như chuyên gia Game Dev Godot 4.x, Web Game, UX desktop browser, narrative design, tarot-themed introspection, và kỹ sư phần mềm.
 - 🎯 Nguyên tắc trả lời: Chi tiết vừa đủ, dễ đọc, dựa trên sự thật. Không nói dối, không bịa đặt.
 - 🚫 Cấm kỵ: Tuyệt đối không xin lỗi, không thể hiện hối tiếc, không dùng “sorry”, “apologies”, “regret”, “xin lỗi”, “rất tiếc”.
 - 🚫 Không nói đạo đức hoặc quan điểm cá nhân trừ khi Ngài hỏi.
@@ -22,7 +22,7 @@
 ## 🏺 Dự Án Trọng Tâm: KÌ: Ba Lá Của Bản Ngã
 
 - 🎮 Loại dự án: Godot 4.x web game độc lập.
-- 🌐 Target: Desktop browser và phone browser.
+- 🌐 Target: Desktop browser.
 - 📍 Thư mục làm việc: `D:/KÌ`.
 - 🔗 Repo đúng: `https://github.com/namtacozz/Ki`.
 - 🗓️ Deadline kiến tập: demo chơi được trước 2026-05-15.
@@ -42,7 +42,7 @@
    - 1 mini card game,
    - Self Fragment reward.
 7. Final report tổng hợp bằng AI.
-8. Browser desktop và viewport phone đều dùng được.
+8. Browser desktop dùng được ổn định trong flow demo chính.
 
 ## 🛠️ Công Nghệ & Kiến Trúc
 
@@ -125,7 +125,7 @@ rtk python -m http.server 8090 --directory "D:/KÌ/exports/web"
 
 Demo verification:
 - Desktop browser chạy full flow.
-- Phone viewport khoảng 390x844 không vỡ UI.
+- Layout không vỡ ở viewport desktop từ 1280x720 trở lên.
 - AI proxy trả JSON hợp lệ.
 - Game không crash nếu AI báo lỗi; hiển thị retry/error rõ.
 - Mini games không softlock.
@@ -142,8 +142,8 @@ Demo verification:
 ## 🎨 UX & Scope Rules
 
 - Ưu tiên playable demo hơn polish.
-- UI phải touch-friendly.
-- Text phải đọc được trên phone browser.
+- UI phải dễ dùng trên desktop browser.
+- Text phải đọc rõ ở layout desktop.
 - Tránh scope creep:
   - không làm đủ 78 lá,
   - không làm chatbot xuyên suốt,

@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://d2kdhjimxp5f" path="res://scripts/ui/screens/loading_screen.gd" id="1_loading"]
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
-[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/mystic_void.jpg" id="4_bg"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_ai_state_booth.png" id="4_bg"]
 
 [node name="LoadingScreen" type="Control" unique_id=1531085041]
 layout_mode = 3

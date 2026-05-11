@@ -4,7 +4,7 @@
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="2_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="3_inter"]
 [ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="4_open_sans"]
-[ext_resource type="Texture2D" path="res://assets/backgrounds/title_bg.jpg" id="bg_tex"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_title_fortune_booth_ki.png" id="bg_tex"]
 
 [node name="TitleScreen" type="Control" unique_id=1681748735]
 layout_mode = 3

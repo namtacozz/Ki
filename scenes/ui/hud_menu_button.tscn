@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cbioq4ho16ed6"]
+
+[ext_resource type="Script" uid="uid://cp86bfoaxgy8m" path="res://scripts/ui/screens/hud_menu_button.gd" id="1_hud_menu"]
+
+[node name="HUDMenuButton" type="MarginContainer" unique_id=918218392]
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -70.0
+offset_top = 83.0
+offset_right = -20.0
+offset_bottom = -587.0
+grow_horizontal = 0
+grow_vertical = 2
+script = ExtResource("1_hud_menu")
+
+[node name="MenuButton" type="Button" parent="." unique_id=1527430892]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "☰"

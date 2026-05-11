@@ -5,7 +5,7 @@
 [ext_resource type="FontVariation" path="res://assets/fonts/cinzel.tres" id="3_cinzel"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="4_inter"]
 [ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="5_open_sans"]
-[ext_resource type="Texture2D" uid="uid://cy88w655787f6" path="res://assets/backgrounds/tarot_table_premium.jpg" id="6_bg"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_minigame_table_clean.png" id="6_bg"]
 
 [node name="MinigameScreen" type="Control" unique_id=1391399720]
 layout_mode = 3

@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://b47tp3ghdfg1q" path="res://scripts/ui/screens/ai_error_screen.gd" id="1_error"]
 [ext_resource type="FontVariation" path="res://assets/fonts/inter.tres" id="2_inter"]
 [ext_resource type="FontVariation" path="res://assets/fonts/open_sans.tres" id="3_open_sans"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_ai_state_booth.png" id="4_bg"]
 
 [node name="AIErrorScreen" type="Control" unique_id=462369953]
 layout_mode = 3
@@ -12,6 +13,17 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_error")
+
+[node name="BackgroundTexture" type="TextureRect" parent="." unique_id=321332698]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_bg")
+expand_mode = 2
+stretch_mode = 6
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=943673884]
 layout_mode = 1
